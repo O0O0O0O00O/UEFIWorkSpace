@@ -1,0 +1,44 @@
+#------------------------------------------------------------------------------
+
+# Copyright (c) 2006 - 2008, Intel Corporation. All rights reserved.<BR>
+# Portions copyright (c) 2011, Apple Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+# Routine Description:
+
+# Routine for switching stacks with 2 parameters EFI ABI
+# Convert UNIX to EFI ABI
+
+# Arguments:
+
+# (rdi) EntryPoint - Entry point with new stack.
+# (rsi) Context1 - Parameter1 for entry point. (rcx)
+# (rdx) Context2 - Parameter2 for entry point. (rdx)
+# (rcx) NewStack - The pointer to new stack.
+
+# Returns:
+
+# None
+
+#------------------------------------------------------------------------------
+.globl PeiSwitchStacks
+PeiSwitchStacks:
+    pushq $0
+    movq %rsp, %rbp
+
+    movq %rcx, %rsp
+
+    movq %rdi, %rax
+    movq %rsi, %rcx
+
+
+
+    # Reserve space for register parameters (rcx, rdx, r8 & r9) on the stack,
+    # in case the callee wishes to spill them.
+
+    subq $32, %rsp
+    call *%rax

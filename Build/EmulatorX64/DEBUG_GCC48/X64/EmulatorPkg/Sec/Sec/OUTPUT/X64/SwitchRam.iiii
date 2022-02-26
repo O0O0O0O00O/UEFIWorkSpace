@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+
+# Copyright (c) 2006 - 2011, Intel Corporation. All rights reserved.<BR>
+# Portions copyright (c) 2011, Apple Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+#------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+.globl SecTemporaryRamSupport
+SecTemporaryRamSupport:
+
+  subq %rdx, %rbp
+  addq %r8, %rbp
+
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rdx
+  pushq %r8
+  pushq %r9
+
+
+
+
+
+
+  movq %r8, %rcx
+  movq %r9, %r8
+  subq $0x28, %rsp
+  call CopyMem
+
+  addq $0x28, %rsp
+
+  popq %r9
+  popq %r8
+  popq %rdx
+
+  movq %rsp, %rcx
+  subq %rdx, %rcx
+  addq %r8, %rcx
+  movq %rcx, %rsp
+
+
+
+  movq %rdx, %rcx
+  movq %r9, %rdx
+  subq $0x28, %rsp
+  call ZeroMem
+  addq $0x28, %rsp
+
+
+  popq %rbp
+  ret

@@ -1,0 +1,2154 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Application/AcpiViewApp/AcpiViewApp/OUTPUT/AcpiViewApp.lib(AcpiViewApp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Application/AcpiViewApp/AcpiViewApp/OUTPUT/AcpiViewApp.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLibOptionalDevicePathProtocol/OUTPUT/UefiDevicePathLibOptionalDevicePathProtocol.lib(DevicePathUtilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLibOptionalDevicePathProtocol/OUTPUT/UefiDevicePathLibOptionalDevicePathProtocol.lib(DevicePathUtilitiesDxeSmm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLibOptionalDevicePathProtocol/OUTPUT/UefiDevicePathLibOptionalDevicePathProtocol.lib(DevicePathToText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLibOptionalDevicePathProtocol/OUTPUT/UefiDevicePathLibOptionalDevicePathProtocol.lib(DevicePathFromText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLibOptionalDevicePathProtocol/OUTPUT/UefiDevicePathLibOptionalDevicePathProtocol.lib(UefiDevicePathLibOptionalDevicePathProtocol.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib(UefiSortLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/OUTPUT/UefiFileHandleLib.lib(UefiFileHandleLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrderedCollectionRedBlackTreeLib/OUTPUT/BaseOrderedCollectionRedBlackTreeLib.lib(BaseOrderedCollectionRedBlackTreeLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib/OUTPUT/UefiHandleParsingLib.lib(UefiHandleParsingLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib/OUTPUT/UefiHandleParsingLib.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellLib/UefiShellLib/OUTPUT/UefiShellLib.lib(UefiShellLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/UefiShellCommandLib.lib(UefiShellCommandLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/UefiShellCommandLib.lib(ConsistMapping.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib(ApplicationEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(AcpiParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(AcpiTableParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(AcpiView.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(AcpiViewConfig.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(AestParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(BgrtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(Dbg2Parser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(DsdtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(FacsParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(FadtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(GtdtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(HmatParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(IortParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(MadtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(McfgParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(PcctParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(PpttParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(RsdpParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(SlitParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(SpcrParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(SratParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(SsdtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(XsdtParser.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(UefiShellAcpiViewCommandLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib(AutoGen.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.InternalSafeStringNoStrOverlap
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrLen
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrSize
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrnCmp.part.0.lto_priv.45
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrStr
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrCmp
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrnCatS
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrCatS
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.StrCpyS
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.IsListEmpty
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.RemoveEntryList
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.GetFirstNode
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0x37 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.IsNull
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.GetNextNode
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.InsertHeadList
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000        0x1 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.unlikely.ZeroMem.part.0.lto_priv.44
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .text.unlikely.ShellOpenFileByName.constprop.24
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .text.unlikely.InternalCommandLineParse.part.11.constprop.14
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleFlush
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleGetPosition
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleSetPosition
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleDelete
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleClose
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleWrite
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleRead
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleSetInfo
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.InternalPrintTo
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ShellCreateDirectory
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ShellIsHexaDecimalDigitCharacter
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.InternalShellIsHexOrDecimalNumber
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.InternalIsFlag
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.HiiRemovePackages
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.StringNoCaseCompare
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ShellCommandLineFreeVarList
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ReallocatePool
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.StrnCatGrow
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ShellCommandLineGetValue
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ShellCommandLineGetFlag
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleGetInfo
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.FileHandleGetSize
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.AsciiSPrint
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.UnicodeVSPrint
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.Print
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.UnicodeSPrint
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text.unlikely.PathRemoveLastItem
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .text.unlikely.ShellCommandGetManFileNameAcpiView
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .text.unlikely.ShellCommandRunAcpiView
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .text.unlikely.ParseAcpiXsdt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .text.unlikely.ParseAcpiSsdt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateFirmwareCtrl.lto_priv.50
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateFlags
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateXFirmwareCtrl
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiFacs
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiBgrt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiGtdt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateGtFrameNumber
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateGtBlockTimerCount
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateNameSpaceStrLen
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.DumpVendorSpecificData
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateInterruptFlags
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateInterruptType
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateInterfaceType
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateGicInterfaceType
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ValidateProcessorFlags
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiDbg2
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiDsdt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiAest
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ProcessTableReportOptions
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.unlikely.ParseAcpiFadt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.unlikely.ShellCopySearchAndReplace.constprop.37
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.unlikely.InternalAllocateZeroPool.constprop.39
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.unlikely.GetBestLanguage.constprop.35
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.unlikely.GetVariable2.constprop.34
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.unlikely.ShellPrintHiiEx.constprop.30
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.unlikely.InternalAllocateCopyPool.constprop.29
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ParseAcpiMadt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ValidateSpeOverflowInterrupt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ValidateGICDSystemVectorBase
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ValidateItsIdArrayReference
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ValidatePmcgIdMappingCount
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ValidateItsIdMappingCount
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ValidateCacheAttributes
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.DumpCacheAttributes
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.DumpIortNodeIdMappings
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ParseAcpiIort
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.unlikely.ParseAcpiHmat
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateIrq
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateInterruptType
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateXsdtAddress
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateRsdtAddress
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateCacheLineSize
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateCacheFlags
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.DumpSratApicProximity
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateSratDeviceHandleType
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateSratReserved
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateCacheAttributes
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateCacheId
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateCacheAssociativity
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateCacheNumberOfSets
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidatePlatInterrupt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidatePccGas
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidatePccErrStatusGas
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidatePccMemoryIoGas
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateRangeLength8
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidateRangeLength4
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.DumpSratDeviceHandle
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiSpcr
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiPcct
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiMcfg
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiSrat
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.DumpSratPciBdfNumber
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiSlit
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiPptt
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ParseAcpiRsdp
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidatePccIntAckGas
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.unlikely.ValidatePccDoorbellGas
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.42
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.41
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.Dump12Chars
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.Dump8Chars
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.Dump6Chars
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.Dump4Chars
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.Dump3Chars
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.DumpAcpiTableToFile.lto_priv.69
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.PrintFieldName
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.DumpRaw
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.IncrementErrorCount
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.ParseAcpi
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.DumpAcpiHeader
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.ProcessAcpiTable
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text.unlikely.DumpGas
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .text.unlikely.HiiAddPackages.constprop.10
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .text.unlikely.IsZeroBuffer.constprop.1
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .text.unlikely.VerifyChecksum.constprop.0
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans12.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.43
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc1k0bnV.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1k0bnV.ltrans12.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc1k0bnV.ltrans0.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans1.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans2.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans3.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans4.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans5.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans6.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans7.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans8.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans9.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans10.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans11.ltrans.o
+LOAD /tmp/cc1k0bnV.ltrans12.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Application/AcpiViewApp/AcpiViewApp/OUTPUT/AcpiViewApp.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLibOptionalDevicePathProtocol/OUTPUT/UefiDevicePathLibOptionalDevicePathProtocol.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/OUTPUT/UefiFileHandleLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrderedCollectionRedBlackTreeLib/OUTPUT/BaseOrderedCollectionRedBlackTreeLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib/OUTPUT/UefiHandleParsingLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellLib/UefiShellLib/OUTPUT/UefiShellLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/UefiShellCommandLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib/OUTPUT/UefiShellAcpiViewCommandLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Application/AcpiViewApp/AcpiViewApp/OUTPUT/AcpiViewApphii.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240    0x1052a
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text._ModuleEntryPoint
+                0x0000000000000240      0xfff /tmp/cc1k0bnV.ltrans0.ltrans.o
+                0x0000000000000240                _ModuleEntryPoint
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000123f       0x29 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001268        0xe /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001268                AsciiStrLen
+ .text.StrLen   0x0000000000001276        0xf /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001276                StrLen
+ .text.StrSize  0x0000000000001285       0x13 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001285                StrSize
+ .text.StrnCmp.part.0.lto_priv.45
+                0x0000000000001298       0x3c /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001298                StrnCmp.part.0.lto_priv.45
+ .text.StrStr   0x00000000000012d4       0x44 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x00000000000012d4                StrStr
+ .text.StrCmp   0x0000000000001318       0x1f /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001318                StrCmp
+ .text.AsciiStrnLenS
+                0x0000000000001337       0x26 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001337                AsciiStrnLenS
+ .text.StrnLenS
+                0x000000000000135d       0x27 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x000000000000135d                StrnLenS
+ .text.StrnCatS
+                0x0000000000001384      0x17e /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001384                StrnCatS
+ .text.StrCatS  0x0000000000001502      0x14c /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001502                StrCatS
+ .text.StrCpyS  0x000000000000164e      0x12a /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x000000000000164e                StrCpyS
+ .text.IsListEmpty
+                0x0000000000001778        0x7 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001778                IsListEmpty
+ .text.RemoveEntryList
+                0x000000000000177f       0x19 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x000000000000177f                RemoveEntryList
+ .text.GetFirstNode
+                0x0000000000001798        0x4 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001798                GetFirstNode
+ .text.IsNull   0x000000000000179c        0x7 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x000000000000179c                IsNull
+ .text.GetNextNode
+                0x00000000000017a3        0x4 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x00000000000017a3                GetNextNode
+ .text.InsertTailList
+                0x00000000000017a7       0x16 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x00000000000017a7                InsertTailList
+ .text.InsertHeadList
+                0x00000000000017bd       0x15 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x00000000000017bd                InsertHeadList
+ .text.CompareGuid
+                0x00000000000017d2       0x4d /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x00000000000017d2                CompareGuid
+ .text.CopyMem  0x000000000000181f      0x201 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x000000000000181f                CopyMem
+ .text.ZeroMem.part.0.lto_priv.44
+                0x0000000000001a20       0x91 /tmp/cc1k0bnV.ltrans1.ltrans.o
+                0x0000000000001a20                ZeroMem.part.0.lto_priv.44
+ .text.ShellOpenFileByName.constprop.24
+                0x0000000000001ab1      0x551 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x0000000000001ab1                ShellOpenFileByName.constprop.24
+ .text.InternalCommandLineParse.part.11.constprop.14
+                0x0000000000002002      0x5d8 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x0000000000002002                InternalCommandLineParse.part.11.constprop.14
+ .text.FileHandleFlush
+                0x00000000000025da       0x16 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x00000000000025da                FileHandleFlush
+ .text.FileHandleGetPosition
+                0x00000000000025f0       0x1b /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x00000000000025f0                FileHandleGetPosition
+ .text.FileHandleSetPosition
+                0x000000000000260b       0x16 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x000000000000260b                FileHandleSetPosition
+ .text.FileHandleDelete
+                0x0000000000002621       0x16 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002621                FileHandleDelete
+ .text.FileHandleClose
+                0x0000000000002637       0x16 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002637                FileHandleClose
+ .text.FileHandleWrite
+                0x000000000000264d       0x16 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x000000000000264d                FileHandleWrite
+ .text.FileHandleRead
+                0x0000000000002663       0x16 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002663                FileHandleRead
+ .text.FileHandleSetInfo
+                0x0000000000002679       0x28 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002679                FileHandleSetInfo
+ .text.InternalPrintTo
+                0x00000000000026a1       0x93 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x00000000000026a1                InternalPrintTo
+ .text.ShellCreateDirectory
+                0x0000000000002734       0x32 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002734                ShellCreateDirectory
+ .text.ShellIsHexaDecimalDigitCharacter
+                0x0000000000002766       0x25 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002766                ShellIsHexaDecimalDigitCharacter
+ .text.InternalShellIsHexOrDecimalNumber
+                0x000000000000278b       0xaa /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x000000000000278b                InternalShellIsHexOrDecimalNumber
+ .text.InternalIsFlag
+                0x0000000000002835       0x46 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002835                InternalIsFlag
+ .text.HiiRemovePackages
+                0x000000000000287b        0xd /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x000000000000287b                HiiRemovePackages
+ .text.StringNoCaseCompare
+                0x0000000000002888       0x4b /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002888                StringNoCaseCompare
+ .text.FreePool
+                0x00000000000028d3        0xa /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x00000000000028d3                FreePool
+ .text.ShellCommandLineFreeVarList
+                0x00000000000028dd       0x62 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x00000000000028dd                ShellCommandLineFreeVarList
+ .text.ReallocatePool
+                0x000000000000293f       0xe9 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x000000000000293f                ReallocatePool
+ .text.AllocateZeroPool
+                0x0000000000002a28       0x99 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002a28                AllocateZeroPool
+ .text.StrnCatGrow
+                0x0000000000002ac1       0xda /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002ac1                StrnCatGrow
+ .text.ShellCommandLineGetValue
+                0x0000000000002b9b      0x12d /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002b9b                ShellCommandLineGetValue
+ .text.ShellCommandLineGetFlag
+                0x0000000000002cc8      0x100 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002cc8                ShellCommandLineGetFlag
+ .text.FileHandleGetInfo
+                0x0000000000002dc8       0x81 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002dc8                FileHandleGetInfo
+ .text.FileHandleGetSize
+                0x0000000000002e49       0x50 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002e49                FileHandleGetSize
+ .text.AsciiSPrint
+                0x0000000000002e99       0xbe /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002e99                AsciiSPrint
+ .text.UnicodeVSPrint
+                0x0000000000002f57       0xaa /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000002f57                UnicodeVSPrint
+ .text.Print    0x0000000000003001      0x136 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000003001                Print
+ .text.UnicodeSPrint
+                0x0000000000003137       0x1d /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000003137                UnicodeSPrint
+ .text.BasePrintLibFillBuffer
+                0x0000000000003154       0x2e /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000003154                BasePrintLibFillBuffer
+ .text.ReadUnaligned64
+                0x0000000000003182        0x4 /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000003182                ReadUnaligned64
+ .text.PathRemoveLastItem
+                0x0000000000003186       0x5d /tmp/cc1k0bnV.ltrans3.ltrans.o
+                0x0000000000003186                PathRemoveLastItem
+ .text.ShellCommandGetManFileNameAcpiView
+                0x00000000000031e3        0x8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x00000000000031e3                ShellCommandGetManFileNameAcpiView
+ .text.ShellCommandRunAcpiView
+                0x00000000000031eb      0x89a /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x00000000000031eb                ShellCommandRunAcpiView
+ .text.ParseAcpiXsdt
+                0x0000000000003a85      0x17a /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x0000000000003a85                ParseAcpiXsdt
+ .text.ParseAcpiSsdt
+                0x0000000000003bff        0xd /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x0000000000003bff                ParseAcpiSsdt
+ .text.ValidateFirmwareCtrl.lto_priv.50
+                0x0000000000003c0c        0x1 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000003c0c                ValidateFirmwareCtrl.lto_priv.50
+ .text.ValidateFlags
+                0x0000000000003c0d        0x1 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateXFirmwareCtrl
+                0x0000000000003c0e        0x1 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ParseAcpiFacs
+                0x0000000000003c0f       0x3a /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000003c0f                ParseAcpiFacs
+ .text.ParseAcpiBgrt
+                0x0000000000003c49       0x3a /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000003c49                ParseAcpiBgrt
+ .text.ParseAcpiGtdt
+                0x0000000000003c83      0x29f /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000003c83                ParseAcpiGtdt
+ .text.ValidateGtFrameNumber
+                0x0000000000003f22       0x31 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateGtBlockTimerCount
+                0x0000000000003f53       0x30 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateNameSpaceStrLen
+                0x0000000000003f83       0x2d /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.DumpVendorSpecificData
+                0x0000000000003fb0       0xa4 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateInterruptFlags
+                0x0000000000004054       0x1f /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateInterruptType
+                0x0000000000004073       0x1f /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateInterfaceType
+                0x0000000000004092       0x1f /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateGicInterfaceType
+                0x00000000000040b1       0x2a /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ValidateProcessorFlags
+                0x00000000000040db       0x2b /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .text.ParseAcpiDbg2
+                0x0000000000004106      0x415 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000004106                ParseAcpiDbg2
+ .text.ParseAcpiDsdt
+                0x000000000000451b        0xd /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x000000000000451b                ParseAcpiDsdt
+ .text.ParseAcpiAest
+                0x0000000000004528      0x4f6 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000004528                ParseAcpiAest
+ .text.ProcessTableReportOptions
+                0x0000000000004a1e      0x1ae /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000004a1e                ProcessTableReportOptions
+ .text.ParseAcpiFadt
+                0x0000000000004bcc      0x315 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000004bcc                ParseAcpiFadt
+ .text.ShellCopySearchAndReplace.constprop.37
+                0x0000000000004ee1      0x1a9 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .text.InternalAllocateZeroPool.constprop.39
+                0x000000000000508a       0x28 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x000000000000508a                InternalAllocateZeroPool.constprop.39
+ .text.GetBestLanguage.constprop.35
+                0x00000000000050b2      0x11c /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x00000000000050b2                GetBestLanguage.constprop.35
+ .text.GetVariable2.constprop.34
+                0x00000000000051ce      0x160 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x00000000000051ce                GetVariable2.constprop.34
+ .text.ShellPrintHiiEx.constprop.30
+                0x000000000000532e      0x5a6 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x000000000000532e                ShellPrintHiiEx.constprop.30
+ .text.InternalAllocateCopyPool.constprop.29
+                0x00000000000058d4       0x35 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x00000000000058d4                InternalAllocateCopyPool.constprop.29
+ .text.ParseAcpiMadt
+                0x0000000000005909      0x2e9 /tmp/cc1k0bnV.ltrans7.ltrans.o
+                0x0000000000005909                ParseAcpiMadt
+ .text.ValidateSpeOverflowInterrupt
+                0x0000000000005bf2       0x7d /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.ValidateGICDSystemVectorBase
+                0x0000000000005c6f       0x1f /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.ValidateItsIdArrayReference
+                0x0000000000005c8e       0x1f /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.ValidatePmcgIdMappingCount
+                0x0000000000005cad       0x1f /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.ValidateItsIdMappingCount
+                0x0000000000005ccc       0x1f /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.ValidateCacheAttributes
+                0x0000000000005ceb       0xa3 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.DumpCacheAttributes
+                0x0000000000005d8e       0xca /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.DumpIortNodeIdMappings
+                0x0000000000005e58       0x8e /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .text.ParseAcpiIort
+                0x0000000000005ee6      0x633 /tmp/cc1k0bnV.ltrans7.ltrans.o
+                0x0000000000005ee6                ParseAcpiIort
+ .text.ParseAcpiHmat
+                0x0000000000006519      0x61c /tmp/cc1k0bnV.ltrans7.ltrans.o
+                0x0000000000006519                ParseAcpiHmat
+ .text.ValidateIrq
+                0x0000000000006b35        0x1 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateInterruptType
+                0x0000000000006b36        0x1 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateXsdtAddress
+                0x0000000000006b37        0x1 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateRsdtAddress
+                0x0000000000006b38        0x1 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateCacheLineSize
+                0x0000000000006b39        0x1 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateCacheFlags
+                0x0000000000006b3a        0x1 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.DumpSratApicProximity
+                0x0000000000006b3b       0x1e /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateSratDeviceHandleType
+                0x0000000000006b59       0x31 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateSratReserved
+                0x0000000000006b8a       0x1f /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateCacheAttributes
+                0x0000000000006ba9       0x2b /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateCacheId
+                0x0000000000006bd4       0x4e /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateCacheAssociativity
+                0x0000000000006c22       0x1f /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateCacheNumberOfSets
+                0x0000000000006c41       0x1f /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidatePlatInterrupt
+                0x0000000000006c60       0x32 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidatePccGas
+                0x0000000000006c92       0x24 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidatePccErrStatusGas
+                0x0000000000006cb6       0x12 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidatePccMemoryIoGas
+                0x0000000000006cc8       0x1f /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateRangeLength8
+                0x0000000000006ce7       0x2e /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidateRangeLength4
+                0x0000000000006d15       0x2c /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.DumpSratDeviceHandle
+                0x0000000000006d41       0x8e /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ParseAcpiSpcr
+                0x0000000000006dcf       0x3c /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x0000000000006dcf                ParseAcpiSpcr
+ .text.ParseAcpiPcct
+                0x0000000000006e0b      0x272 /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x0000000000006e0b                ParseAcpiPcct
+ .text.ParseAcpiMcfg
+                0x000000000000707d       0x96 /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x000000000000707d                ParseAcpiMcfg
+ .text.ParseAcpiSrat
+                0x0000000000007113      0x3c2 /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x0000000000007113                ParseAcpiSrat
+ .text.DumpSratPciBdfNumber
+                0x00000000000074d5       0xba /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ParseAcpiSlit
+                0x000000000000758f      0x248 /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x000000000000758f                ParseAcpiSlit
+ .text.ParseAcpiPptt
+                0x00000000000077d7      0x2ab /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x00000000000077d7                ParseAcpiPptt
+ .text.ParseAcpiRsdp
+                0x0000000000007a82       0xad /tmp/cc1k0bnV.ltrans8.ltrans.o
+                0x0000000000007a82                ParseAcpiRsdp
+ .text.ValidatePccIntAckGas
+                0x0000000000007b2f       0x4d /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.ValidatePccDoorbellGas
+                0x0000000000007b7c       0x3e /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.42
+                0x0000000000007bba      0xef6 /tmp/cc1k0bnV.ltrans9.ltrans.o
+                0x0000000000007bba                BasePrintLibSPrintMarker.constprop.42
+ .text.InternalAllocatePool.constprop.41
+                0x0000000000008ab0       0x37 /tmp/cc1k0bnV.ltrans9.ltrans.o
+                0x0000000000008ab0                InternalAllocatePool.constprop.41
+ .text.Dump12Chars
+                0x0000000000008ae7       0x8d /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008ae7                Dump12Chars
+ .text.Dump8Chars
+                0x0000000000008b74       0x5b /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008b74                Dump8Chars
+ .text.Dump6Chars
+                0x0000000000008bcf       0x47 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008bcf                Dump6Chars
+ .text.Dump4Chars
+                0x0000000000008c16       0x31 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008c16                Dump4Chars
+ .text.Dump3Chars
+                0x0000000000008c47       0x23 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008c47                Dump3Chars
+ .text.DumpAcpiTableToFile.lto_priv.69
+                0x0000000000008c6a      0x12b /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008c6a                DumpAcpiTableToFile.lto_priv.69
+ .text.PrintFieldName
+                0x0000000000008d95       0x37 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008d95                PrintFieldName
+ .text.DumpRaw  0x0000000000008dcc       0xf8 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008dcc                DumpRaw
+ .text.IncrementErrorCount
+                0x0000000000008ec4        0x7 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008ec4                IncrementErrorCount
+ .text.ParseAcpi
+                0x0000000000008ecb      0x1e7 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x0000000000008ecb                ParseAcpi
+ .text.DumpAcpiHeader
+                0x00000000000090b2       0x3b /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x00000000000090b2                DumpAcpiHeader
+ .text.ProcessAcpiTable
+                0x00000000000090ed      0x27e /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x00000000000090ed                ProcessAcpiTable
+ .text.DumpGas  0x000000000000936b       0x4d /tmp/cc1k0bnV.ltrans10.ltrans.o
+                0x000000000000936b                DumpGas
+ .text.HiiAddPackages.constprop.10
+                0x00000000000093b8      0x100 /tmp/cc1k0bnV.ltrans11.ltrans.o
+                0x00000000000093b8                HiiAddPackages.constprop.10
+ .text.IsZeroBuffer.constprop.1
+                0x00000000000094b8       0x17 /tmp/cc1k0bnV.ltrans11.ltrans.o
+                0x00000000000094b8                IsZeroBuffer.constprop.1
+ .text.VerifyChecksum.constprop.0
+                0x00000000000094cf       0xb6 /tmp/cc1k0bnV.ltrans11.ltrans.o
+                0x00000000000094cf                VerifyChecksum.constprop.0
+ .text.BasePrintLibSPrint.constprop.43
+                0x0000000000009585       0xb8 /tmp/cc1k0bnV.ltrans12.ltrans.o
+                0x0000000000009585                BasePrintLibSPrint.constprop.43
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *fill*         0x000000000000963d        0x1 
+ .rodata.str2.2
+                0x000000000000963e       0x88 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x00000000000096c6       0x5e /tmp/cc1k0bnV.ltrans2.ltrans.o
+                                         0x62 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000009724      0x3a8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                                        0x43e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000009acc        0x5 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ *fill*         0x0000000000009ad1        0xf 
+ .rodata.gShellAcpiViewFileName
+                0x0000000000009ae0       0x1a /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .rodata.str1.1
+                0x0000000000009afa       0xe1 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                                         0xf1 (size before relaxing)
+ *fill*         0x0000000000009bdb        0x1 
+ .rodata.str2.2
+                0x0000000000009bdc     0x241e /tmp/cc1k0bnV.ltrans5.ltrans.o
+                                       0x2760 (size before relaxing)
+ *fill*         0x000000000000bffa        0x2 
+ .rodata.ParseAcpiAest
+                0x000000000000bffc       0x14 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .rodata.str2.2
+                0x000000000000c010       0x2c /tmp/cc1k0bnV.ltrans6.ltrans.o
+                                         0x68 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000c03c        0x1 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .rodata.str1.1
+                0x000000000000c03c      0x1e2 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .rodata.str2.2
+                0x000000000000c21e     0x1f36 /tmp/cc1k0bnV.ltrans7.ltrans.o
+                                       0x2126 (size before relaxing)
+ .rodata.ParseAcpiMadt
+                0x000000000000e154       0x3c /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .rodata.ParseAcpiIort
+                0x000000000000e190       0x18 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .rodata.str2.2
+                0x000000000000e1a8     0x1ca0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+                                       0x2002 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000fe48      0x19b /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000000ffe3        0x1 
+ .rodata.ParseAcpiPcct
+                0x000000000000ffe4       0x18 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .rodata.ParseAcpiSrat
+                0x000000000000fffc       0x18 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .rodata.str1.1
+                0x0000000000010014       0x7b /tmp/cc1k0bnV.ltrans9.ltrans.o
+ *fill*         0x000000000001008f        0x1 
+ .rodata.mHexStr
+                0x0000000000010090       0x10 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .rodata.mWarningString
+                0x00000000000100a0       0x96 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ *fill*         0x0000000000010136        0xa 
+ .rodata.mErrorString
+                0x0000000000010140      0x2b5 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ *fill*         0x00000000000103f5        0x1 
+ .rodata.str2.2
+                0x00000000000103f6      0x2f0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                                        0x366 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000106e6       0x12 /tmp/cc1k0bnV.ltrans10.ltrans.o
+                                         0x13 (size before relaxing)
+ .rodata.str2.2
+                0x00000000000106f8       0x6e /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000010766        0x4 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ *(.got .got.*)
+ .got           0x000000000001076a        0x0 AcpiViewApp.obj (symbol from plugin)
+ .got.plt       0x000000000001076a        0x0 AcpiViewApp.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000010770        0x0
+ .plt           0x0000000000010770        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.plt.got        0x0000000000010770        0x0
+ .plt.got       0x0000000000010770        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.data           0x0000000000010780     0xd720
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiDevicePathUtilitiesProtocolGuid
+                0x0000000000010780       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x0000000000010790       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x00000000000107a0       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x00000000000107b0       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x00000000000107c0       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x00000000000107d0       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiShellEnvironment2ExtGuid
+                0x00000000000107e0       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiShellEnvironment2Guid
+                0x00000000000107f0       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiShellInterfaceGuid
+                0x0000000000010800       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiShellParametersProtocolGuid
+                0x0000000000010810       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiShellProtocolGuid
+                0x0000000000010820       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ *fill*         0x0000000000010830       0x10 
+ .data.rel.ro.local.ParserList
+                0x0000000000010840      0x130 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.gEfiShellDynamicCommandProtocolGuid
+                0x0000000000010970       0x10 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .data.UefiShellAcpiViewCommandLibStrings
+                0x0000000000010980     0x2704 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ *fill*         0x0000000000013084       0x1c 
+ .data.rel.ro.local.ParamList.lto_priv.46
+                0x00000000000130a0       0x70 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x00000000000130a0                ParamList.lto_priv.46
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x0000000000013110       0x10 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .data.gEfiUnicodeCollation2ProtocolGuid
+                0x0000000000013120       0x10 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x0000000000013120                gEfiUnicodeCollation2ProtocolGuid
+ .data.gEfiFileInfoGuid
+                0x0000000000013130       0x10 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .data.rel.ro.local.AcpiHeaderParser.lto_priv.72
+                0x0000000000013140      0x1f8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x0000000000013140                AcpiHeaderParser.lto_priv.72
+ *fill*         0x0000000000013338        0x8 
+ .data.rel.ro.local.XsdtParser
+                0x0000000000013340      0x1f8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ *fill*         0x0000000000013538        0x8 
+ .data.gEfiAcpiTableGuid
+                0x0000000000013540       0x10 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ *fill*         0x0000000000013550       0x10 
+ .data.rel.ro.local.AestProcessorGenericResourceSubstructure
+                0x0000000000013560       0x38 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013598        0x8 
+ .data.rel.ro.local.AestProcessorTlbResourceSubstructure
+                0x00000000000135a0       0x70 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013610       0x10 
+ .data.rel.ro.local.AestProcessorCacheResourceSubstructure
+                0x0000000000013620       0x70 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013690       0x10 
+ .data.rel.ro.local.AestProcessorStructure
+                0x00000000000136a0      0x150 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x00000000000137f0       0x10 
+ .data.rel.ro.local.AestMemoryControllerStructure
+                0x0000000000013800       0x38 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013838        0x8 
+ .data.rel.ro.local.AestSmmuStructure
+                0x0000000000013840       0x70 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x00000000000138b0       0x10 
+ .data.rel.ro.local.AestVendorDefinedStructure
+                0x00000000000138c0       0xa8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013968       0x18 
+ .data.rel.ro.local.AestGicStructure
+                0x0000000000013980       0x70 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x00000000000139f0       0x10 
+ .data.rel.ro.local.AestNodeInterface
+                0x0000000000013a00      0x1f8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013bf8        0x8 
+ .data.rel.ro.local.AestNodeInterrupt
+                0x0000000000013c00      0x150 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013d50       0x10 
+ .data.rel.ro.local.AestNodeHeaderParser
+                0x0000000000013d60      0x230 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000013f90       0x10 
+ .data.rel.ro.local.AestParser
+                0x0000000000013fa0      0x1f8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000014198        0x8 
+ .data.rel.ro.local.BgrtParser
+                0x00000000000141a0      0x348 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x00000000000144e8       0x18 
+ .data.rel.ro.local.GasParser.lto_priv.73
+                0x0000000000014500      0x118 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                0x0000000000014500                GasParser.lto_priv.73
+ *fill*         0x0000000000014618        0x8 
+ .data.rel.ro.local.DbgDevInfoParser
+                0x0000000000014620      0x2a0 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .data.rel.ro.local.DbgDevInfoHeaderParser
+                0x00000000000148c0       0x70 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000014930       0x10 
+ .data.rel.ro.local.Dbg2Parser
+                0x0000000000014940      0x268 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000014ba8       0x18 
+ .data.rel.ro.local.FacsParser
+                0x0000000000014bc0      0x2d8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000014e98        0x8 
+ .data.rel.ro.local.FadtParser
+                0x0000000000014ea0      0xe00 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .data.rel.ro.local.ArmGenericWatchdogParser
+                0x0000000000015ca0      0x188 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000015e28       0x18 
+ .data.rel.ro.local.GtBlockTimerParser
+                0x0000000000015e40      0x1f8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000016038        0x8 
+ .data.rel.ro.local.GtBlockParser
+                0x0000000000016040      0x150 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000016190       0x10 
+ .data.rel.ro.local.GtPlatformTimerHeaderParser
+                0x00000000000161a0       0xa8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x0000000000016248       0x18 
+ .data.rel.ro.local.GtdtParser
+                0x0000000000016260      0x540 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x00000000000167a0       0x10 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x00000000000167a0                gEfiGlobalVariableGuid
+ *fill*         0x00000000000167b0       0x10 
+ .data.rel.ro.local.MemSideCacheInfoParser
+                0x00000000000167c0      0x1f8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x00000000000169b8        0x8 
+ .data.rel.ro.local.SllbiNames
+                0x00000000000169c0       0x30 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x00000000000169f0       0x10 
+ .data.rel.ro.local.SllbiParser
+                0x0000000000016a00      0x268 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000016c68       0x18 
+ .data.rel.ro.local.MemProximityDomainAttributeParser
+                0x0000000000016c80      0x230 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000016eb0       0x10 
+ .data.rel.ro.local.HmatStructureHeaderParser
+                0x0000000000016ec0       0xa8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000016f68       0x18 
+ .data.rel.ro.local.HmatParser
+                0x0000000000016f80      0x230 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x00000000000171b0       0x10 
+ .data.rel.ro.local.IortNodeIdMappingParser
+                0x00000000000171c0      0x118 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x00000000000172d8        0x8 
+ .data.rel.ro.local.IortNodePmcgParser
+                0x00000000000172e0      0x230 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000017510       0x10 
+ .data.rel.ro.local.IortNodeSmmuV3Parser
+                0x0000000000017520      0x3b8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x00000000000178d8        0x8 
+ .data.rel.ro.local.InterruptArrayParser
+                0x00000000000178e0       0x70 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000017950       0x10 
+ .data.rel.ro.local.IortNodeSmmuV1V2Parser
+                0x0000000000017960      0x428 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000017d88       0x18 
+ .data.rel.ro.local.IortNodeRootComplexParser
+                0x0000000000017da0      0x268 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018008       0x18 
+ .data.rel.ro.local.IortNodeNamedComponentParser
+                0x0000000000018020      0x1f8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018218        0x8 
+ .data.rel.ro.local.ItsIdParser
+                0x0000000000018220       0x38 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018258        0x8 
+ .data.rel.ro.local.IortNodeItsParser
+                0x0000000000018260      0x188 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x00000000000183e8       0x18 
+ .data.rel.ro.local.IortNodeHeaderParser
+                0x0000000000018400      0x150 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018550       0x10 
+ .data.rel.ro.local.IortParser
+                0x0000000000018560      0x2a0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .data.rel.ro.local.LocalX2ApicNmi
+                0x0000000000018800      0x150 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018950       0x10 
+ .data.rel.ro.local.ProcessorLocalX2Apic
+                0x0000000000018960      0x150 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018ab0       0x10 
+ .data.rel.ro.local.InterruptSourceOverride
+                0x0000000000018ac0      0x150 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018c10       0x10 
+ .data.rel.ro.local.IoApic
+                0x0000000000018c20      0x150 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018d70       0x10 
+ .data.rel.ro.local.GicITSParser
+                0x0000000000018d80      0x150 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018ed0       0x10 
+ .data.rel.ro.local.GicRParser
+                0x0000000000018ee0      0x118 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000018ff8        0x8 
+ .data.rel.ro.local.GicMSIFrameParser
+                0x0000000000019000      0x1c0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .data.rel.ro.local.GicDParser
+                0x00000000000191c0      0x1c0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .data.rel.ro.local.GicCParser
+                0x0000000000019380      0x3f0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000019770       0x10 
+ .data.rel.ro.local.MadtInterruptControllerHeaderParser
+                0x0000000000019780       0xa8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000019828       0x18 
+ .data.rel.ro.local.MadtParser
+                0x0000000000019840      0x268 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x0000000000019aa8       0x18 
+ .data.rel.ro.local.PciCfgSpaceBaseAddrParser
+                0x0000000000019ac0      0x118 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x0000000000019bd8        0x8 
+ .data.rel.ro.local.McfgParser
+                0x0000000000019be0      0x230 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x0000000000019e10       0x10 
+ .data.rel.ro.local.PccSubspaceType5Parser
+                0x0000000000019e20      0x310 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001a130       0x10 
+ .data.rel.ro.local.PccSubspaceType3Parser
+                0x000000000001a140      0x540 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .data.rel.ro.local.PccSubspaceType2Parser
+                0x000000000001a680      0x380 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .data.rel.ro.local.PccSubspaceType1Parser
+                0x000000000001aa00      0x2d8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001acd8        0x8 
+ .data.rel.ro.local.PccSubspaceType0Parser
+                0x000000000001ace0      0x268 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001af48       0x18 
+ .data.rel.ro.local.PccSubspaceHeaderParser
+                0x000000000001af60       0x70 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001afd0       0x10 
+ .data.rel.ro.local.PcctParser
+                0x000000000001afe0      0x268 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001b248       0x18 
+ .data.rel.ro.local.CacheTypeStructureParser
+                0x000000000001b260      0x268 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001b4c8       0x18 
+ .data.rel.ro.local.ProcessorHierarchyNodeStructureParser
+                0x000000000001b4e0      0x188 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001b668       0x18 
+ .data.rel.ro.local.ProcessorTopologyStructureHeaderParser
+                0x000000000001b680       0xa8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001b728       0x18 
+ .data.rel.ro.local.PpttParser
+                0x000000000001b740      0x1f8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001b938        0x8 
+ .data.rel.ro.local.RsdpParser
+                0x000000000001b940      0x1f8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001bb38        0x8 
+ .data.rel.ro.local.SlitParser
+                0x000000000001bb40      0x230 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001bd70       0x10 
+ .data.rel.ro.local.SpcrParser
+                0x000000000001bd80      0x658 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001c3d8        0x8 
+ .data.rel.ro.local.SratDeviceHandlePciParser
+                0x000000000001c3e0       0xa8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001c488       0x18 
+ .data.rel.ro.local.SratDeviceHandleAcpiParser
+                0x000000000001c4a0       0xa8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001c548       0x18 
+ .data.rel.ro.local.SratX2ApciAffinityParser
+                0x000000000001c560      0x1c0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .data.rel.ro.local.SratApciSapicAffinityParser
+                0x000000000001c720      0x1c0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .data.rel.ro.local.SratMemAffinityParser
+                0x000000000001c8e0      0x268 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001cb48       0x18 
+ .data.rel.ro.local.SratGenericInitiatorAffinityParser
+                0x000000000001cb60      0x1c0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .data.rel.ro.local.SratGicITSAffinityParser
+                0x000000000001cd20      0x118 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001ce38        0x8 
+ .data.rel.ro.local.SratGicCAffinityParser
+                0x000000000001ce40      0x150 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001cf90       0x10 
+ .data.rel.ro.local.SratResourceAllocationParser
+                0x000000000001cfa0       0x70 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001d010       0x10 
+ .data.rel.ro.local.SratParser
+                0x000000000001d020      0x268 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001d288        0x8 
+ .data.gShellAcpiViewHiiGuid
+                0x000000000001d290       0x10 /tmp/cc1k0bnV.ltrans11.ltrans.o
+                0x000000000001d290                gShellAcpiViewHiiGuid
+ .data.rel.ro   0x000000000001d2a0        0x0 AcpiViewApp.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.mDevicePathLibDevicePathUtilities
+                0x000000000001d2a0        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x000000000001d2a8        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.gHiiFont  0x000000000001d2b0        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x000000000001d2b8        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.mGuidList
+                0x000000000001d2c0        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.mGuidListCount
+                0x000000000001d2c8        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.mEfiShellEnvironment2Handle
+                0x000000000001d2d0        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ *fill*         0x000000000001d2d8        0x8 
+ .bss.mFileHandleList
+                0x000000000001d2e0       0x18 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ *fill*         0x000000000001d2f8        0x8 
+ .bss.mScriptList
+                0x000000000001d300       0x18 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ *fill*         0x000000000001d318        0x8 
+ .bss.mAliasList
+                0x000000000001d320       0x20 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.gShellMapList
+                0x000000000001d340       0x30 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.gUnicodeCollation
+                0x000000000001d370        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ *fill*         0x000000000001d378        0x8 
+ .bss.mCommandList
+                0x000000000001d380       0x40 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.mProfileListSize
+                0x000000000001d3c0        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.mProfileList
+                0x000000000001d3c8        0x8 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x000000000001d3d0        0x8 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x000000000001d3d0                gImageHandle
+ .bss.mEfiShellEnvironment2
+                0x000000000001d3d8        0x8 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x000000000001d3d8                mEfiShellEnvironment2
+ .bss.FileFunctionMap
+                0x000000000001d3e0       0x50 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x000000000001d3e0                FileFunctionMap
+ .bss.mUnicodeCollationProtocol
+                0x000000000001d430        0x8 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x000000000001d430                mUnicodeCollationProtocol
+ .bss.gEfiShellProtocol
+                0x000000000001d438        0x8 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                0x000000000001d438                gEfiShellProtocol
+ .bss.mUnicodeCollation
+                0x000000000001d440        0x8 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ *fill*         0x000000000001d448       0x18 
+ .bss.AcpiHdrInfo.lto_priv.49
+                0x000000000001d460       0x48 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d460                AcpiHdrInfo.lto_priv.49
+ *fill*         0x000000000001d4a8       0x18 
+ .bss.AcpiHdrInfo.lto_priv.48
+                0x000000000001d4c0       0x48 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d4c0                AcpiHdrInfo.lto_priv.48
+ .bss.mEfiShellInterface
+                0x000000000001d508        0x8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d508                mEfiShellInterface
+ .bss.gEfiShellParametersProtocol
+                0x000000000001d510        0x8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d510                gEfiShellParametersProtocol
+ *fill*         0x000000000001d518        0x8 
+ .bss.mSelectedAcpiTable
+                0x000000000001d520       0x18 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d520                mSelectedAcpiTable
+ *fill*         0x000000000001d538        0x8 
+ .bss.mTableParserList.lto_priv.66
+                0x000000000001d540      0x200 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d540                mTableParserList.lto_priv.66
+ .bss.mReportType.lto_priv.68
+                0x000000000001d740        0x4 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d740                mReportType.lto_priv.68
+ .bss.mConsistencyCheck.lto_priv.71
+                0x000000000001d744        0x1 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d744                mConsistencyCheck.lto_priv.71
+ *fill*         0x000000000001d745        0x3 
+ .bss.mTableErrorCount.lto_priv.74
+                0x000000000001d748        0x4 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d748                mTableErrorCount.lto_priv.74
+ .bss.mTableWarningCount.lto_priv.57
+                0x000000000001d74c        0x4 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d74c                mTableWarningCount.lto_priv.57
+ .bss.mBinTableCount.lto_priv.70
+                0x000000000001d750        0x4 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d750                mBinTableCount.lto_priv.70
+ .bss.mTableCount.lto_priv.67
+                0x000000000001d754        0x4 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d754                mTableCount.lto_priv.67
+ .bss.gShellAcpiViewHiiHandle
+                0x000000000001d758        0x8 /tmp/cc1k0bnV.ltrans4.ltrans.o
+                0x000000000001d758                gShellAcpiViewHiiHandle
+ .bss.AcpiHdrInfo.lto_priv.61
+                0x000000000001d760       0x48 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x000000000001d7a8       0x18 
+ .bss.AcpiHdrInfo.lto_priv.62
+                0x000000000001d7c0       0x48 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x000000000001d808       0x18 
+ .bss.AcpiHdrInfo.lto_priv.63
+                0x000000000001d820       0x48 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x000000000001d868       0x18 
+ .bss.AcpiHdrInfo.lto_priv.65
+                0x000000000001d880       0x48 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.ProcessorFlags
+                0x000000000001d8c8        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.ProcessorResourceType
+                0x000000000001d8d0        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.ProcessorId
+                0x000000000001d8d8        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NodeInterruptCount
+                0x000000000001d8e0        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NodeInterruptArrayOffset
+                0x000000000001d8e8        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NodeInterfaceOffset
+                0x000000000001d8f0        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NodeDataOffset
+                0x000000000001d8f8        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.AestNodeLength
+                0x000000000001d900        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.AestNodeType
+                0x000000000001d908        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.AddrSizeOffset
+                0x000000000001d910        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.BaseAddrRegOffset
+                0x000000000001d918        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.OEMDataOffset
+                0x000000000001d920        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.OEMDataLength
+                0x000000000001d928        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NameSpaceStringOffset
+                0x000000000001d930        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NameSpaceStringLength
+                0x000000000001d938        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.GasCount  0x000000000001d940        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.DbgDevInfoLen
+                0x000000000001d948        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.NumberDbgDeviceInfo
+                0x000000000001d950        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.OffsetDbgDeviceInfo
+                0x000000000001d958        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.DsdtAddress
+                0x000000000001d960        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.X_DsdtAddress
+                0x000000000001d968        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.Flags     0x000000000001d970        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.FirmwareCtrl
+                0x000000000001d978        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.X_FirmwareCtrl
+                0x000000000001d980        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ *fill*         0x000000000001d988       0x18 
+ .bss.AcpiHdrInfo.lto_priv.64
+                0x000000000001d9a0       0x48 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.FadtMinorRevision
+                0x000000000001d9e8        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.GtBlockTimerOffset
+                0x000000000001d9f0        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.GtBlockTimerCount
+                0x000000000001d9f8        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.PlatformTimerLength
+                0x000000000001da00        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.PlatformTimerType
+                0x000000000001da08        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.GtdtPlatformTimerOffset
+                0x000000000001da10        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.GtdtPlatformTimerCount
+                0x000000000001da18        0x8 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .bss.gST       0x000000000001da20        0x8 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x000000000001da20                gST
+ .bss.gHiiString
+                0x000000000001da28        0x8 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x000000000001da28                gHiiString
+ .bss.gRT       0x000000000001da30        0x8 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                0x000000000001da30                gRT
+ *fill*         0x000000000001da38        0x8 
+ .bss.AcpiHdrInfo.lto_priv.58
+                0x000000000001da40       0x48 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x000000000001da88       0x18 
+ .bss.AcpiHdrInfo.lto_priv.59
+                0x000000000001daa0       0x48 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x000000000001dae8       0x18 
+ .bss.AcpiHdrInfo.lto_priv.60
+                0x000000000001db00       0x48 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.NumberSMBIOSHandles
+                0x000000000001db48        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.NumberTargetProximityDomain
+                0x000000000001db50        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.NumberInitiatorProximityDomain
+                0x000000000001db58        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.SllbiDataType
+                0x000000000001db60        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.SllbiFlags
+                0x000000000001db68        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.HmatStructureLength
+                0x000000000001db70        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.HmatStructureType
+                0x000000000001db78        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.PmuInterruptOffset
+                0x000000000001db80        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.PmuInterruptCount
+                0x000000000001db88        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.InterruptContextOffset
+                0x000000000001db90        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.InterruptContextCount
+                0x000000000001db98        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.ItsCount  0x000000000001dba0        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.IortIdMappingOffset
+                0x000000000001dba8        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.IortIdMappingCount
+                0x000000000001dbb0        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.IortNodeLength
+                0x000000000001dbb8        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.IortNodeType
+                0x000000000001dbc0        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.IortNodeOffset
+                0x000000000001dbc8        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.IortNodeCount
+                0x000000000001dbd0        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.MadtInterruptControllerLength
+                0x000000000001dbd8        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .bss.MadtInterruptControllerType
+                0x000000000001dbe0        0x8 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ *fill*         0x000000000001dbe8       0x18 
+ .bss.AcpiHdrInfo.lto_priv.51
+                0x000000000001dc00       0x48 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001dc48       0x18 
+ .bss.AcpiHdrInfo.lto_priv.52
+                0x000000000001dc60       0x48 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001dca8       0x18 
+ .bss.AcpiHdrInfo.lto_priv.54
+                0x000000000001dcc0       0x48 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001dd08       0x18 
+ .bss.AcpiHdrInfo.lto_priv.55
+                0x000000000001dd20       0x48 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001dd68       0x18 
+ .bss.AcpiHdrInfo.lto_priv.56
+                0x000000000001dd80       0x48 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.ExtendedPccSubspaceInterruptFlags
+                0x000000000001ddc8        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.PccGlobalFlags
+                0x000000000001ddd0        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.PccSubspaceLength
+                0x000000000001ddd8        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.PccSubspaceType
+                0x000000000001dde0        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.CacheFlags
+                0x000000000001dde8        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ *fill*         0x000000000001ddf0       0x10 
+ .bss.AcpiHdrInfo.lto_priv.53
+                0x000000000001de00       0x48 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.NumberOfPrivateResources
+                0x000000000001de48        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.ProcessorTopologyStructureLength
+                0x000000000001de50        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.ProcessorTopologyStructureType
+                0x000000000001de58        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.XsdtAddress
+                0x000000000001de60        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.SlitSystemLocalityCount
+                0x000000000001de68        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.SratDeviceHandleType
+                0x000000000001de70        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.SratRALength
+                0x000000000001de78        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.SratRAType
+                0x000000000001de80        0x8 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .bss.gBS       0x000000000001de88        0x8 /tmp/cc1k0bnV.ltrans9.ltrans.o
+                0x000000000001de88                gBS
+ .bss.gIndent   0x000000000001de90        0x4 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .bss.mColourHighlighting.lto_priv.47
+                0x000000000001de94        0x1 /tmp/cc1k0bnV.ltrans11.ltrans.o
+                0x000000000001de94                mColourHighlighting.lto_priv.47
+ *fill*         0x000000000001de95        0x3 
+ .bss.gHiiDatabase
+                0x000000000001de98        0x8 /tmp/cc1k0bnV.ltrans11.ltrans.o
+                0x000000000001de98                gHiiDatabase
+
+.eh_frame       0x000000000001dec0        0x0
+ *(.eh_frame)
+ .eh_frame      0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+ .eh_frame      0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.dynbss         0x000000000001dec0        0x0
+ .dynbss        0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.gnu.version_d  0x000000000001dec0        0x0
+ .gnu.version_d
+                0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.gnu.version    0x000000000001dec0        0x0
+ .gnu.version   0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.gnu.version_r  0x000000000001dec0        0x0
+ .gnu.version_r
+                0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+
+.rela           0x000000000001dec0     0xa410
+ *(.rela .rela.*)
+ .rela.plt      0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+ .rela.got      0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+ .rela.bss      0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+ .rela.ifunc    0x000000000001dec0        0x0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ParserList
+                0x000000000001dec0      0x1c8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ParamList.lto_priv.46
+                0x000000000001e088       0x90 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AcpiHeaderParser.lto_priv.72
+                0x000000000001e118      0x288 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.XsdtParser
+                0x000000000001e3a0      0x288 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestProcessorGenericResourceSubstructure
+                0x000000000001e628       0x30 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestProcessorTlbResourceSubstructure
+                0x000000000001e658       0x60 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestProcessorCacheResourceSubstructure
+                0x000000000001e6b8       0x60 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestProcessorStructure
+                0x000000000001e718      0x180 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestMemoryControllerStructure
+                0x000000000001e898       0x30 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestSmmuStructure
+                0x000000000001e8c8       0x60 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestVendorDefinedStructure
+                0x000000000001e928       0x90 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestGicStructure
+                0x000000000001e9b8       0x78 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestNodeInterface
+                0x000000000001ea30      0x1e0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestNodeInterrupt
+                0x000000000001ec10      0x168 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestNodeHeaderParser
+                0x000000000001ed78      0x270 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.AestParser
+                0x000000000001efe8      0x288 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.BgrtParser
+                0x000000000001f270      0x3a8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GasParser.lto_priv.73
+                0x000000000001f618       0xf0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.DbgDevInfoParser
+                0x000000000001f708      0x300 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.DbgDevInfoHeaderParser
+                0x000000000001fa08       0x78 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.Dbg2Parser
+                0x000000000001fa80      0x318 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.FacsParser
+                0x000000000001fd98      0x2e8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.FadtParser
+                0x0000000000020080      0xdb0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ArmGenericWatchdogParser
+                0x0000000000020e30      0x150 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GtBlockTimerParser
+                0x0000000000020f80      0x1e0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GtBlockParser
+                0x0000000000021160      0x168 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GtPlatformTimerHeaderParser
+                0x00000000000212c8       0x78 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GtdtParser
+                0x0000000000021340      0x588 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.MemSideCacheInfoParser
+                0x00000000000218c8      0x1e0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SllbiNames
+                0x0000000000021aa8       0x90 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SllbiParser
+                0x0000000000021b38      0x270 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.MemProximityDomainAttributeParser
+                0x0000000000021da8      0x1e0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.HmatStructureHeaderParser
+                0x0000000000021f88       0x78 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.HmatParser
+                0x0000000000022000      0x2a0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeIdMappingParser
+                0x00000000000222a0       0xf0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodePmcgParser
+                0x0000000000022390      0x258 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeSmmuV3Parser
+                0x00000000000225e8      0x390 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.InterruptArrayParser
+                0x0000000000022978       0x60 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeSmmuV1V2Parser
+                0x00000000000229d8      0x450 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeRootComplexParser
+                0x0000000000022e28      0x288 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeNamedComponentParser
+                0x00000000000230b0      0x210 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ItsIdParser
+                0x00000000000232c0       0x30 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeItsParser
+                0x00000000000232f0      0x1f8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortNodeHeaderParser
+                0x00000000000234e8      0x180 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IortParser
+                0x0000000000023668      0x348 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.LocalX2ApicNmi
+                0x00000000000239b0      0x138 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ProcessorLocalX2Apic
+                0x0000000000023ae8      0x120 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.InterruptSourceOverride
+                0x0000000000023c08      0x120 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.IoApic
+                0x0000000000023d28      0x120 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GicITSParser
+                0x0000000000023e48      0x120 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GicRParser
+                0x0000000000023f68       0xf0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GicMSIFrameParser
+                0x0000000000024058      0x180 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GicDParser
+                0x00000000000241d8      0x1b0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.GicCParser
+                0x0000000000024388      0x378 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.MadtInterruptControllerHeaderParser
+                0x0000000000024700       0x60 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.MadtParser
+                0x0000000000024760      0x2e8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PciCfgSpaceBaseAddrParser
+                0x0000000000024a48       0xf0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.McfgParser
+                0x0000000000024b38      0x2b8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PccSubspaceType5Parser
+                0x0000000000024df0      0x318 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PccSubspaceType3Parser
+                0x0000000000025108      0x570 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PccSubspaceType2Parser
+                0x0000000000025678      0x378 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PccSubspaceType1Parser
+                0x00000000000259f0      0x2d0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PccSubspaceType0Parser
+                0x0000000000025cc0      0x288 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PccSubspaceHeaderParser
+                0x0000000000025f48       0x90 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PcctParser
+                0x0000000000025fd8      0x2d0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.CacheTypeStructureParser
+                0x00000000000262a8      0x2b8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ProcessorHierarchyNodeStructureParser
+                0x0000000000026560      0x168 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.ProcessorTopologyStructureHeaderParser
+                0x00000000000266c8       0x78 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.PpttParser
+                0x0000000000026740      0x288 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.RsdpParser
+                0x00000000000269c8      0x210 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SlitParser
+                0x0000000000026bd8      0x2d0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SpcrParser
+                0x0000000000026ea8      0x690 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratDeviceHandlePciParser
+                0x0000000000027538       0xa8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratDeviceHandleAcpiParser
+                0x00000000000275e0       0x90 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratX2ApciAffinityParser
+                0x0000000000027670      0x180 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratApciSapicAffinityParser
+                0x00000000000277f0      0x198 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratMemAffinityParser
+                0x0000000000027988      0x210 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratGenericInitiatorAffinityParser
+                0x0000000000027b98      0x1c8 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratGicITSAffinityParser
+                0x0000000000027d60       0xf0 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratGicCAffinityParser
+                0x0000000000027e50      0x120 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratResourceAllocationParser
+                0x0000000000027f70       0x60 AcpiViewApp.obj (symbol from plugin)
+ .rela.data.rel.ro.local.SratParser
+                0x0000000000027fd0      0x300 AcpiViewApp.obj (symbol from plugin)
+
+.hii            0x0000000000028300     0x24b7
+ *(.hii)
+ .hii           0x0000000000028300     0x24b7 /home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Application/AcpiViewApp/AcpiViewApp/OUTPUT/AcpiViewApphii.lib
+                0x0000000000028300                _binary__home_hcj_UEFIWorkspace_Build_Shell_RELEASE_GCC5_X64_ShellPkg_Application_AcpiViewApp_AcpiViewApp_OUTPUT_AcpiViewApphii_rc_start
+                0x000000000002a7b7                _binary__home_hcj_UEFIWorkspace_Build_Shell_RELEASE_GCC5_X64_ShellPkg_Application_AcpiViewApp_AcpiViewApp_OUTPUT_AcpiViewApphii_rc_end
+
+.build-id       0x000000000002a7b8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000002a7b8       0x24 AcpiViewApp.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/Shell/RELEASE_GCC5/X64/ShellPkg/Application/AcpiViewApp/AcpiViewApp/DEBUG/AcpiViewApp.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x1d81b
+ .debug_info    0x0000000000000000     0x5012 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_info    0x0000000000005012     0x1155 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_info    0x0000000000006167     0x421b /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_info    0x000000000000a382     0x22ea /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_info    0x000000000000c66c     0x3937 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_info    0x000000000000ffa3     0x286a /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_info    0x000000000001280d     0x2b4f /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_info    0x000000000001535c     0x24cf /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_info    0x000000000001782b     0x29a2 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_info    0x000000000001a1cd     0x1792 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_info    0x000000000001b95f     0x123c /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_info    0x000000000001cb9b      0xb24 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_info    0x000000000001d6bf      0x15c /tmp/cc1k0bnV.ltrans12.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x2818
+ .debug_abbrev  0x0000000000000000      0x3a1 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000003a1      0x361 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000702      0x34e /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000a50      0x3f8 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000e48      0x40d /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_abbrev  0x0000000000001255      0x395 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_abbrev  0x00000000000015ea      0x329 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000001913      0x2d1 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_abbrev  0x0000000000001be4      0x314 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000001ef8      0x24f /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_abbrev  0x0000000000002147      0x38f /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_abbrev  0x00000000000024d6      0x27c /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000002752       0xc6 /tmp/cc1k0bnV.ltrans12.ltrans.o
+
+.debug_loc      0x0000000000000000    0x12c49
+ .debug_loc     0x0000000000000000     0x1696 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_loc     0x0000000000001696     0x1edd /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_loc     0x0000000000003573     0x1347 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_loc     0x00000000000048ba     0x1ee1 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_loc     0x000000000000679b     0x13e2 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_loc     0x0000000000007b7d     0x298f /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_loc     0x000000000000a50c     0x119f /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_loc     0x000000000000b6ab     0x1d4a /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_loc     0x000000000000d3f5     0x2b5c /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_loc     0x000000000000ff51     0x170c /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_loc     0x000000000001165d      0xfc4 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_loc     0x0000000000012621      0x531 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_loc     0x0000000000012b52       0xf7 /tmp/cc1k0bnV.ltrans12.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xa60
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000030      0x1b0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000000000001e0       0x40 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000220      0x210 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000430       0x50 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_aranges
+                0x0000000000000480      0x140 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000000000005c0       0x80 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_aranges
+                0x0000000000000640       0xd0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_aranges
+                0x0000000000000710      0x1a0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_aranges
+                0x00000000000008b0       0x40 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_aranges
+                0x00000000000008f0       0xf0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_aranges
+                0x00000000000009e0       0x50 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000000a30       0x30 /tmp/cc1k0bnV.ltrans12.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2b30
+ .debug_ranges  0x0000000000000000      0x900 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000900      0x2a0 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000ba0      0x2b0 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000e50      0x380 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_ranges  0x00000000000011d0      0x2c0 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_ranges  0x0000000000001490      0x600 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000001a90      0x290 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_ranges  0x0000000000001d20      0x5f0 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000002310      0x540 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_ranges  0x0000000000002850       0x30 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_ranges  0x0000000000002880      0x220 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000002aa0       0x70 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000002b10       0x20 /tmp/cc1k0bnV.ltrans12.ltrans.o
+
+.debug_line     0x0000000000000000     0x5e96
+ .debug_line    0x0000000000000000      0xc29 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_line    0x0000000000000c29      0x5e1 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_line    0x000000000000120a      0x851 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_line    0x0000000000001a5b      0x9b6 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_line    0x0000000000002411      0x838 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_line    0x0000000000002c49      0x988 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_line    0x00000000000035d1      0x7ff /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_line    0x0000000000003dd0      0x697 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_line    0x0000000000004467      0x8d0 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_line    0x0000000000004d37      0x629 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_line    0x0000000000005360      0x595 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_line    0x00000000000058f5      0x490 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_line    0x0000000000005d85      0x111 /tmp/cc1k0bnV.ltrans12.ltrans.o
+
+.debug_str      0x0000000000000000     0x712f
+ .debug_str     0x0000000000000000     0x2efe /tmp/cc1k0bnV.ltrans0.ltrans.o
+                                       0x3347 (size before relaxing)
+ .debug_str     0x0000000000002efe      0x3dc /tmp/cc1k0bnV.ltrans1.ltrans.o
+                                        0x78e (size before relaxing)
+ .debug_str     0x00000000000032da      0xc68 /tmp/cc1k0bnV.ltrans2.ltrans.o
+                                       0x2a98 (size before relaxing)
+ .debug_str     0x0000000000003f42      0x48d /tmp/cc1k0bnV.ltrans3.ltrans.o
+                                        0xfc8 (size before relaxing)
+ .debug_str     0x00000000000043cf      0x87c /tmp/cc1k0bnV.ltrans4.ltrans.o
+                                       0x23a3 (size before relaxing)
+ .debug_str     0x0000000000004c4b      0x7a6 /tmp/cc1k0bnV.ltrans5.ltrans.o
+                                        0xd65 (size before relaxing)
+ .debug_str     0x00000000000053f1      0x3d7 /tmp/cc1k0bnV.ltrans6.ltrans.o
+                                       0x18ec (size before relaxing)
+ .debug_str     0x00000000000057c8      0x7de /tmp/cc1k0bnV.ltrans7.ltrans.o
+                                        0xbd2 (size before relaxing)
+ .debug_str     0x0000000000005fa6      0x8c5 /tmp/cc1k0bnV.ltrans8.ltrans.o
+                                        0xcf2 (size before relaxing)
+ .debug_str     0x000000000000686b      0x299 /tmp/cc1k0bnV.ltrans9.ltrans.o
+                                       0x108b (size before relaxing)
+ .debug_str     0x0000000000006b04      0x1aa /tmp/cc1k0bnV.ltrans10.ltrans.o
+                                        0x6d4 (size before relaxing)
+ .debug_str     0x0000000000006cae      0x44e /tmp/cc1k0bnV.ltrans11.ltrans.o
+                                        0x81e (size before relaxing)
+ .debug_str     0x00000000000070fc       0x33 /tmp/cc1k0bnV.ltrans12.ltrans.o
+                                        0x27b (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x23a0
+ .debug_frame   0x0000000000000000       0x98 /tmp/cc1k0bnV.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000098      0x390 /tmp/cc1k0bnV.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000428      0x1e8 /tmp/cc1k0bnV.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000610      0x5e0 /tmp/cc1k0bnV.ltrans3.ltrans.o
+ .debug_frame   0x0000000000000bf0      0x128 /tmp/cc1k0bnV.ltrans4.ltrans.o
+ .debug_frame   0x0000000000000d18      0x538 /tmp/cc1k0bnV.ltrans5.ltrans.o
+ .debug_frame   0x0000000000001250      0x218 /tmp/cc1k0bnV.ltrans6.ltrans.o
+ .debug_frame   0x0000000000001468      0x338 /tmp/cc1k0bnV.ltrans7.ltrans.o
+ .debug_frame   0x00000000000017a0      0x618 /tmp/cc1k0bnV.ltrans8.ltrans.o
+ .debug_frame   0x0000000000001db8      0x118 /tmp/cc1k0bnV.ltrans9.ltrans.o
+ .debug_frame   0x0000000000001ed0      0x3b0 /tmp/cc1k0bnV.ltrans10.ltrans.o
+ .debug_frame   0x0000000000002280       0xb0 /tmp/cc1k0bnV.ltrans11.ltrans.o
+ .debug_frame   0x0000000000002330       0x70 /tmp/cc1k0bnV.ltrans12.ltrans.o

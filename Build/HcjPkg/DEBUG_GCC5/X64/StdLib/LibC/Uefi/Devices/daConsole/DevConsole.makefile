@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daConsole/GNUmakefile

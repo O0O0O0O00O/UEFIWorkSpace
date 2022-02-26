@@ -1,0 +1,23 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Udp6.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/UseEfiSocketLib.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Socket.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Tcp6.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/DxeSupport.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Init.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Tcp4.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Ip4.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Udp4.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/Service.obj.deps
+
+               

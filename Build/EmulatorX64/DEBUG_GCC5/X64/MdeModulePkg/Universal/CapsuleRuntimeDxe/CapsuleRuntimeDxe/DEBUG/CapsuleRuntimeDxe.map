@@ -1,0 +1,2756 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/OUTPUT/CapsuleRuntimeDxe.lib(CapsuleService.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/OUTPUT/CapsuleRuntimeDxe.lib(CapsuleCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/OUTPUT/CapsuleRuntimeDxe.lib(CapsuleReset.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/OUTPUT/CapsuleRuntimeDxe.lib(SaveLongModeContext.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/OUTPUT/CapsuleRuntimeDxe.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode/OUTPUT/PeiDxeDebugLibReportStatusCode.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull/OUTPUT/DxeCapsuleLibNull.lib(DxeCapsuleLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeLib/UefiRuntimeLib/OUTPUT/UefiRuntimeLib.lib(RuntimeLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib/OUTPUT/BaseCacheMaintenanceLib.lib(X86Cache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEdkiiDscPlatformGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiMdeModulePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiMdePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiVT100Guid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiEventReadyToBootGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiEventLegacyBootGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiAcpi20TableGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiAcpi10TableGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gPcdProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiPcdProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gGetPcdInfoProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiGetPcdInfoProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiSimpleTextOutProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiGraphicsOutputProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiUgaDrawProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDriverConfigurationProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDriverConfiguration2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDriverDiagnosticsProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.gEfiDriverDiagnostics2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss._gPcd_SkuId_Array
+                0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount
+                0x0000000000000000        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x0000000000000000        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+                0x0000000000000000        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdSpeculationBarrierType
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugClearMemoryValue
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDriverDiagnosticsDisable
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdComponentNameDisable
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDriverDiagnostics2Disable
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdComponentName2Disable
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUgaConsumeSupport
+                0x0000000000000000        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiLibMaxPrintBufferSize
+                0x0000000000000000        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gDxeRevision
+                0x0000000000000000        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x0000000000000000        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000      0x4e6 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x0000000000000000       0x60 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x0000000000000000      0x320 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.str2.8
+                0x0000000000000000       0xb8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.rel.local.mUefiDevicePathLibDevPathFromTextTable
+                0x0000000000000000      0x570 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000000000       0x96 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000000000      0x2b5 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss.gNullVaList
+                0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.mCrcTable
+                0x0000000000000000      0x400 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2856.lto_priv.27
+                0x0000000000000000        0x9 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2868.lto_priv.26
+                0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2881.lto_priv.25
+                0x0000000000000000        0x9 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2890.lto_priv.24
+                0x0000000000000000       0x13 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2905.lto_priv.23
+                0x0000000000000000       0x14 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2920.lto_priv.22
+                0x0000000000000000        0xf /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2935.lto_priv.21
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2960.lto_priv.20
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2976.lto_priv.19
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2986.lto_priv.18
+                0x0000000000000000        0xa /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2994.lto_priv.17
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3019.lto_priv.16
+                0x0000000000000000        0xd /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3042.lto_priv.14
+                0x0000000000000000        0xd /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3055.lto_priv.13
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3064.lto_priv.12
+                0x0000000000000000       0x18 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3079.lto_priv.11
+                0x0000000000000000       0x19 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3094.lto_priv.10
+                0x0000000000000000       0x14 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3109.lto_priv.9
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3125.lto_priv.8
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3137.lto_priv.7
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3147.lto_priv.6
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3159.lto_priv.5
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3178.lto_priv.4
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3194.lto_priv.3
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3204.lto_priv.2
+                0x0000000000000000        0xf /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3212.lto_priv.1
+                0x0000000000000000       0x13 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.EncodingTable.lto_priv.0
+                0x0000000000000000       0x41 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss.mVaListNull
+                0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss.mPcd      0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss.mPiPcd    0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss.mPcdInfo  0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .bss.mPiPcdInfo
+                0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .data.mEfiColors
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.mUnicodeWidthTable
+                0x0000000000000000       0x90 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.LookupUnicodeString
+                0x0000000000000000      0x13d /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.LookupUnicodeString2
+                0x0000000000000000      0x261 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.AddUnicodeString
+                0x0000000000000000      0x3a2 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.AddUnicodeString2
+                0x0000000000000000      0x4a8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.FreeUnicodeStringTable
+                0x0000000000000000       0xac /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x113 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.GetVariable2
+                0x0000000000000000      0x186 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.GetVariable3
+                0x0000000000000000      0x18d /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.GetEfiGlobalVariable2
+                0x0000000000000000       0x34 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.GetBestLanguage
+                0x0000000000000000      0x20b /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.EfiLocateProtocolBuffer
+                0x0000000000000000      0x1d3 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.EfiOpenFileByDevicePath
+                0x0000000000000000      0x29e /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.ScanTableInSDT
+                0x0000000000000000      0x158 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.LocateAcpiFacsFromFadt
+                0x0000000000000000       0x78 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.LocateAcpiDsdtFromFadt
+                0x0000000000000000       0x78 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.LocateAcpiTableInAcpiConfigurationTable
+                0x0000000000000000      0x2fe /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.EfiLocateNextAcpiTable
+                0x0000000000000000      0x164 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text.EfiLocateFirstAcpiTable
+                0x0000000000000000       0x1a /tmp/ccWoziwa.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.CreatePopUp
+                0x0000000000000000      0x806 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.CompareIso639LanguageCode
+                0x0000000000000000       0x39 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000000000       0xf9 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiNamedEventListen
+                0x0000000000000000      0x1af /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiNamedEventSignal
+                0x0000000000000000      0x13e /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiEventGroupSignal
+                0x0000000000000000       0x9d /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiEventEmptyFunction
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiGetCurrentTpl
+                0x0000000000000000       0x38 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiInitializeLock
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiAcquireLock
+                0x0000000000000000       0x90 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiAcquireLockOrFail
+                0x0000000000000000       0xac /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiReleaseLock
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiTestManagedDevice
+                0x0000000000000000       0xcc /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.EfiTestChildHandle
+                0x0000000000000000      0x105 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text.IsLanguageSupported
+                0x0000000000000000       0xbd /tmp/ccWoziwa.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .text.GetGlyphWidth
+                0x0000000000000000       0xe4 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .text.UnicodeStringDisplayLength
+                0x0000000000000000       0x66 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .text.UefiLibGetStringWidth
+                0x0000000000000000      0x134 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_info    0x0000000000000000      0x20d /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xf1 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_line    0x0000000000000000      0x120 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_str     0x0000000000000000      0x2f5 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000000       0x90 /tmp/ccWoziwa.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans3.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000       0x97 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .text.EfiLibUninstallAllDriverProtocols2
+                0x0000000000000000     0x2144 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_info    0x0000000000000000      0x7a3 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xed /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_ranges  0x0000000000000000       0x20 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_line    0x0000000000000000      0x443 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_str     0x0000000000000000      0x9a1 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .debug_frame   0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans4.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000       0x97 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .text.EfiLibInstallAllDriverProtocols2
+                0x0000000000000000     0x215f /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_info    0x0000000000000000     0x1ca3 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x17f /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_ranges  0x0000000000000000       0x20 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_line    0x0000000000000000      0x48c /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_str     0x0000000000000000     0x19be /tmp/ccWoziwa.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .debug_frame   0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x157 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x49 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiCreateEventReadyToBootEx
+                0x0000000000000000      0x108 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiSignalEventReadyToBoot
+                0x0000000000000000       0x4b /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiSignalEventLegacyBoot
+                0x0000000000000000       0x4b /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiGetNameGuidFromFwVolDevicePathNode
+                0x0000000000000000       0x65 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiInitializeFwVolDevicepathNode
+                0x0000000000000000       0x96 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiLibInstallDriverBinding
+                0x0000000000000000       0xe7 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiLibUninstallDriverBinding
+                0x0000000000000000       0xc0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiLibInstallAllDriverProtocols
+                0x0000000000000000      0x3a5 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiLibUninstallAllDriverProtocols
+                0x0000000000000000      0x38a /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiLibInstallDriverBindingComponentName2
+                0x0000000000000000      0x202 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text.EfiLibUninstallDriverBindingComponentName2
+                0x0000000000000000      0x1e3 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_info    0x0000000000000000     0x1e91 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x21b /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0xd0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000000000       0xc0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_line    0x0000000000000000      0x444 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_str     0x0000000000000000     0x1a5b /tmp/ccWoziwa.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .debug_frame   0x0000000000000000      0x1d0 /tmp/ccWoziwa.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiGoneVirtual
+                0x0000000000000000        0xd /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiGetTime
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiSetTime
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiGetWakeupTime
+                0x0000000000000000       0x32 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiSetWakeupTime
+                0x0000000000000000       0x28 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiGetVariable
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiGetNextVariableName
+                0x0000000000000000       0x32 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiGetNextHighMonotonicCount
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiConvertFunctionPointer
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiConvertList
+                0x0000000000000000       0x97 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiSetVirtualAddressMap
+                0x0000000000000000       0x3c /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiUpdateCapsule
+                0x0000000000000000       0x32 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiQueryCapsuleCapabilities
+                0x0000000000000000       0x3d /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiQueryVariableInfo
+                0x0000000000000000       0x3e /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.InvalidateInstructionCache
+                0x0000000000000000        0x6 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.InvalidateInstructionCacheRange
+                0x0000000000000000       0x58 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.WriteBackInvalidateDataCache
+                0x0000000000000000        0xf /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.WriteBackDataCache
+                0x0000000000000000        0xf /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.InvalidateDataCache
+                0x0000000000000000        0xf /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.InvalidateDataCacheRange
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.InternalPrint
+                0x0000000000000000      0x144 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.Print    0x0000000000000000       0xc5 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.ErrorPrint
+                0x0000000000000000       0xc5 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.AsciiInternalPrint
+                0x0000000000000000      0x110 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.AsciiPrint
+                0x0000000000000000       0xed /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.AsciiErrorPrint
+                0x0000000000000000       0xed /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.InternalPrintGraphic
+                0x0000000000000000      0x6d8 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.PrintXY  0x0000000000000000      0x1b5 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.AsciiPrintXY
+                0x0000000000000000      0x188 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.CatVSPrint
+                0x0000000000000000      0x128 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.CatSPrint
+                0x0000000000000000       0x41 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiCreateEventLegacyBoot
+                0x0000000000000000       0x29 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiCreateEventLegacyBootEx
+                0x0000000000000000      0x108 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.EfiCreateEventReadyToBoot
+                0x0000000000000000       0x29 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.GetPiPcdInfoProtocolPointer
+                0x0000000000000000       0xce /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.GetPcdInfoProtocolPointer
+                0x0000000000000000       0xce /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetSku
+                0x0000000000000000       0x20 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGet8
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGet16
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGet32
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGet64
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetPtr
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetBool
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetSize
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetEx8
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetEx16
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetEx32
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetEx64
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetExPtr
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetExBool
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetExSize
+                0x0000000000000000       0x4d /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSet8S
+                0x0000000000000000       0x26 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSet16S
+                0x0000000000000000       0x2a /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSet32S
+                0x0000000000000000       0x26 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSet64S
+                0x0000000000000000       0x28 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetPtrS
+                0x0000000000000000       0x8f /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetBoolS
+                0x0000000000000000       0x29 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetEx8S
+                0x0000000000000000       0x5a /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetEx16S
+                0x0000000000000000       0x5b /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetEx32S
+                0x0000000000000000       0x57 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetEx64S
+                0x0000000000000000       0x58 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetExPtrS
+                0x0000000000000000       0xbf /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdSetExBoolS
+                0x0000000000000000       0x5a /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdCallbackOnSet
+                0x0000000000000000       0xb5 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdCancelCallback
+                0x0000000000000000       0xb5 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetNextToken
+                0x0000000000000000       0x63 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetNextTokenSpace
+                0x0000000000000000       0x24 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPatchPcdSetPtr
+                0x0000000000000000       0xe8 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPatchPcdSetPtrS
+                0x0000000000000000       0xee /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPatchPcdSetPtrAndSize
+                0x0000000000000000      0x11e /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPatchPcdSetPtrAndSizeS
+                0x0000000000000000      0x124 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetInfo
+                0x0000000000000000       0xfe /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetInfoEx
+                0x0000000000000000      0x109 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.LibPcdGetSku
+                0x0000000000000000       0x89 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.EfiMain  0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.ProcessCapsules
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.CoDCheckCapsuleOnDiskFlag
+                0x0000000000000000        0xb /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.CoDClearCapsuleOnDiskFlag
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.CoDRelocateCapsule
+                0x0000000000000000       0x14 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text.CoDRemoveTempFile
+                0x0000000000000000       0x14 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.SpeculationBarrier
+                0x0000000000000000       0x4b /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.MemoryFence
+                0x0000000000000000        0x6 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadEflags
+                0x0000000000000000       0x14 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.InternalX86FxSave
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.InternalX86FxRestore
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm0
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm1
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm2
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm3
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm4
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm5
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm6
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMm7
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm0
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm1
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm2
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm3
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm4
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm5
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm6
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMm7
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadTsc
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.EnableInterrupts
+                0x0000000000000000        0x7 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DisableInterrupts
+                0x0000000000000000        0x7 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadMsr64
+                0x0000000000000000       0x59 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteMsr64
+                0x0000000000000000       0x59 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadCr0
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadCr2
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadCr3
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadCr4
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteCr0
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteCr2
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteCr3
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteCr4
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr0
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr1
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr2
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr3
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr4
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr5
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr6
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDr7
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr0
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr1
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr2
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr3
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr4
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr5
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr6
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteDr7
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadCs
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadDs
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadEs
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadFs
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadGs
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadSs
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadTr
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.InternalX86ReadGdtr
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.InternalX86WriteGdtr
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.InternalX86ReadIdtr
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.InternalX86WriteIdtr
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadLdtr
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWriteLdtr
+                0x0000000000000000       0x10 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmReadPmc
+                0x0000000000000000       0x2a /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmMonitor
+                0x0000000000000000       0x25 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmMwait
+                0x0000000000000000       0x20 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmInvd  0x0000000000000000        0x8 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.__chkstk
+                0x0000000000000000        0x6 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DebugBPrint
+                0x0000000000000000       0xa3 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DebugClearMemory
+                0x0000000000000000       0x57 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DebugCodeEnabled
+                0x0000000000000000       0x18 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DebugClearMemoryEnabled
+                0x0000000000000000       0x18 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.GetPiPcdProtocol
+                0x0000000000000000       0xce /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.GetPcdProtocol
+                0x0000000000000000       0xce /tmp/ccWoziwa.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.BcdToDecimal8
+                0x0000000000000000       0x80 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.PathRemoveLastItem
+                0x0000000000000000       0xb9 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000       0x1c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.PathCleanUpDirectories
+                0x0000000000000000      0x1f1 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalX86EnablePaging32
+                0x0000000000000000       0x3b /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalX86DisablePaging32
+                0x0000000000000000       0x3b /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalX86EnablePaging64
+                0x0000000000000000       0x3d /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathRShiftU64
+                0x0000000000000000       0x1d /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathARShiftU64
+                0x0000000000000000       0x6b /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathLRotU64
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathRRotU64
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathSwapBytes64
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathMultU64x32
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathMultU64x64
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathDivU64x32
+                0x0000000000000000       0x1c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathModU64x32
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathDivRemU64x64
+                0x0000000000000000       0x3a /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.InternalMathDivRemS64x64
+                0x0000000000000000       0x34 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000000000       0x3d /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.WriteUnaligned16
+                0x0000000000000000       0x4e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.ReadUnaligned24
+                0x0000000000000000       0x41 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.WriteUnaligned24
+                0x0000000000000000       0x62 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.ReadUnaligned32
+                0x0000000000000000       0x3c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.WriteUnaligned32
+                0x0000000000000000       0x48 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmWriteIdtr
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmWriteGdtr
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmGetThunk16Properties
+                0x0000000000000000       0x7c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmPrepareThunk16
+                0x0000000000000000      0x22b /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmThunk16
+                0x0000000000000000      0x142 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmPrepareAndThunk16
+                0x0000000000000000       0x20 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmReadIdtr
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmReadGdtr
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmReadMsr32
+                0x0000000000000000       0x15 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmWriteMsr32
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrOr32
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrAnd32
+                0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrAndThenOr32
+                0x0000000000000000       0x28 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldRead32
+                0x0000000000000000       0x32 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldWrite32
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldOr32
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldAnd32
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldAndThenOr32
+                0x0000000000000000       0x91 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrOr64
+                0x0000000000000000       0x28 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrAnd64
+                0x0000000000000000       0x28 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrAndThenOr64
+                0x0000000000000000       0x30 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldRead64
+                0x0000000000000000       0x33 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldWrite64
+                0x0000000000000000       0x4c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldOr64
+                0x0000000000000000       0x4c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldAnd64
+                0x0000000000000000       0x4c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmMsrBitFieldAndThenOr64
+                0x0000000000000000       0x55 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.GetInterruptState
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmFxSave
+                0x0000000000000000       0x7c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmFxRestore
+                0x0000000000000000       0xa0 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmEnablePaging64
+                0x0000000000000000       0x8c /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmEnablePaging32
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmDisablePaging64
+                0x0000000000000000       0x86 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmDisablePaging32
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmRdRand16
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmRdRand32
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.AsmRdRand64
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text.PatchInstructionX86
+                0x0000000000000000      0x171 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrToIpv4Address
+                0x0000000000000000      0x267 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrToGuid
+                0x0000000000000000      0x2a9 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrHexToBytes
+                0x0000000000000000      0x35b /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrSize  0x0000000000000000       0x1e /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrCmp   0x0000000000000000       0xb8 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrnCmp  0x0000000000000000      0x11e /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrStr   0x0000000000000000      0x102 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.InternalIsDecimalDigitCharacter
+                0x0000000000000000       0x26 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.CharToUpper
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.InternalHexCharToUintn
+                0x0000000000000000       0x3d /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.InternalIsHexaDecimalDigitCharacter
+                0x0000000000000000       0x47 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrDecimalToUintn
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrDecimalToUint64
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrHexToUintn
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.StrHexToUint64
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.InternalAsciiIsDecimalDigitCharacter
+                0x0000000000000000       0x23 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.InternalAsciiIsHexaDecimalDigitCharacter
+                0x0000000000000000       0x42 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrCmp
+                0x0000000000000000       0xb6 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiCharToUpper
+                0x0000000000000000       0x24 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.InternalAsciiHexCharToUintn
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStriCmp
+                0x0000000000000000       0xfc /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000000000      0x11b /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrStr
+                0x0000000000000000       0xfc /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrDecimalToUintn
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrDecimalToUint64
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrHexToUintn
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.AsciiStrHexToUint64
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.Base64Encode
+                0x0000000000000000      0x350 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.Base64Decode
+                0x0000000000000000      0x3a9 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text.DecimalToBcd8
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x3a2 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0xb6 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text.AsciiStrHexToUint64S
+                0x0000000000000000      0x2ea /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text.UnicodeStrToAsciiStrS
+                0x0000000000000000      0x49e /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text.UnicodeStrnToAsciiStrS
+                0x0000000000000000      0x660 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text.AsciiStrToUnicodeStrS
+                0x0000000000000000      0x475 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text.AsciiStrnToUnicodeStrS
+                0x0000000000000000      0x634 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text.AsciiStrToIpv6Address
+                0x0000000000000000      0x405 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_info    0x0000000000000000      0x4ab /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xe9 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0x80 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000000000       0x70 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_line    0x0000000000000000      0x2a1 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_str     0x0000000000000000      0x477 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .debug_frame   0x0000000000000000      0x1d0 /tmp/ccWoziwa.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.StrHexToBytes
+                0x0000000000000000      0x397 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrnSizeS
+                0x0000000000000000       0x34 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrCpyS
+                0x0000000000000000      0x3b5 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrCatS
+                0x0000000000000000      0x466 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrnCatS
+                0x0000000000000000      0x52a /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrDecimalToUintnS
+                0x0000000000000000      0x2a8 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrDecimalToUint64S
+                0x0000000000000000      0x2a7 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text.AsciiStrHexToUintnS
+                0x0000000000000000      0x2d5 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x2aa /tmp/ccWoziwa.ltrans13.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0xcc /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrnCatS
+                0x0000000000000000      0x58b /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrDecimalToUintnS
+                0x0000000000000000      0x2db /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrDecimalToUint64S
+                0x0000000000000000      0x2da /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrHexToUintnS
+                0x0000000000000000      0x30c /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrHexToUint64S
+                0x0000000000000000      0x321 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrToIpv6Address
+                0x0000000000000000      0x440 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrToIpv4Address
+                0x0000000000000000      0x298 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text.StrToGuid
+                0x0000000000000000      0x2de /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_info    0x0000000000000000      0x674 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xe9 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0xa0 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_ranges  0x0000000000000000       0x90 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_line    0x0000000000000000      0x331 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_str     0x0000000000000000      0x4ee /tmp/ccWoziwa.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans13.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .debug_frame   0x0000000000000000      0x1a0 /tmp/ccWoziwa.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.BitFieldAnd64
+                0x0000000000000000      0x110 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.BitFieldAndThenOr64
+                0x0000000000000000       0xab /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.BitFieldCountOnes32
+                0x0000000000000000       0xd0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.BitFieldCountOnes64
+                0x0000000000000000       0xc7 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.SaveAndDisableInterrupts
+                0x0000000000000000       0x1b /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.SetInterruptState
+                0x0000000000000000       0x25 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0xe9 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xcd /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.InitializeListHead
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.InsertHeadList
+                0x0000000000000000       0xba /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.InsertTailList
+                0x0000000000000000       0xbc /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.GetFirstNode
+                0x0000000000000000       0x43 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.GetNextNode
+                0x0000000000000000       0x89 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.GetPreviousNode
+                0x0000000000000000       0x8a /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.IsListEmpty
+                0x0000000000000000       0x4a /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.IsNull   0x0000000000000000       0x8d /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.IsNodeAtEnd
+                0x0000000000000000       0xb0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.SwapListEntries
+                0x0000000000000000       0xfe /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000000000       0x68 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.StrnSizeS
+                0x0000000000000000       0x37 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.StrnCpyS
+                0x0000000000000000      0x4d4 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text.StrCatS  0x0000000000000000      0x4c7 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans14.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.CalculateCheckSum64
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.CalculateCrc32
+                0x0000000000000000       0xcc /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.SwitchStack
+                0x0000000000000000       0xe7 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.SwapBytes64
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.SwapBytes32
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.SwapBytes16
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.LongJump
+                0x0000000000000000       0x53 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000       0x63 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.QuickSort
+                0x0000000000000000      0x297 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.RShiftU64
+                0x0000000000000000       0x4a /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.RRotU64  0x0000000000000000       0x4a /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.RRotU32  0x0000000000000000       0x46 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.MultU64x64
+                0x0000000000000000       0x2a /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.MultU64x32
+                0x0000000000000000       0x27 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.MultS64x64
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.ModU64x32
+                0x0000000000000000       0x46 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.LRotU64  0x0000000000000000       0x4a /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.LRotU32  0x0000000000000000       0x46 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.LowBitSet64
+                0x0000000000000000       0x4f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.LowBitSet32
+                0x0000000000000000       0x3c /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.HighBitSet64
+                0x0000000000000000       0x46 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.HighBitSet32
+                0x0000000000000000       0x39 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.GetPowerOfTwo64
+                0x0000000000000000       0x32 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.GetPowerOfTwo32
+                0x0000000000000000       0x2f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.DivU64x64Remainder
+                0x0000000000000000       0x55 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.DivU64x32
+                0x0000000000000000       0x46 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.DivS64x64Remainder
+                0x0000000000000000       0x55 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.ARShiftU64
+                0x0000000000000000       0x4a /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.InternalBaseLibBitFieldReadUint
+                0x0000000000000000       0x35 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.InternalBaseLibBitFieldOrUint
+                0x0000000000000000       0xa6 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.InternalBaseLibBitFieldAndUint
+                0x0000000000000000       0xaa /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldRead8
+                0x0000000000000000       0x81 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldWrite8
+                0x0000000000000000       0x91 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldOr8
+                0x0000000000000000       0x8f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldAnd8
+                0x0000000000000000       0x8f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldAndThenOr8
+                0x0000000000000000       0xb4 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldRead16
+                0x0000000000000000       0x82 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldWrite16
+                0x0000000000000000       0x93 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldOr16
+                0x0000000000000000       0x91 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldAnd16
+                0x0000000000000000       0x91 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldAndThenOr16
+                0x0000000000000000       0xb7 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldRead32
+                0x0000000000000000       0x7e /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldWrite32
+                0x0000000000000000       0x8f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldOr32
+                0x0000000000000000       0x89 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldAnd32
+                0x0000000000000000       0x89 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldAndThenOr32
+                0x0000000000000000       0xa7 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldRead64
+                0x0000000000000000       0x8f /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldWrite64
+                0x0000000000000000       0x93 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text.BitFieldOr64
+                0x0000000000000000      0x107 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans15.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.BasePrintLibSPrint
+                0x0000000000000000       0xcc /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.UnicodeVSPrint
+                0x0000000000000000      0x117 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.UnicodeBSPrint
+                0x0000000000000000      0x11b /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.UnicodeSPrint
+                0x0000000000000000       0x48 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.UnicodeVSPrintAsciiFormat
+                0x0000000000000000       0xea /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.UnicodeBSPrintAsciiFormat
+                0x0000000000000000       0xee /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.UnicodeSPrintAsciiFormat
+                0x0000000000000000       0x48 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiVSPrint
+                0x0000000000000000       0xb5 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiBSPrint
+                0x0000000000000000       0xb9 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiSPrint
+                0x0000000000000000       0x48 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiVSPrintUnicodeFormat
+                0x0000000000000000       0xe4 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiBSPrintUnicodeFormat
+                0x0000000000000000       0xe8 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiSPrintUnicodeFormat
+                0x0000000000000000       0x48 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.AsciiValueToStringS
+                0x0000000000000000       0xae /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.SPrintLength
+                0x0000000000000000       0xd8 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.SPrintLengthAsciiFormat
+                0x0000000000000000       0xa9 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0xa4 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateSum8
+                0x0000000000000000       0x9a /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateCheckSum8
+                0x0000000000000000       0x2b /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateSum16
+                0x0000000000000000      0x106 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateCheckSum16
+                0x0000000000000000       0x2c /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateSum32
+                0x0000000000000000      0x109 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateCheckSum32
+                0x0000000000000000       0x2a /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text.CalculateSum64
+                0x0000000000000000      0x10d /tmp/ccWoziwa.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans16.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .text.BasePrintLibConvertValueToString
+                0x0000000000000000      0x328 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .text.BasePrintLibSPrintMarker
+                0x0000000000000000     0x171d /tmp/ccWoziwa.ltrans17.ltrans.o
+ .rodata.BasePrintLibSPrintMarker
+                0x0000000000000000      0x370 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans17.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateAlignedPages
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateAlignedRuntimePages
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateAlignedReservedPages
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.FreeAlignedPages
+                0x0000000000000000       0xac /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalAllocatePool
+                0x0000000000000000       0x45 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocatePool
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateRuntimePool
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateReservedPool
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalAllocateZeroPool
+                0x0000000000000000       0x45 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateRuntimeZeroPool
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateReservedZeroPool
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalAllocateCopyPool
+                0x0000000000000000       0xa6 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateCopyPool
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateRuntimeCopyPool
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.AllocateReservedCopyPool
+                0x0000000000000000       0x99 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalReallocatePool
+                0x0000000000000000       0x6f /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ReallocatePool
+                0x0000000000000000       0xa4 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ReallocateRuntimePool
+                0x0000000000000000       0xa4 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ReallocateReservedPool
+                0x0000000000000000       0xa4 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.FreePool
+                0x0000000000000000       0x7c /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ScanMem64
+                0x0000000000000000       0xf9 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ScanMem32
+                0x0000000000000000       0xf8 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ScanMem16
+                0x0000000000000000       0xfb /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ScanMem8
+                0x0000000000000000       0x9a /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ScanMemN
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.CompareMem
+                0x0000000000000000      0x102 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.SetMem64
+                0x0000000000000000       0xf8 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.SetMem32
+                0x0000000000000000       0xf7 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.SetMem16
+                0x0000000000000000       0xfa /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.SetMem   0x0000000000000000       0x71 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.SetMemN  0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.IsZeroBuffer
+                0x0000000000000000       0x86 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemSetMem16
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemSetMem32
+                0x0000000000000000       0x3c /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemSetMem64
+                0x0000000000000000       0x3e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemCompareMem
+                0x0000000000000000       0x56 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemScanMem8
+                0x0000000000000000       0x48 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemScanMem16
+                0x0000000000000000       0x4a /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemScanMem32
+                0x0000000000000000       0x45 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemScanMem64
+                0x0000000000000000       0x47 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.InternalMemIsZeroBuffer
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ScanGuid
+                0x0000000000000000       0xf0 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.IsZeroGuid
+                0x0000000000000000       0x49 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans18.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextUnit
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000       0x88 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextiSCSI
+                0x0000000000000000      0x1d6 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextVlan
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextBluetooth
+                0x0000000000000000       0x5d /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextWiFi
+                0x0000000000000000       0xaa /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextBluetoothLE
+                0x0000000000000000       0x82 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextDns
+                0x0000000000000000      0x1ad /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextUri
+                0x0000000000000000       0x8f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextMediaPath
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextHD
+                0x0000000000000000      0x181 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextCDROM
+                0x0000000000000000       0x9e /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextVenMedia
+                0x0000000000000000       0x24 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextFilePath
+                0x0000000000000000       0x63 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextMedia
+                0x0000000000000000       0x4f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextFv
+                0x0000000000000000       0x4f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextFvFile
+                0x0000000000000000       0x4f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextRelativeOffsetRange
+                0x0000000000000000       0x79 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextRamDisk
+                0x0000000000000000       0xe3 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextVirtualDisk
+                0x0000000000000000       0xd6 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextVirtualCd
+                0x0000000000000000       0xd6 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextPersistentVirtualDisk
+                0x0000000000000000       0xd6 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextPersistentVirtualCd
+                0x0000000000000000       0xd6 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextBbsPath
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextBBS
+                0x0000000000000000      0x196 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DevPathFromTextSata
+                0x0000000000000000       0xb5 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x71 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x12b /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.UefiDevicePathLibConvertTextToDeviceNode
+                0x0000000000000000      0x1f8 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.UefiDevicePathLibConvertTextToDevicePath
+                0x0000000000000000      0x262 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.GetDevicePathSize
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.DuplicateDevicePath
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.AppendDevicePath
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.AppendDevicePathNode
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.AppendDevicePathInstance
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.GetNextDevicePathInstance
+                0x0000000000000000       0x22 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.CreateDeviceNode
+                0x0000000000000000       0x2f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.IsDevicePathMultiInstance
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.ConvertDeviceNodeToText
+                0x0000000000000000       0x2f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.ConvertDevicePathToText
+                0x0000000000000000       0x2f /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.ConvertTextToDeviceNode
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.ConvertTextToDevicePath
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.InternalAllocatePages
+                0x0000000000000000       0x5a /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.AllocatePages
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.AllocateRuntimePages
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.AllocateReservedPages
+                0x0000000000000000       0x8e /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.FreePages
+                0x0000000000000000       0xac /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text.InternalAllocateAlignedPages
+                0x0000000000000000      0x2cf /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_info    0x0000000000000000     0x18ef /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x1f7 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_aranges
+                0x0000000000000000      0x2f0 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_ranges  0x0000000000000000      0x2e0 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_line    0x0000000000000000      0x849 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_str     0x0000000000000000      0xfce /tmp/ccWoziwa.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans19.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .debug_frame   0x0000000000000000      0x810 /tmp/ccWoziwa.ltrans19.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextMsg
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans20.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000      0x10e /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextAta
+                0x0000000000000000      0x123 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextScsi
+                0x0000000000000000       0x77 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextFibre
+                0x0000000000000000       0x84 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextFibreEx
+                0x0000000000000000       0xc6 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromText1394
+                0x0000000000000000       0x5d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsb
+                0x0000000000000000       0x75 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextI2O
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextInfiniband
+                0x0000000000000000       0xe9 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextVenMsg
+                0x0000000000000000       0x24 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextVenPcAnsi
+                0x0000000000000000       0x42 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextVenVt100
+                0x0000000000000000       0x42 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextVenVt100Plus
+                0x0000000000000000       0x42 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextVenUtf8
+                0x0000000000000000       0x42 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUartFlowCtrl
+                0x0000000000000000       0xa7 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextSAS
+                0x0000000000000000      0x2a9 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextSasEx
+                0x0000000000000000      0x2a6 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextNVMe
+                0x0000000000000000       0xb4 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUfs
+                0x0000000000000000       0x75 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextSd
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextEmmc
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextDebugPort
+                0x0000000000000000       0x42 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextMAC
+                0x0000000000000000       0xae /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.NetworkProtocolFromText
+                0x0000000000000000       0x58 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextIPv4
+                0x0000000000000000      0x1ab /tmp/ccWoziwa.ltrans20.ltrans.o
+ .rodata.str2.8
+                0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextIPv6
+                0x0000000000000000      0x1b3 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUart
+                0x0000000000000000      0x1ff /tmp/ccWoziwa.ltrans20.ltrans.o
+ .rodata.DevPathFromTextUart
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.ConvertFromTextUsbClass
+                0x0000000000000000      0x195 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbClass
+                0x0000000000000000       0x29 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbAudio
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbCDCControl
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbHID
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbImage
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbPrinter
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbMassStorage
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbHub
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbCDCData
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbSmartCard
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbVideo
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbDiagnostic
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbWireless
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbDeviceFirmwareUpdate
+                0x0000000000000000       0x31 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbIrdaBridge
+                0x0000000000000000       0x31 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbTestAndMeasurement
+                0x0000000000000000       0x31 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text.DevPathFromTextUsbWwid
+                0x0000000000000000      0x135 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_info    0x0000000000000000     0x1927 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xfc /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_aranges
+                0x0000000000000000      0x2f0 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_ranges  0x0000000000000000      0x2e0 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_line    0x0000000000000000      0x774 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_str     0x0000000000000000      0xda3 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans20.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .debug_frame   0x0000000000000000      0x730 /tmp/ccWoziwa.ltrans20.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000      0x1aa /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextVlan
+                0x0000000000000000       0x43 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .rodata.str2.8
+                0x0000000000000000      0x266 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextBluetooth
+                0x0000000000000000       0x89 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextWiFi
+                0x0000000000000000       0x5a /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextBluetoothLE
+                0x0000000000000000       0x9d /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextDns
+                0x0000000000000000       0xe6 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x47 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000       0xab /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextUri
+                0x0000000000000000       0xc1 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextHardDrive
+                0x0000000000000000       0xf4 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextCDROM
+                0x0000000000000000       0x7c /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextFilePath
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextMediaProtocol
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextFv
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextFvFile
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathRelativeOffsetRange
+                0x0000000000000000       0x4b /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x0000000000000000      0x306 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextBBS
+                0x0000000000000000      0x141 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .rodata.DevPathToTextBBS
+                0x0000000000000000       0x1c /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextEndInstance
+                0x0000000000000000       0x2d /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x0000000000000000      0x18c /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.UefiDevicePathLibConvertDeviceNodeToText
+                0x0000000000000000      0x1bc /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.UefiDevicePathLibConvertDevicePathToText
+                0x0000000000000000      0x283 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.UefiDevicePathLibStrDuplicate
+                0x0000000000000000       0x29 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.GetParamByNodeName
+                0x0000000000000000      0x101 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.SplitStr
+                0x0000000000000000       0x81 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.GetNextParamStr
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.GetNextDeviceNodeStr
+                0x0000000000000000      0x144 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.IsHexStr
+                0x0000000000000000       0x74 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.Strtoi   0x0000000000000000       0x38 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.Strtoi64
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.StrToAscii
+                0x0000000000000000       0x5e /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextGenericPath
+                0x0000000000000000       0xb2 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextPath
+                0x0000000000000000       0x41 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextHardwarePath
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextPci
+                0x0000000000000000       0x75 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextPcCard
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextMemoryMapped
+                0x0000000000000000       0x9e /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.ConvertFromTextVendor
+                0x0000000000000000       0xb5 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextVenHw
+                0x0000000000000000       0x24 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextCtrl
+                0x0000000000000000       0x50 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextBmc
+                0x0000000000000000       0x7f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextAcpiPath
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.EisaIdFromText
+                0x0000000000000000       0x66 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextAcpi
+                0x0000000000000000       0x75 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.ConvertFromTextAcpi
+                0x0000000000000000       0x67 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextPciRoot
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextPcieRoot
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextFloppy
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextKeyboard
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextSerial
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextParallelPort
+                0x0000000000000000       0x1f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextAcpiEx
+                0x0000000000000000      0x159 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextAcpiExp
+                0x0000000000000000      0x103 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text.DevPathFromTextAcpiAdr
+                0x0000000000000000      0x11f /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_info    0x0000000000000000     0x1c2c /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x240 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_aranges
+                0x0000000000000000      0x350 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_ranges  0x0000000000000000      0x340 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_line    0x0000000000000000      0x8f1 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_str     0x0000000000000000      0xe0d /tmp/ccWoziwa.ltrans21.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans21.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .debug_frame   0x0000000000000000      0x8a8 /tmp/ccWoziwa.ltrans21.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000      0x594 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextController
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans22.ltrans.o
+ .rodata.str2.8
+                0x0000000000000000      0x54a /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextBmc
+                0x0000000000000000       0x59 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextAcpi
+                0x0000000000000000      0x1a3 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextAcpiEx
+                0x0000000000000000      0x3b8 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextAcpiAdr
+                0x0000000000000000       0xc1 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextAtapi
+                0x0000000000000000       0xa8 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextScsi
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextFibre
+                0x0000000000000000       0x4b /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextFibreEx
+                0x0000000000000000       0xdd /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextSasEx
+                0x0000000000000000      0x265 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextNVMe
+                0x0000000000000000       0xe9 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextUfs
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextSd
+                0x0000000000000000       0x43 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextEmmc
+                0x0000000000000000       0x43 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToText1394
+                0x0000000000000000       0x40 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextUsb
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x17 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextUsbWWID
+                0x0000000000000000      0x10e /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextLogicalUnit
+                0x0000000000000000       0x43 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextUsbClass
+                0x0000000000000000      0x37d /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextSata
+                0x0000000000000000       0x60 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextI2O
+                0x0000000000000000       0x3f /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x0000000000000000       0xc2 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.CatNetworkProtocol
+                0x0000000000000000       0x66 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.CatIPv4Address
+                0x0000000000000000       0x5e /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.CatIPv6Address
+                0x0000000000000000      0x156 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextIPv4
+                0x0000000000000000      0x155 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextIPv6
+                0x0000000000000000      0x15d /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextInfiniBand
+                0x0000000000000000       0x71 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextUart
+                0x0000000000000000      0x1a7 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .rodata.DevPathToTextUart
+                0x0000000000000000       0x18 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text.DevPathToTextiSCSI
+                0x0000000000000000      0x1aa /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_info    0x0000000000000000     0x1769 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x11d /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_aranges
+                0x0000000000000000      0x200 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_ranges  0x0000000000000000      0x1f0 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_line    0x0000000000000000      0x6c1 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_str     0x0000000000000000      0xb1c /tmp/ccWoziwa.ltrans22.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans22.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .debug_frame   0x0000000000000000      0x4e8 /tmp/ccWoziwa.ltrans22.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ExitDriver
+                0x0000000000000000       0x54 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.SetDebugPrintErrorLevel
+                0x0000000000000000        0xe /tmp/ccWoziwa.ltrans23.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000      0x158 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.CodeTypeToPostCode
+                0x0000000000000000       0x7f /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ReportStatusCodeExtractAssertInfo
+                0x0000000000000000      0x13c /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ReportStatusCodeExtractDebugInfo
+                0x0000000000000000      0x11a /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ReportStatusCode
+                0x0000000000000000       0xa1 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ReportStatusCodeWithDevicePath
+                0x0000000000000000       0x62 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ReportStatusCodeWithExtendedData
+                0x0000000000000000       0x9c /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterBeforeIoRead
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterAfterIoRead
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterBeforeIoWrite
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterAfterIoWrite
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterBeforeMmIoRead
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterAfterMmIoRead
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterBeforeMmIoWrite
+                0x0000000000000000       0x16 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterAfterMmIoWrite
+                0x0000000000000000       0x11 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterBeforeMsrRead
+                0x0000000000000000       0x12 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterAfterMsrRead
+                0x0000000000000000        0xd /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterBeforeMsrWrite
+                0x0000000000000000       0x12 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FilterAfterMsrWrite
+                0x0000000000000000        0xd /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.IsDevicePathValid
+                0x0000000000000000      0x134 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevicePathType
+                0x0000000000000000       0x3d /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevicePathSubType
+                0x0000000000000000       0x3e /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevicePathNodeLength
+                0x0000000000000000       0x49 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.NextDevicePathNode
+                0x0000000000000000       0x49 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.IsDevicePathEndType
+                0x0000000000000000       0x44 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.IsDevicePathEnd
+                0x0000000000000000       0x5c /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.IsDevicePathEndInstance
+                0x0000000000000000       0x5c /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.SetDevicePathNodeLength
+                0x0000000000000000       0x82 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.SetDevicePathEndNode
+                0x0000000000000000       0x4c /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000000000       0x79 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000000000       0x39 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePath
+                0x0000000000000000      0x110 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathNode
+                0x0000000000000000       0xc7 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathInstance
+                0x0000000000000000      0x117 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibGetNextDevicePathInstance
+                0x0000000000000000      0x135 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibCreateDeviceNode
+                0x0000000000000000       0x67 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibIsDevicePathMultiInstance
+                0x0000000000000000       0x7b /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.FileDevicePath
+                0x0000000000000000       0xdb /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevicePathFromHandle
+                0x0000000000000000       0x49 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000000000      0x13d /tmp/ccWoziwa.ltrans23.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000      0x1be /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevPathToTextPci
+                0x0000000000000000       0x51 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevPathToTextPccard
+                0x0000000000000000       0x43 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevPathToTextMemMap
+                0x0000000000000000       0x57 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.DevPathToTextVendor
+                0x0000000000000000      0x47a /tmp/ccWoziwa.ltrans23.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccWoziwa.ltrans23.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccWoziwa.ltrans0.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans1.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans2.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans3.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans4.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans5.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans6.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans7.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans8.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans9.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans10.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans11.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans12.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans13.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans14.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans15.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans16.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans17.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans18.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans19.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans20.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans21.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans22.ltrans.o
+LOAD /tmp/ccWoziwa.ltrans23.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/OUTPUT/CapsuleRuntimeDxe.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode/OUTPUT/PeiDxeDebugLibReportStatusCode.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull/OUTPUT/DxeCapsuleLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeLib/UefiRuntimeLib/OUTPUT/UefiRuntimeLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib/OUTPUT/BaseCacheMaintenanceLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0x7578
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.UefiLibConstructor
+                0x0000000000000240       0x13 /tmp/ccWoziwa.ltrans1.ltrans.o
+                0x0000000000000240                UefiLibConstructor
+ .text.EfiCreateProtocolNotifyEvent
+                0x0000000000000253      0x1aa /tmp/ccWoziwa.ltrans1.ltrans.o
+                0x0000000000000253                EfiCreateProtocolNotifyEvent
+ .text.RuntimeDriverLibConstruct
+                0x00000000000003fd      0x198 /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x00000000000003fd                RuntimeDriverLibConstruct
+ .text.RuntimeDriverLibDeconstruct
+                0x0000000000000595      0x12b /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x0000000000000595                RuntimeDriverLibDeconstruct
+ .text.EfiAtRuntime
+                0x00000000000006c0        0xd /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x00000000000006c0                EfiAtRuntime
+ .text.EfiResetSystem
+                0x00000000000006cd       0x3b /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x00000000000006cd                EfiResetSystem
+ .text.EfiSetVariable
+                0x0000000000000708       0x40 /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x0000000000000708                EfiSetVariable
+ .text.EfiConvertPointer
+                0x0000000000000748       0x27 /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x0000000000000748                EfiConvertPointer
+ .text.WriteBackInvalidateDataCacheRange
+                0x000000000000076f      0x103 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .text.WriteBackDataCacheRange
+                0x0000000000000872       0x22 /tmp/ccWoziwa.ltrans6.ltrans.o
+                0x0000000000000872                WriteBackDataCacheRange
+ .text.UefiBootServicesTableLibConstructor
+                0x0000000000000894       0xc3 /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x0000000000000894                UefiBootServicesTableLibConstructor
+ .text.UefiRuntimeServicesTableLibConstructor
+                0x0000000000000957       0x53 /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x0000000000000957                UefiRuntimeServicesTableLibConstructor
+ .text._DriverUnloadHandler
+                0x00000000000009aa       0x3b /tmp/ccWoziwa.ltrans7.ltrans.o
+ .text._ModuleEntryPoint
+                0x00000000000009e5      0x11a /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x00000000000009e5                _ModuleEntryPoint
+ .text.SupportCapsuleImage
+                0x0000000000000aff       0x14 /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x0000000000000aff                SupportCapsuleImage
+ .text.ProcessCapsuleImage
+                0x0000000000000b13       0x14 /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x0000000000000b13                ProcessCapsuleImage
+ .text.RuntimeLibExitBootServicesEvent
+                0x0000000000000b27       0x15 /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x0000000000000b27                RuntimeLibExitBootServicesEvent
+ .text.RuntimeLibVirtualNotifyEvent
+                0x0000000000000b3c       0x2a /tmp/ccWoziwa.ltrans7.ltrans.o
+                0x0000000000000b3c                RuntimeLibVirtualNotifyEvent
+ .text.CpuPause
+                0x0000000000000b66        0x8 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x0000000000000b66                CpuPause
+ .text.CpuBreakpoint
+                0x0000000000000b6e        0x7 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.AsmWbinvd
+                0x0000000000000b75        0x8 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x0000000000000b75                AsmWbinvd
+ .text.AsmFlushCacheLine
+                0x0000000000000b7d       0x15 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x0000000000000b7d                AsmFlushCacheLine
+ .text.DebugPrint
+                0x0000000000000b92       0x39 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x0000000000000b92                DebugPrint
+ .text.DebugPrintMarker
+                0x0000000000000bcb      0x554 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DebugVPrint
+                0x000000000000111f       0xa1 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .text.DebugAssert
+                0x00000000000011c0      0x267 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x00000000000011c0                DebugAssert
+ .text.DebugAssertEnabled
+                0x0000000000001427       0x18 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x0000000000001427                DebugAssertEnabled
+ .text.DebugPrintEnabled
+                0x000000000000143f       0x18 /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x000000000000143f                DebugPrintEnabled
+ .text.DebugPrintLevelEnabled
+                0x0000000000001457       0x1c /tmp/ccWoziwa.ltrans8.ltrans.o
+                0x0000000000001457                DebugPrintLevelEnabled
+ .text.InternalMathLShiftU64
+                0x0000000000001473       0x1d /tmp/ccWoziwa.ltrans9.ltrans.o
+                0x0000000000001473                InternalMathLShiftU64
+ .text.InternalMathDivRemU64x32
+                0x0000000000001490       0x41 /tmp/ccWoziwa.ltrans9.ltrans.o
+                0x0000000000001490                InternalMathDivRemU64x32
+ .text.ReadUnaligned64
+                0x00000000000014d1       0x3d /tmp/ccWoziwa.ltrans9.ltrans.o
+                0x00000000000014d1                ReadUnaligned64
+ .text.WriteUnaligned64
+                0x000000000000150e       0x4c /tmp/ccWoziwa.ltrans9.ltrans.o
+                0x000000000000150e                WriteUnaligned64
+ .text.StrLen   0x000000000000155a       0xc0 /tmp/ccWoziwa.ltrans10.ltrans.o
+                0x000000000000155a                StrLen
+ .text.AsciiStrLen
+                0x000000000000161a       0x92 /tmp/ccWoziwa.ltrans10.ltrans.o
+                0x000000000000161a                AsciiStrLen
+ .text.AsciiStrSize
+                0x00000000000016ac       0x1b /tmp/ccWoziwa.ltrans10.ltrans.o
+                0x00000000000016ac                AsciiStrSize
+ .text.AsciiStrnLenS
+                0x00000000000016c7       0x60 /tmp/ccWoziwa.ltrans12.ltrans.o
+                0x00000000000016c7                AsciiStrnLenS
+ .text.AsciiStrnCpyS
+                0x0000000000001727      0x476 /tmp/ccWoziwa.ltrans12.ltrans.o
+                0x0000000000001727                AsciiStrnCpyS
+ .text.CpuDeadLoop
+                0x0000000000001b9d       0x22 /tmp/ccWoziwa.ltrans14.ltrans.o
+                0x0000000000001b9d                CpuDeadLoop
+ .text.InternalSafeStringIsOverlap
+                0x0000000000001bbf       0x68 /tmp/ccWoziwa.ltrans14.ltrans.o
+                0x0000000000001bbf                InternalSafeStringIsOverlap
+ .text.InternalSafeStringNoStrOverlap
+                0x0000000000001c27       0x3f /tmp/ccWoziwa.ltrans14.ltrans.o
+                0x0000000000001c27                InternalSafeStringNoStrOverlap
+ .text.InternalSafeStringNoAsciiStrOverlap
+                0x0000000000001c66       0x37 /tmp/ccWoziwa.ltrans14.ltrans.o
+                0x0000000000001c66                InternalSafeStringNoAsciiStrOverlap
+ .text.StrnLenS
+                0x0000000000001c9d       0x92 /tmp/ccWoziwa.ltrans14.ltrans.o
+                0x0000000000001c9d                StrnLenS
+ .text.StrCpyS  0x0000000000001d2f      0x413 /tmp/ccWoziwa.ltrans14.ltrans.o
+                0x0000000000001d2f                StrCpyS
+ .text.LShiftU64
+                0x0000000000002142       0x4a /tmp/ccWoziwa.ltrans15.ltrans.o
+                0x0000000000002142                LShiftU64
+ .text.DivU64x32Remainder
+                0x000000000000218c       0x51 /tmp/ccWoziwa.ltrans15.ltrans.o
+                0x000000000000218c                DivU64x32Remainder
+ .text.UnicodeValueToStringS
+                0x00000000000021dd       0xdd /tmp/ccWoziwa.ltrans16.ltrans.o
+                0x00000000000021dd                UnicodeValueToStringS
+ .text.BasePrintLibConvertValueToStringS
+                0x00000000000022ba      0x59e /tmp/ccWoziwa.ltrans17.ltrans.o
+                0x00000000000022ba                BasePrintLibConvertValueToStringS
+ .text.InternalMemSetMem
+                0x0000000000002858      0x13b /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.ZeroMem  0x0000000000002993       0x85 /tmp/ccWoziwa.ltrans18.ltrans.o
+                0x0000000000002993                ZeroMem
+ .text.CopyMem  0x0000000000002a18       0xb7 /tmp/ccWoziwa.ltrans18.ltrans.o
+                0x0000000000002a18                CopyMem
+ .text.InternalMemZeroMem
+                0x0000000000002acf       0x28 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.CopyGuid
+                0x0000000000002af7       0x51 /tmp/ccWoziwa.ltrans18.ltrans.o
+                0x0000000000002af7                CopyGuid
+ .text.CompareGuid
+                0x0000000000002b48       0x77 /tmp/ccWoziwa.ltrans18.ltrans.o
+                0x0000000000002b48                CompareGuid
+ .text.InternalMemCopyMem
+                0x0000000000002bbf      0x3a8 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000002f67       0x72 /tmp/ccWoziwa.ltrans18.ltrans.o
+                0x0000000000002f67                BasePrintLibFillBuffer
+ .text.BasePrintLibValueToString
+                0x0000000000002fd9       0x62 /tmp/ccWoziwa.ltrans18.ltrans.o
+                0x0000000000002fd9                BasePrintLibValueToString
+ .text.UpdateCapsule
+                0x000000000000303b      0x422 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.QueryCapsuleCapabilities
+                0x000000000000345d      0x298 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.CapsuleServiceInitialize
+                0x00000000000036f5      0x15e /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.CapsuleCacheWriteBack
+                0x0000000000003853       0xa4 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.IsPersistAcrossResetCapsuleSupported
+                0x00000000000038f7        0xd /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.AllocateReservedMemoryBelow4G
+                0x0000000000003904       0xe1 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.VariableLockCapsuleLongModeBufferVariable
+                0x00000000000039e5       0xba /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.PrepareContextForCapsulePei
+                0x0000000000003a9f      0x378 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.SaveLongModeContext
+                0x0000000000003e17       0x25 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ProcessLibraryConstructorList
+                0x0000000000003e3c      0x1c6 /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x0000000000003e3c                ProcessLibraryConstructorList
+ .text.ProcessLibraryDestructorList
+                0x0000000000004002       0x7f /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x0000000000004002                ProcessLibraryDestructorList
+ .text.ProcessModuleEntryPointList
+                0x0000000000004081       0x22 /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x0000000000004081                ProcessModuleEntryPointList
+ .text.ProcessModuleUnloadList
+                0x00000000000040a3        0xf /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x00000000000040a3                ProcessModuleUnloadList
+ .text.GetDebugPrintErrorLevel
+                0x00000000000040b2        0xc /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x00000000000040b2                GetDebugPrintErrorLevel
+ .text.InternalGetReportStatusCode
+                0x00000000000040be       0x70 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.InternalReportStatusCode
+                0x000000000000412e       0xa8 /tmp/ccWoziwa.ltrans23.ltrans.o
+ .text.ReportStatusCodeEx
+                0x00000000000041d6      0x2af /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x00000000000041d6                ReportStatusCodeEx
+ .text.ReportProgressCodeEnabled
+                0x0000000000004485       0x18 /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x0000000000004485                ReportProgressCodeEnabled
+ .text.ReportErrorCodeEnabled
+                0x000000000000449d       0x18 /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x000000000000449d                ReportErrorCodeEnabled
+ .text.ReportDebugCodeEnabled
+                0x00000000000044b5       0x18 /tmp/ccWoziwa.ltrans23.ltrans.o
+                0x00000000000044b5                ReportDebugCodeEnabled
+ *fill*         0x00000000000044cd        0x3 
+ .text          0x00000000000044d0       0x27 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                0x00000000000044d0                AsmCpuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000044f7       0x65 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdSupportUpdateCapsuleReset
+                0x000000000000455c        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x000000000000455c                _gPcd_FixedAtBuild_PcdSupportUpdateCapsuleReset
+ .rodata._gPcd_FixedAtBuild_PcdSupportProcessCapsuleAtRuntime
+                0x000000000000455d        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x000000000000455d                _gPcd_FixedAtBuild_PcdSupportProcessCapsuleAtRuntime
+ .rodata._gPcd_FixedAtBuild_PcdDxeIplSwitchToLongMode
+                0x000000000000455e        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x000000000000455e                _gPcd_FixedAtBuild_PcdDxeIplSwitchToLongMode
+ *fill*         0x000000000000455f        0x1 
+ .rodata._gPcd_FixedAtBuild_PcdMaxSizeNonPopulateCapsule
+                0x0000000000004560        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004560                _gPcd_FixedAtBuild_PcdMaxSizeNonPopulateCapsule
+ .rodata._gPcd_FixedAtBuild_PcdMaxSizePopulateCapsule
+                0x0000000000004564        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004564                _gPcd_FixedAtBuild_PcdMaxSizePopulateCapsule
+ .rodata._gPcd_FixedAtBuild_PcdCapsuleInRamSupport
+                0x0000000000004568        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004568                _gPcd_FixedAtBuild_PcdCapsuleInRamSupport
+ *fill*         0x0000000000004569        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdCapsulePeiLongModeStackSize
+                0x000000000000456c        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x000000000000456c                _gPcd_FixedAtBuild_PcdCapsulePeiLongModeStackSize
+ .rodata._gPcd_FixedAtBuild_PcdUse1GPageTable
+                0x0000000000004570        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004570                _gPcd_FixedAtBuild_PcdUse1GPageTable
+ *fill*         0x0000000000004571        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+                0x0000000000004574        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004574                _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+ .rodata._gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
+                0x0000000000004578        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004578                _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
+ *fill*         0x0000000000004579        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x000000000000457c        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x000000000000457c                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000004580        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004580                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000004584        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004584                _gPcd_FixedAtBuild_PcdDebugPropertyMask
+ *fill*         0x0000000000004585        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000004588        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004588                _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+ .rodata._gUefiDriverRevision
+                0x000000000000458c        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x000000000000458c                _gUefiDriverRevision
+ .rodata._gDriverUnloadImageCount
+                0x0000000000004590        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000004590                _gDriverUnloadImageCount
+ *fill*         0x0000000000004591        0xf 
+ .rodata.mHexStr
+                0x00000000000045a0       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000045a0                mHexStr
+ .rodata.__FUNCTION__.2845.lto_priv.28
+                0x00000000000045b0        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000045b0                __FUNCTION__.2845.lto_priv.28
+ .rodata.__FUNCTION__.3030.lto_priv.15
+                0x00000000000045b8        0xe /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000045b8                __FUNCTION__.3030.lto_priv.15
+ .rodata.str1.1
+                0x00000000000045c6      0x12a /tmp/ccWoziwa.ltrans1.ltrans.o
+                                        0x140 (size before relaxing)
+ .rodata.str1.8
+                0x00000000000046f0      0x113 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .rodata.str1.1
+                0x0000000000004803       0xe6 /tmp/ccWoziwa.ltrans6.ltrans.o
+                                         0xfd (size before relaxing)
+ *fill*         0x00000000000048e9        0x7 
+ .rodata.str1.8
+                0x00000000000048f0      0x26e /tmp/ccWoziwa.ltrans6.ltrans.o
+                                        0x2be (size before relaxing)
+ *fill*         0x0000000000004b5e        0x2 
+ .rodata.str1.8
+                0x0000000000004b60      0x1f4 /tmp/ccWoziwa.ltrans7.ltrans.o
+                                        0x244 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000004d54       0xa0 /tmp/ccWoziwa.ltrans7.ltrans.o
+                                         0xf4 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000004df4       0x31 /tmp/ccWoziwa.ltrans8.ltrans.o
+                                         0x5f (size before relaxing)
+ *fill*         0x0000000000004e25        0x3 
+ .rodata.str1.8
+                0x0000000000004e28       0x8f /tmp/ccWoziwa.ltrans8.ltrans.o
+                                        0x122 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000004eb7      0x170 /tmp/ccWoziwa.ltrans9.ltrans.o
+                                        0x199 (size before relaxing)
+ *fill*         0x0000000000005027        0x1 
+ .rodata.str1.8
+                0x0000000000005028      0x6ab /tmp/ccWoziwa.ltrans9.ltrans.o
+ *fill*         0x00000000000056d3        0x5 
+ .rodata.str1.8
+                0x00000000000056d8      0x209 /tmp/ccWoziwa.ltrans10.ltrans.o
+                                        0x249 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000058e1      0x185 /tmp/ccWoziwa.ltrans10.ltrans.o
+                                        0x1b2 (size before relaxing)
+ *fill*         0x0000000000005a66        0x2 
+ .rodata.str1.8
+                0x0000000000005a68      0x163 /tmp/ccWoziwa.ltrans12.ltrans.o
+                                        0x253 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000005bcb       0x98 /tmp/ccWoziwa.ltrans12.ltrans.o
+                                        0x105 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000005c63       0x77 /tmp/ccWoziwa.ltrans14.ltrans.o
+                                        0x10b (size before relaxing)
+ *fill*         0x0000000000005cda        0x6 
+ .rodata.str1.8
+                0x0000000000005ce0      0x337 /tmp/ccWoziwa.ltrans14.ltrans.o
+                                        0x427 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000006017       0x8e /tmp/ccWoziwa.ltrans15.ltrans.o
+                                        0x116 (size before relaxing)
+ *fill*         0x00000000000060a5        0x3 
+ .rodata.str1.8
+                0x00000000000060a8      0x645 /tmp/ccWoziwa.ltrans15.ltrans.o
+                                        0x685 (size before relaxing)
+ *fill*         0x00000000000066ed        0x3 
+ .rodata.str1.8
+                0x00000000000066f0       0xb9 /tmp/ccWoziwa.ltrans16.ltrans.o
+                                        0x138 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000067a9       0x7b /tmp/ccWoziwa.ltrans17.ltrans.o
+                                         0xab (size before relaxing)
+ *fill*         0x0000000000006824        0x4 
+ .rodata.str1.8
+                0x0000000000006828      0x379 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .rodata.str1.1
+                0x0000000000006ba1       0x28 /tmp/ccWoziwa.ltrans18.ltrans.o
+                                         0x3f (size before relaxing)
+ *fill*         0x0000000000006bc9        0x7 
+ .rodata.str1.8
+                0x0000000000006bd0      0x6d8 /tmp/ccWoziwa.ltrans18.ltrans.o
+                                        0x728 (size before relaxing)
+ .rodata.str2.8
+                0x00000000000072a8      0x118 /tmp/ccWoziwa.ltrans23.ltrans.o
+                                        0x114 (size before relaxing)
+ .rodata.str1.8
+                0x00000000000073c0      0x3f8 /tmp/ccWoziwa.ltrans23.ltrans.o
+                                        0x441 (size before relaxing)
+ *(.got .got.*)
+ .got           0x00000000000077b8        0x0 CapsuleService.obj (symbol from plugin)
+ .got.plt       0x00000000000077b8        0x0 CapsuleService.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x00000000000077c0        0x0
+ .plt           0x00000000000077c0        0x0 CapsuleService.obj (symbol from plugin)
+
+.plt.got        0x00000000000077b8        0x0
+ .plt.got       0x00000000000077b8        0x0 CapsuleService.obj (symbol from plugin)
+
+.data           0x00000000000077c0      0x100
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiCallerIdGuid
+                0x00000000000077c0       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000077c0                gEfiCallerIdGuid
+ .data.rel.local.gEfiCallerBaseName
+                0x00000000000077d0        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000077d0                gEfiCallerBaseName
+ *fill*         0x00000000000077d8        0x8 
+ .data.gEfiCapsuleVendorGuid
+                0x00000000000077e0       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000077e0                gEfiCapsuleVendorGuid
+ .data.gEfiFmpCapsuleGuid
+                0x00000000000077f0       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000077f0                gEfiFmpCapsuleGuid
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x0000000000007800       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007800                gEfiStatusCodeSpecificDataGuid
+ .data.gEfiStatusCodeDataTypeDebugGuid
+                0x0000000000007810       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007810                gEfiStatusCodeDataTypeDebugGuid
+ .data.gEfiCapsuleArchProtocolGuid
+                0x0000000000007820       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007820                gEfiCapsuleArchProtocolGuid
+ .data.gEdkiiVariableLockProtocolGuid
+                0x0000000000007830       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007830                gEdkiiVariableLockProtocolGuid
+ .data.gEfiStatusCodeRuntimeProtocolGuid
+                0x0000000000007840       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007840                gEfiStatusCodeRuntimeProtocolGuid
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000007850       0x10 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007850                gEfiLoadedImageProtocolGuid
+ .data.rel.ro   0x0000000000007860        0x0 CapsuleService.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.mNewHandle
+                0x0000000000007860        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007860                mNewHandle
+ .bss.mTimes    0x0000000000007868        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007868                mTimes
+ .bss.mMaxSizePopulateCapsule
+                0x0000000000007870        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007870                mMaxSizePopulateCapsule
+ .bss.mMaxSizeNonPopulateCapsule
+                0x0000000000007874        0x4 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007874                mMaxSizeNonPopulateCapsule
+ .bss.mReportStatusCodeLibStatusCodeProtocol
+                0x0000000000007878        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007878                mReportStatusCodeLibStatusCodeProtocol
+ .bss.gImageHandle
+                0x0000000000007880        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007880                gImageHandle
+ .bss.gST       0x0000000000007888        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007888                gST
+ .bss.gBS       0x0000000000007890        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007890                gBS
+ .bss.gRT       0x0000000000007898        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x0000000000007898                gRT
+ .bss.mEfiVirtualNotifyEvent
+                0x00000000000078a0        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000078a0                mEfiVirtualNotifyEvent
+ .bss.mEfiExitBootServicesEvent
+                0x00000000000078a8        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000078a8                mEfiExitBootServicesEvent
+ .bss.mEfiGoneVirtual
+                0x00000000000078b0        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000078b0                mEfiGoneVirtual
+ .bss.mEfiAtRuntime
+                0x00000000000078b1        0x1 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000078b1                mEfiAtRuntime
+ *fill*         0x00000000000078b2        0x6 
+ .bss.mInternalRT
+                0x00000000000078b8        0x8 /tmp/ccWoziwa.ltrans0.ltrans.o
+                0x00000000000078b8                mInternalRT
+
+.eh_frame       0x00000000000078c0        0x0
+ *(.eh_frame)
+ .eh_frame      0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+ .eh_frame      0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+
+.dynbss         0x00000000000078c0        0x0
+ .dynbss        0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+
+.gnu.version_d  0x00000000000078c0        0x0
+ .gnu.version_d
+                0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+
+.gnu.version    0x00000000000078c0        0x0
+ .gnu.version   0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+
+.gnu.version_r  0x00000000000078c0        0x0
+ .gnu.version_r
+                0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+
+.rela           0x00000000000078c0       0x18
+ *(.rela .rela.*)
+ .rela.plt      0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+ .rela.got      0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+ .rela.bss      0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+ .rela.ifunc    0x00000000000078c0        0x0 CapsuleService.obj (symbol from plugin)
+ .rela.data.rel.local.gEfiCallerBaseName
+                0x00000000000078c0       0x18 CapsuleService.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x00000000000078d8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000078d8       0x24 CapsuleService.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe/DEBUG/CapsuleRuntimeDxe.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x163ba
+ .debug_info    0x0000000000000000     0x3d7a /tmp/ccWoziwa.ltrans0.ltrans.o
+ .debug_info    0x0000000000003d7a     0x1d63 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .debug_info    0x0000000000005add     0x2c99 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .debug_info    0x0000000000008776     0x26e9 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .debug_info    0x000000000000ae5f     0x1d66 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .debug_info    0x000000000000cbc5     0x1888 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .debug_info    0x000000000000e44d      0xbce /tmp/ccWoziwa.ltrans10.ltrans.o
+ .debug_info    0x000000000000f01b      0x580 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .debug_info    0x000000000000f59b      0x9d8 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .debug_info    0x000000000000ff73     0x11a0 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .debug_info    0x0000000000011113      0xa38 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .debug_info    0x0000000000011b4b      0x644 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .debug_info    0x000000000001218f     0x128d /tmp/ccWoziwa.ltrans18.ltrans.o
+ .debug_info    0x000000000001341c     0x2f9e /tmp/ccWoziwa.ltrans23.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x1d10
+ .debug_abbrev  0x0000000000000000      0x22d /tmp/ccWoziwa.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000022d      0x264 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000491      0x2d1 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000000762      0x28c /tmp/ccWoziwa.ltrans7.ltrans.o
+ .debug_abbrev  0x00000000000009ee      0x375 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000000d63      0x20e /tmp/ccWoziwa.ltrans9.ltrans.o
+ .debug_abbrev  0x0000000000000f71      0x171 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .debug_abbrev  0x00000000000010e2       0xda /tmp/ccWoziwa.ltrans12.ltrans.o
+ .debug_abbrev  0x00000000000011bc      0x192 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .debug_abbrev  0x000000000000134e      0x1f4 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .debug_abbrev  0x0000000000001542      0x11d /tmp/ccWoziwa.ltrans16.ltrans.o
+ .debug_abbrev  0x000000000000165f      0x101 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .debug_abbrev  0x0000000000001760      0x1e4 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .debug_abbrev  0x0000000000001944      0x3cc /tmp/ccWoziwa.ltrans23.ltrans.o
+
+.debug_aranges  0x0000000000000000     0x23e0
+ .debug_aranges
+                0x0000000000000000      0x130 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000130      0x130 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000260      0x2c0 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .debug_aranges
+                0x0000000000000520      0x380 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .debug_aranges
+                0x00000000000008a0      0x570 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .debug_aranges
+                0x0000000000000e10      0x420 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .debug_aranges
+                0x0000000000001230      0x230 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000001460       0xc0 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .debug_aranges
+                0x0000000000001520      0x1e0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .debug_aranges
+                0x0000000000001700      0x350 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .debug_aranges
+                0x0000000000001a50      0x1a0 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .debug_aranges
+                0x0000000000001bf0       0x50 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .debug_aranges
+                0x0000000000001c40      0x370 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .debug_aranges
+                0x0000000000001fb0      0x430 /tmp/ccWoziwa.ltrans23.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2300
+ .debug_ranges  0x0000000000000000      0x120 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000120      0x120 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000240      0x2b0 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .debug_ranges  0x00000000000004f0      0x370 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000000860      0x560 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .debug_ranges  0x0000000000000dc0      0x410 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .debug_ranges  0x00000000000011d0      0x220 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .debug_ranges  0x00000000000013f0       0xb0 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .debug_ranges  0x00000000000014a0      0x1d0 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .debug_ranges  0x0000000000001670      0x340 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .debug_ranges  0x00000000000019b0      0x190 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .debug_ranges  0x0000000000001b40       0x40 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .debug_ranges  0x0000000000001b80      0x360 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .debug_ranges  0x0000000000001ee0      0x420 /tmp/ccWoziwa.ltrans23.ltrans.o
+
+.debug_line     0x0000000000000000     0x711c
+ .debug_line    0x0000000000000000      0xb5f /tmp/ccWoziwa.ltrans0.ltrans.o
+ .debug_line    0x0000000000000b5f      0x4d2 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .debug_line    0x0000000000001031      0x80a /tmp/ccWoziwa.ltrans6.ltrans.o
+ .debug_line    0x000000000000183b      0x9dd /tmp/ccWoziwa.ltrans7.ltrans.o
+ .debug_line    0x0000000000002218      0xcca /tmp/ccWoziwa.ltrans8.ltrans.o
+ .debug_line    0x0000000000002ee2      0x9bc /tmp/ccWoziwa.ltrans9.ltrans.o
+ .debug_line    0x000000000000389e      0x5fe /tmp/ccWoziwa.ltrans10.ltrans.o
+ .debug_line    0x0000000000003e9c      0x2fe /tmp/ccWoziwa.ltrans12.ltrans.o
+ .debug_line    0x000000000000419a      0x4d9 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .debug_line    0x0000000000004673      0x900 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .debug_line    0x0000000000004f73      0x41e /tmp/ccWoziwa.ltrans16.ltrans.o
+ .debug_line    0x0000000000005391      0x496 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .debug_line    0x0000000000005827      0x9ad /tmp/ccWoziwa.ltrans18.ltrans.o
+ .debug_line    0x00000000000061d4      0xf48 /tmp/ccWoziwa.ltrans23.ltrans.o
+
+.debug_str      0x0000000000000000     0x6675
+ .debug_str     0x0000000000000000     0x2b8f /tmp/ccWoziwa.ltrans0.ltrans.o
+                                       0x3180 (size before relaxing)
+ .debug_str     0x0000000000002b8f      0x2b4 /tmp/ccWoziwa.ltrans1.ltrans.o
+                                       0x1677 (size before relaxing)
+ .debug_str     0x0000000000002e43      0xafb /tmp/ccWoziwa.ltrans6.ltrans.o
+                                       0x202b (size before relaxing)
+ .debug_str     0x000000000000393e      0x4d2 /tmp/ccWoziwa.ltrans7.ltrans.o
+                                       0x1a4a (size before relaxing)
+ .debug_str     0x0000000000003e10      0x5ec /tmp/ccWoziwa.ltrans8.ltrans.o
+                                        0xfe3 (size before relaxing)
+ .debug_str     0x00000000000043fc      0x742 /tmp/ccWoziwa.ltrans9.ltrans.o
+                                        0xa40 (size before relaxing)
+ .debug_str     0x0000000000004b3e      0x3a4 /tmp/ccWoziwa.ltrans10.ltrans.o
+                                        0x738 (size before relaxing)
+ .debug_str     0x0000000000004ee2      0x1b2 /tmp/ccWoziwa.ltrans12.ltrans.o
+                                        0x470 (size before relaxing)
+ .debug_str     0x0000000000005094      0x229 /tmp/ccWoziwa.ltrans14.ltrans.o
+                                        0x5bc (size before relaxing)
+ .debug_str     0x00000000000052bd      0x2a6 /tmp/ccWoziwa.ltrans15.ltrans.o
+                                        0x70b (size before relaxing)
+ .debug_str     0x0000000000005563      0x1e8 /tmp/ccWoziwa.ltrans16.ltrans.o
+                                        0x4cd (size before relaxing)
+ .debug_str     0x000000000000574b      0x179 /tmp/ccWoziwa.ltrans17.ltrans.o
+                                        0x51c (size before relaxing)
+ .debug_str     0x00000000000058c4      0x433 /tmp/ccWoziwa.ltrans18.ltrans.o
+                                        0x961 (size before relaxing)
+ .debug_str     0x0000000000005cf7      0x97e /tmp/ccWoziwa.ltrans23.ltrans.o
+                                       0x2066 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x61d8
+ .debug_frame   0x0000000000000000      0x3b8 /tmp/ccWoziwa.ltrans0.ltrans.o
+ .debug_frame   0x00000000000003b8      0x2e8 /tmp/ccWoziwa.ltrans1.ltrans.o
+ .debug_frame   0x00000000000006a0      0x7d8 /tmp/ccWoziwa.ltrans6.ltrans.o
+ .debug_frame   0x0000000000000e78      0x918 /tmp/ccWoziwa.ltrans7.ltrans.o
+ .debug_frame   0x0000000000001790      0xdc0 /tmp/ccWoziwa.ltrans8.ltrans.o
+ .debug_frame   0x0000000000002550      0xa20 /tmp/ccWoziwa.ltrans9.ltrans.o
+ .debug_frame   0x0000000000002f70      0x548 /tmp/ccWoziwa.ltrans10.ltrans.o
+ .debug_frame   0x00000000000034b8      0x280 /tmp/ccWoziwa.ltrans12.ltrans.o
+ .debug_frame   0x0000000000003738      0x510 /tmp/ccWoziwa.ltrans14.ltrans.o
+ .debug_frame   0x0000000000003c48      0x828 /tmp/ccWoziwa.ltrans15.ltrans.o
+ .debug_frame   0x0000000000004470      0x648 /tmp/ccWoziwa.ltrans16.ltrans.o
+ .debug_frame   0x0000000000004ab8       0x98 /tmp/ccWoziwa.ltrans17.ltrans.o
+ .debug_frame   0x0000000000004b50      0xb30 /tmp/ccWoziwa.ltrans18.ltrans.o
+ .debug_frame   0x0000000000005680      0xb58 /tmp/ccWoziwa.ltrans23.ltrans.o

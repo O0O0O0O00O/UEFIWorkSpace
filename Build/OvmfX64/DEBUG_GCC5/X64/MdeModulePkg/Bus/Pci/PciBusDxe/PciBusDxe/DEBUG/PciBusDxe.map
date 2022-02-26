@@ -1,0 +1,1717 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciIo.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciBus.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciDeviceSupport.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(ComponentName.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciCommand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciResourceSupport.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciEnumeratorSupport.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciEnumerator.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciOptionRomSupport.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciDriverOverride.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciPowerManagement.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciRomTable.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciHotPlugSupport.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBuffer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibMmioBuffer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoHighLevel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoFifoSev.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib(DebugIoPortQemu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib(DebugLibDetect.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol/OUTPUT/UefiDevicePathLibDevicePathProtocol.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.unlikely.FindResourceNode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.unlikely.AdjustPciDeviceBarSize
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.unlikely.DumpResourceMap
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.unlikely.PciAllocateBusNumber
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.unlikely.PciHostBridgeResourceAllocator
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoSetBarAttributes
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoGetLocation
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoGetBarAttributes
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoFlush
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoFreeBuffer
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoAllocateBuffer
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoUnmap
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoMap
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoCopyMem
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoIoWrite
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoIoRead
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoMemWrite
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoAttributes
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoConfigWrite
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text.unlikely.PciIoConfigRead
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.unlikely.CalculateResourceAperture
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.unlikely.CreateResourceNode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.unlikely.InsertResourceNode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.unlikely.GetResourceFromDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.unlikely.MergeResourceTree
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.unlikely.CreateResourceMap
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.unlikely.PciBusDriverBindingSupported
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.unlikely.FreePciDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.unlikely.DestroyRootBridge
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.unlikely.PciBusDriverBindingStart
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.unlikely.PciBusDriverBindingStop
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.unlikely.PciIoVerifyConfigAccess.part.1.lto_priv.34
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciIoVerifyBarAccess
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciIoMemRead
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciIoPollIo
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciIoPollMem
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.RemoveRejectedPciDevices.part.0.lto_priv.33
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciProgramResizableBar
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciRootBridgeP2CProcess
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text.unlikely.PciScanBus
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.GetFastBackToBackSupport
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.PciSetDeviceAttribute
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.CreatePciIoDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.InitializeP2C
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.DetermineDeviceAttribute
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.ProcessOptionRomLight
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.BarExisted
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.unlikely.PciParseBar
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.PciHPCInitialized
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.LoadFile2
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.PciHotPlugRequestNotify
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.InitializeListHead
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.GetFirstNode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.GetDriver
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.InsertHeadList
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.HighBitSet32
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.LShiftU64
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000       0x56 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.EfiCompareDevicePath
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.IsPciHotPlugBus
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.GetResourcePaddingForHpb
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.PciRomAddImageMapping
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.AddDriver
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.RomDecode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text.unlikely.PreprocessController
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .text.unlikely.PciSearchDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x3 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely.InternalAllocateZeroPool.constprop.11
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely.RegisterPciDevice.constprop.3
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely.ReportDebugCodeEnabled
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely.ReportErrorCodeEnabled
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely.ReportProgressCodeEnabled
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text.unlikely.ReportStatusCodeEx.constprop.6
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.PciDevicePresent
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.GetResourcePaddingPpb
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.PciPciDeviceInfoCollector
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.DestroyResourceTree
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.InitializeResourcePool
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.ResourceRequestExisted
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.ProgramUpstreamBridgeForRom
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text.unlikely.ProgramResource
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.25
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .text.unlikely.DebugPrintMarker.part.0.constprop.22
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .text.unlikely.LocateCapabilityRegBlock.constprop.18
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.17
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .text.unlikely.LocatePciExpressCapabilityRegBlock.constprop.12
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugIoPort
+                0x0000000000000000        0x2 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.GetLargerConsumerDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.PciAssignBusNumber
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.NotifyPhase
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.PciBridgeEnumerator
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.GetMaxResourceConsumerDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.GetMaxOptionRomSize
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.ProcessOptionRom
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.ResetAllPpbBusNumber
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.unlikely.PciRootBridgeEnumerator
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.PlatformDebugLibIoPortFound
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.GetDevicePathSize
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DebugPrintEnabled
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DebugAssertEnabled
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DebugAssert
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.ReportStatusCodeWithExtendedData
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.ReportStatusCodeWithDevicePath
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.SetDevicePathNodeLength
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DevicePathSubType
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DevicePathType
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.IsDevicePathEnd
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.WriteUnaligned64
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DebugPrint
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.CopyGuid
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.CompareMem.part.0.lto_priv.31
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.ZeroMem.part.0.lto_priv.30
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.ReadUnaligned24
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.ReadUnaligned16
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.DevicePathNodeLength
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.NextDevicePathNode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.AsciiStrnCmp.part.4.lto_priv.32
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.StrnLenS
+                0x0000000000000000       0x5d /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.IsNull
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.IsListEmpty
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.RemoveEntryList
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.unlikely.GetNextNode
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.PciBusComponentNameGetControllerName
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.PciBusComponentNameGetDriverName
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.LocateVgaDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.PciOperateRegister
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.LocateVgaDeviceOnHostBridge
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.PciDeviceExisted
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.GetRootBridgeByHandle
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.CreateRootBridge
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.StartPciDevicesOnBridge
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.DeRegisterPciDevice
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.RemoveAllPciDeviceOnBridge
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.unlikely.DestroyPciDeviceTree
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans13.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .text.unlikely.VfBarExisted
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .text.unlikely.DumpPciBars
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans14.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans15.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.27
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans15.ltrans.o
+ .text.unlikely.AsciiSPrint.constprop.26
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cciRsTFx.ltrans15.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciRsTFx.ltrans15.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+ .text          0x0000000000000000       0x17 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64.obj)
+ .text          0x0000000000000000       0x16 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32.obj)
+ .text          0x0000000000000000       0x17 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16.obj)
+ .text          0x0000000000000000       0x16 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8.obj)
+ .text          0x0000000000000000       0x12 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64.obj)
+ .text          0x0000000000000000       0x11 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32.obj)
+ .text          0x0000000000000000       0x12 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16.obj)
+ .text          0x0000000000000000       0x11 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem.obj)
+ .text          0x0000000000000000       0x2a /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBuffer.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cciRsTFx.ltrans0.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans1.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans2.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans3.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans4.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans5.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans6.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans7.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans8.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans9.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans10.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans11.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans12.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans13.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans14.ltrans.o
+LOAD /tmp/cciRsTFx.ltrans15.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol/OUTPUT/UefiDevicePathLibDevicePathProtocol.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0xff84
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.FindResourceNode
+                0x0000000000000240       0x83 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.AdjustPciDeviceBarSize
+                0x00000000000002c3      0x135 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.DumpResourceMap
+                0x00000000000003f8      0x5bb /tmp/cciRsTFx.ltrans0.ltrans.o
+ .text.PciAllocateBusNumber
+                0x00000000000009b3       0x78 /tmp/cciRsTFx.ltrans0.ltrans.o
+                0x00000000000009b3                PciAllocateBusNumber
+ .text.PciHostBridgeResourceAllocator
+                0x0000000000000a2b     0x1011 /tmp/cciRsTFx.ltrans0.ltrans.o
+                0x0000000000000a2b                PciHostBridgeResourceAllocator
+ .text.PciIoSetBarAttributes
+                0x0000000000001a3c       0xb9 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001a3c                PciIoSetBarAttributes
+ .text.PciIoGetLocation
+                0x0000000000001af5       0xa8 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001af5                PciIoGetLocation
+ .text.PciIoGetBarAttributes
+                0x0000000000001b9d      0x20f /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001b9d                PciIoGetBarAttributes
+ .text.PciIoFlush
+                0x0000000000001dac       0x77 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001dac                PciIoFlush
+ .text.PciIoFreeBuffer
+                0x0000000000001e23       0x85 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001e23                PciIoFreeBuffer
+ .text.PciIoAllocateBuffer
+                0x0000000000001ea8       0xda /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001ea8                PciIoAllocateBuffer
+ .text.PciIoUnmap
+                0x0000000000001f82       0x99 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000001f82                PciIoUnmap
+ .text.PciIoMap
+                0x000000000000201b      0x13f /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x000000000000201b                PciIoMap
+ .text.PciIoCopyMem
+                0x000000000000215a      0x154 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x000000000000215a                PciIoCopyMem
+ .text.PciIoIoWrite
+                0x00000000000022ae      0x12f /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x00000000000022ae                PciIoIoWrite
+ .text.PciIoIoRead
+                0x00000000000023dd      0x12f /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x00000000000023dd                PciIoIoRead
+ .text.PciIoMemWrite
+                0x000000000000250c      0x12f /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x000000000000250c                PciIoMemWrite
+ .text.PciIoAttributes
+                0x000000000000263b      0x457 /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x000000000000263b                PciIoAttributes
+ .text.PciIoConfigWrite
+                0x0000000000002a92       0xfd /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000002a92                PciIoConfigWrite
+ .text.PciIoConfigRead
+                0x0000000000002b8f       0xfd /tmp/cciRsTFx.ltrans1.ltrans.o
+                0x0000000000002b8f                PciIoConfigRead
+ .text.CalculateResourceAperture
+                0x0000000000002c8c      0x456 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.CreateResourceNode
+                0x00000000000030e2       0xb8 /tmp/cciRsTFx.ltrans2.ltrans.o
+                0x00000000000030e2                CreateResourceNode
+ .text.InsertResourceNode
+                0x000000000000319a      0x1e2 /tmp/cciRsTFx.ltrans2.ltrans.o
+                0x000000000000319a                InsertResourceNode
+ .text.GetResourceFromDevice
+                0x000000000000337c      0x221 /tmp/cciRsTFx.ltrans2.ltrans.o
+                0x000000000000337c                GetResourceFromDevice
+ .text.MergeResourceTree
+                0x000000000000359d      0x104 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .text.CreateResourceMap
+                0x00000000000036a1      0x7ae /tmp/cciRsTFx.ltrans2.ltrans.o
+                0x00000000000036a1                CreateResourceMap
+ .text.PciBusDriverBindingSupported
+                0x0000000000003e4f      0x123 /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x0000000000003e4f                PciBusDriverBindingSupported
+ .text.FreePciDevice
+                0x0000000000003f72       0x97 /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x0000000000003f72                FreePciDevice
+ .text.DestroyRootBridge
+                0x0000000000004009       0x12 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .text.PciBusDriverBindingStart
+                0x000000000000401b      0xb2b /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x000000000000401b                PciBusDriverBindingStart
+ .text.PciBusDriverBindingStop
+                0x0000000000004b46      0x12b /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x0000000000004b46                PciBusDriverBindingStop
+ .text.PciIoVerifyConfigAccess.part.1.lto_priv.34
+                0x0000000000004c71      0x108 /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x0000000000004c71                PciIoVerifyConfigAccess.part.1.lto_priv.34
+ .text.PciIoVerifyBarAccess
+                0x0000000000004d79       0xb0 /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x0000000000004d79                PciIoVerifyBarAccess
+ .text.PciIoMemRead
+                0x0000000000004e29      0x12f /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x0000000000004e29                PciIoMemRead
+ .text.PciIoPollIo
+                0x0000000000004f58      0x1ff /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x0000000000004f58                PciIoPollIo
+ .text.PciIoPollMem
+                0x0000000000005157      0x205 /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x0000000000005157                PciIoPollMem
+ .text.RemoveRejectedPciDevices.part.0.lto_priv.33
+                0x000000000000535c      0x1cc /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x000000000000535c                RemoveRejectedPciDevices.part.0.lto_priv.33
+ .text.PciProgramResizableBar
+                0x0000000000005528      0x2f3 /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x0000000000005528                PciProgramResizableBar
+ .text.PciRootBridgeP2CProcess
+                0x000000000000581b      0x179 /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x000000000000581b                PciRootBridgeP2CProcess
+ .text.PciScanBus
+                0x0000000000005994      0x650 /tmp/cciRsTFx.ltrans4.ltrans.o
+                0x0000000000005994                PciScanBus
+ .text.GetFastBackToBackSupport
+                0x0000000000005fe4       0x4d /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.PciSetDeviceAttribute
+                0x0000000000006031      0x14a /tmp/cciRsTFx.ltrans5.ltrans.o
+ .text.CreatePciIoDevice
+                0x000000000000617b      0x6ff /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x000000000000617b                CreatePciIoDevice
+ .text.InitializeP2C
+                0x000000000000687a      0x14c /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x000000000000687a                InitializeP2C
+ .text.DetermineDeviceAttribute
+                0x00000000000069c6      0x3cc /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x00000000000069c6                DetermineDeviceAttribute
+ .text.ProcessOptionRomLight
+                0x0000000000006d92      0x133 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000006d92                ProcessOptionRomLight
+ .text.BarExisted
+                0x0000000000006ec5      0x10d /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000006ec5                BarExisted
+ .text.PciParseBar
+                0x0000000000006fd2      0x317 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000006fd2                PciParseBar
+ .text.PciHPCInitialized
+                0x00000000000072e9        0x5 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x00000000000072e9                PciHPCInitialized
+ .text.LoadFile2
+                0x00000000000072ee      0x288 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x00000000000072ee                LoadFile2
+ .text.PciHotPlugRequestNotify
+                0x0000000000007576      0x1ab /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007576                PciHotPlugRequestNotify
+ .text.InitializeListHead
+                0x0000000000007721       0x3e /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007721                InitializeListHead
+ .text.InternalBaseLibIsListValid
+                0x000000000000775f       0x9e /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x000000000000775f                InternalBaseLibIsListValid
+ .text.GetFirstNode
+                0x00000000000077fd       0x3e /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x00000000000077fd                GetFirstNode
+ .text.GetDriver
+                0x000000000000783b      0x23e /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x000000000000783b                GetDriver
+ .text.IsNodeInList
+                0x0000000000007a79       0x93 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007a79                IsNodeInList
+ .text.InsertTailList
+                0x0000000000007b0c       0x7f /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007b0c                InsertTailList
+ .text.InsertHeadList
+                0x0000000000007b8b       0x7e /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007b8b                InsertHeadList
+ .text.HighBitSet32
+                0x0000000000007c09       0x19 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007c09                HighBitSet32
+ .text.LShiftU64
+                0x0000000000007c22       0x43 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007c22                LShiftU64
+ .text.EfiCompareDevicePath
+                0x0000000000007c65       0x61 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007c65                EfiCompareDevicePath
+ .text.IsPciHotPlugBus
+                0x0000000000007cc6      0x117 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007cc6                IsPciHotPlugBus
+ .text.GetResourcePaddingForHpb
+                0x0000000000007ddd       0x96 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007ddd                GetResourcePaddingForHpb
+ .text.PciRomAddImageMapping
+                0x0000000000007e73      0x1e6 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000007e73                PciRomAddImageMapping
+ .text.AddDriver
+                0x0000000000008059       0xb2 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000008059                AddDriver
+ .text.RomDecode
+                0x000000000000810b       0xcf /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x000000000000810b                RomDecode
+ .text.PreprocessController
+                0x00000000000081da      0x12d /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x00000000000081da                PreprocessController
+ .text.PciSearchDevice
+                0x0000000000008307      0xe70 /tmp/cciRsTFx.ltrans7.ltrans.o
+                0x0000000000008307                PciSearchDevice
+ .text.InternalAllocateZeroPool.constprop.11
+                0x0000000000009177       0x28 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000009177                InternalAllocateZeroPool.constprop.11
+ .text.RegisterPciDevice.constprop.3
+                0x000000000000919f      0x58d /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x000000000000919f                RegisterPciDevice.constprop.3
+ .text._ModuleEntryPoint
+                0x000000000000972c      0x2b4 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x000000000000972c                _ModuleEntryPoint
+ .text.ReportDebugCodeEnabled
+                0x00000000000099e0        0x3 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000099e0                ReportDebugCodeEnabled
+ .text.ReportErrorCodeEnabled
+                0x00000000000099e3        0x3 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000099e3                ReportErrorCodeEnabled
+ .text.ReportProgressCodeEnabled
+                0x00000000000099e6        0x3 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000099e6                ReportProgressCodeEnabled
+ .text.ReportStatusCodeEx.constprop.6
+                0x00000000000099e9      0x230 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000099e9                ReportStatusCodeEx.constprop.6
+ .text.PciDevicePresent
+                0x0000000000009c19       0x84 /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009c19                PciDevicePresent
+ .text.GetResourcePaddingPpb
+                0x0000000000009c9d       0x23 /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009c9d                GetResourcePaddingPpb
+ .text.PciPciDeviceInfoCollector
+                0x0000000000009cc0      0x140 /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009cc0                PciPciDeviceInfoCollector
+ .text.DestroyResourceTree
+                0x0000000000009e00       0xde /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009e00                DestroyResourceTree
+ .text.InitializeResourcePool
+                0x0000000000009ede       0x31 /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009ede                InitializeResourcePool
+ .text.ResourceRequestExisted
+                0x0000000000009f0f       0x31 /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009f0f                ResourceRequestExisted
+ .text.ProgramUpstreamBridgeForRom
+                0x0000000000009f40      0x17c /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x0000000000009f40                ProgramUpstreamBridgeForRom
+ .text.ProgramResource
+                0x000000000000a0bc      0x9a2 /tmp/cciRsTFx.ltrans9.ltrans.o
+                0x000000000000a0bc                ProgramResource
+ .text.BasePrintLibSPrintMarker.constprop.25
+                0x000000000000aa5e      0xc1d /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x000000000000aa5e                BasePrintLibSPrintMarker.constprop.25
+ .text.DebugPrintMarker.part.0.constprop.22
+                0x000000000000b67b       0x42 /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x000000000000b67b                DebugPrintMarker.part.0.constprop.22
+ .text.LocateCapabilityRegBlock.constprop.18
+                0x000000000000b6bd       0xee /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x000000000000b6bd                LocateCapabilityRegBlock.constprop.18
+ .text.InternalAllocatePool.constprop.17
+                0x000000000000b7ab       0x37 /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x000000000000b7ab                InternalAllocatePool.constprop.17
+ .text.LocatePciExpressCapabilityRegBlock.constprop.12
+                0x000000000000b7e2      0x101 /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x000000000000b7e2                LocatePciExpressCapabilityRegBlock.constprop.12
+ .text.GetLargerConsumerDevice
+                0x000000000000b8e3       0x44 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.PciAssignBusNumber
+                0x000000000000b927      0x1f1 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .text.NotifyPhase
+                0x000000000000bb18      0x149 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000bb18                NotifyPhase
+ .text.PciBridgeEnumerator
+                0x000000000000bc61      0x342 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000bc61                PciBridgeEnumerator
+ .text.GetMaxResourceConsumerDevice
+                0x000000000000bfa3       0xd2 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000bfa3                GetMaxResourceConsumerDevice
+ .text.GetMaxOptionRomSize
+                0x000000000000c075       0xc0 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000c075                GetMaxOptionRomSize
+ .text.ProcessOptionRom
+                0x000000000000c135      0x35a /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000c135                ProcessOptionRom
+ .text.ResetAllPpbBusNumber
+                0x000000000000c48f      0x133 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000c48f                ResetAllPpbBusNumber
+ .text.PciRootBridgeEnumerator
+                0x000000000000c5c2      0x1b7 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x000000000000c5c2                PciRootBridgeEnumerator
+ .text.PlatformDebugLibIoPortFound
+                0x000000000000c779       0x26 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.GetDevicePathSize
+                0x000000000000c79f        0xc /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c79f                GetDevicePathSize
+ .text.AllocateZeroPool
+                0x000000000000c7ab        0xf /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c7ab                AllocateZeroPool
+ .text.DebugPrintEnabled
+                0x000000000000c7ba        0x3 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c7ba                DebugPrintEnabled
+ .text.DebugAssertEnabled
+                0x000000000000c7bd        0x3 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c7bd                DebugAssertEnabled
+ .text.DebugAssert
+                0x000000000000c7c0       0x6a /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c7c0                DebugAssert
+ .text.ReportStatusCodeWithExtendedData
+                0x000000000000c82a       0x80 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c82a                ReportStatusCodeWithExtendedData
+ .text.ReportStatusCodeWithDevicePath
+                0x000000000000c8aa       0x52 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c8aa                ReportStatusCodeWithDevicePath
+ .text.SetDevicePathNodeLength
+                0x000000000000c8fc       0x87 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c8fc                SetDevicePathNodeLength
+ .text.DevicePathSubType
+                0x000000000000c983       0x37 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c983                DevicePathSubType
+ .text.DevicePathType
+                0x000000000000c9ba       0x36 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c9ba                DevicePathType
+ .text.IsDevicePathEnd
+                0x000000000000c9f0       0x6b /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000c9f0                IsDevicePathEnd
+ .text.WriteUnaligned64
+                0x000000000000ca5b       0x3f /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.ReadUnaligned64
+                0x000000000000ca9a       0x37 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.AsciiStrLen
+                0x000000000000cad1       0x85 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .text.DebugPrint
+                0x000000000000cb56       0x65 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cb56                DebugPrint
+ .text.FreePool
+                0x000000000000cbbb       0x5a /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cbbb                FreePool
+ .text.BasePrintLibFillBuffer
+                0x000000000000cc15       0x2e /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cc15                BasePrintLibFillBuffer
+ .text.CopyGuid
+                0x000000000000cc43       0x3e /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cc43                CopyGuid
+ .text.CopyMem  0x000000000000cc81       0x90 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cc81                CopyMem
+ .text.CompareMem.part.0.lto_priv.31
+                0x000000000000cd11       0xbf /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cd11                CompareMem.part.0.lto_priv.31
+ .text.ZeroMem.part.0.lto_priv.30
+                0x000000000000cdd0       0x66 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cdd0                ZeroMem.part.0.lto_priv.30
+ .text.ReadUnaligned24
+                0x000000000000ce36       0x3b /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000ce36                ReadUnaligned24
+ .text.ReadUnaligned16
+                0x000000000000ce71       0x37 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000ce71                ReadUnaligned16
+ .text.DevicePathNodeLength
+                0x000000000000cea8       0x40 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cea8                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x000000000000cee8       0x3f /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cee8                NextDevicePathNode
+ .text.AsciiStrnCmp.part.4.lto_priv.32
+                0x000000000000cf27       0xd3 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cf27                AsciiStrnCmp.part.4.lto_priv.32
+ .text.AsciiStrnLenS
+                0x000000000000cffa       0x26 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000cffa                AsciiStrnLenS
+ .text.IsNull   0x000000000000d020       0x67 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000d020                IsNull
+ .text.IsListEmpty
+                0x000000000000d087       0x3e /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000d087                IsListEmpty
+ .text.RemoveEntryList
+                0x000000000000d0c5       0x50 /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000d0c5                RemoveEntryList
+ .text.GetNextNode
+                0x000000000000d115       0x5f /tmp/cciRsTFx.ltrans12.ltrans.o
+                0x000000000000d115                GetNextNode
+ .text.PciBusComponentNameGetControllerName
+                0x000000000000d174        0xb /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d174                PciBusComponentNameGetControllerName
+ .text.PciBusComponentNameGetDriverName
+                0x000000000000d17f      0x125 /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d17f                PciBusComponentNameGetDriverName
+ .text.LocateVgaDevice
+                0x000000000000d2a4       0xb4 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .text.PciOperateRegister
+                0x000000000000d358       0xb7 /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d358                PciOperateRegister
+ .text.LocateVgaDeviceOnHostBridge
+                0x000000000000d40f       0x8c /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d40f                LocateVgaDeviceOnHostBridge
+ .text.PciDeviceExisted
+                0x000000000000d49b       0xb7 /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d49b                PciDeviceExisted
+ .text.GetRootBridgeByHandle
+                0x000000000000d552       0x7a /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d552                GetRootBridgeByHandle
+ .text.CreateRootBridge
+                0x000000000000d5cc      0x14c /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d5cc                CreateRootBridge
+ .text.StartPciDevicesOnBridge
+                0x000000000000d718      0x294 /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d718                StartPciDevicesOnBridge
+ .text.DeRegisterPciDevice
+                0x000000000000d9ac      0x284 /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000d9ac                DeRegisterPciDevice
+ .text.RemoveAllPciDeviceOnBridge
+                0x000000000000dc30       0xd3 /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000dc30                RemoveAllPciDeviceOnBridge
+ .text.DestroyPciDeviceTree
+                0x000000000000dd03       0xad /tmp/cciRsTFx.ltrans13.ltrans.o
+                0x000000000000dd03                DestroyPciDeviceTree
+ .text.VfBarExisted
+                0x000000000000ddb0      0x15a /tmp/cciRsTFx.ltrans14.ltrans.o
+                0x000000000000ddb0                VfBarExisted
+ .text.DumpPciBars
+                0x000000000000df0a      0x124 /tmp/cciRsTFx.ltrans14.ltrans.o
+                0x000000000000df0a                DumpPciBars
+ .text.BasePrintLibSPrint.constprop.27
+                0x000000000000e02e       0x27 /tmp/cciRsTFx.ltrans15.ltrans.o
+                0x000000000000e02e                BasePrintLibSPrint.constprop.27
+ .text.AsciiSPrint.constprop.26
+                0x000000000000e055       0x30 /tmp/cciRsTFx.ltrans15.ltrans.o
+                0x000000000000e055                AsciiSPrint.constprop.26
+ *fill*         0x000000000000e085        0xb 
+ .text          0x000000000000e090       0x1d /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMem.obj)
+                0x000000000000e090                InternalMemCompareMem
+ *fill*         0x000000000000e0ad        0x3 
+ .text          0x000000000000e0b0       0x1d /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMem.obj)
+                0x000000000000e0b0                InternalMemZeroMem
+ *fill*         0x000000000000e0cd        0x3 
+ .text          0x000000000000e0d0       0x3c /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMem.obj)
+                0x000000000000e0d0                InternalMemCopyMem
+ *fill*         0x000000000000e10c        0x4 
+ .text          0x000000000000e110      0x116 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoFifoSev.obj)
+                0x000000000000e110                SevNoRepIo
+                0x000000000000e150                IoReadFifo8
+                0x000000000000e172                IoReadFifo16
+                0x000000000000e198                IoReadFifo32
+                0x000000000000e1bb                IoWriteFifo8
+                0x000000000000e1dd                IoWriteFifo16
+                0x000000000000e203                IoWriteFifo32
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000e226      0x3bc /tmp/cciRsTFx.ltrans0.ltrans.o
+                                        0x3f6 (size before relaxing)
+ .rodata.str2.2
+                0x000000000000e5e2       0x18 /tmp/cciRsTFx.ltrans0.ltrans.o
+                                         0x1a (size before relaxing)
+ .rodata.str1.1
+                0x000000000000e5fa       0x56 /tmp/cciRsTFx.ltrans1.ltrans.o
+                                         0x6b (size before relaxing)
+ .rodata.PciIoGetBarAttributes
+                0x000000000000e650       0x18 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .rodata.PciIoAttributes
+                0x000000000000e668       0x14 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .rodata.str1.1
+                0x000000000000e67c      0x1ed /tmp/cciRsTFx.ltrans2.ltrans.o
+                                        0x22e (size before relaxing)
+ *fill*         0x000000000000e869        0x3 
+ .rodata.GetResourceFromDevice
+                0x000000000000e86c       0x1c /tmp/cciRsTFx.ltrans2.ltrans.o
+ .rodata.str1.1
+                0x000000000000e888      0x120 /tmp/cciRsTFx.ltrans3.ltrans.o
+                                        0x1c2 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000e9a8      0x141 /tmp/cciRsTFx.ltrans4.ltrans.o
+                                        0x227 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000eae9      0x1c2 /tmp/cciRsTFx.ltrans5.ltrans.o
+                                        0x1d7 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000ecab      0x435 /tmp/cciRsTFx.ltrans6.ltrans.o
+                                        0x4ff (size before relaxing)
+ .rodata.str2.2
+                0x000000000000f0e0       0x18 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .rodata.str1.1
+                0x000000000000f0e0       0x9e /tmp/cciRsTFx.ltrans7.ltrans.o
+                                        0x103 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000f17e      0x3b6 /tmp/cciRsTFx.ltrans8.ltrans.o
+                                        0x4e1 (size before relaxing)
+ .rodata._gPcd_FixedAtBuild_PcdAriSupport
+                0x000000000000f534        0x1 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x000000000000f534                _gPcd_FixedAtBuild_PcdAriSupport
+                0x000000000000f534                _gPcd_FixedAtBuild_PcdPciBusHotplugDeviceSupport
+                0x000000000000f534                _gPcd_FixedAtBuild_PcdSrIovSupport
+                0x000000000000f534                _gPcd_FixedAtBuild_PcdPciDegradeResourceForOptionRom
+ .rodata._gDriverUnloadImageCount
+                0x000000000000f535        0x1 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x000000000000f535                _gPcd_FixedAtBuild_PcdPciDisableBusEnumeration
+                0x000000000000f535                _gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x000000000000f535                _gDriverUnloadImageCount
+                0x000000000000f535                _gPcd_FixedAtBuild_PcdMrIovSupport
+                0x000000000000f535                _gPcd_FixedAtBuild_PcdUnalignedPciIoEnable
+                0x000000000000f535                _gPcd_FixedAtBuild_PcdPcieResizableBarSupport
+                0x000000000000f535                _gPcd_FixedAtBuild_PcdPciBridgeIoAlignmentProbe
+ *fill*         0x000000000000f536        0x2 
+ .rodata._gUefiDriverRevision
+                0x000000000000f538        0x4 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x000000000000f538                _gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x000000000000f538                _gUefiDriverRevision
+                0x000000000000f538                _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+ .rodata.str1.1
+                0x000000000000f53c       0x26 /tmp/cciRsTFx.ltrans9.ltrans.o
+                                         0x8c (size before relaxing)
+ *fill*         0x000000000000f562        0x2 
+ .rodata.ProgramResource
+                0x000000000000f564       0x48 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .rodata.str1.1
+                0x000000000000f5ac      0x200 /tmp/cciRsTFx.ltrans10.ltrans.o
+                                        0x217 (size before relaxing)
+ *fill*         0x000000000000f7ac       0x14 
+ .rodata.__FUNCTION__.17218
+                0x000000000000f7c0       0x23 /tmp/cciRsTFx.ltrans10.ltrans.o
+ *fill*         0x000000000000f7e3        0xd 
+ .rodata.mHexStr
+                0x000000000000f7f0       0x10 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .rodata.mWarningString
+                0x000000000000f800       0x96 /tmp/cciRsTFx.ltrans10.ltrans.o
+ *fill*         0x000000000000f896        0xa 
+ .rodata.mErrorString
+                0x000000000000f8a0      0x2b5 /tmp/cciRsTFx.ltrans10.ltrans.o
+ *fill*         0x000000000000fb55        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x000000000000fb58        0x4 /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x000000000000fb58                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x000000000000fb58                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ .rodata.str1.1
+                0x000000000000fb5c       0x61 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .rodata.str1.1
+                0x000000000000fb5c      0x521 /tmp/cciRsTFx.ltrans12.ltrans.o
+                                        0x6fc (size before relaxing)
+ .rodata.str1.1
+                0x000000000001007d        0x7 /tmp/cciRsTFx.ltrans13.ltrans.o
+                                         0x6b (size before relaxing)
+ .rodata.str2.2
+                0x0000000000010084       0x1e /tmp/cciRsTFx.ltrans13.ltrans.o
+ .rodata.str1.1
+                0x00000000000100a2       0x96 /tmp/cciRsTFx.ltrans14.ltrans.o
+                                        0x113 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000010138       0x8c /tmp/cciRsTFx.ltrans14.ltrans.o
+ .rodata.str1.1
+                0x00000000000101c4       0x14 /tmp/cciRsTFx.ltrans15.ltrans.o
+ *(.got .got.*)
+ .got           0x00000000000101c4        0x0 PciLib.obj (symbol from plugin)
+ .got.plt       0x00000000000101c4        0x0 PciLib.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x00000000000101d0        0x0
+ .plt           0x00000000000101d0        0x0 PciLib.obj (symbol from plugin)
+
+.plt.got        0x00000000000101c8        0x0
+ .plt.got       0x00000000000101c8        0x0 PciLib.obj (symbol from plugin)
+
+.data           0x0000000000010200      0x4d2
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiDevicePathToTextProtocolGuid
+                0x0000000000010200       0x10 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .data.gEfiPciHotPlugInitProtocolGuid
+                0x0000000000010210       0x10 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .data.gEfiPciEnumerationCompleteProtocolGuid
+                0x0000000000010220       0x10 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .data.gEdkiiDeviceSecurityProtocolGuid
+                0x0000000000010230       0x10 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .data.gEdkiiIoMmuProtocolGuid
+                0x0000000000010240       0x10 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .data.gEfiPciOverrideProtocolGuid
+                0x0000000000010250       0x10 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .data.gEfiPciPlatformProtocolGuid
+                0x0000000000010260       0x10 /tmp/cciRsTFx.ltrans3.ltrans.o
+ *fill*         0x0000000000010270       0x10 
+ .data.rel.local.mPciIoInterface
+                0x0000000000010280       0xa0 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000010280                mPciIoInterface
+ .data.gEdkiiDeviceIdentifierTypePciGuid
+                0x0000000000010320       0x10 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .data.gFullEnumeration
+                0x0000000000010330        0x1 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000010330                gFullEnumeration
+ *fill*         0x0000000000010331        0xf 
+ .data.gEfiPciHostBridgeResourceAllocationProtocolGuid
+                0x0000000000010340       0x10 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000010340                gEfiPciHostBridgeResourceAllocationProtocolGuid
+ .data.gEfiDecompressProtocolGuid
+                0x0000000000010350       0x10 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .data.gEfiLoadedImageDevicePathProtocolGuid
+                0x0000000000010360       0x10 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .data.gEfiIncompatiblePciDeviceSupportProtocolGuid
+                0x0000000000010370       0x10 /tmp/cciRsTFx.ltrans7.ltrans.o
+                0x0000000000010370                gEfiIncompatiblePciDeviceSupportProtocolGuid
+ .data.gEfiComponentNameProtocolGuid
+                0x0000000000010380       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x0000000000010390       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x00000000000103a0       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.rel.local.mPciHotPlugRequest
+                0x00000000000103b0        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+ *fill*         0x00000000000103b8        0x8 
+ .data.gEfiPciHotPlugRequestProtocolGuid
+                0x00000000000103c0       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.rel.local.gPciBusComponentName2
+                0x00000000000103d0       0x18 /tmp/cciRsTFx.ltrans8.ltrans.o
+ *fill*         0x00000000000103e8        0x8 
+ .data.rel.local.gPciBusComponentName
+                0x00000000000103f0       0x18 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000103f0                gPciBusComponentName
+ *fill*         0x0000000000010408        0x8 
+ .data.gEfiDevicePathUtilitiesProtocolGuid
+                0x0000000000010410       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.gEfiPciRootBridgeIoProtocolGuid
+                0x0000000000010420       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000010420                gEfiPciRootBridgeIoProtocolGuid
+ *fill*         0x0000000000010430       0x10 
+ .data.rel.local.gPciBusDriverBinding
+                0x0000000000010440       0x30 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000010440                gPciBusDriverBinding
+ .data.gEfiBusSpecificDriverOverrideProtocolGuid
+                0x0000000000010470       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000010470                gEfiBusSpecificDriverOverrideProtocolGuid
+ .data.gEfiLoadFile2ProtocolGuid
+                0x0000000000010480       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000010480                gEfiLoadFile2ProtocolGuid
+ .data.gEfiPciIoProtocolGuid
+                0x0000000000010490       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000010490                gEfiPciIoProtocolGuid
+ .data.gEfiDevicePathProtocolGuid
+                0x00000000000104a0       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000104a0                gEfiDevicePathProtocolGuid
+ .data.gEfiStatusCodeRuntimeProtocolGuid
+                0x00000000000104b0       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x00000000000104c0       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x00000000000104d0       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .data.gAllOne  0x00000000000104e0        0x8 /tmp/cciRsTFx.ltrans11.ltrans.o
+                0x00000000000104e0                gAllOne
+ *fill*         0x00000000000104e8       0x18 
+ .data.rel.local.mPciBusDriverNameTable
+                0x0000000000010500       0x20 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .data.rel.ro.local.mBarTypeStr
+                0x0000000000010520       0x58 /tmp/cciRsTFx.ltrans14.ltrans.o
+                0x0000000000010520                mBarTypeStr
+ .data.rel.ro   0x0000000000010578        0x0 PciLib.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.mDevicePathLibDevicePathToText
+                0x0000000000010578        0x8 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .bss.mPolicyDetermined
+                0x0000000000010580        0x1 /tmp/cciRsTFx.ltrans2.ltrans.o
+ *fill*         0x0000000000010581        0x7 
+ .bss.gPciRootHpcData
+                0x0000000000010588        0x8 /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x0000000000010588                gPciRootHpcData
+ .bss.gPciHostBridgeNumber
+                0x0000000000010590        0x8 /tmp/cciRsTFx.ltrans3.ltrans.o
+ *fill*         0x0000000000010598        0x8 
+ .bss.gPciHostBrigeHandles
+                0x00000000000105a0       0x80 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .bss.mIoMmuProtocol
+                0x0000000000010620        0x8 /tmp/cciRsTFx.ltrans3.ltrans.o
+                0x0000000000010620                mIoMmuProtocol
+ .bss.mReserveVgaAliases
+                0x0000000000010628        0x1 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000010628                mReserveVgaAliases
+ .bss.mReserveIsaAliases
+                0x0000000000010629        0x1 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000010629                mReserveIsaAliases
+ *fill*         0x000000000001062a        0x6 
+ .bss.gAllZero  0x0000000000010630        0x8 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000010630                gAllZero
+ .bss.mDeviceSecurityProtocol
+                0x0000000000010638        0x8 /tmp/cciRsTFx.ltrans5.ltrans.o
+                0x0000000000010638                mDeviceSecurityProtocol
+ .bss.mMaxNumberOfPciRomImages
+                0x0000000000010640        0x8 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .bss.mNumberOfPciRomImages
+                0x0000000000010648        0x8 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000010648                mNumberOfPciRomImages
+ .bss.mRomImageTable
+                0x0000000000010650        0x8 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000010650                mRomImageTable
+ .bss.gPciHotPlugInit
+                0x0000000000010658        0x8 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000010658                gPciHotPlugInit
+ .bss.gPciRootHpcCount
+                0x0000000000010660        0x8 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000010660                gPciRootHpcCount
+ .bss.gPciRootHpcPool
+                0x0000000000010668        0x8 /tmp/cciRsTFx.ltrans6.ltrans.o
+                0x0000000000010668                gPciRootHpcPool
+ .bss.gIncompatiblePciDeviceSupport
+                0x0000000000010670        0x8 /tmp/cciRsTFx.ltrans7.ltrans.o
+                0x0000000000010670                gIncompatiblePciDeviceSupport
+ *fill*         0x0000000000010678        0x8 
+ .bss.mPciDevicePool
+                0x0000000000010680       0x10 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x0000000000010680                mPciDevicePool
+ .bss.gST       0x0000000000010690        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .bss.gImageHandle
+                0x0000000000010698        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .bss.gRT       0x00000000000106a0        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .bss.mDevicePathLibDevicePathUtilities
+                0x00000000000106a8        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000106a8                mDevicePathLibDevicePathUtilities
+ .bss.gPciOverrideProtocol
+                0x00000000000106b0        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000106b0                gPciOverrideProtocol
+ .bss.gPciPlatformProtocol
+                0x00000000000106b8        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+                0x00000000000106b8                gPciPlatformProtocol
+ .bss.mReportStatusCodeLibStatusCodeProtocol
+                0x00000000000106c0        0x8 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .bss.gBS       0x00000000000106c8        0x8 /tmp/cciRsTFx.ltrans10.ltrans.o
+                0x00000000000106c8                gBS
+ .bss.mDebugIoPortFound
+                0x00000000000106d0        0x1 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .bss.mDebugIoPortChecked
+                0x00000000000106d1        0x1 /tmp/cciRsTFx.ltrans12.ltrans.o
+
+.eh_frame       0x0000000000010700        0x0
+ *(.eh_frame)
+ .eh_frame      0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+ .eh_frame      0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+
+.dynbss         0x0000000000010700        0x0
+ .dynbss        0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+
+.gnu.version_d  0x0000000000010700        0x0
+ .gnu.version_d
+                0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+
+.gnu.version    0x0000000000010700        0x0
+ .gnu.version   0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+
+.gnu.version_r  0x0000000000010700        0x0
+ .gnu.version_r
+                0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+
+.rela           0x0000000000010700      0x3d8
+ *(.rela .rela.*)
+ .rela.plt      0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+ .rela.got      0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+ .rela.bss      0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+ .rela.ifunc    0x0000000000010700        0x0 PciLib.obj (symbol from plugin)
+ .rela.data.rel.local.mPciIoInterface
+                0x0000000000010700      0x1b0 PciLib.obj (symbol from plugin)
+ .rela.data.rel.local.mPciHotPlugRequest
+                0x00000000000108b0       0x18 PciLib.obj (symbol from plugin)
+ .rela.data.rel.local.gPciBusComponentName2
+                0x00000000000108c8       0x48 PciLib.obj (symbol from plugin)
+ .rela.data.rel.local.gPciBusComponentName
+                0x0000000000010910       0x48 PciLib.obj (symbol from plugin)
+ .rela.data.rel.local.gPciBusDriverBinding
+                0x0000000000010958       0x48 PciLib.obj (symbol from plugin)
+ .rela.data.rel.local.mPciBusDriverNameTable
+                0x00000000000109a0       0x30 PciLib.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mBarTypeStr
+                0x00000000000109d0      0x108 PciLib.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000010ad8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010ad8       0x24 PciLib.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/DEBUG/PciBusDxe.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x29856
+ .debug_info    0x0000000000000000     0x328b /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_info    0x000000000000328b     0x295c /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_info    0x0000000000005be7     0x2bfc /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_info    0x00000000000087e3     0x41cd /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_info    0x000000000000c9b0     0x2887 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_info    0x000000000000f237     0x25f8 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_info    0x000000000001182f     0x38dd /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_info    0x000000000001510c     0x24d0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_info    0x00000000000175dc     0x47a7 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_info    0x000000000001bd83     0x1fca /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_info    0x000000000001dd4d     0x2c0b /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_info    0x0000000000020958     0x28a4 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_info    0x00000000000231fc     0x1b77 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_info    0x0000000000024d73     0x339c /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_info    0x000000000002810f     0x1495 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_info    0x00000000000295a4      0x2b2 /tmp/cciRsTFx.ltrans15.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x3492
+ .debug_abbrev  0x0000000000000000      0x344 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000344      0x2ff /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000643      0x37e /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_abbrev  0x00000000000009c1      0x3ce /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000d8f      0x3d4 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_abbrev  0x0000000000001163      0x34b /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_abbrev  0x00000000000014ae      0x45f /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_abbrev  0x000000000000190d      0x309 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_abbrev  0x0000000000001c16      0x3e5 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000001ffb      0x361 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_abbrev  0x000000000000235c      0x2d3 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_abbrev  0x000000000000262f      0x338 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000002967      0x3f6 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_abbrev  0x0000000000002d5d      0x3fc /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_abbrev  0x0000000000003159      0x237 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_abbrev  0x0000000000003390      0x102 /tmp/cciRsTFx.ltrans15.ltrans.o
+
+.debug_loc      0x0000000000000000    0x16486
+ .debug_loc     0x0000000000000000     0x254d /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_loc     0x000000000000254d     0x2254 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_loc     0x00000000000047a1     0x211b /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_loc     0x00000000000068bc     0x163a /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_loc     0x0000000000007ef6     0x1da4 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_loc     0x0000000000009c9a     0x1034 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_loc     0x000000000000acce     0x231f /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_loc     0x000000000000cfed     0x125a /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_loc     0x000000000000e247      0xfd5 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_loc     0x000000000000f21c      0xae8 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_loc     0x000000000000fd04     0x1dbd /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_loc     0x0000000000011ac1     0x1cd6 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_loc     0x0000000000013797     0x14f4 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_loc     0x0000000000014c8b     0x12d6 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_loc     0x0000000000015f61      0x2c3 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_loc     0x0000000000016224      0x262 /tmp/cciRsTFx.ltrans15.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xb40
+ .debug_aranges
+                0x0000000000000000       0x70 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000070      0x110 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000180       0x80 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000200       0x80 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000280       0xa0 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_aranges
+                0x0000000000000320       0xa0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000000000003c0      0x160 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_aranges
+                0x0000000000000520       0x30 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_aranges
+                0x0000000000000550       0xa0 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_aranges
+                0x00000000000005f0       0xa0 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_aranges
+                0x0000000000000690       0x70 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000000700       0xb0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_aranges
+                0x00000000000007b0      0x230 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_aranges
+                0x00000000000009e0       0xe0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_aranges
+                0x0000000000000ac0       0x40 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_aranges
+                0x0000000000000b00       0x40 /tmp/cciRsTFx.ltrans15.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x21d0
+ .debug_ranges  0x0000000000000000      0x410 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000410      0x1e0 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_ranges  0x00000000000005f0      0x120 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000710      0x2d0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_ranges  0x00000000000009e0      0x190 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_ranges  0x0000000000000b70      0x1e0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000000d50      0x480 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_ranges  0x00000000000011d0      0x3f0 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_ranges  0x00000000000015c0      0x230 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_ranges  0x00000000000017f0      0x100 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_ranges  0x00000000000018f0      0x120 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000001a10      0x220 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000001c30      0x320 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_ranges  0x0000000000001f50      0x1f0 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_ranges  0x0000000000002140       0x30 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_ranges  0x0000000000002170       0x60 /tmp/cciRsTFx.ltrans15.ltrans.o
+
+.debug_line     0x0000000000000000     0x6f63
+ .debug_line    0x0000000000000000      0x8d3 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_line    0x00000000000008d3      0x5fb /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_line    0x0000000000000ece      0x5e5 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_line    0x00000000000014b3      0x745 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_line    0x0000000000001bf8      0x702 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_line    0x00000000000022fa      0x7c2 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_line    0x0000000000002abc      0x9ad /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_line    0x0000000000003469      0x685 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_line    0x0000000000003aee      0xa0d /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_line    0x00000000000044fb      0x5cc /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_line    0x0000000000004ac7      0x7e9 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_line    0x00000000000052b0      0x6bf /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_line    0x000000000000596f      0xaac /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_line    0x000000000000641b      0x6ea /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_line    0x0000000000006b05      0x31d /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_line    0x0000000000006e22      0x141 /tmp/cciRsTFx.ltrans15.ltrans.o
+
+.debug_str      0x0000000000000000     0x6efb
+ .debug_str     0x0000000000000000     0x1d95 /tmp/cciRsTFx.ltrans0.ltrans.o
+                                       0x2132 (size before relaxing)
+ .debug_str     0x0000000000001d95      0x31a /tmp/cciRsTFx.ltrans1.ltrans.o
+                                       0x1857 (size before relaxing)
+ .debug_str     0x00000000000020af      0x262 /tmp/cciRsTFx.ltrans2.ltrans.o
+                                       0x1825 (size before relaxing)
+ .debug_str     0x0000000000002311      0xf2d /tmp/cciRsTFx.ltrans3.ltrans.o
+                                       0x2b31 (size before relaxing)
+ .debug_str     0x000000000000323e      0x387 /tmp/cciRsTFx.ltrans4.ltrans.o
+                                       0x19c7 (size before relaxing)
+ .debug_str     0x00000000000035c5      0x341 /tmp/cciRsTFx.ltrans5.ltrans.o
+                                       0x1970 (size before relaxing)
+ .debug_str     0x0000000000003906      0x888 /tmp/cciRsTFx.ltrans6.ltrans.o
+                                       0x25be (size before relaxing)
+ .debug_str     0x000000000000418e      0x29d /tmp/cciRsTFx.ltrans7.ltrans.o
+                                       0x1894 (size before relaxing)
+ .debug_str     0x000000000000442b     0x1baf /tmp/cciRsTFx.ltrans8.ltrans.o
+                                       0x3847 (size before relaxing)
+ .debug_str     0x0000000000005fda      0x145 /tmp/cciRsTFx.ltrans9.ltrans.o
+                                       0x16fc (size before relaxing)
+ .debug_str     0x000000000000611f      0x494 /tmp/cciRsTFx.ltrans10.ltrans.o
+                                       0x2250 (size before relaxing)
+ .debug_str     0x00000000000065b3      0x22b /tmp/cciRsTFx.ltrans11.ltrans.o
+                                       0x1e81 (size before relaxing)
+ .debug_str     0x00000000000067de      0x436 /tmp/cciRsTFx.ltrans12.ltrans.o
+                                        0x8ed (size before relaxing)
+ .debug_str     0x0000000000006c14      0x246 /tmp/cciRsTFx.ltrans13.ltrans.o
+                                       0x225d (size before relaxing)
+ .debug_str     0x0000000000006e5a       0x39 /tmp/cciRsTFx.ltrans14.ltrans.o
+                                       0x1537 (size before relaxing)
+ .debug_str     0x0000000000006e93       0x68 /tmp/cciRsTFx.ltrans15.ltrans.o
+                                        0x2bf (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x3858
+ .debug_frame   0x0000000000000000      0x3d0 /tmp/cciRsTFx.ltrans0.ltrans.o
+ .debug_frame   0x00000000000003d0      0x4d8 /tmp/cciRsTFx.ltrans1.ltrans.o
+ .debug_frame   0x00000000000008a8      0x3b0 /tmp/cciRsTFx.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000c58      0x1d0 /tmp/cciRsTFx.ltrans3.ltrans.o
+ .debug_frame   0x0000000000000e28      0x430 /tmp/cciRsTFx.ltrans4.ltrans.o
+ .debug_frame   0x0000000000001258      0x4a0 /tmp/cciRsTFx.ltrans5.ltrans.o
+ .debug_frame   0x00000000000016f8      0x590 /tmp/cciRsTFx.ltrans6.ltrans.o
+ .debug_frame   0x0000000000001c88      0x260 /tmp/cciRsTFx.ltrans7.ltrans.o
+ .debug_frame   0x0000000000001ee8      0x270 /tmp/cciRsTFx.ltrans8.ltrans.o
+ .debug_frame   0x0000000000002158      0x480 /tmp/cciRsTFx.ltrans9.ltrans.o
+ .debug_frame   0x00000000000025d8      0x250 /tmp/cciRsTFx.ltrans10.ltrans.o
+ .debug_frame   0x0000000000002828      0x3d0 /tmp/cciRsTFx.ltrans11.ltrans.o
+ .debug_frame   0x0000000000002bf8      0x630 /tmp/cciRsTFx.ltrans12.ltrans.o
+ .debug_frame   0x0000000000003228      0x478 /tmp/cciRsTFx.ltrans13.ltrans.o
+ .debug_frame   0x00000000000036a0      0x140 /tmp/cciRsTFx.ltrans14.ltrans.o
+ .debug_frame   0x00000000000037e0       0x78 /tmp/cciRsTFx.ltrans15.ltrans.o

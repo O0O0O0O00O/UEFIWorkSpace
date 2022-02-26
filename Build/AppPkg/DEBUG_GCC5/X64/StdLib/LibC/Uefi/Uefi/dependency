@@ -1,0 +1,15 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/SysCalls.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/Xform.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/select.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/compat.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/StubFunctions.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/writev.obj.deps
+
+               

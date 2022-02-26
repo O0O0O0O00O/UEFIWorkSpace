@@ -1,0 +1,1940 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/OemHookStatusCodeLibNull/OemHookStatusCodeLibNull/OUTPUT/OemHookStatusCodeLibNull.lib(OemHookStatusCodeLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/EmulatorPkg/Library/PeiServicesTablePointerLibMagicPage/PeiServicesTablePointerLibMagicPage/OUTPUT/EmulatorPkgPeiServicesTablePointerLib.lib(PeiServicesTablePointer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/PeiReportStatusCodeLib/PeiReportStatusCodeLib/OUTPUT/PeiReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode/OUTPUT/PeiDxeDebugLibReportStatusCode.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib(HobLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib(PeiServicesLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeimEntryPoint/PeimEntryPoint/OUTPUT/PeimEntryPoint.lib(PeimEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/OUTPUT/PcdPeim.lib(Service.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/OUTPUT/PcdPeim.lib(Pcd.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/OUTPUT/PcdPeim.lib(AutoGen.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .bss.mVaListNull
+                0x0000000000000000        0x8 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.mCrcTable
+                0x0000000000000000      0x400 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2845.lto_priv.28
+                0x0000000000000000        0x8 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2856.lto_priv.27
+                0x0000000000000000        0x9 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2868.lto_priv.26
+                0x0000000000000000        0x8 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2881.lto_priv.25
+                0x0000000000000000        0x9 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2890.lto_priv.24
+                0x0000000000000000       0x13 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2905.lto_priv.23
+                0x0000000000000000       0x14 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2920.lto_priv.22
+                0x0000000000000000        0xf /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2935.lto_priv.21
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2960.lto_priv.20
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2976.lto_priv.19
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2986.lto_priv.18
+                0x0000000000000000        0xa /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2994.lto_priv.17
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3019.lto_priv.16
+                0x0000000000000000        0xd /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3055.lto_priv.13
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3064.lto_priv.12
+                0x0000000000000000       0x18 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3079.lto_priv.11
+                0x0000000000000000       0x19 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3094.lto_priv.10
+                0x0000000000000000       0x14 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3109.lto_priv.9
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3125.lto_priv.8
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3137.lto_priv.7
+                0x0000000000000000       0x17 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3147.lto_priv.6
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3159.lto_priv.5
+                0x0000000000000000       0x17 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3178.lto_priv.4
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3194.lto_priv.3
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3204.lto_priv.2
+                0x0000000000000000        0xf /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.3212.lto_priv.1
+                0x0000000000000000       0x13 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.EncodingTable.lto_priv.0
+                0x0000000000000000       0x41 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEdkiiDscPlatformGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEmulatorPkgTokenSpaceGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiMdePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiHobMemoryAllocStackGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiHobMemoryAllocBspStoreGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiHobMemoryAllocModuleGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiFirmwareFileSystem2Guid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiPeiFirmwareVolumeInfoPpiGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.gEfiPeiFirmwareVolumeInfo2PpiGuid
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .bss._gPcd_SkuId_Array
+                0x0000000000000000        0x8 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugClearMemoryValue
+                0x0000000000000000        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x0000000000000000        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+                0x0000000000000000        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdSpeculationBarrierType
+                0x0000000000000000        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.ProcessLibraryDestructorList
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000000        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.ProcessModuleUnloadList
+                0x0000000000000000        0xf /tmp/cc6oNn56.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.ScanMem16
+                0x0000000000000000       0xfb /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.ScanMem8
+                0x0000000000000000       0x9a /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.ScanMemN
+                0x0000000000000000       0x2d /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.CompareMem
+                0x0000000000000000      0x102 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.SetMem64
+                0x0000000000000000       0xf8 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.SetMem32
+                0x0000000000000000       0xf7 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.SetMem16
+                0x0000000000000000       0xfa /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.SetMem   0x0000000000000000       0x71 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.SetMemN  0x0000000000000000       0x2d /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.IsZeroBuffer
+                0x0000000000000000       0x86 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemSetMem16
+                0x0000000000000000       0x40 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemSetMem32
+                0x0000000000000000       0x3c /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemSetMem64
+                0x0000000000000000       0x3e /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemCompareMem
+                0x0000000000000000       0x56 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemScanMem8
+                0x0000000000000000       0x48 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemScanMem16
+                0x0000000000000000       0x4a /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemScanMem32
+                0x0000000000000000       0x45 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemScanMem64
+                0x0000000000000000       0x47 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.InternalMemIsZeroBuffer
+                0x0000000000000000       0x51 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.IsZeroGuid
+                0x0000000000000000       0x49 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.EfiMain  0x0000000000000000       0x22 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesSetBootMode
+                0x0000000000000000       0x2a /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesFfsFindNextFile
+                0x0000000000000000       0x3d /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesFfsFindSectionData3
+                0x0000000000000000       0x59 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesInstallPeiMemory
+                0x0000000000000000       0x37 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesAllocatePages
+                0x0000000000000000       0x40 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesFreePages
+                0x0000000000000000       0x3a /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesResetSystem
+                0x0000000000000000       0x2a /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesFfsGetFileInfo
+                0x0000000000000000       0x2b /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesFfsGetFileInfo2
+                0x0000000000000000       0x2b /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesFfsGetVolumeInfo
+                0x0000000000000000       0x2b /tmp/cc6oNn56.ltrans3.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x7e /tmp/cc6oNn56.ltrans3.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x31d /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.InternalPeiServicesInstallFvInfoPpi
+                0x0000000000000000      0x2a0 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesInstallFvInfoPpi
+                0x0000000000000000       0x4f /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesInstallFvInfo2Ppi
+                0x0000000000000000       0x4e /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.PeiServicesResetSystem2
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetSku
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGet8
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGet16
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGet32
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGet64
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetPtr
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetBool
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetSize
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetEx8
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetEx16
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetEx32
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetEx64
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetExPtr
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetExBool
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetExSize
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSet8S
+                0x0000000000000000       0x3e /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSet16S
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSet32S
+                0x0000000000000000       0x3c /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSet64S
+                0x0000000000000000       0x3d /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetPtrS
+                0x0000000000000000       0x41 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetBoolS
+                0x0000000000000000       0x3e /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetEx8S
+                0x0000000000000000       0x43 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetEx16S
+                0x0000000000000000       0x44 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetEx32S
+                0x0000000000000000       0x41 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetEx64S
+                0x0000000000000000       0x41 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetExPtrS
+                0x0000000000000000       0x45 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdSetExBoolS
+                0x0000000000000000       0x43 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdCallbackOnSet
+                0x0000000000000000       0x37 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdCancelCallback
+                0x0000000000000000       0x37 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetNextToken
+                0x0000000000000000       0x38 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetNextTokenSpace
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPatchPcdSetPtr
+                0x0000000000000000       0xe8 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPatchPcdSetPtrS
+                0x0000000000000000       0xee /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPatchPcdSetPtrAndSize
+                0x0000000000000000      0x11e /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPatchPcdSetPtrAndSizeS
+                0x0000000000000000      0x124 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetInfo
+                0x0000000000000000       0x33 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetInfoEx
+                0x0000000000000000       0x37 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.LibPcdGetSku
+                0x0000000000000000       0x30 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.ScanMem64
+                0x0000000000000000       0xf9 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text.ScanMem32
+                0x0000000000000000       0xf8 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmFxSave
+                0x0000000000000000       0x7c /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmFxRestore
+                0x0000000000000000       0xa0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmEnablePaging64
+                0x0000000000000000       0x8c /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmEnablePaging32
+                0x0000000000000000       0x88 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmDisablePaging64
+                0x0000000000000000       0x86 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmDisablePaging32
+                0x0000000000000000       0x88 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmRdRand16
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmRdRand32
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmRdRand64
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.PatchInstructionX86
+                0x0000000000000000      0x171 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.SpeculationBarrier
+                0x0000000000000000       0x4b /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.MemoryFence
+                0x0000000000000000        0x6 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadEflags
+                0x0000000000000000       0x14 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalX86FxSave
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalX86FxRestore
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm0
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm1
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm2
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm3
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm4
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm5
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm6
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMm7
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm0
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm1
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm2
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm3
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm4
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm5
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm6
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMm7
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadTsc
+                0x0000000000000000       0x22 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.EnableInterrupts
+                0x0000000000000000        0x7 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.DisableInterrupts
+                0x0000000000000000        0x7 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadMsr64
+                0x0000000000000000       0x59 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteMsr64
+                0x0000000000000000       0x59 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadCr0
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadCr2
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadCr3
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadCr4
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteCr0
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteCr2
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteCr3
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteCr4
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr0
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr1
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr2
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr3
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr4
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr5
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr6
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDr7
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr0
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr1
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr2
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr3
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr4
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr5
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr6
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteDr7
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadCs
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadDs
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadEs
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadFs
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadGs
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadSs
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadTr
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalX86ReadGdtr
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalX86WriteGdtr
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalX86ReadIdtr
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalX86WriteIdtr
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadLdtr
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWriteLdtr
+                0x0000000000000000       0x10 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmReadPmc
+                0x0000000000000000       0x2a /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmMonitor
+                0x0000000000000000       0x25 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmMwait
+                0x0000000000000000       0x20 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmWbinvd
+                0x0000000000000000        0x8 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmInvd  0x0000000000000000        0x8 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.AsmFlushCacheLine
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.__chkstk
+                0x0000000000000000        0x6 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.GetFirstHob
+                0x0000000000000000       0x28 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.GetBootModeHob
+                0x0000000000000000       0x76 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildModuleHob
+                0x0000000000000000       0xe0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildResourceDescriptorWithOwnerHob
+                0x0000000000000000       0x72 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildResourceDescriptorHob
+                0x0000000000000000       0x73 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildGuidDataHob
+                0x0000000000000000       0x7d /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.InternalCheckFvAlignment
+                0x0000000000000000       0xba /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildFvHob
+                0x0000000000000000       0xfb /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildFv2Hob
+                0x0000000000000000      0x135 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildFv3Hob
+                0x0000000000000000      0x15b /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildCvHob
+                0x0000000000000000       0x44 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildCpuHob
+                0x0000000000000000       0x57 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildStackHob
+                0x0000000000000000       0xb8 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildBspStoreHob
+                0x0000000000000000       0xbb /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildMemoryAllocationHob
+                0x0000000000000000       0xb9 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsciiStrDecimalToUintn
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsciiStrDecimalToUint64
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsciiStrHexToUintn
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsciiStrHexToUint64
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.Base64Encode
+                0x0000000000000000      0x350 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.Base64Decode
+                0x0000000000000000      0x3a9 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.DecimalToBcd8
+                0x0000000000000000       0x99 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.BcdToDecimal8
+                0x0000000000000000       0x80 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.PathRemoveLastItem
+                0x0000000000000000       0xb9 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .rodata.str2.2
+                0x0000000000000000       0x1c /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.PathCleanUpDirectories
+                0x0000000000000000      0x1f1 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalX86EnablePaging32
+                0x0000000000000000       0x3b /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalX86DisablePaging32
+                0x0000000000000000       0x3b /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalX86EnablePaging64
+                0x0000000000000000       0x3d /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathRShiftU64
+                0x0000000000000000       0x1d /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathARShiftU64
+                0x0000000000000000       0x6b /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathLRotU64
+                0x0000000000000000       0x1e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathRRotU64
+                0x0000000000000000       0x1e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathSwapBytes64
+                0x0000000000000000       0x40 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathMultU64x32
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathMultU64x64
+                0x0000000000000000       0x17 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathDivU64x32
+                0x0000000000000000       0x1c /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathModU64x32
+                0x0000000000000000       0x1f /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathDivRemU64x32
+                0x0000000000000000       0x41 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathDivRemU64x64
+                0x0000000000000000       0x3a /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.InternalMathDivRemS64x64
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.WriteUnaligned16
+                0x0000000000000000       0x4e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.ReadUnaligned24
+                0x0000000000000000       0x41 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.WriteUnaligned24
+                0x0000000000000000       0x62 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.WriteUnaligned32
+                0x0000000000000000       0x48 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmWriteIdtr
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmWriteGdtr
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmGetThunk16Properties
+                0x0000000000000000       0x7c /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmPrepareThunk16
+                0x0000000000000000      0x22b /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmThunk16
+                0x0000000000000000      0x142 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmPrepareAndThunk16
+                0x0000000000000000       0x20 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmReadIdtr
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmReadGdtr
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmReadMsr32
+                0x0000000000000000       0x15 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmWriteMsr32
+                0x0000000000000000       0x1e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrOr32
+                0x0000000000000000       0x1e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrAnd32
+                0x0000000000000000       0x1e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrAndThenOr32
+                0x0000000000000000       0x28 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldRead32
+                0x0000000000000000       0x32 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldWrite32
+                0x0000000000000000       0x88 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldOr32
+                0x0000000000000000       0x88 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldAnd32
+                0x0000000000000000       0x88 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldAndThenOr32
+                0x0000000000000000       0x91 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrOr64
+                0x0000000000000000       0x28 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrAnd64
+                0x0000000000000000       0x28 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrAndThenOr64
+                0x0000000000000000       0x30 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldRead64
+                0x0000000000000000       0x33 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldWrite64
+                0x0000000000000000       0x4c /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldOr64
+                0x0000000000000000       0x4c /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldAnd64
+                0x0000000000000000       0x4c /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.AsmMsrBitFieldAndThenOr64
+                0x0000000000000000       0x55 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text.GetInterruptState
+                0x0000000000000000       0x1f /tmp/cc6oNn56.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrToIpv6Address
+                0x0000000000000000      0x405 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrToIpv4Address
+                0x0000000000000000      0x267 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrToGuid
+                0x0000000000000000      0x2a9 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrHexToBytes
+                0x0000000000000000      0x35b /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrLen   0x0000000000000000       0xc0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrSize  0x0000000000000000       0x1e /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrCmp   0x0000000000000000       0xb8 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrnCmp  0x0000000000000000      0x11e /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrStr   0x0000000000000000      0x102 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.InternalIsDecimalDigitCharacter
+                0x0000000000000000       0x26 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.CharToUpper
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.InternalHexCharToUintn
+                0x0000000000000000       0x3d /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.InternalIsHexaDecimalDigitCharacter
+                0x0000000000000000       0x47 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrDecimalToUintn
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrDecimalToUint64
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrHexToUintn
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.StrHexToUint64
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.InternalAsciiIsDecimalDigitCharacter
+                0x0000000000000000       0x23 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.InternalAsciiIsHexaDecimalDigitCharacter
+                0x0000000000000000       0x42 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrCmp
+                0x0000000000000000       0xb6 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiCharToUpper
+                0x0000000000000000       0x24 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.InternalAsciiHexCharToUintn
+                0x0000000000000000       0x40 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStriCmp
+                0x0000000000000000       0xfc /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000000000      0x11b /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text.AsciiStrStr
+                0x0000000000000000       0xfc /tmp/cc6oNn56.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x355 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x9c /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.AsciiStrDecimalToUint64S
+                0x0000000000000000      0x2a7 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.AsciiStrHexToUintnS
+                0x0000000000000000      0x2d5 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.AsciiStrHexToUint64S
+                0x0000000000000000      0x2ea /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.UnicodeStrToAsciiStrS
+                0x0000000000000000      0x49e /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.UnicodeStrnToAsciiStrS
+                0x0000000000000000      0x660 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.AsciiStrToUnicodeStrS
+                0x0000000000000000      0x475 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text.AsciiStrnToUnicodeStrS
+                0x0000000000000000      0x634 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_info    0x0000000000000000      0x449 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xbe /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0x90 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000000000       0x80 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_line    0x0000000000000000      0x2b5 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_str     0x0000000000000000      0x41c /tmp/cc6oNn56.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .debug_frame   0x0000000000000000      0x208 /tmp/cc6oNn56.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.StrToIpv4Address
+                0x0000000000000000      0x298 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.StrToGuid
+                0x0000000000000000      0x2de /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.StrHexToBytes
+                0x0000000000000000      0x397 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.AsciiStrnSizeS
+                0x0000000000000000       0x34 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.AsciiStrCpyS
+                0x0000000000000000      0x3b5 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.AsciiStrnCatS
+                0x0000000000000000      0x52a /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text.AsciiStrDecimalToUintnS
+                0x0000000000000000      0x2a8 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x2aa /tmp/cc6oNn56.ltrans9.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0xb5 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrCatS  0x0000000000000000      0x4c7 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrnCatS
+                0x0000000000000000      0x58b /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrDecimalToUintnS
+                0x0000000000000000      0x2db /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrDecimalToUint64S
+                0x0000000000000000      0x2da /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrHexToUintnS
+                0x0000000000000000      0x30c /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrHexToUint64S
+                0x0000000000000000      0x321 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text.StrToIpv6Address
+                0x0000000000000000      0x440 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_info    0x0000000000000000      0x52b /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_abbrev  0x0000000000000000       0xe9 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_aranges
+                0x0000000000000000       0x90 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_ranges  0x0000000000000000       0x80 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_line    0x0000000000000000      0x2e3 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_str     0x0000000000000000      0x476 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .debug_frame   0x0000000000000000      0x1a8 /tmp/cc6oNn56.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0xe6 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .rodata.str1.8
+                0x0000000000000000      0x47f /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldAnd32
+                0x0000000000000000       0x89 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldAndThenOr32
+                0x0000000000000000       0xa7 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldRead64
+                0x0000000000000000       0x8f /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldWrite64
+                0x0000000000000000       0x93 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldOr64
+                0x0000000000000000      0x107 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldAnd64
+                0x0000000000000000      0x110 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldAndThenOr64
+                0x0000000000000000       0xab /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldCountOnes32
+                0x0000000000000000       0xd0 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.BitFieldCountOnes64
+                0x0000000000000000       0xc7 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.SaveAndDisableInterrupts
+                0x0000000000000000       0x1b /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.SetInterruptState
+                0x0000000000000000       0x25 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0xe9 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xcd /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.InitializeListHead
+                0x0000000000000000       0x51 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.InsertHeadList
+                0x0000000000000000       0xba /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.InsertTailList
+                0x0000000000000000       0xbc /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.GetFirstNode
+                0x0000000000000000       0x43 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.GetNextNode
+                0x0000000000000000       0x89 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.GetPreviousNode
+                0x0000000000000000       0x8a /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.IsListEmpty
+                0x0000000000000000       0x4a /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.IsNull   0x0000000000000000       0x8d /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.IsNodeAtEnd
+                0x0000000000000000       0xb0 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.SwapListEntries
+                0x0000000000000000       0xfe /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000000000       0x68 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.StrnLenS
+                0x0000000000000000       0x92 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.StrnSizeS
+                0x0000000000000000       0x37 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.StrCpyS  0x0000000000000000      0x413 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text.StrnCpyS
+                0x0000000000000000      0x4d4 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.DebugClearMemoryEnabled
+                0x0000000000000000       0x18 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateSum8
+                0x0000000000000000       0x9a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateCheckSum8
+                0x0000000000000000       0x2b /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateSum16
+                0x0000000000000000      0x106 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateCheckSum16
+                0x0000000000000000       0x2c /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateSum32
+                0x0000000000000000      0x109 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateCheckSum32
+                0x0000000000000000       0x2a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateSum64
+                0x0000000000000000      0x10d /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateCheckSum64
+                0x0000000000000000       0x2d /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.CalculateCrc32
+                0x0000000000000000       0xcc /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.SwitchStack
+                0x0000000000000000       0xe7 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.SwapBytes64
+                0x0000000000000000       0x17 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.SwapBytes32
+                0x0000000000000000       0x3f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.SwapBytes16
+                0x0000000000000000       0x1f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.LongJump
+                0x0000000000000000       0x53 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000       0x63 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.QuickSort
+                0x0000000000000000      0x297 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.RShiftU64
+                0x0000000000000000       0x4a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.RRotU64  0x0000000000000000       0x4a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.RRotU32  0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.MultU64x64
+                0x0000000000000000       0x2a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.MultU64x32
+                0x0000000000000000       0x27 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.MultS64x64
+                0x0000000000000000       0x22 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.ModU64x32
+                0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.LRotU64  0x0000000000000000       0x4a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.LRotU32  0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.LowBitSet64
+                0x0000000000000000       0x4f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.LowBitSet32
+                0x0000000000000000       0x3c /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.HighBitSet64
+                0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.HighBitSet32
+                0x0000000000000000       0x39 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.GetPowerOfTwo64
+                0x0000000000000000       0x32 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.GetPowerOfTwo32
+                0x0000000000000000       0x2f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.DivU64x64Remainder
+                0x0000000000000000       0x55 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.DivU64x32Remainder
+                0x0000000000000000       0x51 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.DivU64x32
+                0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.DivS64x64Remainder
+                0x0000000000000000       0x55 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.ARShiftU64
+                0x0000000000000000       0x4a /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.InternalBaseLibBitFieldReadUint
+                0x0000000000000000       0x35 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.InternalBaseLibBitFieldOrUint
+                0x0000000000000000       0xa6 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.InternalBaseLibBitFieldAndUint
+                0x0000000000000000       0xaa /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldRead8
+                0x0000000000000000       0x81 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldWrite8
+                0x0000000000000000       0x91 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldOr8
+                0x0000000000000000       0x8f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldAnd8
+                0x0000000000000000       0x8f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldAndThenOr8
+                0x0000000000000000       0xb4 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldRead16
+                0x0000000000000000       0x82 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldWrite16
+                0x0000000000000000       0x93 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldOr16
+                0x0000000000000000       0x91 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldAnd16
+                0x0000000000000000       0x91 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldAndThenOr16
+                0x0000000000000000       0xb7 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldRead32
+                0x0000000000000000       0x7e /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldWrite32
+                0x0000000000000000       0x8f /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text.BitFieldOr32
+                0x0000000000000000       0x89 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterBeforeIoRead
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterAfterIoRead
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterBeforeIoWrite
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterAfterIoWrite
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterBeforeMmIoRead
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterAfterMmIoRead
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterBeforeMmIoWrite
+                0x0000000000000000       0x16 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterAfterMmIoWrite
+                0x0000000000000000       0x11 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterBeforeMsrRead
+                0x0000000000000000       0x12 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterAfterMsrRead
+                0x0000000000000000        0xd /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterBeforeMsrWrite
+                0x0000000000000000       0x12 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FilterAfterMsrWrite
+                0x0000000000000000        0xd /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.SetPeiServicesTablePointer
+                0x0000000000000000       0x74 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.MigratePeiServicesTablePointer
+                0x0000000000000000        0x6 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.SetDebugPrintErrorLevel
+                0x0000000000000000        0xe /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.CodeTypeToPostCode
+                0x0000000000000000       0x7f /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportStatusCodeExtractAssertInfo
+                0x0000000000000000      0x13c /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportStatusCodeExtractDebugInfo
+                0x0000000000000000      0x11a /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportStatusCode
+                0x0000000000000000       0xa1 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportStatusCodeWithDevicePath
+                0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportStatusCodeWithExtendedData
+                0x0000000000000000       0x9c /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalAllocatePages
+                0x0000000000000000       0x4c /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocatePages
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateRuntimePages
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateReservedPages
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FreePages
+                0x0000000000000000       0xa7 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalAllocateAlignedPages
+                0x0000000000000000      0x2a5 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateAlignedPages
+                0x0000000000000000       0x99 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateAlignedRuntimePages
+                0x0000000000000000       0x99 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateAlignedReservedPages
+                0x0000000000000000       0x99 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FreeAlignedPages
+                0x0000000000000000       0xa7 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalAllocatePool
+                0x0000000000000000       0x46 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateRuntimePool
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateReservedPool
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalAllocateZeroPool
+                0x0000000000000000       0x45 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateRuntimeZeroPool
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateReservedZeroPool
+                0x0000000000000000       0x8e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalAllocateCopyPool
+                0x0000000000000000       0xa6 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateRuntimeCopyPool
+                0x0000000000000000       0x99 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocateReservedCopyPool
+                0x0000000000000000       0x99 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalReallocatePool
+                0x0000000000000000       0x6f /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReallocatePool
+                0x0000000000000000       0xa4 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReallocateRuntimePool
+                0x0000000000000000       0xa4 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReallocateReservedPool
+                0x0000000000000000       0xa4 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.FreePool
+                0x0000000000000000        0xa /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.DebugBPrint
+                0x0000000000000000       0xa3 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.DebugClearMemory
+                0x0000000000000000       0x57 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.DebugCodeEnabled
+                0x0000000000000000       0x18 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc6oNn56.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc6oNn56.ltrans0.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans1.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans2.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans3.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans4.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans5.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans6.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans7.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans8.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans9.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans10.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans11.ltrans.o
+LOAD /tmp/cc6oNn56.ltrans12.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/OemHookStatusCodeLibNull/OemHookStatusCodeLibNull/OUTPUT/OemHookStatusCodeLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/EmulatorPkg/Library/PeiServicesTablePointerLibMagicPage/PeiServicesTablePointerLibMagicPage/OUTPUT/EmulatorPkgPeiServicesTablePointerLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/PeiReportStatusCodeLib/PeiReportStatusCodeLib/OUTPUT/PeiReportStatusCodeLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode/OUTPUT/PeiDxeDebugLibReportStatusCode.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdePkg/Library/PeimEntryPoint/PeimEntryPoint/OUTPUT/PeimEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/OUTPUT/PcdPeim.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0x9732
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.PeiGetPcdInfoGetInfo
+                0x0000000000000240       0x99 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiGetPcdInfoGetInfoEx
+                0x00000000000002d9       0x9c /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiGetPcdInfoGetSku
+                0x0000000000000375       0x85 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSetSku
+                0x00000000000003fa      0x543 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet8
+                0x000000000000093d       0x91 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet16
+                0x00000000000009ce       0x98 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet32
+                0x0000000000000a66       0x98 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet64
+                0x0000000000000afe       0x98 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGetPtr
+                0x0000000000000b96       0x8e /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGetBool
+                0x0000000000000c24       0x91 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGetSize
+                0x0000000000000cb5      0x141 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000000cb5                PeiPcdGetSize
+ .text.PeiPcdGet8Ex
+                0x0000000000000df6       0x9c /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet16Ex
+                0x0000000000000e92       0xa3 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet32Ex
+                0x0000000000000f35       0xa3 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGet64Ex
+                0x0000000000000fd8       0xa3 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000000fd8                PeiPcdGet64Ex
+ .text.PeiPcdGetPtrEx
+                0x000000000000107b       0x99 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x000000000000107b                PeiPcdGetPtrEx
+ .text.PeiPcdGetBoolEx
+                0x0000000000001114       0x9c /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGetSizeEx
+                0x00000000000011b0       0x9e /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x00000000000011b0                PeiPcdGetSizeEx
+ .text.PeiPcdSet8
+                0x000000000000124e       0x9a /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet16
+                0x00000000000012e8       0x9b /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet32
+                0x0000000000001383       0x98 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet64
+                0x000000000000141b       0x99 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSetPtr
+                0x00000000000014b4       0xa1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSetBool
+                0x0000000000001555       0x9a /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet8Ex
+                0x00000000000015ef       0xa3 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet16Ex
+                0x0000000000001692       0xa4 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet32Ex
+                0x0000000000001736       0xa1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSet64Ex
+                0x00000000000017d7       0xa1 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSetPtrEx
+                0x0000000000001878       0xaa /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdSetBoolEx
+                0x0000000000001922       0xa3 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiRegisterCallBackOnSet
+                0x00000000000019c5       0xcb /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x00000000000019c5                PeiRegisterCallBackOnSet
+ .text.PcdUnRegisterCallBackOnSet
+                0x0000000000001a90       0xcb /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000001a90                PcdUnRegisterCallBackOnSet
+ .text.PeiPcdGetNextToken
+                0x0000000000001b5b      0x3f7 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.PeiPcdGetNextTokenSpace
+                0x0000000000001f52      0x39c /tmp/cc6oNn56.ltrans0.ltrans.o
+ .text.GetPtrTypeSize
+                0x00000000000022ee       0xdf /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x00000000000022ee                GetPtrTypeSize
+ .text.SetPtrTypeSize
+                0x00000000000023cd      0x130 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x00000000000023cd                SetPtrTypeSize
+ .text.ProcessLibraryConstructorList
+                0x00000000000024fd        0xe /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x00000000000024fd                ProcessLibraryConstructorList
+ .text.ProcessModuleEntryPointList
+                0x000000000000250b       0x22 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x000000000000250b                ProcessModuleEntryPointList
+ .text.GetHiiVariable
+                0x000000000000252d      0x206 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .text.InvokeCallbackOnSet
+                0x0000000000002733      0x14f /tmp/cc6oNn56.ltrans1.ltrans.o
+ .text.SetValueWorker
+                0x0000000000002882       0x2f /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x0000000000002882                SetValueWorker
+ .text.SetWorker
+                0x00000000000028b1      0x398 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x00000000000028b1                SetWorker
+ .text.ExSetValueWorker
+                0x0000000000002c49       0x38 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x0000000000002c49                ExSetValueWorker
+ .text.ExSetWorker
+                0x0000000000002c81       0x9b /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x0000000000002c81                ExSetWorker
+ .text.ExGetWorker
+                0x0000000000002d1c       0x3b /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x0000000000002d1c                ExGetWorker
+ .text.GetWorker
+                0x0000000000002d57      0x353 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x0000000000002d57                GetWorker
+ .text.GetExPcdTokenNumber
+                0x00000000000030aa      0x122 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x00000000000030aa                GetExPcdTokenNumber
+ .text.GetPcdDatabase
+                0x00000000000031cc       0x4f /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x00000000000031cc                GetPcdDatabase
+ .text.GetSizeTableIndex
+                0x000000000000321b       0x82 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x000000000000321b                GetSizeTableIndex
+ .text.PcdSetNvStoreDefaultIdCallBack
+                0x000000000000329d      0x438 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .text.EndOfPeiSignalPpiNotifyCallback
+                0x00000000000036d5      0x2f3 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x00000000000036d5                EndOfPeiSignalPpiNotifyCallback
+ .text.PcdPeimInit
+                0x00000000000039c8      0x715 /tmp/cc6oNn56.ltrans1.ltrans.o
+                0x00000000000039c8                PcdPeimInit
+ .text.ZeroMem  0x00000000000040dd       0x85 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x00000000000040dd                ZeroMem
+ .text.CopyMem  0x0000000000004162       0xb7 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004162                CopyMem
+ .text.InternalMemZeroMem
+                0x0000000000004219       0x28 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.CopyGuid
+                0x0000000000004241       0x51 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004241                CopyGuid
+ .text.CompareGuid
+                0x0000000000004292       0x77 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004292                CompareGuid
+ .text.ScanGuid
+                0x0000000000004309       0xf0 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004309                ScanGuid
+ .text.InternalMemCopyMem
+                0x00000000000043f9      0x3a8 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text._ModuleEntryPoint
+                0x00000000000047a1       0x71 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x00000000000047a1                _ModuleEntryPoint
+ .text.GetLocalTokenNumber
+                0x0000000000004812       0x3a /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004812                GetLocalTokenNumber
+ .text.GetPcdType
+                0x000000000000484c       0x9c /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.GetPcdName
+                0x00000000000048e8      0x161 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.ExGetPcdInfo
+                0x0000000000004a49      0x212 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.PeiGetPcdInfo
+                0x0000000000004c5b      0x15d /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004c5b                PeiGetPcdInfo
+ .text.PeiRegisterCallBackWorker
+                0x0000000000004db8      0x284 /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000004db8                PeiRegisterCallBackWorker
+ .text.LocateExPcdBinary
+                0x000000000000503c       0xfb /tmp/cc6oNn56.ltrans2.ltrans.o
+ .text.BuildPcdDatabase
+                0x0000000000005137       0xef /tmp/cc6oNn56.ltrans2.ltrans.o
+                0x0000000000005137                BuildPcdDatabase
+ .text.PeiServicesInstallPpi
+                0x0000000000005226       0x2c /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005226                PeiServicesInstallPpi
+ .text.PeiServicesReInstallPpi
+                0x0000000000005252       0x37 /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005252                PeiServicesReInstallPpi
+ .text.PeiServicesLocatePpi
+                0x0000000000005289       0x49 /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005289                PeiServicesLocatePpi
+ .text.PeiServicesNotifyPpi
+                0x00000000000052d2       0x2c /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x00000000000052d2                PeiServicesNotifyPpi
+ .text.PeiServicesGetBootMode
+                0x00000000000052fe       0x2c /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x00000000000052fe                PeiServicesGetBootMode
+ .text.PeiServicesGetHobList
+                0x000000000000532a       0x2c /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x000000000000532a                PeiServicesGetHobList
+ .text.PeiServicesCreateHob
+                0x0000000000005356       0x3f /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005356                PeiServicesCreateHob
+ .text.PeiServicesFfsFindNextVolume
+                0x0000000000005395       0x37 /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005395                PeiServicesFfsFindNextVolume
+ .text.PeiServicesFfsFindSectionData
+                0x00000000000053cc       0x3d /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x00000000000053cc                PeiServicesFfsFindSectionData
+ .text.PeiServicesAllocatePool
+                0x0000000000005409       0x3a /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005409                PeiServicesAllocatePool
+ .text.PeiServicesRegisterForShadow
+                0x0000000000005443       0x23 /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005443                PeiServicesRegisterForShadow
+ .text.PeiServicesFfsFindFileByName
+                0x0000000000005466       0x36 /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x0000000000005466                PeiServicesFfsFindFileByName
+ .text.InternalMemSetMem
+                0x000000000000549c      0x13b /tmp/cc6oNn56.ltrans3.ltrans.o
+                0x000000000000549c                InternalMemSetMem
+ .text.CpuPause
+                0x00000000000055d7        0x8 /tmp/cc6oNn56.ltrans4.ltrans.o
+                0x00000000000055d7                CpuPause
+ .text.CpuBreakpoint
+                0x00000000000055df        0x7 /tmp/cc6oNn56.ltrans4.ltrans.o
+                0x00000000000055df                CpuBreakpoint
+ .text.GetHobList
+                0x00000000000055e6       0xa1 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.GetNextHob
+                0x0000000000005687       0x8a /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.GetNextGuidHob
+                0x0000000000005711       0x72 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.GetFirstGuidHob
+                0x0000000000005783       0x27 /tmp/cc6oNn56.ltrans4.ltrans.o
+                0x0000000000005783                GetFirstGuidHob
+ .text.InternalPeiCreateHob
+                0x00000000000057aa       0x6d /tmp/cc6oNn56.ltrans4.ltrans.o
+ .text.BuildGuidHob
+                0x0000000000005817       0xa8 /tmp/cc6oNn56.ltrans4.ltrans.o
+                0x0000000000005817                BuildGuidHob
+ .text.InternalMathLShiftU64
+                0x00000000000058bf       0x1d /tmp/cc6oNn56.ltrans5.ltrans.o
+                0x00000000000058bf                InternalMathLShiftU64
+ .text.ReadUnaligned16
+                0x00000000000058dc       0x3d /tmp/cc6oNn56.ltrans5.ltrans.o
+                0x00000000000058dc                ReadUnaligned16
+ .text.ReadUnaligned32
+                0x0000000000005919       0x3c /tmp/cc6oNn56.ltrans5.ltrans.o
+                0x0000000000005919                ReadUnaligned32
+ .text.ReadUnaligned64
+                0x0000000000005955       0x3d /tmp/cc6oNn56.ltrans5.ltrans.o
+                0x0000000000005955                ReadUnaligned64
+ .text.WriteUnaligned64
+                0x0000000000005992       0x4c /tmp/cc6oNn56.ltrans5.ltrans.o
+                0x0000000000005992                WriteUnaligned64
+ .text.AsciiStrLen
+                0x00000000000059de       0x92 /tmp/cc6oNn56.ltrans6.ltrans.o
+                0x00000000000059de                AsciiStrLen
+ .text.AsciiStrSize
+                0x0000000000005a70       0x1b /tmp/cc6oNn56.ltrans6.ltrans.o
+                0x0000000000005a70                AsciiStrSize
+ .text.AsciiStrnLenS
+                0x0000000000005a8b       0x60 /tmp/cc6oNn56.ltrans8.ltrans.o
+                0x0000000000005a8b                AsciiStrnLenS
+ .text.AsciiStrnCpyS
+                0x0000000000005aeb      0x476 /tmp/cc6oNn56.ltrans8.ltrans.o
+                0x0000000000005aeb                AsciiStrnCpyS
+ .text.AsciiStrCatS
+                0x0000000000005f61      0x466 /tmp/cc6oNn56.ltrans8.ltrans.o
+                0x0000000000005f61                AsciiStrCatS
+ .text.CpuDeadLoop
+                0x00000000000063c7       0x22 /tmp/cc6oNn56.ltrans10.ltrans.o
+                0x00000000000063c7                CpuDeadLoop
+ .text.InternalSafeStringIsOverlap
+                0x00000000000063e9       0x68 /tmp/cc6oNn56.ltrans10.ltrans.o
+                0x00000000000063e9                InternalSafeStringIsOverlap
+ .text.InternalSafeStringNoAsciiStrOverlap
+                0x0000000000006451       0x37 /tmp/cc6oNn56.ltrans10.ltrans.o
+                0x0000000000006451                InternalSafeStringNoAsciiStrOverlap
+ .text.DebugPrintLevelEnabled
+                0x0000000000006488       0x1c /tmp/cc6oNn56.ltrans11.ltrans.o
+                0x0000000000006488                DebugPrintLevelEnabled
+ .text.LShiftU64
+                0x00000000000064a4       0x4a /tmp/cc6oNn56.ltrans11.ltrans.o
+                0x00000000000064a4                LShiftU64
+ .text.OemHookStatusCodeInitialize
+                0x00000000000064ee        0xb /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.OemHookStatusCodeReport
+                0x00000000000064f9       0x19 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.GetPeiServicesTablePointer
+                0x0000000000006512       0x71 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x0000000000006512                GetPeiServicesTablePointer
+ .text.GetDebugPrintErrorLevel
+                0x0000000000006583        0xc /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.InternalReportStatusCode
+                0x000000000000658f       0xf9 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportStatusCodeEx
+                0x0000000000006688      0x1dd /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportProgressCodeEnabled
+                0x0000000000006865       0x18 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportErrorCodeEnabled
+                0x000000000000687d       0x18 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.ReportDebugCodeEnabled
+                0x0000000000006895       0x18 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.AllocatePool
+                0x00000000000068ad       0x37 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x00000000000068ad                AllocatePool
+ .text.AllocateZeroPool
+                0x00000000000068e4       0x3a /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x00000000000068e4                AllocateZeroPool
+ .text.AllocateCopyPool
+                0x000000000000691e       0x98 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x000000000000691e                AllocateCopyPool
+ .text.DebugPrint
+                0x00000000000069b6       0x39 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x00000000000069b6                DebugPrint
+ .text.DebugPrintMarker
+                0x00000000000069ef      0x554 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.DebugVPrint
+                0x0000000000006f43       0xa1 /tmp/cc6oNn56.ltrans12.ltrans.o
+ .text.DebugAssert
+                0x0000000000006fe4      0x267 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x0000000000006fe4                DebugAssert
+ .text.DebugAssertEnabled
+                0x000000000000724b       0x18 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x000000000000724b                DebugAssertEnabled
+ .text.DebugPrintEnabled
+                0x0000000000007263       0x18 /tmp/cc6oNn56.ltrans12.ltrans.o
+                0x0000000000007263                DebugPrintEnabled
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *fill*         0x000000000000727b        0x5 
+ .rodata.__FUNCTION__.3030.lto_priv.15
+                0x0000000000007280        0xe /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007280                __FUNCTION__.3030.lto_priv.15
+ *fill*         0x000000000000728e        0x2 
+ .rodata.__FUNCTION__.3042.lto_priv.14
+                0x0000000000007290        0xd /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007290                __FUNCTION__.3042.lto_priv.14
+ *fill*         0x000000000000729d        0x3 
+ .rodata.str1.8
+                0x00000000000072a0      0x2b0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000007550       0x1a /tmp/cc6oNn56.ltrans0.ltrans.o
+                                         0x2f (size before relaxing)
+ .rodata._gPcd_FixedAtBuild_PcdPeiFullPcdDatabaseEnable
+                0x000000000000756a        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x000000000000756a                _gPcd_FixedAtBuild_PcdPeiFullPcdDatabaseEnable
+ *fill*         0x000000000000756b        0x1 
+ .rodata._gPcd_FixedAtBuild_PcdVpdBaseAddress
+                0x000000000000756c        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x000000000000756c                _gPcd_FixedAtBuild_PcdVpdBaseAddress
+ .rodata._gPcd_FixedAtBuild_PcdMaxPeiPcdCallBackNumberPerPcdEntry
+                0x0000000000007570        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007570                _gPcd_FixedAtBuild_PcdMaxPeiPcdCallBackNumberPerPcdEntry
+ *fill*         0x0000000000007574        0x4 
+ .rodata._gPcd_FixedAtBuild_PcdPeiServicesTablePage
+                0x0000000000007578        0x8 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007578                _gPcd_FixedAtBuild_PcdPeiServicesTablePage
+ .rodata._gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+                0x0000000000007580        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007580                _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+ .rodata._gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
+                0x0000000000007584        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007584                _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000007585        0x1 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007585                _gPcd_FixedAtBuild_PcdDebugPropertyMask
+ *fill*         0x0000000000007586        0x2 
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000007588        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007588                _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+ .rodata._gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x000000000000758c        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x000000000000758c                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+ .rodata._gPeimRevision
+                0x0000000000007590        0x4 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000007590                _gPeimRevision
+ *fill*         0x0000000000007594        0x4 
+ .rodata.str1.8
+                0x0000000000007598       0xa8 /tmp/cc6oNn56.ltrans1.ltrans.o
+                                        0x162 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000007640       0x46 /tmp/cc6oNn56.ltrans1.ltrans.o
+                                         0x58 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000007686       0x65 /tmp/cc6oNn56.ltrans2.ltrans.o
+                                         0xa6 (size before relaxing)
+ *fill*         0x00000000000076eb        0x5 
+ .rodata.str1.8
+                0x00000000000076f0      0x6e7 /tmp/cc6oNn56.ltrans2.ltrans.o
+                                        0x77f (size before relaxing)
+ .rodata.str1.1
+                0x0000000000007dd7       0xcf /tmp/cc6oNn56.ltrans4.ltrans.o
+                                        0x121 (size before relaxing)
+ *fill*         0x0000000000007ea6        0x2 
+ .rodata.str1.8
+                0x0000000000007ea8      0x496 /tmp/cc6oNn56.ltrans4.ltrans.o
+                                        0x4e6 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000833e      0x114 /tmp/cc6oNn56.ltrans5.ltrans.o
+                                        0x13d (size before relaxing)
+ *fill*         0x0000000000008452        0x6 
+ .rodata.str1.8
+                0x0000000000008458      0x3ad /tmp/cc6oNn56.ltrans5.ltrans.o
+ *fill*         0x0000000000008805        0x3 
+ .rodata.str1.8
+                0x0000000000008808      0x259 /tmp/cc6oNn56.ltrans6.ltrans.o
+                                        0x299 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000008a61      0x15a /tmp/cc6oNn56.ltrans6.ltrans.o
+                                        0x170 (size before relaxing)
+ *fill*         0x0000000000008bbb        0x5 
+ .rodata.str1.8
+                0x0000000000008bc0      0x163 /tmp/cc6oNn56.ltrans8.ltrans.o
+                                        0x253 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000008d23       0x98 /tmp/cc6oNn56.ltrans8.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000008dbb      0x127 /tmp/cc6oNn56.ltrans11.ltrans.o
+                                        0x197 (size before relaxing)
+ *fill*         0x0000000000008ee2        0x6 
+ .rodata.str1.8
+                0x0000000000008ee8      0x62b /tmp/cc6oNn56.ltrans11.ltrans.o
+ *fill*         0x0000000000009513        0x5 
+ .rodata.str1.8
+                0x0000000000009518      0x338 /tmp/cc6oNn56.ltrans12.ltrans.o
+                                        0x387 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000009850      0x122 /tmp/cc6oNn56.ltrans12.ltrans.o
+                                        0x14e (size before relaxing)
+ *(.got .got.*)
+ .got           0x0000000000009972        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .got.plt       0x0000000000009972        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000009980        0x0
+ .plt           0x0000000000009980        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.plt.got        0x0000000000009978        0x0
+ .plt.got       0x0000000000009978        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.data           0x0000000000009980      0x320
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local.mPcdPpiInstance
+                0x0000000000009980       0xf8 /tmp/cc6oNn56.ltrans0.ltrans.o
+ *fill*         0x0000000000009a78        0x8 
+ .data.rel.local.mEfiPcdPpiInstance
+                0x0000000000009a80       0x90 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.rel.local.mGetPcdInfoInstance
+                0x0000000000009b10       0x18 /tmp/cc6oNn56.ltrans0.ltrans.o
+ *fill*         0x0000000000009b28        0x8 
+ .data.rel.local.mEfiGetPcdInfoInstance
+                0x0000000000009b30       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.rel.local.mPpiList
+                0x0000000000009b40       0x30 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009b40                mPpiList
+ *fill*         0x0000000000009b70       0x10 
+ .data.rel.local.mPpiList2
+                0x0000000000009b80       0x30 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009b80                mPpiList2
+ .data.rel.local.mEndOfPeiSignalPpiNotifyList
+                0x0000000000009bb0       0x18 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009bb0                mEndOfPeiSignalPpiNotifyList
+ *fill*         0x0000000000009bc8        0x8 
+ .data.gEfiCallerIdGuid
+                0x0000000000009bd0       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009bd0                gEfiCallerIdGuid
+ .data.rel.local.gEfiCallerBaseName
+                0x0000000000009be0        0x8 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009be0                gEfiCallerBaseName
+ *fill*         0x0000000000009be8        0x8 
+ .data.gPcdDataBaseHobGuid
+                0x0000000000009bf0       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009bf0                gPcdDataBaseHobGuid
+ .data.gPcdDataBaseSignatureGuid
+                0x0000000000009c00       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c00                gPcdDataBaseSignatureGuid
+ .data.gEfiMdeModulePkgTokenSpaceGuid
+                0x0000000000009c10       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c10                gEfiMdeModulePkgTokenSpaceGuid
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x0000000000009c20       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c20                gEfiStatusCodeSpecificDataGuid
+ .data.gEfiStatusCodeDataTypeDebugGuid
+                0x0000000000009c30       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c30                gEfiStatusCodeDataTypeDebugGuid
+ .data.gEfiPeiReadOnlyVariable2PpiGuid
+                0x0000000000009c40       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c40                gEfiPeiReadOnlyVariable2PpiGuid
+ .data.gPcdPpiGuid
+                0x0000000000009c50       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c50                gPcdPpiGuid
+ .data.gEfiPeiPcdPpiGuid
+                0x0000000000009c60       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c60                gEfiPeiPcdPpiGuid
+ .data.gGetPcdInfoPpiGuid
+                0x0000000000009c70       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c70                gGetPcdInfoPpiGuid
+ .data.gEfiGetPcdInfoPpiGuid
+                0x0000000000009c80       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+                0x0000000000009c80                gEfiGetPcdInfoPpiGuid
+ .data.gEfiEndOfPeiSignalPpiGuid
+                0x0000000000009c90       0x10 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .data.rel.ro   0x0000000000009ca0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ *(.bss .bss.*)
+
+.eh_frame       0x0000000000009cc0        0x0
+ *(.eh_frame)
+ .eh_frame      0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .eh_frame      0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.dynbss         0x0000000000009cc0        0x0
+ .dynbss        0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.gnu.version_d  0x0000000000009cc0        0x0
+ .gnu.version_d
+                0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.gnu.version    0x0000000000009cc0        0x0
+ .gnu.version   0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.gnu.version_r  0x0000000000009cc0        0x0
+ .gnu.version_r
+                0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+
+.rela           0x0000000000009cc0      0x618
+ *(.rela .rela.*)
+ .rela.plt      0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.got      0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.bss      0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.ifunc    0x0000000000009cc0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mPcdPpiInstance
+                0x0000000000009cc0      0x2e8 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mEfiPcdPpiInstance
+                0x0000000000009fa8      0x1b0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mGetPcdInfoInstance
+                0x000000000000a158       0x48 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mEfiGetPcdInfoInstance
+                0x000000000000a1a0       0x30 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mPpiList
+                0x000000000000a1d0       0x60 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mPpiList2
+                0x000000000000a230       0x60 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.mEndOfPeiSignalPpiNotifyList
+                0x000000000000a290       0x30 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.local.gEfiCallerBaseName
+                0x000000000000a2c0       0x18 RegisterFilterLibNull.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000a2d8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000a2d8       0x24 RegisterFilterLibNull.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/EmulatorX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/DEBUG/PcdPeim.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x119d4
+ .debug_info    0x0000000000000000     0x2c92 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .debug_info    0x0000000000002c92     0x1ca7 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .debug_info    0x0000000000004939     0x2006 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .debug_info    0x000000000000693f     0x24b4 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .debug_info    0x0000000000008df3     0x1fd0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .debug_info    0x000000000000adc3     0x185a /tmp/cc6oNn56.ltrans5.ltrans.o
+ .debug_info    0x000000000000c61d      0xa63 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .debug_info    0x000000000000d080      0x6ab /tmp/cc6oNn56.ltrans8.ltrans.o
+ .debug_info    0x000000000000d72b      0xb46 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .debug_info    0x000000000000e271     0x12bb /tmp/cc6oNn56.ltrans11.ltrans.o
+ .debug_info    0x000000000000f52c     0x24a8 /tmp/cc6oNn56.ltrans12.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x17e7
+ .debug_abbrev  0x0000000000000000      0x253 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000253      0x237 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000048a      0x234 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .debug_abbrev  0x00000000000006be      0x221 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .debug_abbrev  0x00000000000008df      0x33b /tmp/cc6oNn56.ltrans4.ltrans.o
+ .debug_abbrev  0x0000000000000c1a      0x245 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .debug_abbrev  0x0000000000000e5f      0x180 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000000fdf       0xf6 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .debug_abbrev  0x00000000000010d5      0x192 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .debug_abbrev  0x0000000000001267      0x237 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .debug_abbrev  0x000000000000149e      0x349 /tmp/cc6oNn56.ltrans12.ltrans.o
+
+.debug_aranges  0x0000000000000000     0x2160
+ .debug_aranges
+                0x0000000000000000      0x2a0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000002a0      0x100 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000000000003a0      0x270 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000610      0x450 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000a60      0x690 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .debug_aranges
+                0x00000000000010f0      0x3f0 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000000000014e0      0x1d0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .debug_aranges
+                0x00000000000016b0       0xc0 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .debug_aranges
+                0x0000000000001770      0x220 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000001990      0x390 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000001d20      0x440 /tmp/cc6oNn56.ltrans12.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x20b0
+ .debug_ranges  0x0000000000000000      0x290 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000290       0xf0 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000380      0x260 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .debug_ranges  0x00000000000005e0      0x440 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .debug_ranges  0x0000000000000a20      0x680 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .debug_ranges  0x00000000000010a0      0x3e0 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000001480      0x1c0 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .debug_ranges  0x0000000000001640       0xb0 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .debug_ranges  0x00000000000016f0      0x210 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000001900      0x380 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000001c80      0x430 /tmp/cc6oNn56.ltrans12.ltrans.o
+
+.debug_line     0x0000000000000000     0x5ea2
+ .debug_line    0x0000000000000000      0x8a9 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .debug_line    0x00000000000008a9      0x5a5 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .debug_line    0x0000000000000e4e      0x97f /tmp/cc6oNn56.ltrans2.ltrans.o
+ .debug_line    0x00000000000017cd      0xa76 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .debug_line    0x0000000000002243      0xe1d /tmp/cc6oNn56.ltrans4.ltrans.o
+ .debug_line    0x0000000000003060      0x969 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .debug_line    0x00000000000039c9      0x505 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .debug_line    0x0000000000003ece      0x30c /tmp/cc6oNn56.ltrans8.ltrans.o
+ .debug_line    0x00000000000041da      0x536 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .debug_line    0x0000000000004710      0x9d3 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .debug_line    0x00000000000050e3      0xdbf /tmp/cc6oNn56.ltrans12.ltrans.o
+
+.debug_str      0x0000000000000000     0x4da8
+ .debug_str     0x0000000000000000     0x1d3f /tmp/cc6oNn56.ltrans0.ltrans.o
+                                       0x222b (size before relaxing)
+ .debug_str     0x0000000000001d3f      0x393 /tmp/cc6oNn56.ltrans1.ltrans.o
+                                       0x1612 (size before relaxing)
+ .debug_str     0x00000000000020d2      0x333 /tmp/cc6oNn56.ltrans2.ltrans.o
+                                       0x169e (size before relaxing)
+ .debug_str     0x0000000000002405      0x64f /tmp/cc6oNn56.ltrans3.ltrans.o
+                                       0x17b4 (size before relaxing)
+ .debug_str     0x0000000000002a54      0xa49 /tmp/cc6oNn56.ltrans4.ltrans.o
+                                        0xfb4 (size before relaxing)
+ .debug_str     0x000000000000349d      0x77d /tmp/cc6oNn56.ltrans5.ltrans.o
+                                        0xab3 (size before relaxing)
+ .debug_str     0x0000000000003c1a      0x2c4 /tmp/cc6oNn56.ltrans6.ltrans.o
+                                        0x649 (size before relaxing)
+ .debug_str     0x0000000000003ede      0x17d /tmp/cc6oNn56.ltrans8.ltrans.o
+                                        0x500 (size before relaxing)
+ .debug_str     0x000000000000405b      0x22c /tmp/cc6oNn56.ltrans10.ltrans.o
+                                        0x5da (size before relaxing)
+ .debug_str     0x0000000000004287      0x360 /tmp/cc6oNn56.ltrans11.ltrans.o
+                                        0x76d (size before relaxing)
+ .debug_str     0x00000000000045e7      0x7c1 /tmp/cc6oNn56.ltrans12.ltrans.o
+                                       0x18b6 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x5d68
+ .debug_frame   0x0000000000000000      0xcb0 /tmp/cc6oNn56.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000cb0      0x2d0 /tmp/cc6oNn56.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000f80      0x5e8 /tmp/cc6oNn56.ltrans2.ltrans.o
+ .debug_frame   0x0000000000001568      0xa90 /tmp/cc6oNn56.ltrans3.ltrans.o
+ .debug_frame   0x0000000000001ff8     0x10c0 /tmp/cc6oNn56.ltrans4.ltrans.o
+ .debug_frame   0x00000000000030b8      0x9a8 /tmp/cc6oNn56.ltrans5.ltrans.o
+ .debug_frame   0x0000000000003a60      0x458 /tmp/cc6oNn56.ltrans6.ltrans.o
+ .debug_frame   0x0000000000003eb8      0x270 /tmp/cc6oNn56.ltrans8.ltrans.o
+ .debug_frame   0x0000000000004128      0x588 /tmp/cc6oNn56.ltrans10.ltrans.o
+ .debug_frame   0x00000000000046b0      0x8c0 /tmp/cc6oNn56.ltrans11.ltrans.o
+ .debug_frame   0x0000000000004f70      0xdf8 /tmp/cc6oNn56.ltrans12.ltrans.o

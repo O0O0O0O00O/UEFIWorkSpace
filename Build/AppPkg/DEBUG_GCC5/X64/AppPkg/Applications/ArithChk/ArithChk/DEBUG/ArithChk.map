@@ -1,0 +1,2054 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/AppPkg/Applications/ArithChk/ArithChk/OUTPUT/ArithChk.lib(arithchk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/AppPkg/Applications/ArithChk/ArithChk/OUTPUT/ArithChk.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib(ApplicationEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/OUTPUT/UefiShellCEntryLib.lib(UefiShellCEntryLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daUtility/OUTPUT/DevUtility.lib(DevGenisis.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daUtility/OUTPUT/DevUtility.lib(DevSearch.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daUtility/OUTPUT/DevUtility.lib(Path.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib(dirname.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib(opendir.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib(closedir.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib(readdir.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib(access.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib(utime.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib(select.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib(SysCalls.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib(writev.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib(Xform.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib(compat.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib(StubFunctions.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(Time.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(ZoneProc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(strftime.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(strptime.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(TimeEfi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(gettimeofday.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(timegm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib(itimer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Signal/Signal/OUTPUT/LibSignal.lib(Signal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Ctype/Ctype/OUTPUT/LibCtype.lib(iCtype.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Ctype/Ctype/OUTPUT/LibCtype.lib(CClass.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Ctype/Ctype/OUTPUT/LibCtype.lib(CConv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(Misc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(Copying.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(Concatenation.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(Comparison.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(Searching.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(ErrorList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(strncasecmp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(strlcpy.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(strlcat.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib(strsep.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Bsearch.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Environs.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Malloc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(NumericInt.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Qsort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Rand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(strtoimax.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(strtoumax.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Xabs.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(Xdiv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(realpath.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib(setprogname.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(__mb_cur_max.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(_def_messages.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(_def_monetary.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(_def_numeric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(_def_time.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(aliasname.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(ctypeio.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(localeconv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(nl_langinfo.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(setlocale1.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(setlocale32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(setlocale.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcscoll.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcsftime.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstoimax.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstol.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstoll.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstoul.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstoull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstoumax.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstod.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstof.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcstold.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(wcsxfrm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(multibyte_Utf8.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib(iswctype_sb.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(strtof.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(strtold_px.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(strtopx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(strtod.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(atof.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(dtoa.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(gdtoa.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(dmisc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(gmisc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(hd_init.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(hexnan.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(misc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(smisc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(strtodg.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(sum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib(ulp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(clrerr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fclose.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fdopen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(feof.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(ferror.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fflush.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgetc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgetln.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgetpos.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgets.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fopen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fputc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fputs.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fread.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(freopen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fseek.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fsetpos.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(ftell.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fwrite.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(getc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(getchar.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(gets.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(perror.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(printf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(putc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(putchar.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(puts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(remove.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(rewind.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(scanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(setbuf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(setvbuf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(sprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(sscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(tempnam.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(tmpfile.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(tmpnam.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(ungetc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vfprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vfwprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vsprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(snprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vsnprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fparseln.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgetwc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgetws.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fputwc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fputws.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fwide.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fwprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fwscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(getwc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(getwchar.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(putwc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(putwchar.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(swprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(swscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(ungetwc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vfwscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vswprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vswscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vwprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vwscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(wprintf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(wscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fgetstr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(findfp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(flags.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fseeko.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(ftello.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fvwrite.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(fwalk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(gettemp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(makebuf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(mkstemp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(mktemp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(refill.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(rget.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(stdio.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(vfscanf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(wbuf.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib(wsetup.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(errno.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(assert.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(isinfd_ieee754.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(isinff_ieee754.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(isnand_ieee754.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(isnanf_ieee754.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(infinityf_ieee754.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(Main.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(HtoNtoH.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(ByteSwap.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(longjmp.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(x86flt_rounds.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(fpu_rmode.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(isinfl.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(isnanl.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Containers/ContainerLib/OUTPUT/LibContainer.lib(Fifo.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Containers/ContainerLib/OUTPUT/LibContainer.lib(ModuloUtil.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(IIO.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(NonCanonRead.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(CanonRead.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(TerminalFunctions.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(IIOutilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(IIOwrite.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib(IIOecho.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib(ConsDecons.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib(Copying.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib(Concatenation.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib(Comparison.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib(Searching.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daConsole/OUTPUT/DevConsole.lib(daConsole.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib(UefiSortLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/OUTPUT/UefiFileHandleLib.lib(UefiFileHandleLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/ShellPkg/Library/UefiShellLib/UefiShellLib/OUTPUT/UefiShellLib.lib(UefiShellLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .text.unlikely.__vfprintf_unlocked
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .text.unlikely.__find_arguments.lto_priv.76
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleFlush
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleFlush
+                0x0000000000000000       0x16 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleGetPosition
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleGetPosition
+                0x0000000000000000       0x1b /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleSetPosition
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleSetPosition
+                0x0000000000000000       0x16 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleDelete
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleDelete
+                0x0000000000000000       0x16 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleClose
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleClose
+                0x0000000000000000       0x16 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleWrite
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleWrite
+                0x0000000000000000       0x16 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleRead
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleRead
+                0x0000000000000000       0x16 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleSetInfo
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleSetInfo
+                0x0000000000000000       0x28 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConOpen
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConIoctl.lto_priv.87
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConStat.lto_priv.85
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.time1.constprop.6
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.strcmp.constprop.4
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.getenv.constprop.2
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleGetInfo
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleGetInfo
+                0x0000000000000000       0x81 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.FileHandleGetSize
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.FileHandleGetSize
+                0x0000000000000000       0x50 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConPoll.lto_priv.88
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConRead.lto_priv.84
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConFlush.lto_priv.89
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.da_ConClose.lto_priv.83
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.time.constprop.1
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.unlikely.Print
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .data.gEfiFileInfoGuid
+                0x0000000000000000       0x10 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__sflush
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__ultoa.lto_priv.75
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.printf
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.fflush
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__cmp_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__hi0bits_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__lo0bits_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__Bfree_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__Balloc_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__lshift_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__mult_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__i2b_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__pow5mult_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__quorem_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__freedtoa
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__rv_alloc_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__nrv_alloc_D2A
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.EncodeUtf8
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.EstimateWtoM
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.wcsrtombs
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.localeconv
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.realloc
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text.unlikely.__sprint.lto_priv.74
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.fbadop_delete
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.fbadop_rmdir
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.fbadop_rename
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.fbadop_mkdir
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.fnullop_fcntl
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.ClassifyPath.part.0
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.open
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.lseek
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.unlikely.isatty
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.46
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.45
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text.unlikely._fwalk.constprop.41
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text.unlikely.ValidateFD.constprop.39
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text.unlikely.__multadd_D2A.constprop.38
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text.unlikely.fprintf.constprop.36
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.free
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.strncpyX
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.memcpy
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.strlen
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.StrLen
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.strncpy
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0x28 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.malloc
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text.unlikely.abort
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.FIFO_FreeSpace.lto_priv.56
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.FIFO_NumInQueue.lto_priv.55
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__sclose
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__sseek
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__swrite
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__sread
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely._cleanup
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.exitCleanup
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.ShellAppMain
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__assert
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.FIFO_IsFull.lto_priv.54
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.FIFO_IsEmpty.lto_priv.53
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__swsetup
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.unlikely.__grow_type_table.lto_priv.72
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.IIO_Read.lto_priv.91
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.IIO_Write.lto_priv.92
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_GetWDex.lto_priv.61
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_GetRDex.lto_priv.60
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Truncate.lto_priv.58
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Flush.lto_priv.57
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Delete.lto_priv.59
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Dequeue
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Copy.lto_priv.52
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Read.lto_priv.51
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.unlikely.FIFO_Enqueue.lto_priv.50
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0x22 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.CopyMem.part.0.lto_priv.81
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.ZeroMem.part.0.lto_priv.63
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.ScanMem8
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text.unlikely.tzparse.lto_priv.67
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.time2sub.constprop.9
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.New_cFIFO.constprop.30
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely._closeX.constprop.29
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.AsciiSPrint.constprop.26
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.calloc.constprop.18
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.AsciiStrToUnicodeStrS.constprop.11
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.time2.constprop.7
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.unlikely.exit.constprop.28
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.da_ConWrite.lto_priv.69
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.da_ConSeek.lto_priv.86
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.FifoDelete
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_GetDeviceProto
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_SetCursorPosition
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_Delete.lto_priv.90
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.da_ConRawRead.lto_priv.68
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_WriteOne
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_EchoOne
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_Echo.lto_priv.93
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_GetOutputSize
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.unlikely.IIO_GetCursorPosition
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.getnum
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.getsecs
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.timesub.isra.0
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.localsub.lto_priv.62
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.transtime.lto_priv.77
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.getrule.lto_priv.78
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.getoffset.lto_priv.79
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.getzname.lto_priv.80
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.settzname.lto_priv.66
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.tmcomp.lto_priv.65
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.unlikely.normalize_overflow.lto_priv.64
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans14.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.47
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccXdDeK8.ltrans14.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXdDeK8.ltrans14.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(fpu_rmode.obj)
+ .data          0x0000000000000000        0x0 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(fpu_rmode.obj)
+ .bss           0x0000000000000000        0x0 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib(fpu_rmode.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccXdDeK8.ltrans0.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans1.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans2.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans3.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans4.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans5.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans6.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans7.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans8.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans9.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans10.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans11.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans12.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans13.ltrans.o
+LOAD /tmp/ccXdDeK8.ltrans14.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/AppPkg/Applications/ArithChk/ArithChk/OUTPUT/ArithChk.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/OUTPUT/UefiShellCEntryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daUtility/OUTPUT/DevUtility.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Signal/Signal/OUTPUT/LibSignal.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Ctype/Ctype/OUTPUT/LibCtype.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/String/String/OUTPUT/LibString.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/OUTPUT/LibC.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Containers/ContainerLib/OUTPUT/LibContainer.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/StdLib/LibC/Uefi/Devices/daConsole/OUTPUT/DevConsole.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/OUTPUT/UefiFileHandleLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/ShellPkg/Library/UefiShellLib/UefiShellLib/OUTPUT/UefiShellLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0xd620
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.__vfprintf_unlocked
+                0x0000000000000240     0x3187 /tmp/ccXdDeK8.ltrans0.ltrans.o
+                0x0000000000000240                __vfprintf_unlocked
+ .text._ModuleEntryPoint
+                0x00000000000033c7      0x91d /tmp/ccXdDeK8.ltrans1.ltrans.o
+                0x00000000000033c7                _ModuleEntryPoint
+ .text.__find_arguments.lto_priv.76
+                0x0000000000003ce4      0xa71 /tmp/ccXdDeK8.ltrans2.ltrans.o
+                0x0000000000003ce4                __find_arguments.lto_priv.76
+ .text.da_ConOpen
+                0x0000000000004755       0x70 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000004755                da_ConOpen
+ .text.da_ConIoctl.lto_priv.87
+                0x00000000000047c5        0xe /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x00000000000047c5                da_ConIoctl.lto_priv.87
+ .text.da_ConStat.lto_priv.85
+                0x00000000000047d3       0xd0 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x00000000000047d3                da_ConStat.lto_priv.85
+ .text.time1.constprop.6
+                0x00000000000048a3      0x17f /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.strcmp.constprop.4
+                0x0000000000004a22       0x20 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.getenv.constprop.2
+                0x0000000000004a42       0xfe /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .text.da_ConPoll.lto_priv.88
+                0x0000000000004b40      0x123 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000004b40                da_ConPoll.lto_priv.88
+ .text.da_ConRead.lto_priv.84
+                0x0000000000004c63      0x18c /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000004c63                da_ConRead.lto_priv.84
+ .text.da_ConFlush.lto_priv.89
+                0x0000000000004def       0x9c /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000004def                da_ConFlush.lto_priv.89
+ .text.da_ConClose.lto_priv.83
+                0x0000000000004e8b       0x62 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000004e8b                da_ConClose.lto_priv.83
+ .text.time.constprop.1
+                0x0000000000004eed      0x227 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000004eed                time.constprop.1
+ .text.Print    0x0000000000005114      0x145 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x0000000000005114                Print
+ .text.__sflush
+                0x0000000000005259       0x76 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005259                __sflush
+ .text.__ultoa.lto_priv.75
+                0x00000000000052cf      0x115 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x00000000000052cf                __ultoa.lto_priv.75
+ .text.printf   0x00000000000053e4       0x9e /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x00000000000053e4                printf
+ .text.fflush   0x0000000000005482       0x23 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005482                fflush
+ .text.__cmp_D2A
+                0x00000000000054a5       0x3c /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x00000000000054a5                __cmp_D2A
+ .text.__hi0bits_D2A
+                0x00000000000054e1       0x53 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x00000000000054e1                __hi0bits_D2A
+ .text.__lo0bits_D2A
+                0x0000000000005534       0x6c /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005534                __lo0bits_D2A
+ .text.__Bfree_D2A
+                0x00000000000055a0       0x1c /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x00000000000055a0                __Bfree_D2A
+ .text.__Balloc_D2A
+                0x00000000000055bc       0xa4 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x00000000000055bc                __Balloc_D2A
+ .text.__lshift_D2A
+                0x0000000000005660       0xe9 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005660                __lshift_D2A
+ .text.__mult_D2A
+                0x0000000000005749       0xeb /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005749                __mult_D2A
+ .text.__i2b_D2A
+                0x0000000000005834       0x1e /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005834                __i2b_D2A
+ .text.__pow5mult_D2A
+                0x0000000000005852       0xb4 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005852                __pow5mult_D2A
+ .text.__quorem_D2A
+                0x0000000000005906      0x15d /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005906                __quorem_D2A
+ .text.__freedtoa
+                0x0000000000005a63       0x31 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005a63                __freedtoa
+ .text.__rv_alloc_D2A
+                0x0000000000005a94       0x38 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005a94                __rv_alloc_D2A
+ .text.__nrv_alloc_D2A
+                0x0000000000005acc       0x3f /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005acc                __nrv_alloc_D2A
+ .text.EncodeUtf8
+                0x0000000000005b0b       0xa4 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005b0b                EncodeUtf8
+ .text.EstimateWtoM
+                0x0000000000005baf       0x62 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005baf                EstimateWtoM
+ .text.wcsrtombs
+                0x0000000000005c11       0xe9 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005c11                wcsrtombs
+ .text.localeconv
+                0x0000000000005cfa       0xef /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005cfa                localeconv
+ .text.realloc  0x0000000000005de9       0xc6 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005de9                realloc
+ .text.__sprint.lto_priv.74
+                0x0000000000005eaf      0x390 /tmp/ccXdDeK8.ltrans4.ltrans.o
+                0x0000000000005eaf                __sprint.lto_priv.74
+ .text.fbadop_delete
+                0x000000000000623f        0xe /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000623f                fbadop_delete
+ .text.fbadop_rmdir
+                0x000000000000624d        0xe /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000624d                fbadop_rmdir
+ .text.fbadop_rename
+                0x000000000000625b        0xe /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000625b                fbadop_rename
+ .text.fbadop_mkdir
+                0x0000000000006269        0xe /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x0000000000006269                fbadop_mkdir
+ .text.fnullop_fcntl
+                0x0000000000006277        0x3 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x0000000000006277                fnullop_fcntl
+ .text.ClassifyPath.part.0
+                0x000000000000627a      0x116 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .text.open     0x0000000000006390      0x65c /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x0000000000006390                open
+ .text.lseek    0x00000000000069ec       0x80 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x00000000000069ec                lseek
+ .text.isatty   0x0000000000006a6c       0x31 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x0000000000006a6c                isatty
+ .text.BasePrintLibSPrintMarker.constprop.46
+                0x0000000000006a9d      0xef6 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x0000000000006a9d                BasePrintLibSPrintMarker.constprop.46
+ .text.InternalAllocatePool.constprop.45
+                0x0000000000007993       0x37 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x0000000000007993                InternalAllocatePool.constprop.45
+ .text._fwalk.constprop.41
+                0x00000000000079ca       0x4c /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x00000000000079ca                _fwalk.constprop.41
+ .text.ValidateFD.constprop.39
+                0x0000000000007a16       0x2d /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x0000000000007a16                ValidateFD.constprop.39
+ .text.__multadd_D2A.constprop.38
+                0x0000000000007a43       0xa6 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x0000000000007a43                __multadd_D2A.constprop.38
+ .text.fprintf.constprop.36
+                0x0000000000007ae9       0x96 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x0000000000007ae9                fprintf.constprop.36
+ .text.free     0x0000000000007b7f       0x6e /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007b7f                free
+ .text.strncpyX
+                0x0000000000007bed       0x2e /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007bed                strncpyX
+ .text.memcpy   0x0000000000007c1b       0x17 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007c1b                memcpy
+ .text.AsciiStrLen
+                0x0000000000007c32        0xe /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007c32                AsciiStrLen
+ .text.strlen   0x0000000000007c40       0x11 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007c40                strlen
+ .text.StrLen   0x0000000000007c51        0xf /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007c51                StrLen
+ .text.AsciiStrnLenS
+                0x0000000000007c60       0x26 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007c60                AsciiStrnLenS
+ .text.strncpy  0x0000000000007c86       0x98 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007c86                strncpy
+ .text.StrnLenS
+                0x0000000000007d1e       0x27 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007d1e                StrnLenS
+ .text.InsertTailList
+                0x0000000000007d45       0x16 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007d45                InsertTailList
+ .text.malloc   0x0000000000007d5b       0xb3 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007d5b                malloc
+ .text.abort    0x0000000000007e0e       0x87 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                0x0000000000007e0e                abort
+ .text.FIFO_FreeSpace.lto_priv.56
+                0x0000000000007e95       0x20 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000007e95                FIFO_FreeSpace.lto_priv.56
+ .text.FIFO_NumInQueue.lto_priv.55
+                0x0000000000007eb5       0x1e /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000007eb5                FIFO_NumInQueue.lto_priv.55
+ .text.__sclose
+                0x0000000000007ed3       0x1c /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000007ed3                __sclose
+ .text.__sseek  0x0000000000007eef       0x3e /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000007eef                __sseek
+ .text.__swrite
+                0x0000000000007f2d       0xe1 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000007f2d                __swrite
+ .text.__sread  0x000000000000800e       0xe5 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x000000000000800e                __sread
+ .text._cleanup
+                0x00000000000080f3        0x5 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .text.exitCleanup
+                0x00000000000080f8       0x50 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x00000000000080f8                exitCleanup
+ .text.ShellAppMain
+                0x0000000000008148      0x42c /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000008148                ShellAppMain
+ .text.__assert
+                0x0000000000008574       0x3b /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x0000000000008574                __assert
+ .text.FIFO_IsFull.lto_priv.54
+                0x00000000000085af       0x90 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x00000000000085af                FIFO_IsFull.lto_priv.54
+ .text.FIFO_IsEmpty.lto_priv.53
+                0x000000000000863f       0x76 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x000000000000863f                FIFO_IsEmpty.lto_priv.53
+ .text.__swsetup
+                0x00000000000086b5      0x22d /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x00000000000086b5                __swsetup
+ .text.__grow_type_table.lto_priv.72
+                0x00000000000088e2       0xa9 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                0x00000000000088e2                __grow_type_table.lto_priv.72
+ .text.IIO_Read.lto_priv.91
+                0x000000000000898b      0x413 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x000000000000898b                IIO_Read.lto_priv.91
+ .text.IIO_Write.lto_priv.92
+                0x0000000000008d9e      0x4e4 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x0000000000008d9e                IIO_Write.lto_priv.92
+ .text.FIFO_GetWDex.lto_priv.61
+                0x0000000000009282       0x70 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x0000000000009282                FIFO_GetWDex.lto_priv.61
+ .text.FIFO_GetRDex.lto_priv.60
+                0x00000000000092f2       0x70 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x00000000000092f2                FIFO_GetRDex.lto_priv.60
+ .text.FIFO_Truncate.lto_priv.58
+                0x0000000000009362       0xf3 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x0000000000009362                FIFO_Truncate.lto_priv.58
+ .text.FIFO_Flush.lto_priv.57
+                0x0000000000009455      0x109 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x0000000000009455                FIFO_Flush.lto_priv.57
+ .text.FIFO_Delete.lto_priv.59
+                0x000000000000955e       0xe5 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x000000000000955e                FIFO_Delete.lto_priv.59
+ .text.FIFO_Dequeue
+                0x0000000000009643      0x17b /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .text.FIFO_Copy.lto_priv.52
+                0x00000000000097be        0x8 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x00000000000097be                FIFO_Copy.lto_priv.52
+ .text.FIFO_Read.lto_priv.51
+                0x00000000000097c6        0xb /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x00000000000097c6                FIFO_Read.lto_priv.51
+ .text.FIFO_Enqueue.lto_priv.50
+                0x00000000000097d1      0x171 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x00000000000097d1                FIFO_Enqueue.lto_priv.50
+ .text.InternalAssertJumpBuffer
+                0x0000000000009942        0x1 /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009942                InternalAssertJumpBuffer
+ .text.CompareGuid
+                0x0000000000009943       0x19 /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009943                CompareGuid
+ .text.CopyMem.part.0.lto_priv.81
+                0x000000000000995c      0x1f8 /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x000000000000995c                CopyMem.part.0.lto_priv.81
+ .text.CopyMem  0x0000000000009b54        0xe /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009b54                CopyMem
+ .text.ZeroMem.part.0.lto_priv.63
+                0x0000000000009b62       0x91 /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009b62                ZeroMem.part.0.lto_priv.63
+ .text.ScanMem8
+                0x0000000000009bf3       0x20 /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009bf3                ScanMem8
+ .text.BasePrintLibFillBuffer
+                0x0000000000009c13       0x2e /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009c13                BasePrintLibFillBuffer
+ .text.FreePool
+                0x0000000000009c41        0xa /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009c41                FreePool
+ .text.AllocateZeroPool
+                0x0000000000009c4b       0xfc /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009c4b                AllocateZeroPool
+ .text.tzparse.lto_priv.67
+                0x0000000000009d47      0x429 /tmp/ccXdDeK8.ltrans10.ltrans.o
+                0x0000000000009d47                tzparse.lto_priv.67
+ .text.time2sub.constprop.9
+                0x000000000000a170      0x418 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .text.New_cFIFO.constprop.30
+                0x000000000000a588      0x17c /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a588                New_cFIFO.constprop.30
+ .text._closeX.constprop.29
+                0x000000000000a704       0xeb /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a704                _closeX.constprop.29
+ .text.AsciiSPrint.constprop.26
+                0x000000000000a7ef       0xc8 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a7ef                AsciiSPrint.constprop.26
+ .text.calloc.constprop.18
+                0x000000000000a8b7       0x37 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a8b7                calloc.constprop.18
+ .text.AsciiStrToUnicodeStrS.constprop.11
+                0x000000000000a8ee       0xd9 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a8ee                AsciiStrToUnicodeStrS.constprop.11
+ .text.time2.constprop.7
+                0x000000000000a9c7       0x2d /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a9c7                time2.constprop.7
+ .text.exit.constprop.28
+                0x000000000000a9f4       0x31 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000a9f4                exit.constprop.28
+ .text.da_ConWrite.lto_priv.69
+                0x000000000000aa25       0x8e /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000aa25                da_ConWrite.lto_priv.69
+ .text.da_ConSeek.lto_priv.86
+                0x000000000000aab3       0x6b /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000aab3                da_ConSeek.lto_priv.86
+ .text.FifoDelete
+                0x000000000000ab1e       0x14 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.IIO_GetDeviceProto
+                0x000000000000ab32       0xc7 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.IIO_SetCursorPosition
+                0x000000000000abf9       0x58 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.IIO_Delete.lto_priv.90
+                0x000000000000ac51       0xde /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000ac51                IIO_Delete.lto_priv.90
+ .text.da_ConRawRead.lto_priv.68
+                0x000000000000ad2f       0x96 /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000ad2f                da_ConRawRead.lto_priv.68
+ .text.IIO_WriteOne
+                0x000000000000adc5      0x230 /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000adc5                IIO_WriteOne
+ .text.IIO_EchoOne
+                0x000000000000aff5      0x223 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .text.IIO_Echo.lto_priv.93
+                0x000000000000b218      0x255 /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000b218                IIO_Echo.lto_priv.93
+ .text.IIO_GetOutputSize
+                0x000000000000b46d       0x8c /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000b46d                IIO_GetOutputSize
+ .text.IIO_GetCursorPosition
+                0x000000000000b4f9       0x5d /tmp/ccXdDeK8.ltrans12.ltrans.o
+                0x000000000000b4f9                IIO_GetCursorPosition
+ .text.getnum   0x000000000000b556       0x4d /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.getsecs  0x000000000000b5a3       0x89 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.timesub.isra.0
+                0x000000000000b62c      0x22e /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .text.localsub.lto_priv.62
+                0x000000000000b85a       0xe6 /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000b85a                localsub.lto_priv.62
+ .text.transtime.lto_priv.77
+                0x000000000000b940      0x17c /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000b940                transtime.lto_priv.77
+ .text.getrule.lto_priv.78
+                0x000000000000babc       0xbe /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000babc                getrule.lto_priv.78
+ .text.getoffset.lto_priv.79
+                0x000000000000bb7a       0x40 /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000bb7a                getoffset.lto_priv.79
+ .text.getzname.lto_priv.80
+                0x000000000000bbba       0x20 /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000bbba                getzname.lto_priv.80
+ .text.settzname.lto_priv.66
+                0x000000000000bbda        0x1 /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000bbda                settzname.lto_priv.66
+ .text.tmcomp.lto_priv.65
+                0x000000000000bbdb       0x2d /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000bbdb                tmcomp.lto_priv.65
+ .text.normalize_overflow.lto_priv.64
+                0x000000000000bc08       0x37 /tmp/ccXdDeK8.ltrans13.ltrans.o
+                0x000000000000bc08                normalize_overflow.lto_priv.64
+ .text.BasePrintLibSPrint.constprop.47
+                0x000000000000bc3f       0xb8 /tmp/ccXdDeK8.ltrans14.ltrans.o
+                0x000000000000bc3f                BasePrintLibSPrint.constprop.47
+ *fill*         0x000000000000bcf7        0x9 
+ .text          0x000000000000bd00       0xac /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                0x000000000000bd00                InternalLongJump
+ *fill*         0x000000000000bdac        0x4 
+ .text          0x000000000000bdb0       0xc2 /home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                0x000000000000bdb0                SetJump
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000be72       0x24 /tmp/ccXdDeK8.ltrans0.ltrans.o
+                                         0x26 (size before relaxing)
+ *fill*         0x000000000000be96        0x2 
+ .rodata.__vfprintf_unlocked
+                0x000000000000be98      0x16c /tmp/ccXdDeK8.ltrans0.ltrans.o
+ *fill*         0x000000000000c004       0x1c 
+ .rodata.__bigtens_D2A
+                0x000000000000c020       0x28 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ *fill*         0x000000000000c048       0x18 
+ .rodata.__tens_D2A
+                0x000000000000c060       0xb8 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ *fill*         0x000000000000c118        0x8 
+ .rodata.xdigs_lower.9204
+                0x000000000000c120       0x11 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ *fill*         0x000000000000c131        0xf 
+ .rodata.xdigs_upper.9205
+                0x000000000000c140       0x11 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ *fill*         0x000000000000c151        0x7 
+ .rodata.cst8   0x000000000000c158       0x50 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ *fill*         0x000000000000c1a8        0x8 
+ .rodata.cst16  0x000000000000c1b0       0x10 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x000000000000c1c0       0x2e /tmp/ccXdDeK8.ltrans1.ltrans.o
+ *fill*         0x000000000000c1ee        0x2 
+ .rodata.stdioFlags
+                0x000000000000c1f0        0xc /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x000000000000c1fc        0x4 /tmp/ccXdDeK8.ltrans1.ltrans.o
+                0x000000000000c1fc                _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+ .rodata.__find_arguments.lto_priv.76
+                0x000000000000c200      0x1d0 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .rodata.str1.1
+                0x000000000000c3d0        0x3 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .rodata.gmt    0x000000000000c3d3        0x4 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000c3d3                gmt
+ .rodata.str1.1
+                0x000000000000c3d7       0x4b /tmp/ccXdDeK8.ltrans4.ltrans.o
+                                         0x4e (size before relaxing)
+ *fill*         0x000000000000c422        0x6 
+ .rodata.__func__.8887
+                0x000000000000c428        0x8 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .rodata.p05.8340
+                0x000000000000c430        0xc /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .rodata.str2.2
+                0x000000000000c43c        0x6 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ *fill*         0x000000000000c442       0x1e 
+ .rodata._C_CharClassTable
+                0x000000000000c460      0x100 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .rodata.BitMask
+                0x000000000000c560        0x8 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ *fill*         0x000000000000c568       0x18 
+ .rodata.CSWTCH.16
+                0x000000000000c580       0x4b /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .rodata.str1.1
+                0x000000000000c5cb       0x7b /tmp/ccXdDeK8.ltrans6.ltrans.o
+ *fill*         0x000000000000c646        0x2 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x000000000000c648        0x4 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x000000000000c648                _gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x000000000000c648                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x000000000000c648                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ *fill*         0x000000000000c64c        0x4 
+ .rodata.mHexStr
+                0x000000000000c650       0x10 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .rodata.mWarningString
+                0x000000000000c660       0x96 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ *fill*         0x000000000000c6f6        0xa 
+ .rodata.mErrorString
+                0x000000000000c700      0x2b5 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .rodata.str1.1
+                0x000000000000c9b5       0x4b /tmp/ccXdDeK8.ltrans7.ltrans.o
+ *fill*         0x000000000000c9b5        0x1 
+ .rodata.str2.2
+                0x000000000000c9b6       0x28 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .rodata.__func__.8866
+                0x000000000000c9de        0x7 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .rodata.__func__.8877
+                0x000000000000c9e5        0x5 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .rodata.str1.1
+                0x000000000000c9ea      0xa78 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .rodata.str2.2
+                0x000000000000d462       0x58 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ *fill*         0x000000000000d4ba        0x6 
+ .rodata.__func__.9727
+                0x000000000000d4c0        0xd /tmp/ccXdDeK8.ltrans8.ltrans.o
+ *fill*         0x000000000000d4cd        0x3 
+ .rodata.__func__.9731
+                0x000000000000d4d0        0xc /tmp/ccXdDeK8.ltrans8.ltrans.o
+ *fill*         0x000000000000d4dc        0x4 
+ .rodata.cst8   0x000000000000d4e0        0x8 /tmp/ccXdDeK8.ltrans8.ltrans.o
+                                         0x10 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000d4e8       0xd1 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                                        0x125 (size before relaxing)
+ *fill*         0x000000000000d5b9        0x7 
+ .rodata.__func__.9742
+                0x000000000000d5c0        0xd /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d5cd        0x3 
+ .rodata.__func__.9756
+                0x000000000000d5d0        0xd /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d5dd        0x3 
+ .rodata.__func__.9773
+                0x000000000000d5e0        0xd /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d5ed        0x3 
+ .rodata.__func__.9777
+                0x000000000000d5f0        0xd /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d5fd        0x3 
+ .rodata.__func__.9781
+                0x000000000000d600        0xc /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d60c        0x4 
+ .rodata.__func__.9788
+                0x000000000000d610        0xb /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d61b        0x5 
+ .rodata.__func__.9793
+                0x000000000000d620        0xe /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d62e        0x2 
+ .rodata.__func__.8559
+                0x000000000000d630        0xf /tmp/ccXdDeK8.ltrans9.ltrans.o
+ *fill*         0x000000000000d63f        0x1 
+ .rodata.utf8_code_length
+                0x000000000000d640      0x100 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .rodata.str1.1
+                0x000000000000d740       0x10 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .rodata.str1.1
+                0x000000000000d750       0x13 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ *fill*         0x000000000000d750       0x10 
+ .rodata.mon_lengths
+                0x000000000000d760       0x60 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000d760                mon_lengths
+ .rodata.year_lengths
+                0x000000000000d7c0        0x8 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000000d7c0                year_lengths
+ .rodata.IIO_WriteOne
+                0x000000000000d7c8       0x28 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .rodata.str1.1
+                0x000000000000d7f0       0x5e /tmp/ccXdDeK8.ltrans12.ltrans.o
+ *fill*         0x000000000000d84e        0x2 
+ .rodata.__func__.10270
+                0x000000000000d850       0x10 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ *(.got .got.*)
+ .got           0x000000000000d860        0x0 arithchk.obj (symbol from plugin)
+ .got.plt       0x000000000000d860        0x0 arithchk.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000d860        0x0
+ .plt           0x000000000000d860        0x0 arithchk.obj (symbol from plugin)
+
+.plt.got        0x000000000000d860        0x0
+ .plt.got       0x000000000000d860        0x0 arithchk.obj (symbol from plugin)
+
+.data           0x000000000000d880    0x10a84
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.zeroes.9203
+                0x000000000000d880       0x10 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .data.blanks.9202
+                0x000000000000d890       0x10 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .data.rel.ro.local.stdioNames
+                0x000000000000d8a0       0x18 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ *fill*         0x000000000000d8b8        0x8 
+ .data.gEfiShellEnvironment2ExtGuid
+                0x000000000000d8c0       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiShellEnvironment2Guid
+                0x000000000000d8d0       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiShellInterfaceGuid
+                0x000000000000d8e0       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiShellParametersProtocolGuid
+                0x000000000000d8f0       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiShellProtocolGuid
+                0x000000000000d900       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000000d910       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000000d920       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000000d930       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000000d940       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000000d950       0x10 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .data.__nlocale_changed
+                0x000000000000d960        0x4 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .data.__mlocale_changed
+                0x000000000000d964        0x4 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .data.rel.local.pmem_next
+                0x000000000000d968        0x8 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .data.rel.local.daDeviceList
+                0x000000000000d970       0x10 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000d970                daDeviceList
+ .data.rel.local.uglue
+                0x000000000000d980       0x18 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ *fill*         0x000000000000d998        0x8 
+ .data.rel.local.__sF
+                0x000000000000d9a0      0x1f8 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x000000000000d9a0                __sF
+ *fill*         0x000000000000db98        0x8 
+ .data.rel.local.__sglue
+                0x000000000000dba0       0x18 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ *fill*         0x000000000000dbb8        0x8 
+ .data.rel.local.MemPoolHead
+                0x000000000000dbc0       0x10 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ *fill*         0x000000000000dbd0       0x10 
+ .data.rel.ro.local.sys_errlist
+                0x000000000000dbe0      0x320 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .data.Spaces   0x000000000000df00       0x22 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .data.rel.ro   0x000000000000df22        0x0 arithchk.obj (symbol from plugin)
+ *(.bss .bss.*)
+ *fill*         0x000000000000df22        0x6 
+ .bss.__dtoa_result_D2A
+                0x000000000000df28        0x8 /tmp/ccXdDeK8.ltrans0.ltrans.o
+                0x000000000000df28                __dtoa_result_D2A
+ .bss.gImageHandle
+                0x000000000000df30        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ *fill*         0x000000000000df38        0x8 
+ .bss.ConNode   0x000000000000df40       0x18 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.ConInstanceList
+                0x000000000000df58        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.mEfiShellEnvironment2Handle
+                0x000000000000df60        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.mEfiShellInterface
+                0x000000000000df68        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.gEfiShellParametersProtocol
+                0x000000000000df70        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.gHiiImage
+                0x000000000000df78        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.gHiiFont  0x000000000000df80        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.gHiiConfigRouting
+                0x000000000000df88        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.gHiiDatabase
+                0x000000000000df90        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.gHiiString
+                0x000000000000df98        0x8 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .bss.IIO.lto_priv.82
+                0x000000000000dfa0        0x8 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000dfa0                IIO.lto_priv.82
+ .bss.gST       0x000000000000dfa8        0x8 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000dfa8                gST
+ .bss.lcl_is_set
+                0x000000000000dfb0        0x4 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ *fill*         0x000000000000dfb4        0x4 
+ .bss.EFIerrno  0x000000000000dfb8        0x8 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000dfb8                EFIerrno
+ .bss.gRT       0x000000000000dfc0        0x8 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000dfc0                gRT
+ .bss.mEfiShellEnvironment2
+                0x000000000000dfc8        0x8 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000dfc8                mEfiShellEnvironment2
+ .bss.gEfiShellProtocol
+                0x000000000000dfd0        0x8 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                0x000000000000dfd0                gEfiShellProtocol
+ *fill*         0x000000000000dfd8        0x8 
+ .bss.lcl_TZname
+                0x000000000000dfe0      0x100 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .bss.ret.7488  0x000000000000e0e0       0x60 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .bss.private_mem
+                0x000000000000e140      0x900 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .bss.freelist  0x000000000000ea40      0x208 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .bss.p5s       0x000000000000ec48        0x8 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .bss.__wchar_bitmap
+                0x000000000000ec50        0x8 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000ec50                __wchar_bitmap
+ .bss.__wchar_bitmap_size
+                0x000000000000ec58        0x8 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000ec58                __wchar_bitmap_size
+ .bss.daDefaultDevice
+                0x000000000000ec60        0x8 /tmp/ccXdDeK8.ltrans5.ltrans.o
+                0x000000000000ec60                daDefaultDevice
+ *fill*         0x000000000000ec68       0x18 
+ .bss.__sFext   0x000000000000ec80       0xf0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ *fill*         0x000000000000ed70       0x10 
+ .bss.usual.lto_priv.71
+                0x000000000000ed80     0xa560 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x000000000000ed80                usual.lto_priv.71
+ .bss.errno     0x00000000000192e0        0x4 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x00000000000192e0                errno
+ *fill*         0x00000000000192e4        0x4 
+ .bss.gMD       0x00000000000192e8        0x8 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x00000000000192e8                gMD
+ .bss.gBS       0x00000000000192f0        0x8 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                0x00000000000192f0                gBS
+ *fill*         0x00000000000192f8        0x8 
+ .bss.usualext  0x0000000000019300     0x4ec0 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .bss.__sdidinit
+                0x000000000001e1c0        0x4 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .bss.dalign    0x000000000001e1c4        0x4 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .bss.BufCnt.10234
+                0x000000000001e1c8        0x8 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .bss.LocalConvState.lto_priv.73
+                0x000000000001e1d0       0x14 /tmp/ccXdDeK8.ltrans9.ltrans.o
+                0x000000000001e1d0                LocalConvState.lto_priv.73
+ *fill*         0x000000000001e1e4        0x4 
+ .bss.gmtptr    0x000000000001e1e8        0x8 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000001e1e8                gmtptr
+ .bss.lclptr    0x000000000001e1f0        0x8 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000001e1f0                lclptr
+ *fill*         0x000000000001e1f8        0x8 
+ .bss.errorbuf.8967.lto_priv.70
+                0x000000000001e200      0x100 /tmp/ccXdDeK8.ltrans11.ltrans.o
+                0x000000000001e200                errorbuf.8967.lto_priv.70
+ .bss.gmt_is_set
+                0x000000000001e300        0x4 /tmp/ccXdDeK8.ltrans13.ltrans.o
+
+.eh_frame       0x000000000001e340        0x0
+ *(.eh_frame)
+ .eh_frame      0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+ .eh_frame      0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+
+.dynbss         0x000000000001e340        0x0
+ .dynbss        0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+
+.gnu.version_d  0x000000000001e340        0x0
+ .gnu.version_d
+                0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+
+.gnu.version    0x000000000001e340        0x0
+ .gnu.version   0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+
+.gnu.version_r  0x000000000001e340        0x0
+ .gnu.version_r
+                0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+
+.rela           0x000000000001e340      0xc18
+ *(.rela .rela.*)
+ .rela.plt      0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+ .rela.got      0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+ .rela.bss      0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+ .rela.ifunc    0x000000000001e340        0x0 arithchk.obj (symbol from plugin)
+ .rela.data.rel.ro.local.stdioNames
+                0x000000000001e340       0x48 arithchk.obj (symbol from plugin)
+ .rela.data.rel.local.pmem_next
+                0x000000000001e388       0x18 arithchk.obj (symbol from plugin)
+ .rela.data.rel.local.daDeviceList
+                0x000000000001e3a0       0x30 arithchk.obj (symbol from plugin)
+ .rela.data.rel.local.uglue
+                0x000000000001e3d0       0x18 arithchk.obj (symbol from plugin)
+ .rela.data.rel.local.__sF
+                0x000000000001e3e8      0x1b0 arithchk.obj (symbol from plugin)
+ .rela.data.rel.local.__sglue
+                0x000000000001e598       0x30 arithchk.obj (symbol from plugin)
+ .rela.data.rel.local.MemPoolHead
+                0x000000000001e5c8       0x30 arithchk.obj (symbol from plugin)
+ .rela.data.rel.ro.local.sys_errlist
+                0x000000000001e5f8      0x960 arithchk.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000001ef58       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000001ef58       0x24 arithchk.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/AppPkg/DEBUG_GCC5/X64/AppPkg/Applications/ArithChk/ArithChk/DEBUG/ArithChk.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x1c3f9
+ .debug_info    0x0000000000000000     0x21f4 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_info    0x00000000000021f4     0x4749 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_info    0x000000000000693d      0x8a2 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_info    0x00000000000071df     0x5074 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_info    0x000000000000c253     0x1d0a /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_info    0x000000000000df5d     0x1df0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_info    0x000000000000fd4d     0x2885 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_info    0x00000000000125d2      0xd84 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_info    0x0000000000013356     0x2050 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_info    0x00000000000153a6     0x1fc2 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_info    0x0000000000017368      0xfde /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_info    0x0000000000018346     0x179d /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_info    0x0000000000019ae3     0x1c83 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_info    0x000000000001b766      0xb37 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_info    0x000000000001c29d      0x15c /tmp/ccXdDeK8.ltrans14.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x3424
+ .debug_abbrev  0x0000000000000000      0x396 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000396      0x368 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000006fe      0x169 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000867      0x521 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000d88      0x49d /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_abbrev  0x0000000000001225      0x39a /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_abbrev  0x00000000000015bf      0x349 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000001908      0x3b2 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_abbrev  0x0000000000001cba      0x453 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_abbrev  0x000000000000210d      0x3ed /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_abbrev  0x00000000000024fa      0x3b4 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_abbrev  0x00000000000028ae      0x36e /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000002c1c      0x39c /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_abbrev  0x0000000000002fb8      0x3a6 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_abbrev  0x000000000000335e       0xc6 /tmp/ccXdDeK8.ltrans14.ltrans.o
+
+.debug_loc      0x0000000000000000    0x19f96
+ .debug_loc     0x0000000000000000     0x5135 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_loc     0x0000000000005135      0xaf4 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_loc     0x0000000000005c29     0x104c /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_loc     0x0000000000006c75     0x1cfb /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_loc     0x0000000000008970     0x3046 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_loc     0x000000000000b9b6     0x2406 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_loc     0x000000000000ddbc     0x1ce8 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_loc     0x000000000000faa4      0xb2e /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_loc     0x00000000000105d2     0x1a8a /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_loc     0x000000000001205c     0x2139 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_loc     0x0000000000014195     0x1abf /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_loc     0x0000000000015c54     0x1067 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_loc     0x0000000000016cbb     0x1f52 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_loc     0x0000000000018c0d     0x1292 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_loc     0x0000000000019e9f       0xf7 /tmp/ccXdDeK8.ltrans14.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xad0
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000030       0x30 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000060       0x30 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000090      0x180 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000210      0x190 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_aranges
+                0x00000000000003a0       0xa0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_aranges
+                0x0000000000000440       0x80 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_aranges
+                0x00000000000004c0       0xf0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_aranges
+                0x00000000000005b0      0x100 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_aranges
+                0x00000000000006b0       0xd0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_aranges
+                0x0000000000000780       0xd0 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000000850       0xa0 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_aranges
+                0x00000000000008f0       0xe0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_aranges
+                0x00000000000009d0       0xd0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_aranges
+                0x0000000000000aa0       0x30 /tmp/ccXdDeK8.ltrans14.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2e30
+ .debug_ranges  0x0000000000000000      0xbd0 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000bd0      0x3a0 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000f70       0x20 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000f90      0x360 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_ranges  0x00000000000012f0      0x3f0 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_ranges  0x00000000000016e0      0x5b0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000001c90       0xd0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_ranges  0x0000000000001d60      0x1d0 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000001f30      0x350 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_ranges  0x0000000000002280      0x3f0 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_ranges  0x0000000000002670      0x230 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_ranges  0x00000000000028a0      0x290 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000002b30      0x180 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_ranges  0x0000000000002cb0      0x160 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_ranges  0x0000000000002e10       0x20 /tmp/ccXdDeK8.ltrans14.ltrans.o
+
+.debug_line     0x0000000000000000     0x7125
+ .debug_line    0x0000000000000000      0x94e /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_line    0x000000000000094e      0xac6 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_line    0x0000000000001414      0x266 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_line    0x000000000000167a      0xd73 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_line    0x00000000000023ed      0x8fd /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_line    0x0000000000002cea      0x866 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_line    0x0000000000003550      0xa75 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_line    0x0000000000003fc5      0x5da /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_line    0x000000000000459f      0x8e1 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_line    0x0000000000004e80      0x76a /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_line    0x00000000000055ea      0x685 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_line    0x0000000000005c6f      0x7f5 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_line    0x0000000000006464      0x815 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_line    0x0000000000006c79      0x39b /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_line    0x0000000000007014      0x111 /tmp/ccXdDeK8.ltrans14.ltrans.o
+
+.debug_str      0x0000000000000000     0x5cba
+ .debug_str     0x0000000000000000      0x843 /tmp/ccXdDeK8.ltrans0.ltrans.o
+                                        0x9a9 (size before relaxing)
+ .debug_str     0x0000000000000843     0x2578 /tmp/ccXdDeK8.ltrans1.ltrans.o
+                                       0x2c77 (size before relaxing)
+ .debug_str     0x0000000000002dbb      0x138 /tmp/ccXdDeK8.ltrans2.ltrans.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x0000000000002ef3     0x1313 /tmp/ccXdDeK8.ltrans3.ltrans.o
+                                       0x300f (size before relaxing)
+ .debug_str     0x0000000000004206      0x35b /tmp/ccXdDeK8.ltrans4.ltrans.o
+                                        0x948 (size before relaxing)
+ .debug_str     0x0000000000004561      0x35c /tmp/ccXdDeK8.ltrans5.ltrans.o
+                                        0xa45 (size before relaxing)
+ .debug_str     0x00000000000048bd      0x4b1 /tmp/ccXdDeK8.ltrans6.ltrans.o
+                                       0x1790 (size before relaxing)
+ .debug_str     0x0000000000004d6e      0x174 /tmp/ccXdDeK8.ltrans7.ltrans.o
+                                        0x64b (size before relaxing)
+ .debug_str     0x0000000000004ee2      0x29a /tmp/ccXdDeK8.ltrans8.ltrans.o
+                                        0xcd3 (size before relaxing)
+ .debug_str     0x000000000000517c      0x2de /tmp/ccXdDeK8.ltrans9.ltrans.o
+                                        0xb39 (size before relaxing)
+ .debug_str     0x000000000000545a      0x2ec /tmp/ccXdDeK8.ltrans10.ltrans.o
+                                        0x941 (size before relaxing)
+ .debug_str     0x0000000000005746      0x1af /tmp/ccXdDeK8.ltrans11.ltrans.o
+                                        0xab4 (size before relaxing)
+ .debug_str     0x00000000000058f5      0x1e0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+                                        0xdac (size before relaxing)
+ .debug_str     0x0000000000005ad5      0x1b2 /tmp/ccXdDeK8.ltrans13.ltrans.o
+                                        0x54d (size before relaxing)
+ .debug_str     0x0000000000005c87       0x33 /tmp/ccXdDeK8.ltrans14.ltrans.o
+                                        0x290 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x2220
+ .debug_frame   0x0000000000000000       0xa8 /tmp/ccXdDeK8.ltrans0.ltrans.o
+ .debug_frame   0x00000000000000a8       0x88 /tmp/ccXdDeK8.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000130       0x70 /tmp/ccXdDeK8.ltrans2.ltrans.o
+ .debug_frame   0x00000000000001a0      0x478 /tmp/ccXdDeK8.ltrans3.ltrans.o
+ .debug_frame   0x0000000000000618      0x488 /tmp/ccXdDeK8.ltrans4.ltrans.o
+ .debug_frame   0x0000000000000aa0      0x1e0 /tmp/ccXdDeK8.ltrans5.ltrans.o
+ .debug_frame   0x0000000000000c80      0x1e0 /tmp/ccXdDeK8.ltrans6.ltrans.o
+ .debug_frame   0x0000000000000e60      0x1a8 /tmp/ccXdDeK8.ltrans7.ltrans.o
+ .debug_frame   0x0000000000001008      0x3a8 /tmp/ccXdDeK8.ltrans8.ltrans.o
+ .debug_frame   0x00000000000013b0      0x448 /tmp/ccXdDeK8.ltrans9.ltrans.o
+ .debug_frame   0x00000000000017f8      0x1d8 /tmp/ccXdDeK8.ltrans10.ltrans.o
+ .debug_frame   0x00000000000019d0      0x260 /tmp/ccXdDeK8.ltrans11.ltrans.o
+ .debug_frame   0x0000000000001c30      0x3a0 /tmp/ccXdDeK8.ltrans12.ltrans.o
+ .debug_frame   0x0000000000001fd0      0x1e0 /tmp/ccXdDeK8.ltrans13.ltrans.o
+ .debug_frame   0x00000000000021b0       0x70 /tmp/ccXdDeK8.ltrans14.ltrans.o

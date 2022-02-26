@@ -1,0 +1,1623 @@
+#------------------------------------------------------------------------------
+
+# Manage differenced between UNIX ABI and EFI/Windows ABI
+
+# EFI Arg passing: RCX, RDX, R8, R9
+# Callee allocates 32 bytes on stack to spill registers
+# UNIX Arg passing: RDI, RSI, RDX, RCX, R8, R9
+# RSI, RDI calle-save on EFI, scatch on UNIX callign
+
+# Copyright (c) 2008 - 2011, Apple Inc. All rights reserved.<BR>
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+#------------------------------------------------------------------------------
+
+
+
+
+
+
+  .text
+
+
+
+
+
+
+
+
+  .text
+
+
+
+
+
+
+
+
+.globl GasketSecWriteStdErr
+GasketSecWriteStdErr:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecWriteStdErr
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecConfigStdIn
+GasketSecConfigStdIn:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call SecConfigStdIn
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecWriteStdOut
+GasketSecWriteStdOut:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecWriteStdOut
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecReadStdIn
+GasketSecReadStdIn:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecReadStdIn
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecPollStdIn
+GasketSecPollStdIn:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call SecPollStdIn
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecMalloc
+GasketSecMalloc:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call SecMalloc
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecValloc
+GasketSecValloc:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call SecValloc
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecFree
+GasketSecFree:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call SecFree
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecSetTimer
+GasketSecSetTimer:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecSetTimer
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecEnableInterrupt
+GasketSecEnableInterrupt:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call SecEnableInterrupt
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecDisableInterrupt
+GasketSecDisableInterrupt:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call SecDisableInterrupt
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketQueryPerformanceFrequency
+GasketQueryPerformanceFrequency:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call QueryPerformanceFrequency
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketQueryPerformanceCounter
+GasketQueryPerformanceCounter:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call QueryPerformanceCounter
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecSleep
+GasketSecSleep:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call SecSleep
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecCpuSleep
+GasketSecCpuSleep:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call SecCpuSleep
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecExit
+GasketSecExit:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  movq %rcx, %rdi
+  call SecExit
+LDEAD_LOOP:
+  jmp LDEAD_LOOP
+
+
+.globl GasketSecGetTime
+GasketSecGetTime:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecGetTime
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecSetTime
+GasketSecSetTime:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecSetTime
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecGetNextProtocol
+GasketSecGetNextProtocol:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call SecGetNextProtocol
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketSecPeCoffGetEntryPoint
+GasketSecPeCoffGetEntryPoint:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call SecPeCoffGetEntryPoint
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecPeCoffRelocateImageExtraAction
+GasketSecPeCoffRelocateImageExtraAction:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call SecPeCoffRelocateImageExtraAction
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketSecPeCoffUnloadImageExtraAction
+GasketSecPeCoffUnloadImageExtraAction:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call SecPeCoffUnloadImageExtraAction
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecEmuThunkAddress
+GasketSecEmuThunkAddress:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  call SecEmuThunkAddress
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+
+
+.globl GasketX11Size
+GasketX11Size:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call X11Size
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11CheckKey
+GasketX11CheckKey:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call X11CheckKey
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketX11GetKey
+GasketX11GetKey:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call X11GetKey
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11KeySetState
+GasketX11KeySetState:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call X11KeySetState
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11RegisterKeyNotify
+GasketX11RegisterKeyNotify:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call X11RegisterKeyNotify
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11Blt
+GasketX11Blt:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call X11Blt
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11CheckPointer
+GasketX11CheckPointer:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call X11CheckPointer
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11GetPointerState
+GasketX11GetPointerState:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call X11GetPointerState
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11GraphicsWindowOpen
+GasketX11GraphicsWindowOpen:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call X11GraphicsWindowOpen
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketX11GraphicsWindowClose
+GasketX11GraphicsWindowClose:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %r9, %rcx
+
+  call X11GraphicsWindowClose
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+
+.globl GasketPthreadMutexLock
+GasketPthreadMutexLock:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadMutexLock
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPthreadMutexUnLock
+GasketPthreadMutexUnLock:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadMutexUnLock
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketPthreadMutexTryLock
+GasketPthreadMutexTryLock:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadMutexTryLock
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketPthreadMutexInit
+GasketPthreadMutexInit:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+
+  call PthreadMutexInit
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketPthreadMutexDestroy
+GasketPthreadMutexDestroy:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadMutexDestroy
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPthreadCreate
+GasketPthreadCreate:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call PthreadCreate
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPthreadExit
+GasketPthreadExit:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadExit
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketPthreadSelf
+GasketPthreadSelf:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+
+  call PthreadSelf
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPthreadOpen
+GasketPthreadOpen:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadOpen
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPthreadClose
+GasketPthreadClose:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PthreadClose
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+.globl ReverseGasketUint64
+ReverseGasketUint64:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  movq %rdi, %rax
+  movq %rsi, %rcx
+
+  subq $32, %rsp
+  call *%rax
+  addq $32, %rsp
+
+  popq %rbp
+  ret
+
+
+
+
+
+
+
+
+
+
+.globl ReverseGasketUint64Uint64
+ReverseGasketUint64Uint64:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  movq %rdi, %rax
+  movq %rsi, %rcx
+
+  subq $32, %rsp
+  call *%rax
+  addq $32, %rsp
+
+  popq %rbp
+  ret
+
+
+.globl GasketSecUnixPeiAutoScan
+GasketSecUnixPeiAutoScan:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+
+  call SecUnixPeiAutoScan
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSecUnixFdAddress
+GasketSecUnixFdAddress:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call SecUnixFdAddress
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+
+.globl GasketPosixOpenVolume
+GasketPosixOpenVolume:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call PosixOpenVolume
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileOpen
+GasketPosixFileOpen:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+
+  call PosixFileOpen
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileCLose
+GasketPosixFileCLose:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PosixFileCLose
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileDelete
+GasketPosixFileDelete:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PosixFileDelete
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileRead
+GasketPosixFileRead:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+
+  call PosixFileRead
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileWrite
+GasketPosixFileWrite:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+
+  call PosixFileWrite
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileSetPossition
+GasketPosixFileSetPossition:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call PosixFileSetPossition
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileGetPossition
+GasketPosixFileGetPossition:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call PosixFileGetPossition
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileGetInfo
+GasketPosixFileGetInfo:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call PosixFileGetInfo
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileSetInfo
+GasketPosixFileSetInfo:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call PosixFileSetInfo
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileFlush
+GasketPosixFileFlush:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PosixFileFlush
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileSystmeThunkOpen
+GasketPosixFileSystmeThunkOpen:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PosixFileSystmeThunkOpen
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketPosixFileSystmeThunkClose
+GasketPosixFileSystmeThunkClose:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call PosixFileSystmeThunkClose
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+.globl GasketEmuBlockIoReset
+GasketEmuBlockIoReset:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call EmuBlockIoReset
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketEmuBlockIoReadBlocks
+GasketEmuBlockIoReadBlocks:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+  movq 56(%rbp), %r9
+
+  call EmuBlockIoReadBlocks
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketEmuBlockIoWriteBlocks
+GasketEmuBlockIoWriteBlocks:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+  movq 56(%rbp), %r9
+
+  call EmuBlockIoWriteBlocks
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketEmuBlockIoFlushBlocks
+GasketEmuBlockIoFlushBlocks:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call EmuBlockIoFlushBlocks
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketEmuBlockIoCreateMapping
+GasketEmuBlockIoCreateMapping:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call EmuBlockIoCreateMapping
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketBlockIoThunkOpen
+GasketBlockIoThunkOpen:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuBlockIoThunkOpen
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketBlockIoThunkClose
+GasketBlockIoThunkClose:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuBlockIoThunkClose
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketSnpCreateMapping
+GasketSnpCreateMapping:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call EmuSnpCreateMapping
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpStart
+GasketSnpStart:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuSnpStart
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpStop
+GasketSnpStop:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuSnpStop
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpInitialize
+GasketSnpInitialize:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+
+  call EmuSnpInitialize
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketSnpReset
+GasketSnpReset:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+
+  call EmuSnpReset
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpShutdown
+GasketSnpShutdown:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuSnpShutdown
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpReceiveFilters
+GasketSnpReceiveFilters:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+  movq 56(%rbp), %r9
+
+  call EmuSnpReceiveFilters
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpStationAddress
+GasketSnpStationAddress:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+
+  call EmuSnpStationAddress
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketSnpStatistics
+GasketSnpStatistics:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call EmuSnpStatistics
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpMCastIpToMac
+GasketSnpMCastIpToMac:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+
+  call EmuSnpMCastIpToMac
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpNvData
+GasketSnpNvData:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+
+  call EmuSnpNvData
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpGetStatus
+GasketSnpGetStatus:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+
+  call EmuSnpGetStatus
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketSnpTransmit
+GasketSnpTransmit:
+  pushq %rbp
+  movq %rsp, %rbp
+  subq $16, %rsp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+  movq 56(%rbp), %r9
+  movq 64(%rbp), %rax
+  movq %rax, (%rsp)
+
+  call EmuSnpTransmit
+  addq $16, %rsp
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+
+.globl GasketSnpReceive
+GasketSnpReceive:
+  pushq %rbp
+  movq %rsp, %rbp
+  subq $16, %rsp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+  movq %rdx, %rsi
+  movq %r8, %rdx
+  movq %r9, %rcx
+  movq 48(%rbp), %r8
+  movq 56(%rbp), %r9
+  movq 64(%rbp), %rax
+  movq %rax, (%rsp)
+
+  call EmuSnpReceive
+  addq $16, %rsp
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpThunkOpen
+GasketSnpThunkOpen:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuSnpThunkOpen
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret
+
+
+.globl GasketSnpThunkClose
+GasketSnpThunkClose:
+  pushq %rbp
+  movq %rsp, %rbp
+
+  pushq %rsi
+  pushq %rdi
+
+  movq %rcx, %rdi
+
+  call EmuSnpThunkClose
+
+  popq %rdi
+  popq %rsi
+  popq %rbp
+  ret

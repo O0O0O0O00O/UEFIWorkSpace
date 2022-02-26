@@ -1,0 +1,854 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe/OUTPUT/DiskIoDxe.lib(ComponentName.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe/OUTPUT/DiskIoDxe.lib(DiskIo.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe/OUTPUT/DiskIoDxe.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBuffer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibMmioBuffer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoHighLevel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoFifoSev.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib(DebugIoPortQemu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib(DebugLibDetect.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol/OUTPUT/UefiDevicePathLibDevicePathProtocol.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoDriverBindingSupported
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoComponentNameGetControllerName
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIo2RemoveCompletedTask
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIo2Cancel
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoCreateSubtask
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoDestroySubtask
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoCreateSubtaskList
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIo2OnReadWriteComplete
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoDriverBindingStop
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoDriverBindingStart
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIoComponentNameGetDriverName
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.unlikely.DiskIo2ReadWriteDisk
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.17
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text.unlikely.AsciiSPrint.constprop.15
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text.unlikely.DebugPrintMarker.part.0.constprop.11
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text.unlikely.InternalAllocateAlignedPages.constprop.9
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text.unlikely.EfiInitializeLock.constprop.8
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.7
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugIoPort
+                0x0000000000000000        0x2 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x3 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.PlatformDebugLibIoPortFound
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.DebugPrintEnabled
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.DebugAssertEnabled
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.DebugAssert
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.EfiReleaseLock
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.EfiAcquireLock
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text.unlikely.FreeAlignedPages
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DiskIoWriteDisk
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DiskIoReadDisk
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DiskIo2WriteDiskEx
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DiskIo2ReadDiskEx
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DiskIo2OnFlushComplete
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DiskIo2FlushDiskEx
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DebugPrint
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.CopyMem.part.0.lto_priv.21
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.ReadUnaligned24
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.ReadUnaligned16
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.AsciiStrnCmp.part.4.lto_priv.22
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.StrnLenS
+                0x0000000000000000       0x5e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.IsNull
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.IsListEmpty
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.RemoveEntryList
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.GetNextNode
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.GetFirstNode
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.InitializeListHead
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.DivU64x32Remainder
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000       0x56 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.18
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc2IbJqZ.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+ .text          0x0000000000000000       0x17 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64.obj)
+ .text          0x0000000000000000       0x16 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32.obj)
+ .text          0x0000000000000000       0x17 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16.obj)
+ .text          0x0000000000000000       0x16 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8.obj)
+ .text          0x0000000000000000       0x1d /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMem.obj)
+ .text          0x0000000000000000       0x12 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64.obj)
+ .text          0x0000000000000000       0x11 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32.obj)
+ .text          0x0000000000000000       0x12 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16.obj)
+ .text          0x0000000000000000       0x11 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem.obj)
+ .text          0x0000000000000000       0x2a /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBuffer.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc2IbJqZ.ltrans0.ltrans.o
+LOAD /tmp/cc2IbJqZ.ltrans1.ltrans.o
+LOAD /tmp/cc2IbJqZ.ltrans2.ltrans.o
+LOAD /tmp/cc2IbJqZ.ltrans3.ltrans.o
+LOAD /tmp/cc2IbJqZ.ltrans4.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe/OUTPUT/DiskIoDxe.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort/OUTPUT/PlatformDebugLibIoPort.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol/OUTPUT/UefiDevicePathLibDevicePathProtocol.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0x4b8a
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.DiskIoDriverBindingSupported
+                0x0000000000000240       0x6b /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                0x0000000000000240                DiskIoDriverBindingSupported
+ .text.DiskIoComponentNameGetControllerName
+                0x00000000000002ab        0xb /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                0x00000000000002ab                DiskIoComponentNameGetControllerName
+ .text.DiskIo2RemoveCompletedTask
+                0x00000000000002b6      0x13d /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.DiskIo2Cancel
+                0x00000000000003f3       0xeb /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.DiskIoCreateSubtask
+                0x00000000000004de      0x164 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.DiskIoDestroySubtask
+                0x0000000000000642       0xdc /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.DiskIoCreateSubtaskList
+                0x000000000000071e      0x544 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.DiskIo2OnReadWriteComplete
+                0x0000000000000c62       0xfb /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .text.DiskIoDriverBindingStop
+                0x0000000000000d5d      0x29d /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                0x0000000000000d5d                DiskIoDriverBindingStop
+ .text.DiskIoDriverBindingStart
+                0x0000000000000ffa      0x275 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                0x0000000000000ffa                DiskIoDriverBindingStart
+ .text.DiskIoComponentNameGetDriverName
+                0x000000000000126f      0x125 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                0x000000000000126f                DiskIoComponentNameGetDriverName
+ .text.DiskIo2ReadWriteDisk
+                0x0000000000001394      0x5c2 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                0x0000000000001394                DiskIo2ReadWriteDisk
+ .text.BasePrintLibSPrintMarker.constprop.17
+                0x0000000000001956      0xc76 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x0000000000001956                BasePrintLibSPrintMarker.constprop.17
+ .text.AsciiSPrint.constprop.15
+                0x00000000000025cc       0x30 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x00000000000025cc                AsciiSPrint.constprop.15
+ .text.DebugPrintMarker.part.0.constprop.11
+                0x00000000000025fc       0x42 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x00000000000025fc                DebugPrintMarker.part.0.constprop.11
+ .text.InternalAllocateAlignedPages.constprop.9
+                0x000000000000263e      0x24f /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x000000000000263e                InternalAllocateAlignedPages.constprop.9
+ .text.EfiInitializeLock.constprop.8
+                0x000000000000288d       0x4d /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x000000000000288d                EfiInitializeLock.constprop.8
+ .text.InternalAllocatePool.constprop.7
+                0x00000000000028da       0x37 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x00000000000028da                InternalAllocatePool.constprop.7
+ .text.PlatformDebugLibIoPortFound
+                0x0000000000002911       0x26 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000002911                PlatformDebugLibIoPortFound
+ .text.DebugPrintEnabled
+                0x0000000000002937        0x3 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000002937                DebugPrintEnabled
+ .text.DebugAssertEnabled
+                0x000000000000293a        0x3 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x000000000000293a                DebugAssertEnabled
+ .text.DebugAssert
+                0x000000000000293d       0x6a /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x000000000000293d                DebugAssert
+ .text._ModuleEntryPoint
+                0x00000000000029a7      0x2d6 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x00000000000029a7                _ModuleEntryPoint
+ .text.EfiReleaseLock
+                0x0000000000002c7d       0x69 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000002c7d                EfiReleaseLock
+ .text.EfiAcquireLock
+                0x0000000000002ce6       0x6a /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000002ce6                EfiAcquireLock
+ .text.FreePool
+                0x0000000000002d50       0x5a /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000002d50                FreePool
+ .text.FreeAlignedPages
+                0x0000000000002daa       0x92 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000002daa                FreeAlignedPages
+ .text.AsciiStrLen
+                0x0000000000002e3c       0x85 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000002ec1       0x9e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.IsNodeInList
+                0x0000000000002f5f       0x93 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.DiskIoWriteDisk
+                0x0000000000002ff2       0x71 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000002ff2                DiskIoWriteDisk
+ .text.DiskIoReadDisk
+                0x0000000000003063       0x6e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003063                DiskIoReadDisk
+ .text.DiskIo2WriteDiskEx
+                0x00000000000030d1       0x6c /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x00000000000030d1                DiskIo2WriteDiskEx
+ .text.DiskIo2ReadDiskEx
+                0x000000000000313d       0x69 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x000000000000313d                DiskIo2ReadDiskEx
+ .text.DiskIo2OnFlushComplete
+                0x00000000000031a6       0x65 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .text.DiskIo2FlushDiskEx
+                0x000000000000320b       0xfa /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x000000000000320b                DiskIo2FlushDiskEx
+ .text.DebugPrint
+                0x0000000000003305       0x65 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003305                DebugPrint
+ .text.BasePrintLibFillBuffer
+                0x000000000000336a       0x2e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x000000000000336a                BasePrintLibFillBuffer
+ .text.CopyMem.part.0.lto_priv.21
+                0x0000000000003398       0x8b /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003398                CopyMem.part.0.lto_priv.21
+ .text.ReadUnaligned24
+                0x0000000000003423       0x3b /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003423                ReadUnaligned24
+ .text.ReadUnaligned16
+                0x000000000000345e       0x37 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x000000000000345e                ReadUnaligned16
+ .text.AsciiStrnCmp.part.4.lto_priv.22
+                0x0000000000003495       0xd6 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003495                AsciiStrnCmp.part.4.lto_priv.22
+ .text.AsciiStrnLenS
+                0x000000000000356b       0x26 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x000000000000356b                AsciiStrnLenS
+ .text.IsNull   0x0000000000003591       0x70 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003591                IsNull
+ .text.IsListEmpty
+                0x0000000000003601       0x41 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003601                IsListEmpty
+ .text.RemoveEntryList
+                0x0000000000003642       0x53 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003642                RemoveEntryList
+ .text.GetNextNode
+                0x0000000000003695       0x71 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003695                GetNextNode
+ .text.GetFirstNode
+                0x0000000000003706       0x3e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003706                GetFirstNode
+ .text.InsertTailList
+                0x0000000000003744       0x7f /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003744                InsertTailList
+ .text.InitializeListHead
+                0x00000000000037c3       0x3e /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x00000000000037c3                InitializeListHead
+ .text.DivU64x32Remainder
+                0x0000000000003801       0x56 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                0x0000000000003801                DivU64x32Remainder
+ .text.BasePrintLibSPrint.constprop.18
+                0x0000000000003857       0x27 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+                0x0000000000003857                BasePrintLibSPrint.constprop.18
+ *fill*         0x000000000000387e        0x2 
+ .text          0x0000000000003880       0x1d /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMem.obj)
+                0x0000000000003880                InternalMemZeroMem
+ *fill*         0x000000000000389d        0x3 
+ .text          0x00000000000038a0       0x3c /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMem.obj)
+                0x00000000000038a0                InternalMemCopyMem
+ *fill*         0x00000000000038dc        0x4 
+ .text          0x00000000000038e0      0x116 /home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoFifoSev.obj)
+                0x00000000000038e0                SevNoRepIo
+                0x0000000000003920                IoReadFifo8
+                0x0000000000003942                IoReadFifo16
+                0x0000000000003968                IoReadFifo32
+                0x000000000000398b                IoWriteFifo8
+                0x00000000000039ad                IoWriteFifo16
+                0x00000000000039d3                IoWriteFifo32
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000039f6      0x55f /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ *fill*         0x0000000000003f55        0x1 
+ .rodata.str2.2
+                0x0000000000003f56       0x30 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000003f86      0x259 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                                        0x312 (size before relaxing)
+ *fill*         0x00000000000041df        0x1 
+ .rodata.mHexStr
+                0x00000000000041e0       0x10 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ *fill*         0x00000000000041f0       0x10 
+ .rodata.mWarningString
+                0x0000000000004200       0x96 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ *fill*         0x0000000000004296        0xa 
+ .rodata.mErrorString
+                0x00000000000042a0      0x2b5 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ *fill*         0x0000000000004555        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000004558        0x4 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x0000000000004558                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x0000000000004558                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ .rodata.str1.1
+                0x000000000000455c      0x2bb /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                                        0x413 (size before relaxing)
+ .rodata._gDriverUnloadImageCount
+                0x0000000000004817        0x1 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000004817                _gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000004817                _gDriverUnloadImageCount
+ .rodata._gUefiDriverRevision
+                0x0000000000004818        0x4 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000004818                _gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x0000000000004818                _gUefiDriverRevision
+                0x0000000000004818                _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+ .rodata.str1.1
+                0x000000000000481c      0x5ae /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                                        0x626 (size before relaxing)
+ *(.got .got.*)
+ .got           0x0000000000004dca        0x0 ComponentName.obj (symbol from plugin)
+ .got.plt       0x0000000000004dca        0x0 ComponentName.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000004dd0        0x0
+ .plt           0x0000000000004dd0        0x0 ComponentName.obj (symbol from plugin)
+
+.plt.got        0x0000000000004dd0        0x0
+ .plt.got       0x0000000000004dd0        0x0 ComponentName.obj (symbol from plugin)
+
+.data           0x0000000000004e00      0x1d0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local.mDiskIoDriverNameTable
+                0x0000000000004e00       0x20 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .data.rel.local.gDiskIoPrivateDataTemplate
+                0x0000000000004e20       0x88 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ *fill*         0x0000000000004ea8        0x8 
+ .data.gEfiBlockIo2ProtocolGuid
+                0x0000000000004eb0       0x10 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .data.gEfiBlockIoProtocolGuid
+                0x0000000000004ec0       0x10 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .data.gEfiDiskIo2ProtocolGuid
+                0x0000000000004ed0       0x10 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .data.gEfiDiskIoProtocolGuid
+                0x0000000000004ee0       0x10 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x0000000000004ef0       0x10 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x0000000000004f00       0x10 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000004f10       0x10 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .data.rel.local.gDiskIoComponentName2
+                0x0000000000004f20       0x18 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ *fill*         0x0000000000004f38        0x8 
+ .data.rel.local.gDiskIoComponentName
+                0x0000000000004f40       0x18 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                0x0000000000004f40                gDiskIoComponentName
+ *fill*         0x0000000000004f58        0x8 
+ .data.rel.local.gDiskIoDriverBinding
+                0x0000000000004f60       0x30 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .data.gEfiDevicePathUtilitiesProtocolGuid
+                0x0000000000004f90       0x10 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .data.rel.ro   0x0000000000004fa0        0x0 ComponentName.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.gBS       0x0000000000004fa0        0x8 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                0x0000000000004fa0                gBS
+ .bss.mDebugIoPortFound
+                0x0000000000004fa8        0x1 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .bss.mDebugIoPortChecked
+                0x0000000000004fa9        0x1 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ *fill*         0x0000000000004faa        0x6 
+ .bss.gST       0x0000000000004fb0        0x8 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .bss.gImageHandle
+                0x0000000000004fb8        0x8 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .bss.gRT       0x0000000000004fc0        0x8 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .bss.mDevicePathLibDevicePathUtilities
+                0x0000000000004fc8        0x8 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+
+.eh_frame       0x0000000000005000        0x0
+ *(.eh_frame)
+ .eh_frame      0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+ .eh_frame      0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+
+.dynbss         0x0000000000005000        0x0
+ .dynbss        0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+
+.gnu.version_d  0x0000000000005000        0x0
+ .gnu.version_d
+                0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+
+.gnu.version    0x0000000000005000        0x0
+ .gnu.version   0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+
+.gnu.version_r  0x0000000000005000        0x0
+ .gnu.version_r
+                0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+
+.rela           0x0000000000005000      0x198
+ *(.rela .rela.*)
+ .rela.plt      0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+ .rela.got      0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+ .rela.bss      0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+ .rela.ifunc    0x0000000000005000        0x0 ComponentName.obj (symbol from plugin)
+ .rela.data.rel.local.mDiskIoDriverNameTable
+                0x0000000000005000       0x30 ComponentName.obj (symbol from plugin)
+ .rela.data.rel.local.gDiskIoPrivateDataTemplate
+                0x0000000000005030       0x90 ComponentName.obj (symbol from plugin)
+ .rela.data.rel.local.gDiskIoComponentName2
+                0x00000000000050c0       0x48 ComponentName.obj (symbol from plugin)
+ .rela.data.rel.local.gDiskIoComponentName
+                0x0000000000005108       0x48 ComponentName.obj (symbol from plugin)
+ .rela.data.rel.local.gDiskIoDriverBinding
+                0x0000000000005150       0x48 ComponentName.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000005198       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000005198       0x24 ComponentName.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe/DEBUG/DiskIoDxe.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000     0x9443
+ .debug_info    0x0000000000000000     0x2b5e /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_info    0x0000000000002b5e     0x1dc5 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_info    0x0000000000004923     0x2d92 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_info    0x00000000000076b5     0x1c38 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_info    0x00000000000092ed      0x156 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+
+.debug_abbrev   0x0000000000000000      0xf59
+ .debug_abbrev  0x0000000000000000      0x39c /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000039c      0x280 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000061c      0x476 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000a92      0x401 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000e93       0xc6 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+
+.debug_loc      0x0000000000000000     0x648d
+ .debug_loc     0x0000000000000000     0x2579 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_loc     0x0000000000002579     0x1cb8 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_loc     0x0000000000004231      0xb0d /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_loc     0x0000000000004d3e     0x1658 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_loc     0x0000000000006396       0xf7 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x410
+ .debug_aranges
+                0x0000000000000000       0xe0 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000000e0       0x80 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000160       0xc0 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000220      0x1c0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_aranges
+                0x00000000000003e0       0x30 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+
+.debug_ranges   0x0000000000000000      0x7d0
+ .debug_ranges  0x0000000000000000      0x330 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000330      0x100 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000430      0x110 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000540      0x270 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_ranges  0x00000000000007b0       0x20 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+
+.debug_line     0x0000000000000000     0x2167
+ .debug_line    0x0000000000000000      0x8ae /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_line    0x00000000000008ae      0x750 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_line    0x0000000000000ffe      0x87a /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_line    0x0000000000001878      0x7eb /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_line    0x0000000000002063      0x104 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+
+.debug_str      0x0000000000000000     0x2afc
+ .debug_str     0x0000000000000000      0xd53 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+                                        0xfae (size before relaxing)
+ .debug_str     0x0000000000000d53      0xc6f /tmp/cc2IbJqZ.ltrans1.ltrans.o
+                                       0x1216 (size before relaxing)
+ .debug_str     0x00000000000019c2      0xe0e /tmp/cc2IbJqZ.ltrans2.ltrans.o
+                                       0x1dc4 (size before relaxing)
+ .debug_str     0x00000000000027d0      0x2f9 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+                                        0xb30 (size before relaxing)
+ .debug_str     0x0000000000002ac9       0x33 /tmp/cc2IbJqZ.ltrans4.ltrans.o
+                                        0x28d (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x10b0
+ .debug_frame   0x0000000000000000      0x678 /tmp/cc2IbJqZ.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000678      0x288 /tmp/cc2IbJqZ.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000900      0x1b8 /tmp/cc2IbJqZ.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000ab8      0x5b0 /tmp/cc2IbJqZ.ltrans3.ltrans.o
+ .debug_frame   0x0000000000001068       0x48 /tmp/cc2IbJqZ.ltrans4.ltrans.o
