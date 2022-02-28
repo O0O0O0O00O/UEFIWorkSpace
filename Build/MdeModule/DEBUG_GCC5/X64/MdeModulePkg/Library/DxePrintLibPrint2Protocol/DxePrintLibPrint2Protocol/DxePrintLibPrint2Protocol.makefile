@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/DxePrintLibPrint2Protocol/DxePrintLibPrint2Protocol/GNUmakefile

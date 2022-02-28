@@ -184,6 +184,10 @@ MAKE_FILE = $(MODULE_BUILD_DIR)/GNUmakefile
 #
 # Build Macro
 #
+OBJECT_FILES =  \
+    $(OUTPUT_DIR)/AutoGen.obj \
+    $(OUTPUT_DIR)/HelloWorld.obj
+
 STATIC_LIBRARY_FILES =  \
     $(BIN_DIR)/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib \
     $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib \
@@ -201,10 +205,6 @@ STATIC_LIBRARY_FILES =  \
     $(OUTPUT_DIR)/HelloWorld.lib \
     $(OUTPUT_DIR)/HelloWorldhii.lib
 
-OBJECT_FILES =  \
-    $(OUTPUT_DIR)/AutoGen.obj \
-    $(OUTPUT_DIR)/HelloWorld.obj
-
 HII_BINARY_PACKAGES =  \
     $(OUTPUT_DIR)/HelloWorldStrDefs.hpk
 
@@ -219,8 +219,8 @@ INC =  \
     -I$(WORKSPACE)/edk2/MdeModulePkg/Include \
     -I$(WORKSPACE)/edk2/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli/c/include
 
-STATIC_LIBRARY_FILES_LIST = /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/static_library_files.lst
 OBJECT_FILES_LIST = /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/object_files.lst
+STATIC_LIBRARY_FILES_LIST = /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/static_library_files.lst
 
 
 #
@@ -318,22 +318,6 @@ include $(MODULE_BUILD_DIR)/deps_target
 #
 # Individual Object Build Targets
 #
-$(DEBUG_DIR)/HelloWorld.dll : $(MAKE_FILE)
-$(DEBUG_DIR)/HelloWorld.dll : $(STATIC_LIBRARY_FILES)
-$(DEBUG_DIR)/HelloWorld.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" -o /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
-	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll
-
-$(OUTPUT_DIR)/HelloWorld.efi : $(DEBUG_DIR)/HelloWorld.dll
-	$(CP) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
-	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll
-	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll
-	-$(CP) $(DEBUG_DIR)/$(MODULE_NAME).debug $(BIN_DIR)/$(MODULE_NAME_GUID).debug
-	"$(GENFW)" -e $(MODULE_TYPE) -o /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.efi /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll $(GENFW_FLAGS)
-	$(CP) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.efi $(DEBUG_DIR)
-	$(CP) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
-	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
-
 $(OUTPUT_DIR)/HelloWorld.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/HelloWorld.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/HelloWorld.obj : $(DEBUG_DIR)/HelloWorldStrDefs.h
@@ -350,6 +334,22 @@ $(OUTPUT_DIR)/HelloWorld.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/HelloWorld.lib : $(OBJECT_FILES_LIST)
 	$(RM) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.lib
 	"$(SLINK)" cr /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+
+$(DEBUG_DIR)/HelloWorld.dll : $(MAKE_FILE)
+$(DEBUG_DIR)/HelloWorld.dll : $(STATIC_LIBRARY_FILES)
+$(DEBUG_DIR)/HelloWorld.dll : $(STATIC_LIBRARY_FILES_LIST)
+	"$(DLINK)" -o /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
+	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll
+
+$(OUTPUT_DIR)/HelloWorld.efi : $(DEBUG_DIR)/HelloWorld.dll
+	$(CP) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
+	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll
+	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll
+	-$(CP) $(DEBUG_DIR)/$(MODULE_NAME).debug $(BIN_DIR)/$(MODULE_NAME_GUID).debug
+	"$(GENFW)" -e $(MODULE_TYPE) -o /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.efi /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.dll $(GENFW_FLAGS)
+	$(CP) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.efi $(DEBUG_DIR)
+	$(CP) /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/OUTPUT/HelloWorld.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
+	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
 
 $(OUTPUT_DIR)/HelloWorldhii.lib : $(HII_BINARY_PACKAGES)
 	"$(GENFW)" -o $(OUTPUT_DIR)/$(MODULE_NAME)hii.rc -g $(MODULE_GUID) --hiibinpackage $(HII_BINARY_PACKAGES) $(GENFW_FLAGS)

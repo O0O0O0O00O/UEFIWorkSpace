@@ -1,0 +1,2267 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(PiSmmCore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Page.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Pool.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Handle.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Locate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Notify.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Dependency.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Dispatcher.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(Smi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(InstallConfigurationTable.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(SmramProfileRecord.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(MemoryAttributesTable.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(SmiHandlerProfile.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(HeapGuard.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/PiSmmCoreMemoryAllocationLib/PiSmmCoreMemoryAllocationLib/OUTPUT/PiSmmCoreMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/PiSmmCoreMemoryAllocationLib/PiSmmCoreMemoryAllocationLib/OUTPUT/PiSmmCoreMemoryAllocationLib.lib(PiSmmCoreMemoryProfileLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib(PeCoffExtraActionLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/PiSmmCoreSmmServicesTableLib/PiSmmCoreSmmServicesTableLib/OUTPUT/PiSmmCoreSmmServicesTableLib.lib(PiSmmCoreSmmServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(BasePeCoff.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(PeCoffLoaderEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib/OUTPUT/BaseCacheMaintenanceLib.lib(X86Cache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib(BaseReportStatusCodeLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/SmmCorePlatformHookLibNull/SmmCorePlatformHookLibNull/OUTPUT/SmmCorePlatformHookLibNull.lib(SmmCorePlatformHookLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull/OUTPUT/BasePerformanceLibNull.lib(PerformanceLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/SmmMemLib/SmmMemLib/OUTPUT/SmmMemLib.lib(SmmMemLib.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .text.unlikely.SmmDriverDispatchHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmS3EntryCallBack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmEfiNotAvailableYetArg5
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.InternalMergeNodes
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmAllocatePages
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.InsertNewEntry
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmEndOfDxeHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmEntryPoint
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmEndOfS3ResumeHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmS3SmmInitDoneHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmReadyToLockHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmReadyToBootHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmExitBootServicesHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmLegacyBootHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.InternalAllocPagesOnOneNode
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.ConvertSmmMemoryMapEntry
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.CoreFreeMemoryMapStack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmInternalFreePagesEx
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.unlikely.SmmInternalFreePages
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .text.unlikely.SmmCoreUpdateProfileAllocate
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000       0x17 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextEndInstance
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextBBS
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextRamDisk
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathRelativeOffsetRange
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextFvFile
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextFv
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextMediaProtocol
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextFilePath
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextCDROM
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextHardDrive
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextBluetoothLE
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextBluetooth
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextVlan
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextiSCSI
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUart
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextInfiniBand
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextNodeGeneric
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextWiFi
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUri
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextDns
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextIPv6
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.EfiGetSystemConfigurationTable
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.GetHobList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.EfiInitializeFwVolDevicepathNode
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.unlikely.UefiDevicePathLibConvertDevicePathToText
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.unlikely.SetMemoryAttributesTableSectionAlignment
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.unlikely.SmmInstallImageRecord
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.unlikely.GetImageRecordByAddress.lto_priv.37
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.unlikely.EfiSizeToPages.lto_priv.36
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.unlikely.RegisterImageToDxe.part.0.lto_priv.33
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .rodata.str1.1
+                0x0000000000000000       0x43 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.unlikely.ProfileMemoryTypeToStr
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.ProfileMemoryTypeToStr
+                0x0000000000000000       0x2b /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .data.rel.ro.local.mMemoryTypeString
+                0x0000000000000000       0x20 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .text.unlikely.SmmLibInternalReadyToLockNotify
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .text.unlikely.SmmLibInternalEndOfDxeNotify
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.4
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .text.unlikely.UnicodeSPrint.constprop.0
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.SetDevicePathEndNode
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.DevicePathNodeLength
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.NextDevicePathNode
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.DevicePathSubType
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.DevicePathType
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.IsDevicePathEnd
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.IsDevicePathValid.part.0.lto_priv.39
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.UefiDevicePathLibGetDevicePathSize
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.AllocateCopyPool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.AllocatePool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.UnicodeVSPrint
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.UefiDevicePathLibCatPrint
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.InitializeListHead
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.IsListEmpty
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.RemoveEntryList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.GetFirstNode
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0x37 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.IsNull
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.GetNextNode
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.InsertHeadList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text.unlikely.LShiftU64
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmGetNextLocateByProtocol
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmGetNextLocateByRegisterNotify
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmGetNextLocateAllHandles
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmHandleProtocol
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmFindProtocolEntry
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmRegisterProtocolNotify
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmLocateHandle
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmLocateProtocol
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmFindProtocolInterface
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmUninstallProtocolInterface
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmInsertOnScheduledQueueWhileProcessingBeforeAndAfter
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmGetDepexSectionAndPreProccess
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.PopBool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.PushBool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmInstallProtocolInterfaceNotify.part.3.lto_priv.31
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.unlikely.SmmInstallProtocolInterface
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .text.unlikely.SmmCoreGetMemoryMapMemoryAttributesTable.part.1
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .text.unlikely.SmmInstallMemoryAttributesTable
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.UefiMemoryTypeToSmmPoolType
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmFreePages
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmInternalFreePool.part.1.lto_priv.38
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmFreePool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmInternalAllocatePagesEx.part.1.lto_priv.34
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.InternalAllocPoolByIndex
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmInternalAllocatePool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmAllocatePool
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.unlikely.SmmCoreGetMemoryMap
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileProtocolSetRecordingState
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileProtocolGetRecordingState
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileGetDataSize
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileProtocolUnregisterImage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileProtocolRegisterImage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileCopyData
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileProtocolGetData
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmmCoreUpdateProfile
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.unlikely.SmramProfileProtocolRecord
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.unlikely.PeCoffLoaderImageReadFromMemory
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.unlikely.SmmIsBufferOutsideSmmValid
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.unlikely.LogPerformanceMeasurementEnabled
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.LogPerformanceMeasurementEnabled
+                0x0000000000000000        0x3 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.unlikely.PeCoffLoaderGetPdbPointer
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.unlikely.PeCoffLoaderGetImageInfo.part.0.lto_priv.40
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text.unlikely.PeCoffLoaderImageAddress
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.SmmInstallConfigurationTable
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.SmmCoreFindSmiEntry
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.SmiManage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.SmiHandlerUnRegister
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.GetMemoryProfileDriverInfoFromAddress
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.GetFileNameFromFilePath
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.NeedRecordThisDriver
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.InternalPeCoffGetEntryPoint
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.UnregisterSmramProfileImage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.BuildDriverInfo
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.InternalPeCoffGetSubsystem
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.RegisterSmramProfileImage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.SmiHandlerRegister.part.1.lto_priv.32
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.unlikely.SmiHandlerRegister
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextMacAddr
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextI2O
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextSata
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextUsbClass
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextLogicalUnit
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextUsb
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToText1394
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextEmmc
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextSd
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextUfs
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextNVMe
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextSasEx
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextFibreEx
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextFibre
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextScsi
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextAtapi
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextAcpi
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextController
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextMemMap
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextPccard
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextPci
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextAcpiAdr
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextUsbWWID
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextAcpiEx
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextBmc
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextVendor
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.CatIPv6Address
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.CatIPv4Address
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.CatNetworkProtocol
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text.unlikely.DevPathToTextIPv4
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.DumpGuardedMemoryBitmap.part.4
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.DumpGuardedMemoryBitmap.part.4
+                0x0000000000000000      0x1b8 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.DumpGuardedMemoryBitmap
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.DumpGuardedMemoryBitmap
+                0x0000000000000000       0x20 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.VerifyMemoryGuard
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.VerifyMemoryGuard
+                0x0000000000000000       0xaf /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.IsMemoryTypeToGuard
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.UnsetGuardPage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.SetGuardPage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.FindGuardedMemoryMap
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.GetGuardMapBit
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.GetGuardedMemoryBits
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text.unlikely.IsGuardPage
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .text.unlikely.SmmReadyToLockInSmiHandlerProfile
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.ConvertSmiHandlerUsbContext
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.SmmCoreFindHardwareSmiEntry
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.SmiHandlerProfileUnregisterHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.SmiHandlerProfileRegisterHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.SmiHandlerProfileHandler
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.PageAlloc
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.GetSmmSmiDatabaseData
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.unlikely.GetSmmSmiDatabaseSize
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .text.unlikely.AddressToImageStruct
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .text.unlikely.DumpSmiEntryList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .text.DumpSmiEntryList
+                0x0000000000000000      0x175 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .data.gEfiSmmIoTrapDispatch2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .data.gEfiSmmGpiDispatch2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .data.gEfiSmmPeriodicTimerDispatch2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .data.gEfiSmmStandbyButtonDispatch2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .data.gEfiSmmPowerButtonDispatch2ProtocolGuid
+                0x0000000000000000       0x10 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000        0x1 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.CopyGuid
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.SetMem64.part.0.lto_priv.41
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.CompareMem.part.0.lto_priv.35
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.InternalMemSetMem
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.ZeroMem
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.unlikely.ProcessLibraryDestructorList
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text.ProcessLibraryDestructorList
+                0x0000000000000000       0x51 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .text.unlikely.GetMemoryProfileAllocInfoFromAddress
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .text.unlikely.SmmCoreUpdateProfileFree
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .text.unlikely.SetMem.constprop.30
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.22
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .text.unlikely.SmmAddMemoryRegion.constprop.15
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.5
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPtnNJM.ltrans21.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccPtnNJM.ltrans0.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans1.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans2.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans3.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans4.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans5.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans6.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans7.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans8.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans9.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans10.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans11.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans12.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans13.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans14.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans15.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans16.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans17.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans18.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans19.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans20.ltrans.o
+LOAD /tmp/ccPtnNJM.ltrans21.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/OUTPUT/PiSmmCore.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/PiSmmCoreMemoryAllocationLib/PiSmmCoreMemoryAllocationLib/OUTPUT/PiSmmCoreMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/PiSmmCoreSmmServicesTableLib/PiSmmCoreSmmServicesTableLib/OUTPUT/PiSmmCoreSmmServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib/OUTPUT/BaseCacheMaintenanceLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/SmmCorePlatformHookLibNull/SmmCorePlatformHookLibNull/OUTPUT/SmmCorePlatformHookLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull/OUTPUT/BasePerformanceLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/SmmMemLib/SmmMemLib/OUTPUT/SmmMemLib.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0xe920
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SmmDriverDispatchHandler
+                0x0000000000000240     0x1a5e /tmp/ccPtnNJM.ltrans0.ltrans.o
+                0x0000000000000240                SmmDriverDispatchHandler
+ .text._ModuleEntryPoint
+                0x0000000000001c9e      0x78b /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x0000000000001c9e                _ModuleEntryPoint
+ .text.SmmS3EntryCallBack
+                0x0000000000002429        0xa /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.SmmEfiNotAvailableYetArg5
+                0x0000000000002433        0xb /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002433                SmmEfiNotAvailableYetArg5
+ .text.InternalMergeNodes
+                0x000000000000243e       0x34 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.SmmAllocatePages
+                0x0000000000002472      0x149 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002472                SmmAllocatePages
+ .text.InsertNewEntry
+                0x00000000000025bb       0x61 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .text.SmmEndOfDxeHandler
+                0x000000000000261c       0x7c /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x000000000000261c                SmmEndOfDxeHandler
+ .text.SmmEntryPoint
+                0x0000000000002698      0x322 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002698                SmmEntryPoint
+ .text.SmmEndOfS3ResumeHandler
+                0x00000000000029ba       0xf1 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x00000000000029ba                SmmEndOfS3ResumeHandler
+ .text.SmmS3SmmInitDoneHandler
+                0x0000000000002aab       0xea /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002aab                SmmS3SmmInitDoneHandler
+ .text.SmmReadyToLockHandler
+                0x0000000000002b95       0x87 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002b95                SmmReadyToLockHandler
+ .text.SmmReadyToBootHandler
+                0x0000000000002c1c       0xdb /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002c1c                SmmReadyToBootHandler
+ .text.SmmExitBootServicesHandler
+                0x0000000000002cf7      0x11a /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002cf7                SmmExitBootServicesHandler
+ .text.SmmLegacyBootHandler
+                0x0000000000002e11      0x121 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002e11                SmmLegacyBootHandler
+ .text.InternalAllocPagesOnOneNode
+                0x0000000000002f32       0x70 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002f32                InternalAllocPagesOnOneNode
+ .text.ConvertSmmMemoryMapEntry
+                0x0000000000002fa2      0x1fe /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x0000000000002fa2                ConvertSmmMemoryMapEntry
+ .text.CoreFreeMemoryMapStack
+                0x00000000000031a0      0x149 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x00000000000031a0                CoreFreeMemoryMapStack
+ .text.SmmInternalFreePagesEx
+                0x00000000000032e9      0x104 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x00000000000032e9                SmmInternalFreePagesEx
+ .text.SmmInternalFreePages
+                0x00000000000033ed      0x329 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                0x00000000000033ed                SmmInternalFreePages
+ .text.SmmCoreUpdateProfileAllocate
+                0x0000000000003716      0x239 /tmp/ccPtnNJM.ltrans3.ltrans.o
+                0x0000000000003716                SmmCoreUpdateProfileAllocate
+ .text.DevPathToTextEndInstance
+                0x000000000000394f       0x18 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextBBS
+                0x0000000000003967       0xce /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x0000000000003a35      0x122 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathRelativeOffsetRange
+                0x0000000000003b57       0x20 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextFvFile
+                0x0000000000003b77       0x1c /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextFv
+                0x0000000000003b93       0x1c /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextMediaProtocol
+                0x0000000000003baf       0x1c /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextFilePath
+                0x0000000000003bcb       0x1c /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextCDROM
+                0x0000000000003be7       0x40 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextHardDrive
+                0x0000000000003c27       0x96 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextBluetoothLE
+                0x0000000000003cbd       0x3f /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextBluetooth
+                0x0000000000003cfc       0x37 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextVlan
+                0x0000000000003d33       0x1d /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextiSCSI
+                0x0000000000003d50      0x121 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextUart
+                0x0000000000003e71      0x107 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextInfiniBand
+                0x0000000000003f78       0x2d /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x0000000000003fa5      0x117 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextWiFi
+                0x00000000000040bc       0x42 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextUri
+                0x00000000000040fe       0x6c /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextDns
+                0x000000000000416a       0xa5 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.DevPathToTextIPv6
+                0x000000000000420f      0x103 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000004312       0x6a /tmp/ccPtnNJM.ltrans4.ltrans.o
+                0x0000000000004312                EfiGetSystemConfigurationTable
+ .text.GetHobList
+                0x000000000000437c       0x35 /tmp/ccPtnNJM.ltrans4.ltrans.o
+                0x000000000000437c                GetHobList
+ .text.EfiInitializeFwVolDevicepathNode
+                0x00000000000043b1       0x16 /tmp/ccPtnNJM.ltrans4.ltrans.o
+                0x00000000000043b1                EfiInitializeFwVolDevicepathNode
+ .text.UefiDevicePathLibConvertDevicePathToText
+                0x00000000000043c7      0x1ba /tmp/ccPtnNJM.ltrans4.ltrans.o
+                0x00000000000043c7                UefiDevicePathLibConvertDevicePathToText
+ .text.SetMemoryAttributesTableSectionAlignment
+                0x0000000000004581       0x1f /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .text.SmmInstallImageRecord
+                0x00000000000045a0      0x4b9 /tmp/ccPtnNJM.ltrans5.ltrans.o
+                0x00000000000045a0                SmmInstallImageRecord
+ .text.GetImageRecordByAddress.lto_priv.37
+                0x0000000000004a59       0x35 /tmp/ccPtnNJM.ltrans5.ltrans.o
+                0x0000000000004a59                GetImageRecordByAddress.lto_priv.37
+ .text.EfiSizeToPages.lto_priv.36
+                0x0000000000004a8e       0x13 /tmp/ccPtnNJM.ltrans5.ltrans.o
+                0x0000000000004a8e                EfiSizeToPages.lto_priv.36
+ .text.RegisterImageToDxe.part.0.lto_priv.33
+                0x0000000000004aa1       0x8a /tmp/ccPtnNJM.ltrans5.ltrans.o
+                0x0000000000004aa1                RegisterImageToDxe.part.0.lto_priv.33
+ .text.SmmLibInternalReadyToLockNotify
+                0x0000000000004b2b        0xa /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x0000000000004b2b                SmmLibInternalReadyToLockNotify
+ .text.SmmLibInternalEndOfDxeNotify
+                0x0000000000004b35      0x30f /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x0000000000004b35                SmmLibInternalEndOfDxeNotify
+ .text.BasePrintLibSPrintMarker.constprop.4
+                0x0000000000004e44      0xe8d /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x0000000000004e44                BasePrintLibSPrintMarker.constprop.4
+ .text.UnicodeSPrint.constprop.0
+                0x0000000000005cd1       0x29 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x0000000000005cd1                UnicodeSPrint.constprop.0
+ .text.SetDevicePathEndNode
+                0x0000000000005cfa       0x12 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005cfa                SetDevicePathEndNode
+ .text.DevicePathNodeLength
+                0x0000000000005d0c        0x5 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005d0c                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x0000000000005d11       0x11 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005d11                NextDevicePathNode
+ .text.DevicePathSubType
+                0x0000000000005d22        0x4 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005d22                DevicePathSubType
+ .text.DevicePathType
+                0x0000000000005d26        0x3 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005d26                DevicePathType
+ .text.IsDevicePathEnd
+                0x0000000000005d29       0x22 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005d29                IsDevicePathEnd
+ .text.IsDevicePathValid.part.0.lto_priv.39
+                0x0000000000005d4b       0xaf /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005d4b                IsDevicePathValid.part.0.lto_priv.39
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000005dfa       0x4f /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005dfa                UefiDevicePathLibGetDevicePathSize
+ .text.FreePool
+                0x0000000000005e49       0x43 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005e49                FreePool
+ .text.AllocateCopyPool
+                0x0000000000005e8c       0xce /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005e8c                AllocateCopyPool
+ .text.AllocateZeroPool
+                0x0000000000005f5a       0xbc /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000005f5a                AllocateZeroPool
+ .text.AllocatePool
+                0x0000000000006016       0x99 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006016                AllocatePool
+ .text.UnicodeVSPrint
+                0x00000000000060af       0xaa /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000060af                UnicodeVSPrint
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000006159      0x18f /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006159                UefiDevicePathLibCatPrint
+ .text.BasePrintLibFillBuffer
+                0x00000000000062e8       0x2e /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000062e8                BasePrintLibFillBuffer
+ .text.ReadUnaligned64
+                0x0000000000006316        0x4 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006316                ReadUnaligned64
+ .text.AsciiStrLen
+                0x000000000000631a        0xe /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x000000000000631a                AsciiStrLen
+ .text.AsciiStrnLenS
+                0x0000000000006328       0x26 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006328                AsciiStrnLenS
+ .text.StrnLenS
+                0x000000000000634e       0x27 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x000000000000634e                StrnLenS
+ .text.InitializeListHead
+                0x0000000000006375        0xb /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006375                InitializeListHead
+ .text.IsListEmpty
+                0x0000000000006380        0x7 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006380                IsListEmpty
+ .text.RemoveEntryList
+                0x0000000000006387       0x19 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x0000000000006387                RemoveEntryList
+ .text.GetFirstNode
+                0x00000000000063a0        0x4 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000063a0                GetFirstNode
+ .text.IsNull   0x00000000000063a4        0x7 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000063a4                IsNull
+ .text.GetNextNode
+                0x00000000000063ab        0x4 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000063ab                GetNextNode
+ .text.InsertTailList
+                0x00000000000063af       0x16 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000063af                InsertTailList
+ .text.InsertHeadList
+                0x00000000000063c5       0x15 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000063c5                InsertHeadList
+ .text.LShiftU64
+                0x00000000000063da        0x9 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x00000000000063da                LShiftU64
+ .text.SmmGetNextLocateByProtocol
+                0x00000000000063e3       0x3f /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.SmmGetNextLocateByRegisterNotify
+                0x0000000000006422       0x3b /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.SmmGetNextLocateAllHandles
+                0x000000000000645d       0x2b /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.SmmHandleProtocol
+                0x0000000000006488       0x98 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006488                SmmHandleProtocol
+ .text.SmmFindProtocolEntry
+                0x0000000000006520       0xb2 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.SmmRegisterProtocolNotify
+                0x00000000000065d2      0x1d3 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x00000000000065d2                SmmRegisterProtocolNotify
+ .text.SmmLocateHandle
+                0x00000000000067a5      0x20e /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x00000000000067a5                SmmLocateHandle
+ .text.SmmLocateProtocol
+                0x00000000000069b3      0x146 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x00000000000069b3                SmmLocateProtocol
+ .text.SmmFindProtocolInterface
+                0x0000000000006af9       0x47 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .text.SmmUninstallProtocolInterface
+                0x0000000000006b40      0x183 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006b40                SmmUninstallProtocolInterface
+ .text.SmmInsertOnScheduledQueueWhileProcessingBeforeAndAfter
+                0x0000000000006cc3       0xcc /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006cc3                SmmInsertOnScheduledQueueWhileProcessingBeforeAndAfter
+ .text.SmmGetDepexSectionAndPreProccess
+                0x0000000000006d8f       0xae /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006d8f                SmmGetDepexSectionAndPreProccess
+ .text.PopBool  0x0000000000006e3d       0x2d /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006e3d                PopBool
+ .text.PushBool
+                0x0000000000006e6a       0xca /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006e6a                PushBool
+ .text.SmmInstallProtocolInterfaceNotify.part.3.lto_priv.31
+                0x0000000000006f34      0x1a8 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x0000000000006f34                SmmInstallProtocolInterfaceNotify.part.3.lto_priv.31
+ .text.SmmInstallProtocolInterface
+                0x00000000000070dc       0xc5 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                0x00000000000070dc                SmmInstallProtocolInterface
+ .text.SmmCoreGetMemoryMapMemoryAttributesTable.part.1
+                0x00000000000071a1      0x761 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .text.SmmInstallMemoryAttributesTable
+                0x0000000000007902      0x20e /tmp/ccPtnNJM.ltrans9.ltrans.o
+                0x0000000000007902                SmmInstallMemoryAttributesTable
+ .text.UefiMemoryTypeToSmmPoolType
+                0x0000000000007b10       0x12 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.SmmFreePages
+                0x0000000000007b22      0x15b /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x0000000000007b22                SmmFreePages
+ .text.SmmInternalFreePool.part.1.lto_priv.38
+                0x0000000000007c7d      0x242 /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x0000000000007c7d                SmmInternalFreePool.part.1.lto_priv.38
+ .text.SmmFreePool
+                0x0000000000007ebf       0x55 /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x0000000000007ebf                SmmFreePool
+ .text.SmmInternalAllocatePagesEx.part.1.lto_priv.34
+                0x0000000000007f14      0x39f /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x0000000000007f14                SmmInternalAllocatePagesEx.part.1.lto_priv.34
+ .text.InternalAllocPoolByIndex
+                0x00000000000082b3      0x1b1 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .text.SmmInternalAllocatePool
+                0x0000000000008464      0x219 /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x0000000000008464                SmmInternalAllocatePool
+ .text.SmmAllocatePool
+                0x000000000000867d       0x51 /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x000000000000867d                SmmAllocatePool
+ .text.SmmCoreGetMemoryMap
+                0x00000000000086ce       0xba /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x00000000000086ce                SmmCoreGetMemoryMap
+ .text.SmramProfileProtocolSetRecordingState
+                0x0000000000008788       0x1d /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x0000000000008788                SmramProfileProtocolSetRecordingState
+ .text.SmramProfileProtocolGetRecordingState
+                0x00000000000087a5       0x2e /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x00000000000087a5                SmramProfileProtocolGetRecordingState
+ .text.SmramProfileGetDataSize
+                0x00000000000087d3       0xc7 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.SmramProfileProtocolUnregisterImage
+                0x000000000000889a      0x14a /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x000000000000889a                SmramProfileProtocolUnregisterImage
+ .text.SmramProfileProtocolRegisterImage
+                0x00000000000089e4      0x14a /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x00000000000089e4                SmramProfileProtocolRegisterImage
+ .text.SmramProfileCopyData
+                0x0000000000008b2e      0x402 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .text.SmramProfileHandler
+                0x0000000000008f30      0x2bd /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x0000000000008f30                SmramProfileHandler
+ .text.SmramProfileProtocolGetData
+                0x00000000000091ed      0x116 /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x00000000000091ed                SmramProfileProtocolGetData
+ .text.SmmCoreUpdateProfile
+                0x0000000000009303      0x1a0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x0000000000009303                SmmCoreUpdateProfile
+ .text.SmramProfileProtocolRecord
+                0x00000000000094a3       0x1d /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x00000000000094a3                SmramProfileProtocolRecord
+ .text.PeCoffLoaderImageReadFromMemory
+                0x00000000000094c0       0x19 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x00000000000094c0                PeCoffLoaderImageReadFromMemory
+ .text.SmmIsBufferOutsideSmmValid
+                0x00000000000094d9      0x197 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x00000000000094d9                SmmIsBufferOutsideSmmValid
+ .text.PeCoffLoaderGetPdbPointer
+                0x0000000000009670      0x116 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x0000000000009670                PeCoffLoaderGetPdbPointer
+ .text.PeCoffLoaderGetImageInfo.part.0.lto_priv.40
+                0x0000000000009786      0x8b8 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x0000000000009786                PeCoffLoaderGetImageInfo.part.0.lto_priv.40
+ .text.PeCoffLoaderImageAddress
+                0x000000000000a03e       0x20 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x000000000000a03e                PeCoffLoaderImageAddress
+ .text.SmmInstallConfigurationTable
+                0x000000000000a05e      0x137 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a05e                SmmInstallConfigurationTable
+ .text.SmmCoreFindSmiEntry
+                0x000000000000a195       0x93 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .text.SmiManage
+                0x000000000000a228       0xc5 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a228                SmiManage
+ .text.SmiHandlerUnRegister
+                0x000000000000a2ed      0x126 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a2ed                SmiHandlerUnRegister
+ .text.GetMemoryProfileDriverInfoFromAddress
+                0x000000000000a413       0x36 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a413                GetMemoryProfileDriverInfoFromAddress
+ .text.GetFileNameFromFilePath
+                0x000000000000a449       0x6a /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a449                GetFileNameFromFilePath
+ .text.NeedRecordThisDriver
+                0x000000000000a4b3       0xed /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a4b3                NeedRecordThisDriver
+ .text.InternalPeCoffGetEntryPoint
+                0x000000000000a5a0       0x46 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a5a0                InternalPeCoffGetEntryPoint
+ .text.UnregisterSmramProfileImage
+                0x000000000000a5e6      0x1ef /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a5e6                UnregisterSmramProfileImage
+ .text.BuildDriverInfo
+                0x000000000000a7d5      0x234 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000a7d5                BuildDriverInfo
+ .text.InternalPeCoffGetSubsystem
+                0x000000000000aa09       0x39 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000aa09                InternalPeCoffGetSubsystem
+ .text.RegisterSmramProfileImage
+                0x000000000000aa42       0xed /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000aa42                RegisterSmramProfileImage
+ .text.SmiHandlerRegister.part.1.lto_priv.32
+                0x000000000000ab2f       0x82 /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000ab2f                SmiHandlerRegister.part.1.lto_priv.32
+ .text.SmiHandlerRegister
+                0x000000000000abb1       0x1a /tmp/ccPtnNJM.ltrans13.ltrans.o
+                0x000000000000abb1                SmiHandlerRegister
+ .text.DevPathToTextMacAddr
+                0x000000000000abcb       0x80 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000abcb                DevPathToTextMacAddr
+ .text.DevPathToTextI2O
+                0x000000000000ac4b       0x1c /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ac4b                DevPathToTextI2O
+ .text.DevPathToTextSata
+                0x000000000000ac67       0x2b /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ac67                DevPathToTextSata
+ .text.DevPathToTextUsbClass
+                0x000000000000ac92      0x1ad /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ac92                DevPathToTextUsbClass
+ .text.DevPathToTextLogicalUnit
+                0x000000000000ae3f       0x1d /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ae3f                DevPathToTextLogicalUnit
+ .text.DevPathToTextUsb
+                0x000000000000ae5c       0x22 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ae5c                DevPathToTextUsb
+ .text.DevPathToText1394
+                0x000000000000ae7e       0x1c /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ae7e                DevPathToText1394
+ .text.DevPathToTextEmmc
+                0x000000000000ae9a       0x1d /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000ae9a                DevPathToTextEmmc
+ .text.DevPathToTextSd
+                0x000000000000aeb7       0x1d /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000aeb7                DevPathToTextSd
+ .text.DevPathToTextUfs
+                0x000000000000aed4       0x22 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000aed4                DevPathToTextUfs
+ .text.DevPathToTextNVMe
+                0x000000000000aef6       0x48 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000aef6                DevPathToTextNVMe
+ .text.DevPathToTextSasEx
+                0x000000000000af3e      0x1a0 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000af3e                DevPathToTextSasEx
+ .text.DevPathToTextFibreEx
+                0x000000000000b0de       0xa4 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b0de                DevPathToTextFibreEx
+ .text.DevPathToTextFibre
+                0x000000000000b182       0x20 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b182                DevPathToTextFibre
+ .text.DevPathToTextScsi
+                0x000000000000b1a2       0x22 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b1a2                DevPathToTextScsi
+ .text.DevPathToTextAtapi
+                0x000000000000b1c4       0x6b /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b1c4                DevPathToTextAtapi
+ .text.DevPathToTextAcpi
+                0x000000000000b22f       0xc6 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b22f                DevPathToTextAcpi
+ .text.DevPathToTextController
+                0x000000000000b2f5       0x1c /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b2f5                DevPathToTextController
+ .text.DevPathToTextMemMap
+                0x000000000000b311       0x27 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b311                DevPathToTextMemMap
+ .text.DevPathToTextPccard
+                0x000000000000b338       0x1d /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b338                DevPathToTextPccard
+ .text.DevPathToTextPci
+                0x000000000000b355       0x22 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b355                DevPathToTextPci
+ .text.DevPathToTextAcpiAdr
+                0x000000000000b377       0x88 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b377                DevPathToTextAcpiAdr
+ .text.DevPathToTextUsbWWID
+                0x000000000000b3ff       0x8d /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b3ff                DevPathToTextUsbWWID
+ .text.DevPathToTextAcpiEx
+                0x000000000000b48c      0x2ba /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b48c                DevPathToTextAcpiEx
+ .text.DevPathToTextBmc
+                0x000000000000b746       0x33 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b746                DevPathToTextBmc
+ .text.DevPathToTextVendor
+                0x000000000000b779      0x36f /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000b779                DevPathToTextVendor
+ .text.CatIPv6Address
+                0x000000000000bae8       0x6b /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000bae8                CatIPv6Address
+ .text.CatIPv4Address
+                0x000000000000bb53       0x2c /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000bb53                CatIPv4Address
+ .text.CatNetworkProtocol
+                0x000000000000bb7f       0x49 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000bb7f                CatNetworkProtocol
+ .text.DevPathToTextIPv4
+                0x000000000000bbc8      0x112 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                0x000000000000bbc8                DevPathToTextIPv4
+ .text.IsMemoryTypeToGuard
+                0x000000000000bcda        0x3 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000bcda                IsMemoryTypeToGuard
+ .text.UnsetGuardPage
+                0x000000000000bcdd       0x38 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000bcdd                UnsetGuardPage
+ .text.SetGuardPage
+                0x000000000000bd15       0x38 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000bd15                SetGuardPage
+ .text.FindGuardedMemoryMap
+                0x000000000000bd4d      0x191 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000bd4d                FindGuardedMemoryMap
+ .text.GetGuardMapBit
+                0x000000000000bede       0xcc /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000bede                GetGuardMapBit
+ .text.GetGuardedMemoryBits
+                0x000000000000bfaa      0x134 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000bfaa                GetGuardedMemoryBits
+ .text.IsGuardPage
+                0x000000000000c0de       0xb5 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000c0de                IsGuardPage
+ .text.SmmReadyToLockInSmiHandlerProfile
+                0x000000000000c193      0x5a6 /tmp/ccPtnNJM.ltrans16.ltrans.o
+                0x000000000000c193                SmmReadyToLockInSmiHandlerProfile
+ .text.ConvertSmiHandlerUsbContext
+                0x000000000000c739       0x77 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.SmmCoreFindHardwareSmiEntry
+                0x000000000000c7b0       0xa9 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .text.SmiHandlerProfileUnregisterHandler
+                0x000000000000c859      0x233 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000c859                SmiHandlerProfileUnregisterHandler
+ .text.SmiHandlerProfileRegisterHandler
+                0x000000000000ca8c      0x1df /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000ca8c                SmiHandlerProfileRegisterHandler
+ .text.SmiHandlerProfileHandler
+                0x000000000000cc6b      0x151 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000cc6b                SmiHandlerProfileHandler
+ .text.PageAlloc
+                0x000000000000cdbc       0x45 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000cdbc                PageAlloc
+ .text.GetSmmSmiDatabaseData
+                0x000000000000ce01      0x1c5 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000ce01                GetSmmSmiDatabaseData
+ .text.GetSmmSmiDatabaseSize
+                0x000000000000cfc6       0x3f /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000cfc6                GetSmmSmiDatabaseSize
+ .text.AddressToImageStruct
+                0x000000000000d005       0x36 /tmp/ccPtnNJM.ltrans18.ltrans.o
+                0x000000000000d005                AddressToImageStruct
+ .text.CompareGuid
+                0x000000000000d03b       0x4d /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d03b                CompareGuid
+ .text.CopyGuid
+                0x000000000000d088       0x2e /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d088                CopyGuid
+ .text.CopyMem  0x000000000000d0b6      0x201 /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d0b6                CopyMem
+ .text.SetMem64.part.0.lto_priv.41
+                0x000000000000d2b7       0x17 /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d2b7                SetMem64.part.0.lto_priv.41
+ .text.CompareMem.part.0.lto_priv.35
+                0x000000000000d2ce       0x27 /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d2ce                CompareMem.part.0.lto_priv.35
+ .text.InternalMemSetMem
+                0x000000000000d2f5       0xd2 /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d2f5                InternalMemSetMem
+ .text.ZeroMem  0x000000000000d3c7       0x11 /tmp/ccPtnNJM.ltrans19.ltrans.o
+                0x000000000000d3c7                ZeroMem
+ .text.GetMemoryProfileAllocInfoFromAddress
+                0x000000000000d3d8       0x50 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .text.SmmCoreUpdateProfileFree
+                0x000000000000d428      0x1b8 /tmp/ccPtnNJM.ltrans20.ltrans.o
+                0x000000000000d428                SmmCoreUpdateProfileFree
+ .text.SetMem.constprop.30
+                0x000000000000d5e0       0x11 /tmp/ccPtnNJM.ltrans21.ltrans.o
+                0x000000000000d5e0                SetMem.constprop.30
+ .text.InternalAllocatePool.constprop.22
+                0x000000000000d5f1       0x3b /tmp/ccPtnNJM.ltrans21.ltrans.o
+                0x000000000000d5f1                InternalAllocatePool.constprop.22
+ .text.SmmAddMemoryRegion.constprop.15
+                0x000000000000d62c       0x53 /tmp/ccPtnNJM.ltrans21.ltrans.o
+                0x000000000000d62c                SmmAddMemoryRegion.constprop.15
+ .text.BasePrintLibSPrint.constprop.5
+                0x000000000000d67f       0xb8 /tmp/ccPtnNJM.ltrans21.ltrans.o
+                0x000000000000d67f                BasePrintLibSPrint.constprop.5
+ *fill*         0x000000000000d737        0x9 
+ .text          0x000000000000d740       0x27 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                0x000000000000d740                AsmCpuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *fill*         0x000000000000d767        0x1 
+ .rodata.SmmDriverDispatchHandler
+                0x000000000000d768       0x2c /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .rodata.mSmmFileTypes
+                0x000000000000d794        0x3 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMemoryProfileDriverPath
+                0x000000000000d797        0x1 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x000000000000d798        0x4 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000d798                _gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount
+                0x000000000000d798                _gUefiDriverRevision
+                0x000000000000d798                _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+ .rodata.str2.2
+                0x000000000000d79c      0x54c /tmp/ccPtnNJM.ltrans4.ltrans.o
+                                        0x632 (size before relaxing)
+ .rodata.DevPathToTextBBS
+                0x000000000000dce8       0x18 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .rodata.CSWTCH.43
+                0x000000000000dd00        0x6 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .rodata.str1.1
+                0x000000000000dd06       0x7b /tmp/ccPtnNJM.ltrans6.ltrans.o
+ *fill*         0x000000000000dd81        0x1 
+ .rodata.str2.2
+                0x000000000000dd82       0x16 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ *fill*         0x000000000000dd98        0x8 
+ .rodata.mHexStr
+                0x000000000000dda0       0x10 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ *fill*         0x000000000000ddb0       0x10 
+ .rodata.mWarningString
+                0x000000000000ddc0       0x96 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ *fill*         0x000000000000de56        0xa 
+ .rodata.mErrorString
+                0x000000000000de60      0x2b5 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x000000000000e115        0x4 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                0x000000000000e115                mUefiDevicePathLibEndDevicePath
+ *fill*         0x000000000000e119        0x3 
+ .rodata.SmramProfileHandler
+                0x000000000000e11c       0x1c /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x000000000000e138        0x1 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x000000000000e138                _gPcd_FixedAtBuild_PcdSmiHandlerProfilePropertyMask
+                0x000000000000e138                _gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x000000000000e138                _gDriverUnloadImageCount
+                0x000000000000e138                _gPcd_FixedAtBuild_PcdHeapGuardPropertyMask
+                0x000000000000e138                _gPcd_FixedAtBuild_PcdMemoryProfilePropertyMask
+ *fill*         0x000000000000e139        0x1 
+ .rodata.str2.2
+                0x000000000000e13a      0xa1a /tmp/ccPtnNJM.ltrans14.ltrans.o
+                                        0xace (size before relaxing)
+ *fill*         0x000000000000eb54        0x4 
+ .rodata._gPcd_FixedAtBuild_PcdHeapGuardPoolType
+                0x000000000000eb58        0x8 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000eb58                _gPcd_FixedAtBuild_PcdMemoryProfileMemoryType
+                0x000000000000eb58                _gPcd_FixedAtBuild_PcdHeapGuardPoolType
+                0x000000000000eb58                _gPcd_FixedAtBuild_PcdLoadModuleAtFixAddressEnable
+ *(.got .got.*)
+ .got           0x000000000000eb60        0x0 PiSmmCore.obj (symbol from plugin)
+ .got.plt       0x000000000000eb60        0x0 PiSmmCore.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000eb60        0x0
+ .plt           0x000000000000eb60        0x0 PiSmmCore.obj (symbol from plugin)
+
+.plt.got        0x000000000000eb60        0x0
+ .plt.got       0x000000000000eb60        0x0 PiSmmCore.obj (symbol from plugin)
+
+.data           0x000000000000eb80     0x1010
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local.mFvHandleList
+                0x000000000000eb80       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data.gEfiSecurityArchProtocolGuid
+                0x000000000000eb90       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data.gEfiSecurity2ArchProtocolGuid
+                0x000000000000eba0       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data.rel.local.mScheduledQueue
+                0x000000000000ebb0       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+                0x000000000000ebb0                mScheduledQueue
+ .data.rel.local.mDiscoveredList
+                0x000000000000ebc0       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+                0x000000000000ebc0                mDiscoveredList
+ .data.gAprioriGuid
+                0x000000000000ebd0       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000000ebe0       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data.gEfiFirmwareVolume2ProtocolGuid
+                0x000000000000ebf0       0x10 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .data.rel.local.mImageQueue
+                0x000000000000ec00       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEdkiiEndOfS3ResumeGuid
+                0x000000000000ec10       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ec10                gEdkiiEndOfS3ResumeGuid
+ .data.gEdkiiS3SmmInitDoneGuid
+                0x000000000000ec20       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ec20                gEdkiiS3SmmInitDoneGuid
+ .data.gEfiEndOfDxeEventGroupGuid
+                0x000000000000ec30       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEfiEventReadyToBootGuid
+                0x000000000000ec40       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEfiEventExitBootServicesGuid
+                0x000000000000ec50       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ec50                gEfiEventExitBootServicesGuid
+ .data.gEfiEventLegacyBootGuid
+                0x000000000000ec60       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ec60                gEfiEventLegacyBootGuid
+ .data.gEfiDxeSmmReadyToLockProtocolGuid
+                0x000000000000ec70       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEfiEventDxeDispatchGuid
+                0x000000000000ec80       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ *fill*         0x000000000000ec90       0x10 
+ .data.rel.local.mSmramProfileContext
+                0x000000000000eca0      0x148 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ *fill*         0x000000000000ede8        0x8 
+ .data.gEfiCallerIdGuid
+                0x000000000000edf0       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEdkiiMemoryProfileGuid
+                0x000000000000ee00       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ee00                gEdkiiMemoryProfileGuid
+ *fill*         0x000000000000ee10       0x10 
+ .data.rel.local.mSmmProfileProtocol
+                0x000000000000ee20       0x30 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEdkiiSmmMemoryProfileGuid
+                0x000000000000ee50       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.rel.local.mSmiHandlerProfile
+                0x000000000000ee60       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gSmiHandlerProfileGuid
+                0x000000000000ee70       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ee70                gSmiHandlerProfileGuid
+ .data.rel.local.mRootSmiEntry
+                0x000000000000ee80       0x38 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ee80                mRootSmiEntry
+ *fill*         0x000000000000eeb8        0x8 
+ .data.rel.local.mRootSmiEntryList
+                0x000000000000eec0       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000eec0                mRootSmiEntryList
+ *fill*         0x000000000000eed0       0x10 
+ .data.rel.local.mSmmCoreS3SmiHandlers
+                0x000000000000eee0       0x60 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.rel.local.mSmmCoreSmiHandlers
+                0x000000000000ef40       0xe0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000ef40                mSmmCoreSmiHandlers
+ .data.gLoadFixedAddressConfigurationTableGuid
+                0x000000000000f020       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x000000000000f030       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.rel.local.gSmmCoreSmst
+                0x000000000000f040       0xf0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f040                gSmmCoreSmst
+ .data.gEfiSmmReadyToLockProtocolGuid
+                0x000000000000f130       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f130                gEfiSmmReadyToLockProtocolGuid
+ .data.gEfiSmmEndOfDxeProtocolGuid
+                0x000000000000f140       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f140                gEfiSmmEndOfDxeProtocolGuid
+ .data.gEfiSmmAccess2ProtocolGuid
+                0x000000000000f150       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x000000000000f160       0x10 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f160                gEfiLoadedImageProtocolGuid
+ .data.gEdkiiSmmLegacyBootProtocolGuid
+                0x000000000000f170       0x10 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data.gEdkiiSmmExitBootServicesProtocolGuid
+                0x000000000000f180       0x10 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data.gEdkiiSmmReadyToBootProtocolGuid
+                0x000000000000f190       0x10 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data.gEfiSmmCpuIo2ProtocolGuid
+                0x000000000000f1a0       0x10 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data.gEdkiiSmmMemoryAttributeProtocolGuid
+                0x000000000000f1b0       0x10 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data.rel.local.mFreeMemoryMapEntryList
+                0x000000000000f1c0       0x10 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000000f1d0       0x10 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000000f1e0       0x10 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000000f1f0       0x10 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000000f200       0x10 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ *fill*         0x000000000000f210       0x10 
+ .data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000f220       0x60 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x000000000000f280      0x320 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data.gEfiHobListGuid
+                0x000000000000f5a0       0x10 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .data.gEfiMemoryAttributesTableGuid
+                0x000000000000f5b0       0x10 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .data.rel.local.mProtocolDatabase
+                0x000000000000f5c0       0x10 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .data.rel.local.gHandleList
+                0x000000000000f5d0       0x10 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .data.gEdkiiPiSmmMemoryAttributesTableGuid
+                0x000000000000f5e0       0x10 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .data.mMemoryProtectionAttribute
+                0x000000000000f5f0        0x8 /tmp/ccPtnNJM.ltrans9.ltrans.o
+                0x000000000000f5f0                mMemoryProtectionAttribute
+ *fill*         0x000000000000f5f8        0x8 
+ .data.rel.local.mImagePropertiesPrivateData
+                0x000000000000f600       0x28 /tmp/ccPtnNJM.ltrans9.ltrans.o
+                0x000000000000f600                mImagePropertiesPrivateData
+ *fill*         0x000000000000f628        0x8 
+ .data.rel.local.gMemoryMap
+                0x000000000000f630       0x10 /tmp/ccPtnNJM.ltrans10.ltrans.o
+                0x000000000000f630                gMemoryMap
+ .data.rel.local.mSmmMemoryMap
+                0x000000000000f640       0x10 /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x000000000000f640                mSmmMemoryMap
+ .data.mSmramFreeMemory
+                0x000000000000f650       0x18 /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x000000000000f650                mSmramFreeMemory
+ *fill*         0x000000000000f668        0x8 
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000000f670       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000000f680       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000000f690       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000000f6a0       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000000f6b0       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000000f6c0       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000000f6d0       0x10 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .data.mMapLevel
+                0x000000000000f6e0        0x8 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000f6e0                mMapLevel
+ *fill*         0x000000000000f6e8       0x18 
+ .data.mLevelShift
+                0x000000000000f700       0x28 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000f700                mLevelShift
+ *fill*         0x000000000000f728       0x18 
+ .data.mLevelMask
+                0x000000000000f740       0x28 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000f740                mLevelMask
+ *fill*         0x000000000000f768        0x8 
+ .data.rel.local.mSmiEntryList
+                0x000000000000f770       0x10 /tmp/ccPtnNJM.ltrans16.ltrans.o
+                0x000000000000f770                mSmiEntryList
+ .data.rel.local.mHardwareSmiEntryList
+                0x000000000000f780       0x10 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000f780                mHardwareSmiEntryList
+ .data.gEfiSmmSwDispatch2ProtocolGuid
+                0x000000000000f790       0x10 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000f790                gEfiSmmSwDispatch2ProtocolGuid
+ .data.gEfiSmmUsbDispatch2ProtocolGuid
+                0x000000000000f7a0       0x10 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000f7a0                gEfiSmmUsbDispatch2ProtocolGuid
+ .data.gEfiSmmSxDispatch2ProtocolGuid
+                0x000000000000f7b0       0x10 /tmp/ccPtnNJM.ltrans18.ltrans.o
+                0x000000000000f7b0                gEfiSmmSxDispatch2ProtocolGuid
+ .data.rel.ro   0x000000000000f7c0        0x0 PiSmmCore.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.mDepexEvaluationStackPointer
+                0x000000000000f7c0        0x8 /tmp/ccPtnNJM.ltrans0.ltrans.o
+                0x000000000000f7c0                mDepexEvaluationStackPointer
+ .bss.mDepexEvaluationStack
+                0x000000000000f7c8        0x8 /tmp/ccPtnNJM.ltrans0.ltrans.o
+                0x000000000000f7c8                mDepexEvaluationStack
+ .bss.mSmmCodeMemoryRangeUsageBitMap
+                0x000000000000f7d0        0x8 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .bss._gPcd_BinaryPatch_PcdLoadFixAddressSmmCodePageNumber
+                0x000000000000f7d8        0x4 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ *fill*         0x000000000000f7dc        0x4 
+ .bss.mSecurity
+                0x000000000000f7e0        0x8 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .bss.mSecurity2
+                0x000000000000f7e8        0x8 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .bss.gDispatcherRunning
+                0x000000000000f7f0        0x1 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .bss.gRequestDispatch
+                0x000000000000f7f1        0x1 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ *fill*         0x000000000000f7f2        0xe 
+ .bss.mFvDevicePath
+                0x000000000000f800       0x18 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .bss.mSmramProfileDriverPath
+                0x000000000000f818        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f818                mSmramProfileDriverPath
+ .bss.mSmramProfileDriverPathSize
+                0x000000000000f820        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f820                mSmramProfileDriverPathSize
+ .bss.mSmramProfileRecordingEnable
+                0x000000000000f828        0x1 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f828                mSmramProfileRecordingEnable
+ .bss.mSmramProfileGettingStatus
+                0x000000000000f829        0x1 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f829                mSmramProfileGettingStatus
+ *fill*         0x000000000000f82a        0x6 
+ .bss.mSmramProfileContextPtr
+                0x000000000000f830        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f830                mSmramProfileContextPtr
+ .bss.mSmmCoreDriverEntry
+                0x000000000000f838        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f838                mSmmCoreDriverEntry
+ .bss.mSmmCoreLoadedImage
+                0x000000000000f840        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f840                mSmmCoreLoadedImage
+ .bss.mAcpiS3Enable
+                0x000000000000f848        0x1 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f848                mAcpiS3Enable
+ *fill*         0x000000000000f849        0x7 
+ .bss.mFullSmramRanges
+                0x000000000000f850        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f850                mFullSmramRanges
+ .bss.mFullSmramRangeCount
+                0x000000000000f858        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f858                mFullSmramRangeCount
+ .bss.gSmmCorePrivate
+                0x000000000000f860        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f860                gSmmCorePrivate
+ .bss.gST       0x000000000000f868        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f868                gST
+ .bss.gImageHandle
+                0x000000000000f870        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .bss.gLoadModuleAtFixAddressSmramBase
+                0x000000000000f878        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f878                gLoadModuleAtFixAddressSmramBase
+ .bss.mSmmPoolLists
+                0x000000000000f880       0xc0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f880                mSmmPoolLists
+ .bss.mSmmCoreMemoryAllocLibSmramRanges
+                0x000000000000f940        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f940                mSmmCoreMemoryAllocLibSmramRanges
+ .bss.mSmmCoreMemoryAllocLibSmramRangeCount
+                0x000000000000f948        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f948                mSmmCoreMemoryAllocLibSmramRangeCount
+ .bss.gRT       0x000000000000f950        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .bss.mRegistrationReadyToLock
+                0x000000000000f958        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f958                mRegistrationReadyToLock
+ .bss.mRegistrationEndOfDxe
+                0x000000000000f960        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f960                mRegistrationEndOfDxe
+ .bss.gSmst     0x000000000000f968        0x8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+                0x000000000000f968                gSmst
+ .bss.mDuringS3Resume
+                0x000000000000f970        0x1 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .bss.mInLegacyBoot
+                0x000000000000f971        0x1 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ *fill*         0x000000000000f972        0x6 
+ .bss.mFreeMapStack
+                0x000000000000f978        0x8 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .bss.mMapStack
+                0x000000000000f980      0x120 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .bss.mMapDepth
+                0x000000000000faa0        0x8 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .bss.mHobList  0x000000000000faa8        0x8 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .bss.mSmmMemLibGcdMemSpace
+                0x000000000000fab0        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fab0                mSmmMemLibGcdMemSpace
+ .bss.mSmmMemLibGcdMemNumberOfDesc
+                0x000000000000fab8        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fab8                mSmmMemLibGcdMemNumberOfDesc
+ .bss.gDS       0x000000000000fac0        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fac0                gDS
+ .bss.mSmmMemLibMemoryAttributesTable
+                0x000000000000fac8        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fac8                mSmmMemLibMemoryAttributesTable
+ .bss.mMemoryMap
+                0x000000000000fad0        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fad0                mMemoryMap
+ .bss.mMemoryMapEntryCount
+                0x000000000000fad8        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fad8                mMemoryMapEntryCount
+ .bss.mDescriptorSize
+                0x000000000000fae0        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fae0                mDescriptorSize
+ .bss.gBS       0x000000000000fae8        0x8 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000fae8                gBS
+ .bss.mSmmMemLibSmmReadyToLock
+                0x000000000000faf0        0x1 /tmp/ccPtnNJM.ltrans6.ltrans.o
+                0x000000000000faf0                mSmmMemLibSmmReadyToLock
+ *fill*         0x000000000000faf1        0x7 
+ .bss.mEfiLocateHandleRequest
+                0x000000000000faf8        0x8 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .bss.mDepexEvaluationStackEnd
+                0x000000000000fb00        0x8 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .bss.mSmramReadyToLock
+                0x000000000000fb08        0x1 /tmp/ccPtnNJM.ltrans11.ltrans.o
+                0x000000000000fb08                mSmramReadyToLock
+ *fill*         0x000000000000fb09        0x7 
+ .bss.mSmmMemLibInternalSmramCount
+                0x000000000000fb10        0x8 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x000000000000fb10                mSmmMemLibInternalSmramCount
+ .bss.mSmmMemLibInternalSmramRanges
+                0x000000000000fb18        0x8 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x000000000000fb18                mSmmMemLibInternalSmramRanges
+ .bss.mSmmMemLibInternalMaximumSupportAddress
+                0x000000000000fb20        0x8 /tmp/ccPtnNJM.ltrans12.ltrans.o
+                0x000000000000fb20                mSmmMemLibInternalMaximumSupportAddress
+ .bss.mSmmSystemTableAllocateSize
+                0x000000000000fb28        0x8 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .bss.mOnGuarding
+                0x000000000000fb30        0x1 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ *fill*         0x000000000000fb31        0x7 
+ .bss.mSmmMemoryAttribute
+                0x000000000000fb38        0x8 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000fb38                mSmmMemoryAttribute
+ .bss.mGuardedMemoryMap
+                0x000000000000fb40        0x8 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                0x000000000000fb40                mGuardedMemoryMap
+ .bss.mImageStructCountMax
+                0x000000000000fb48        0x4 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .bss.mImageStructCount
+                0x000000000000fb4c        0x4 /tmp/ccPtnNJM.ltrans16.ltrans.o
+                0x000000000000fb4c                mImageStructCount
+ .bss.mSmmHardwareSmiDatabaseSize
+                0x000000000000fb50        0x8 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .bss.mSmmSmiDatabaseSize
+                0x000000000000fb58        0x8 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .bss.mSmmRootSmiDatabaseSize
+                0x000000000000fb60        0x8 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .bss.mSmmImageDatabaseSize
+                0x000000000000fb68        0x8 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .bss.mImageStruct
+                0x000000000000fb70        0x8 /tmp/ccPtnNJM.ltrans16.ltrans.o
+                0x000000000000fb70                mImageStruct
+ .bss.mSmiHandlerProfileDatabaseSize
+                0x000000000000fb78        0x8 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000fb78                mSmiHandlerProfileDatabaseSize
+ .bss.mSmiHandlerProfileRecordingStatus
+                0x000000000000fb80        0x1 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ *fill*         0x000000000000fb81        0x7 
+ .bss.mSmiHandlerProfileDatabase
+                0x000000000000fb88        0x8 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                0x000000000000fb88                mSmiHandlerProfileDatabase
+
+.eh_frame       0x000000000000fbc0        0x0
+ *(.eh_frame)
+ .eh_frame      0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+ .eh_frame      0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+
+.dynbss         0x000000000000fbc0        0x0
+ .dynbss        0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+
+.gnu.version_d  0x000000000000fbc0        0x0
+ .gnu.version_d
+                0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+
+.gnu.version    0x000000000000fbc0        0x0
+ .gnu.version   0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+
+.gnu.version_r  0x000000000000fbc0        0x0
+ .gnu.version_r
+                0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+
+.rela           0x000000000000fbc0      0xbe8
+ *(.rela .rela.*)
+ .rela.plt      0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+ .rela.got      0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+ .rela.bss      0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+ .rela.ifunc    0x000000000000fbc0        0x0 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mFvHandleList
+                0x000000000000fbc0       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mScheduledQueue
+                0x000000000000fbf0       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mDiscoveredList
+                0x000000000000fc20       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mImageQueue
+                0x000000000000fc50       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmramProfileContext
+                0x000000000000fc80       0x18 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmmProfileProtocol
+                0x000000000000fc98       0x90 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmiHandlerProfile
+                0x000000000000fd28       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mRootSmiEntry
+                0x000000000000fd58       0x60 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mRootSmiEntryList
+                0x000000000000fdb8       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmmCoreS3SmiHandlers
+                0x000000000000fde8       0x60 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmmCoreSmiHandlers
+                0x000000000000fe48      0x120 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.gSmmCoreSmst
+                0x000000000000ff68      0x1b0 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mFreeMemoryMapEntryList
+                0x0000000000010118       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x0000000000010148       0x78 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x00000000000101c0      0x498 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mProtocolDatabase
+                0x0000000000010658       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.gHandleList
+                0x0000000000010688       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mImagePropertiesPrivateData
+                0x00000000000106b8       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.gMemoryMap
+                0x00000000000106e8       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmmMemoryMap
+                0x0000000000010718       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mSmiEntryList
+                0x0000000000010748       0x30 PiSmmCore.obj (symbol from plugin)
+ .rela.data.rel.local.mHardwareSmiEntryList
+                0x0000000000010778       0x30 PiSmmCore.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x00000000000107a8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000107a8       0x24 PiSmmCore.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Core/PiSmmCore/PiSmmCore/DEBUG/PiSmmCore.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x319e5
+ .debug_info    0x0000000000000000     0x490c /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_info    0x000000000000490c     0x461d /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_info    0x0000000000008f29     0x45a0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_info    0x000000000000d4c9      0xb74 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_info    0x000000000000e03d     0x38fa /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_info    0x0000000000011937     0x319e /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_info    0x0000000000014ad5     0x211b /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_info    0x0000000000016bf0     0x13ad /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_info    0x0000000000017f9d     0x34df /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_info    0x000000000001b47c     0x11e8 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_info    0x000000000001c664     0x1a24 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_info    0x000000000001e088     0x3606 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_info    0x000000000002168e     0x1398 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_info    0x0000000000022a26     0x43a3 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_info    0x0000000000026dc9     0x24ab /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_info    0x0000000000029274      0xe95 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_info    0x000000000002a109     0x265e /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_info    0x000000000002c767     0x1b3a /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_info    0x000000000002e2a1      0x81c /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_info    0x000000000002eabd     0x20a3 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_info    0x0000000000030b60      0x948 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_info    0x00000000000314a8      0x53d /tmp/ccPtnNJM.ltrans21.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x48e3
+ .debug_abbrev  0x0000000000000000      0x3b0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000003b0      0x3e1 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000791      0x4e6 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000c77      0x24f /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000ec6      0x413 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_abbrev  0x00000000000012d9      0x41a /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_abbrev  0x00000000000016f3      0x316 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000001a09      0x3cd /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_abbrev  0x0000000000001dd6      0x42f /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000002205      0x2b5 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_abbrev  0x00000000000024ba      0x38e /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_abbrev  0x0000000000002848      0x3bf /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000002c07      0x31b /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_abbrev  0x0000000000002f22      0x41e /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_abbrev  0x0000000000003340      0x29d /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_abbrev  0x00000000000035dd      0x338 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_abbrev  0x0000000000003915      0x302 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_abbrev  0x0000000000003c17      0x339 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_abbrev  0x0000000000003f50      0x277 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_abbrev  0x00000000000041c7      0x372 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_abbrev  0x0000000000004539      0x218 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_abbrev  0x0000000000004751      0x192 /tmp/ccPtnNJM.ltrans21.ltrans.o
+
+.debug_loc      0x0000000000000000    0x1d44c
+ .debug_loc     0x0000000000000000     0x2017 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_loc     0x0000000000002017      0x9dc /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_loc     0x00000000000029f3     0x3111 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_loc     0x0000000000005b04      0x49a /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_loc     0x0000000000005f9e     0x237e /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_loc     0x000000000000831c      0xaa6 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_loc     0x0000000000008dc2     0x1a9f /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_loc     0x000000000000a861      0xc1b /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_loc     0x000000000000b47c     0x2423 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_loc     0x000000000000d89f     0x1451 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_loc     0x000000000000ecf0     0x2340 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_loc     0x0000000000011030     0x165c /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_loc     0x000000000001268c     0x128b /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_loc     0x0000000000013917     0x1d9d /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_loc     0x00000000000156b4     0x2cdf /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_loc     0x0000000000018393      0xdc4 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_loc     0x0000000000019157      0x629 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_loc     0x0000000000019780     0x184e /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_loc     0x000000000001afce      0x295 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_loc     0x000000000001b263     0x17ba /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_loc     0x000000000001ca1d      0x505 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_loc     0x000000000001cf22      0x52a /tmp/ccPtnNJM.ltrans21.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xfe0
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000030       0x30 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000060      0x140 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000000000001a0       0x30 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_aranges
+                0x00000000000001d0      0x1c0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_aranges
+                0x0000000000000390       0x80 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_aranges
+                0x0000000000000410       0x60 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_aranges
+                0x0000000000000470      0x200 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_aranges
+                0x0000000000000670      0x120 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_aranges
+                0x0000000000000790       0x40 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_aranges
+                0x00000000000007d0       0xb0 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000000880       0xc0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000000940       0x80 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_aranges
+                0x00000000000009c0      0x100 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_aranges
+                0x0000000000000ac0      0x200 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_aranges
+                0x0000000000000cc0       0xc0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_aranges
+                0x0000000000000d80       0x30 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_aranges
+                0x0000000000000db0       0xa0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_aranges
+                0x0000000000000e50       0x40 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_aranges
+                0x0000000000000e90       0xb0 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_aranges
+                0x0000000000000f40       0x40 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_aranges
+                0x0000000000000f80       0x60 /tmp/ccPtnNJM.ltrans21.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x3a80
+ .debug_ranges  0x0000000000000000      0x9a0 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000009a0      0x4b0 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000e50      0x890 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_ranges  0x00000000000016e0       0x50 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_ranges  0x0000000000001730      0x1e0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_ranges  0x0000000000001910      0x1b0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_ranges  0x0000000000001ac0       0xa0 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_ranges  0x0000000000001b60      0x360 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000001ec0      0x390 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_ranges  0x0000000000002250      0x370 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_ranges  0x00000000000025c0      0x500 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000002ac0      0x1a0 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000002c60      0x200 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_ranges  0x0000000000002e60      0x2c0 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_ranges  0x0000000000003120      0x230 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_ranges  0x0000000000003350      0x140 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_ranges  0x0000000000003490      0x1d0 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_ranges  0x0000000000003660      0x270 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_ranges  0x00000000000038d0       0x30 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_ranges  0x0000000000003900      0x100 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_ranges  0x0000000000003a00       0x30 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_ranges  0x0000000000003a30       0x50 /tmp/ccPtnNJM.ltrans21.ltrans.o
+
+.debug_line     0x0000000000000000     0x8a54
+ .debug_line    0x0000000000000000      0xbbd /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_line    0x0000000000000bbd      0x95c /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_line    0x0000000000001519      0x94b /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_line    0x0000000000001e64      0x2f9 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_line    0x000000000000215d      0x825 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_line    0x0000000000002982      0x580 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_line    0x0000000000002f02      0x824 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_line    0x0000000000003726      0x7b8 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_line    0x0000000000003ede      0x6be /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_line    0x000000000000459c      0x473 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_line    0x0000000000004a0f      0x5e3 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_line    0x0000000000004ff2      0x601 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_line    0x00000000000055f3      0x6ef /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_line    0x0000000000005ce2      0x870 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_line    0x0000000000006552      0x6bf /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_line    0x0000000000006c11      0x4cc /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_line    0x00000000000070dd      0x4ae /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_line    0x000000000000758b      0x63e /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_line    0x0000000000007bc9      0x339 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_line    0x0000000000007f02      0x57f /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_line    0x0000000000008481      0x2c4 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_line    0x0000000000008745      0x30f /tmp/ccPtnNJM.ltrans21.ltrans.o
+
+.debug_str      0x0000000000000000     0x8d28
+ .debug_str     0x0000000000000000     0x23ba /tmp/ccPtnNJM.ltrans0.ltrans.o
+                                       0x28c0 (size before relaxing)
+ .debug_str     0x00000000000023ba     0x170a /tmp/ccPtnNJM.ltrans1.ltrans.o
+                                       0x3124 (size before relaxing)
+ .debug_str     0x0000000000003ac4      0x876 /tmp/ccPtnNJM.ltrans2.ltrans.o
+                                       0x22e7 (size before relaxing)
+ .debug_str     0x000000000000433a      0x24d /tmp/ccPtnNJM.ltrans3.ltrans.o
+                                        0xa3e (size before relaxing)
+ .debug_str     0x0000000000004587      0x84f /tmp/ccPtnNJM.ltrans4.ltrans.o
+                                       0x1d0c (size before relaxing)
+ .debug_str     0x0000000000004dd6      0x511 /tmp/ccPtnNJM.ltrans5.ltrans.o
+                                       0x23c8 (size before relaxing)
+ .debug_str     0x00000000000052e7      0xa2e /tmp/ccPtnNJM.ltrans6.ltrans.o
+                                       0x18a2 (size before relaxing)
+ .debug_str     0x0000000000005d15      0x2f9 /tmp/ccPtnNJM.ltrans7.ltrans.o
+                                        0x9fe (size before relaxing)
+ .debug_str     0x000000000000600e      0x375 /tmp/ccPtnNJM.ltrans8.ltrans.o
+                                       0x1c69 (size before relaxing)
+ .debug_str     0x0000000000006383      0x32e /tmp/ccPtnNJM.ltrans9.ltrans.o
+                                        0x962 (size before relaxing)
+ .debug_str     0x00000000000066b1      0x348 /tmp/ccPtnNJM.ltrans10.ltrans.o
+                                        0xa70 (size before relaxing)
+ .debug_str     0x00000000000069f9      0x545 /tmp/ccPtnNJM.ltrans11.ltrans.o
+                                       0x226e (size before relaxing)
+ .debug_str     0x0000000000006f3e      0x32f /tmp/ccPtnNJM.ltrans12.ltrans.o
+                                        0xea2 (size before relaxing)
+ .debug_str     0x000000000000726d      0x31a /tmp/ccPtnNJM.ltrans13.ltrans.o
+                                       0x2910 (size before relaxing)
+ .debug_str     0x0000000000007587      0x732 /tmp/ccPtnNJM.ltrans14.ltrans.o
+                                        0xbc9 (size before relaxing)
+ .debug_str     0x0000000000007cb9      0x2e9 /tmp/ccPtnNJM.ltrans15.ltrans.o
+                                        0x89a (size before relaxing)
+ .debug_str     0x0000000000007fa2      0x276 /tmp/ccPtnNJM.ltrans16.ltrans.o
+                                       0x1ad7 (size before relaxing)
+ .debug_str     0x0000000000008218      0x618 /tmp/ccPtnNJM.ltrans17.ltrans.o
+                                        0xf92 (size before relaxing)
+ .debug_str     0x0000000000008830      0x15d /tmp/ccPtnNJM.ltrans18.ltrans.o
+                                        0x637 (size before relaxing)
+ .debug_str     0x000000000000898d      0x282 /tmp/ccPtnNJM.ltrans19.ltrans.o
+                                       0x1691 (size before relaxing)
+ .debug_str     0x0000000000008c0f       0x57 /tmp/ccPtnNJM.ltrans20.ltrans.o
+                                        0x8bd (size before relaxing)
+ .debug_str     0x0000000000008c66       0xc2 /tmp/ccPtnNJM.ltrans21.ltrans.o
+                                        0x587 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x3ab8
+ .debug_frame   0x0000000000000000       0xa8 /tmp/ccPtnNJM.ltrans0.ltrans.o
+ .debug_frame   0x00000000000000a8       0xa8 /tmp/ccPtnNJM.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000150      0x5c0 /tmp/ccPtnNJM.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000710       0x90 /tmp/ccPtnNJM.ltrans3.ltrans.o
+ .debug_frame   0x00000000000007a0      0x6d0 /tmp/ccPtnNJM.ltrans4.ltrans.o
+ .debug_frame   0x0000000000000e70      0x1c0 /tmp/ccPtnNJM.ltrans5.ltrans.o
+ .debug_frame   0x0000000000001030      0x188 /tmp/ccPtnNJM.ltrans6.ltrans.o
+ .debug_frame   0x00000000000011b8      0x4a8 /tmp/ccPtnNJM.ltrans7.ltrans.o
+ .debug_frame   0x0000000000001660      0x560 /tmp/ccPtnNJM.ltrans8.ltrans.o
+ .debug_frame   0x0000000000001bc0      0x120 /tmp/ccPtnNJM.ltrans9.ltrans.o
+ .debug_frame   0x0000000000001ce0      0x358 /tmp/ccPtnNJM.ltrans10.ltrans.o
+ .debug_frame   0x0000000000002038      0x330 /tmp/ccPtnNJM.ltrans11.ltrans.o
+ .debug_frame   0x0000000000002368      0x130 /tmp/ccPtnNJM.ltrans12.ltrans.o
+ .debug_frame   0x0000000000002498      0x428 /tmp/ccPtnNJM.ltrans13.ltrans.o
+ .debug_frame   0x00000000000028c0      0x868 /tmp/ccPtnNJM.ltrans14.ltrans.o
+ .debug_frame   0x0000000000003128      0x2b0 /tmp/ccPtnNJM.ltrans15.ltrans.o
+ .debug_frame   0x00000000000033d8       0xa8 /tmp/ccPtnNJM.ltrans16.ltrans.o
+ .debug_frame   0x0000000000003480      0x2c0 /tmp/ccPtnNJM.ltrans17.ltrans.o
+ .debug_frame   0x0000000000003740       0xb8 /tmp/ccPtnNJM.ltrans18.ltrans.o
+ .debug_frame   0x00000000000037f8      0x158 /tmp/ccPtnNJM.ltrans19.ltrans.o
+ .debug_frame   0x0000000000003950       0x98 /tmp/ccPtnNJM.ltrans20.ltrans.o
+ .debug_frame   0x00000000000039e8       0xd0 /tmp/ccPtnNJM.ltrans21.ltrans.o

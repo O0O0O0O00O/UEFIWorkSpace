@@ -1,0 +1,1865 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(Setup.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(IfrParse.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(Expression.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(Presentation.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .text.unlikely.InitializeFormSet
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .text.unlikely.EvaluateExpression
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .text.unlikely.SendForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .text.unlikely.ExtractDefault.part.22.lto_priv.31
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .text.unlikely.SubmitForFormSet.part.15.lto_priv.32
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0x37 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.InternalSafeStringNoStrOverlap
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.StrCpyS
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.IsNull
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.IsListEmpty
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.RemoveEntryList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.GetNextNode
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.GetFirstNode
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.InsertHeadList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.InitializeListHead
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000        0x1 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.IsZeroGuid
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.CopyGuid
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.CompareMem
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text.unlikely.ZeroMem
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text.unlikely.ProcessLibraryDestructorList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x3 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text.unlikely.IsDevicePathEnd
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text.unlikely.DevicePathNodeLength
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000000        0x1 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .text.unlikely.HiiToLower
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .text.unlikely.GetQuestionDefault
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .text.unlikely.SubmitForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.FormDisplayCallback
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.GetBitsQuestionValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.BufferToValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.GetQuestionValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.SetBitsQuestionValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.ConfigRespToStorage
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.NewStringCpy
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.NewStringCat
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.GetToken
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.DeleteString
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.unlikely.NewString
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text.unlikely.ConfigRequestAdjust
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text.unlikely.CleanBrowserStorage
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text.unlikely.LoadFormSetConfig
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text.unlikely.IsQuestionValueChanged
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text.unlikely.ExtractDefault
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text.unlikely.InitializeCurrentSetting
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .text.unlikely.CreateStorage
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .text.unlikely.CreateExpression
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .text.unlikely.CreateStatement
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .text.unlikely.CreateQuestion
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.FormUpdateNotify
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.RefreshEventNotifyForForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.FindParentFormSet
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.ProcessChangedData
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.GetFormsetGuidFromHiiHandle
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.UpdateStatementStatusForForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.FreeStatementData
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.UpdateStatement
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.RefreshIntervalProcess
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.RefreshEventNotifyForStatement
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.IsNvUpdateRequiredForForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.IsNvUpdateRequiredForFormSet
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.FindNextMenu
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.DevicePathToHiiHandle
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.UpdateStatementStatusForFormSet
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.UpdateStatementStatus
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.GetBrowserStatement
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.FreeDisplayFormData
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.IsTrue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.EvaluateExpressionList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.unlikely.ProcessGotoOpCode
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.AllocateCopyPool
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.AllocatePool
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.UnicodeSPrint
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.BasePrintLibValueToString
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.AsciiStrnCmp.part.4.lto_priv.26
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.StrLen
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.StrSize
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.StrStr
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.StrCmp
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.StrCatS
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text.unlikely.StrnCpyS
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.10
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .text.unlikely.HiiGetHiiHandles.constprop.9
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .text.unlikely.StorageToConfigResp.constprop.4
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.GetBestLanguage.constprop.21
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.25
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.HiiGetStringEx.constprop.18
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.HiiSetString.constprop.16
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.UnicodeValueToStringS.constprop.14
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.StrHexToUint64S.constprop.12
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.11
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.ConfirmSaveFail
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.GetSyncRestoreConfigRequest
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.UpdateFlagForForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.ValidateHiiHandle
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.ValidateFormSet
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.SubmitForSystem
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text.unlikely.DiscardForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .text.unlikely.DestroyExpression
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .text.unlikely.DestroyFormSet
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .text.unlikely.GetFstStgFromBrsStg
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .text.unlikely.GetFstStgFromVarId
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .text.unlikely.InitializeRequestElement
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IdToQuestion2
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.HiiValueToUINT64
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.ExtendValueToU64
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.GetBufferForValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.GetLengthForValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IsTypeInBuffer
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.CompareHiiValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IfrStrToUpper
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.InitializeUnicodeCollationProtocol
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IdToQuestion
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.GetQuestionValueFromForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IdToForm
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.PopExpression
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.PopScope
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.PopConditionalExpression
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.PushConditionalStack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.PushStack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.PushScope
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IsStatementOpCode
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.unlikely.IsExpressionOpCode
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.unlikely.ValidateQuestion
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.unlikely.SendDiscardInfoToDriver
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.unlikely.SynchronizeStorage
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.unlikely.NoSubmitCheck
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.unlikely.ValueChangedValidation
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.unlikely.SetQuestionValue
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.IsResetRequired
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.RegiserExitHandler
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.SaveReminder
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.ExecuteAction
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.IsBrowserDataModified
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.RegisterHotKey
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.SetScope
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.PasswordCheck
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.ValueChangeResetFlagUpdate.part.14.lto_priv.29
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.SubmitCallbackForForm.part.11.lto_priv.33
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.SubmitCallback.part.12.lto_priv.30
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.SetValueByName.part.6.lto_priv.27
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.GetValueByName.part.5.lto_priv.28
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.IsHiiHandleInBrowserContext
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text.unlikely.GetFormSetFromHiiHandle
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .text.unlikely.ProcessCallBackFunction.constprop.0
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .text.unlikely.HiiGetSupportedLanguages
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .text.unlikely.ProcessStorage
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .text.unlikely.BrowserCallback
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .text.unlikely.PopupErrorMessage
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .text.unlikely.UiFreeMenuList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .text.unlikely.UiCopyMenuList
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .text.unlikely.UiFindParentMenu
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8Inrdq.ltrans21.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc8Inrdq.ltrans0.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans1.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans2.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans3.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans4.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans5.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans6.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans7.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans8.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans9.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans10.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans11.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans12.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans13.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans14.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans15.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans16.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans17.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans18.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans19.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans20.ltrans.o
+LOAD /tmp/cc8Inrdq.ltrans21.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240    0x11fa4
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.InitializeFormSet
+                0x0000000000000240     0x2148 /tmp/cc8Inrdq.ltrans0.ltrans.o
+                0x0000000000000240                InitializeFormSet
+ .text.EvaluateExpression
+                0x0000000000002388     0x2756 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                0x0000000000002388                EvaluateExpression
+ .text.SendForm
+                0x0000000000004ade     0x18d7 /tmp/cc8Inrdq.ltrans2.ltrans.o
+                0x0000000000004ade                SendForm
+ .text.ExtractDefault.part.22.lto_priv.31
+                0x00000000000063b5      0x816 /tmp/cc8Inrdq.ltrans3.ltrans.o
+                0x00000000000063b5                ExtractDefault.part.22.lto_priv.31
+ .text.SubmitForFormSet.part.15.lto_priv.32
+                0x0000000000006bcb      0x69c /tmp/cc8Inrdq.ltrans3.ltrans.o
+                0x0000000000006bcb                SubmitForFormSet.part.15.lto_priv.32
+ .text.StrnLenS
+                0x0000000000007267       0x27 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x0000000000007267                StrnLenS
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000728e       0x29 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x000000000000728e                InternalSafeStringNoStrOverlap
+ .text.StrCpyS  0x00000000000072b7      0x12a /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000072b7                StrCpyS
+ .text.IsNull   0x00000000000073e1        0x7 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000073e1                IsNull
+ .text.IsListEmpty
+                0x00000000000073e8        0x7 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000073e8                IsListEmpty
+ .text.RemoveEntryList
+                0x00000000000073ef       0x19 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000073ef                RemoveEntryList
+ .text.GetNextNode
+                0x0000000000007408        0x4 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x0000000000007408                GetNextNode
+ .text.GetFirstNode
+                0x000000000000740c        0x4 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x000000000000740c                GetFirstNode
+ .text.InsertTailList
+                0x0000000000007410       0x16 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x0000000000007410                InsertTailList
+ .text.InsertHeadList
+                0x0000000000007426       0x15 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x0000000000007426                InsertHeadList
+ .text.InitializeListHead
+                0x000000000000743b        0xb /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x000000000000743b                InitializeListHead
+ .text.IsZeroGuid
+                0x0000000000007446       0x27 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x0000000000007446                IsZeroGuid
+ .text.CompareGuid
+                0x000000000000746d       0x4d /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x000000000000746d                CompareGuid
+ .text.CopyGuid
+                0x00000000000074ba       0x2e /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000074ba                CopyGuid
+ .text.CopyMem  0x00000000000074e8      0x201 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000074e8                CopyMem
+ .text.CompareMem
+                0x00000000000076e9       0x31 /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x00000000000076e9                CompareMem
+ .text.ZeroMem  0x000000000000771a       0x9a /tmp/cc8Inrdq.ltrans4.ltrans.o
+                0x000000000000771a                ZeroMem
+ .text.ProcessLibraryDestructorList
+                0x00000000000077b4        0x1 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .text._ModuleEntryPoint
+                0x00000000000077b5      0x29a /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x00000000000077b5                _ModuleEntryPoint
+ .text.IsDevicePathEnd
+                0x0000000000007a4f       0x11 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000007a4f                IsDevicePathEnd
+ .text.DevicePathNodeLength
+                0x0000000000007a60        0x5 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000007a60                DevicePathNodeLength
+ .text.FreePool
+                0x0000000000007a65        0xa /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000007a65                FreePool
+ .text.HiiToLower
+                0x0000000000007a6f       0x3c /tmp/cc8Inrdq.ltrans6.ltrans.o
+                0x0000000000007a6f                HiiToLower
+ .text.GetQuestionDefault
+                0x0000000000007aab      0x99d /tmp/cc8Inrdq.ltrans6.ltrans.o
+                0x0000000000007aab                GetQuestionDefault
+ .text.SubmitForm
+                0x0000000000008448      0x33d /tmp/cc8Inrdq.ltrans6.ltrans.o
+                0x0000000000008448                SubmitForm
+ .text.FormDisplayCallback
+                0x0000000000008785       0x2b /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x0000000000008785                FormDisplayCallback
+ .text.GetBitsQuestionValue
+                0x00000000000087b0       0x76 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .text.BufferToValue
+                0x0000000000008826      0x23f /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x0000000000008826                BufferToValue
+ .text.GetQuestionValue
+                0x0000000000008a65      0x599 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x0000000000008a65                GetQuestionValue
+ .text.SetBitsQuestionValue
+                0x0000000000008ffe       0x9d /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x0000000000008ffe                SetBitsQuestionValue
+ .text.ConfigRespToStorage
+                0x000000000000909b      0x112 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x000000000000909b                ConfigRespToStorage
+ .text.NewStringCpy
+                0x00000000000091ad       0x3f /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x00000000000091ad                NewStringCpy
+ .text.NewStringCat
+                0x00000000000091ec       0x74 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x00000000000091ec                NewStringCat
+ .text.GetToken
+                0x0000000000009260       0x4d /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x0000000000009260                GetToken
+ .text.DeleteString
+                0x00000000000092ad       0x25 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x00000000000092ad                DeleteString
+ .text.NewString
+                0x00000000000092d2       0x19 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                0x00000000000092d2                NewString
+ .text.ConfigRequestAdjust
+                0x00000000000092eb      0x266 /tmp/cc8Inrdq.ltrans8.ltrans.o
+                0x00000000000092eb                ConfigRequestAdjust
+ .text.CleanBrowserStorage
+                0x0000000000009551      0x1c9 /tmp/cc8Inrdq.ltrans8.ltrans.o
+                0x0000000000009551                CleanBrowserStorage
+ .text.LoadFormSetConfig
+                0x000000000000971a      0x104 /tmp/cc8Inrdq.ltrans8.ltrans.o
+                0x000000000000971a                LoadFormSetConfig
+ .text.IsQuestionValueChanged
+                0x000000000000981e      0x24e /tmp/cc8Inrdq.ltrans8.ltrans.o
+                0x000000000000981e                IsQuestionValueChanged
+ .text.ExtractDefault
+                0x0000000000009a6c       0x42 /tmp/cc8Inrdq.ltrans8.ltrans.o
+                0x0000000000009a6c                ExtractDefault
+ .text.InitializeCurrentSetting
+                0x0000000000009aae      0x3c7 /tmp/cc8Inrdq.ltrans8.ltrans.o
+                0x0000000000009aae                InitializeCurrentSetting
+ .text.CreateStorage
+                0x0000000000009e75      0x722 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                0x0000000000009e75                CreateStorage
+ .text.CreateExpression
+                0x000000000000a597       0x34 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                0x000000000000a597                CreateExpression
+ .text.CreateStatement
+                0x000000000000a5cb      0x146 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                0x000000000000a5cb                CreateStatement
+ .text.CreateQuestion
+                0x000000000000a711      0x1e6 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                0x000000000000a711                CreateQuestion
+ .text.FormUpdateNotify
+                0x000000000000a8f7       0x11 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000a8f7                FormUpdateNotify
+ .text.RefreshEventNotifyForForm
+                0x000000000000a908       0x23 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000a908                RefreshEventNotifyForForm
+ .text.FindParentFormSet
+                0x000000000000a92b       0x73 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.ProcessChangedData
+                0x000000000000a99e       0x59 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.GetFormsetGuidFromHiiHandle
+                0x000000000000a9f7      0x16c /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.UpdateStatementStatusForForm
+                0x000000000000ab63       0x7a /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.FreeStatementData
+                0x000000000000abdd       0xbe /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.UpdateStatement
+                0x000000000000ac9b       0x65 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .text.RefreshIntervalProcess
+                0x000000000000ad00      0x10e /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000ad00                RefreshIntervalProcess
+ .text.RefreshEventNotifyForStatement
+                0x000000000000ae0e       0xac /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000ae0e                RefreshEventNotifyForStatement
+ .text.IsNvUpdateRequiredForForm
+                0x000000000000aeba       0x54 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000aeba                IsNvUpdateRequiredForForm
+ .text.IsNvUpdateRequiredForFormSet
+                0x000000000000af0e       0x5e /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000af0e                IsNvUpdateRequiredForFormSet
+ .text.FindNextMenu
+                0x000000000000af6c      0x123 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000af6c                FindNextMenu
+ .text.DevicePathToHiiHandle
+                0x000000000000b08f       0xe4 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b08f                DevicePathToHiiHandle
+ .text.UpdateStatementStatusForFormSet
+                0x000000000000b173       0x69 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b173                UpdateStatementStatusForFormSet
+ .text.UpdateStatementStatus
+                0x000000000000b1dc       0x82 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b1dc                UpdateStatementStatus
+ .text.GetBrowserStatement
+                0x000000000000b25e       0x69 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b25e                GetBrowserStatement
+ .text.FreeDisplayFormData
+                0x000000000000b2c7       0xc5 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b2c7                FreeDisplayFormData
+ .text.IsTrue   0x000000000000b38c       0x3a /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b38c                IsTrue
+ .text.EvaluateExpressionList
+                0x000000000000b3c6       0xa2 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b3c6                EvaluateExpressionList
+ .text.ProcessGotoOpCode
+                0x000000000000b468      0x2e9 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x000000000000b468                ProcessGotoOpCode
+ .text.AllocateCopyPool
+                0x000000000000b751      0x10e /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000b751                AllocateCopyPool
+ .text.AllocateZeroPool
+                0x000000000000b85f       0xf9 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000b85f                AllocateZeroPool
+ .text.AllocatePool
+                0x000000000000b958       0x99 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000b958                AllocatePool
+ .text.UnicodeSPrint
+                0x000000000000b9f1       0xc4 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000b9f1                UnicodeSPrint
+ .text.BasePrintLibValueToString
+                0x000000000000bab5       0x25 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bab5                BasePrintLibValueToString
+ .text.BasePrintLibFillBuffer
+                0x000000000000bada       0x2e /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bada                BasePrintLibFillBuffer
+ .text.ReadUnaligned64
+                0x000000000000bb08        0x4 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bb08                ReadUnaligned64
+ .text.AsciiStrLen
+                0x000000000000bb0c        0xe /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bb0c                AsciiStrLen
+ .text.AsciiStrnCmp.part.4.lto_priv.26
+                0x000000000000bb1a       0x47 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bb1a                AsciiStrnCmp.part.4.lto_priv.26
+ .text.StrLen   0x000000000000bb61        0xf /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bb61                StrLen
+ .text.StrSize  0x000000000000bb70       0x13 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bb70                StrSize
+ .text.StrStr   0x000000000000bb83       0x44 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bb83                StrStr
+ .text.StrCmp   0x000000000000bbc7       0x1f /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bbc7                StrCmp
+ .text.AsciiStrnLenS
+                0x000000000000bbe6       0x26 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bbe6                AsciiStrnLenS
+ .text.StrCatS  0x000000000000bc0c      0x151 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bc0c                StrCatS
+ .text.StrnCpyS
+                0x000000000000bd5d      0x15e /tmp/cc8Inrdq.ltrans11.ltrans.o
+                0x000000000000bd5d                StrnCpyS
+ .text.BasePrintLibSPrintMarker.constprop.10
+                0x000000000000bebb      0xf08 /tmp/cc8Inrdq.ltrans12.ltrans.o
+                0x000000000000bebb                BasePrintLibSPrintMarker.constprop.10
+ .text.HiiGetHiiHandles.constprop.9
+                0x000000000000cdc3       0x8b /tmp/cc8Inrdq.ltrans12.ltrans.o
+                0x000000000000cdc3                HiiGetHiiHandles.constprop.9
+ .text.StorageToConfigResp.constprop.4
+                0x000000000000ce4e      0x116 /tmp/cc8Inrdq.ltrans12.ltrans.o
+                0x000000000000ce4e                StorageToConfigResp.constprop.4
+ .text.GetBestLanguage.constprop.21
+                0x000000000000cf64       0xeb /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .text.InternalAllocatePool.constprop.25
+                0x000000000000d04f       0x37 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x000000000000d04f                InternalAllocatePool.constprop.25
+ .text.HiiGetStringEx.constprop.18
+                0x000000000000d086      0x1ae /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x000000000000d086                HiiGetStringEx.constprop.18
+ .text.HiiSetString.constprop.16
+                0x000000000000d234      0x11f /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x000000000000d234                HiiSetString.constprop.16
+ .text.UnicodeValueToStringS.constprop.14
+                0x000000000000d353      0x1ed /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x000000000000d353                UnicodeValueToStringS.constprop.14
+ .text.StrHexToUint64S.constprop.12
+                0x000000000000d540      0x160 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x000000000000d540                StrHexToUint64S.constprop.12
+ .text.BasePrintLibSPrint.constprop.11
+                0x000000000000d6a0       0xb8 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x000000000000d6a0                BasePrintLibSPrint.constprop.11
+ .text.ConfirmSaveFail
+                0x000000000000d758       0x78 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000d758                ConfirmSaveFail
+ .text.GetSyncRestoreConfigRequest
+                0x000000000000d7d0      0x188 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000d7d0                GetSyncRestoreConfigRequest
+ .text.UpdateFlagForForm
+                0x000000000000d958       0xb4 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000d958                UpdateFlagForForm
+ .text.ValidateHiiHandle
+                0x000000000000da0c       0x49 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000da0c                ValidateHiiHandle
+ .text.ValidateFormSet
+                0x000000000000da55       0x4b /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000da55                ValidateFormSet
+ .text.SubmitForSystem
+                0x000000000000daa0      0x4ba /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000daa0                SubmitForSystem
+ .text.DiscardForm
+                0x000000000000df5a      0x276 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x000000000000df5a                DiscardForm
+ .text.DestroyExpression
+                0x000000000000e1d0       0xd0 /tmp/cc8Inrdq.ltrans15.ltrans.o
+                0x000000000000e1d0                DestroyExpression
+ .text.DestroyFormSet
+                0x000000000000e2a0      0x509 /tmp/cc8Inrdq.ltrans15.ltrans.o
+                0x000000000000e2a0                DestroyFormSet
+ .text.GetFstStgFromBrsStg
+                0x000000000000e7a9       0xaf /tmp/cc8Inrdq.ltrans15.ltrans.o
+                0x000000000000e7a9                GetFstStgFromBrsStg
+ .text.GetFstStgFromVarId
+                0x000000000000e858       0x5d /tmp/cc8Inrdq.ltrans15.ltrans.o
+                0x000000000000e858                GetFstStgFromVarId
+ .text.InitializeRequestElement
+                0x000000000000e8b5      0x2c7 /tmp/cc8Inrdq.ltrans15.ltrans.o
+                0x000000000000e8b5                InitializeRequestElement
+ .text.IdToQuestion2
+                0x000000000000eb7c       0x69 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .text.HiiValueToUINT64
+                0x000000000000ebe5       0x35 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ebe5                HiiValueToUINT64
+ .text.ExtendValueToU64
+                0x000000000000ec1a       0x36 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ec1a                ExtendValueToU64
+ .text.GetBufferForValue
+                0x000000000000ec50       0x2a /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ec50                GetBufferForValue
+ .text.GetLengthForValue
+                0x000000000000ec7a       0x30 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ec7a                GetLengthForValue
+ .text.IsTypeInBuffer
+                0x000000000000ecaa       0x1a /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ecaa                IsTypeInBuffer
+ .text.CompareHiiValue
+                0x000000000000ecc4      0x1aa /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ecc4                CompareHiiValue
+ .text.IfrStrToUpper
+                0x000000000000ee6e       0x1e /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ee6e                IfrStrToUpper
+ .text.InitializeUnicodeCollationProtocol
+                0x000000000000ee8c       0x34 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ee8c                InitializeUnicodeCollationProtocol
+ .text.IdToQuestion
+                0x000000000000eec0       0xa6 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000eec0                IdToQuestion
+ .text.GetQuestionValueFromForm
+                0x000000000000ef66      0x134 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000ef66                GetQuestionValueFromForm
+ .text.IdToForm
+                0x000000000000f09a       0x5d /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f09a                IdToForm
+ .text.PopExpression
+                0x000000000000f0f7       0x4b /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f0f7                PopExpression
+ .text.PopScope
+                0x000000000000f142       0x53 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f142                PopScope
+ .text.PopConditionalExpression
+                0x000000000000f195       0xb4 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f195                PopConditionalExpression
+ .text.PushConditionalStack
+                0x000000000000f249       0xd3 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f249                PushConditionalStack
+ .text.PushStack
+                0x000000000000f31c      0x113 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f31c                PushStack
+ .text.PushScope
+                0x000000000000f42f       0x32 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f42f                PushScope
+ .text.IsStatementOpCode
+                0x000000000000f461       0x5a /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f461                IsStatementOpCode
+ .text.IsExpressionOpCode
+                0x000000000000f4bb       0x42 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x000000000000f4bb                IsExpressionOpCode
+ .text.ValidateQuestion
+                0x000000000000f4fd      0x155 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .text.SendDiscardInfoToDriver
+                0x000000000000f652      0x123 /tmp/cc8Inrdq.ltrans17.ltrans.o
+                0x000000000000f652                SendDiscardInfoToDriver
+ .text.SynchronizeStorage
+                0x000000000000f775      0x177 /tmp/cc8Inrdq.ltrans17.ltrans.o
+                0x000000000000f775                SynchronizeStorage
+ .text.NoSubmitCheck
+                0x000000000000f8ec      0x115 /tmp/cc8Inrdq.ltrans17.ltrans.o
+                0x000000000000f8ec                NoSubmitCheck
+ .text.ValueChangedValidation
+                0x000000000000fa01       0x81 /tmp/cc8Inrdq.ltrans17.ltrans.o
+                0x000000000000fa01                ValueChangedValidation
+ .text.SetQuestionValue
+                0x000000000000fa82      0x671 /tmp/cc8Inrdq.ltrans17.ltrans.o
+                0x000000000000fa82                SetQuestionValue
+ .text.IsResetRequired
+                0x00000000000100f3        0x7 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000100f3                IsResetRequired
+ .text.RegiserExitHandler
+                0x00000000000100fa        0x8 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000100fa                RegiserExitHandler
+ .text.SaveReminder
+                0x0000000000010102      0x13a /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010102                SaveReminder
+ .text.ExecuteAction
+                0x000000000001023c      0x1c6 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x000000000001023c                ExecuteAction
+ .text.IsBrowserDataModified
+                0x0000000000010402      0x13a /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010402                IsBrowserDataModified
+ .text.RegisterHotKey
+                0x000000000001053c      0x148 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x000000000001053c                RegisterHotKey
+ .text.SetScope
+                0x0000000000010684       0x5f /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010684                SetScope
+ .text.PasswordCheck
+                0x00000000000106e3      0x15c /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000106e3                PasswordCheck
+ .text.ValueChangeResetFlagUpdate.part.14.lto_priv.29
+                0x000000000001083f       0x72 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x000000000001083f                ValueChangeResetFlagUpdate.part.14.lto_priv.29
+ .text.SubmitCallbackForForm.part.11.lto_priv.33
+                0x00000000000108b1       0xc3 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000108b1                SubmitCallbackForForm.part.11.lto_priv.33
+ .text.SubmitCallback.part.12.lto_priv.30
+                0x0000000000010974       0x71 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010974                SubmitCallback.part.12.lto_priv.30
+ .text.SetValueByName.part.6.lto_priv.27
+                0x00000000000109e5      0x119 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000109e5                SetValueByName.part.6.lto_priv.27
+ .text.GetValueByName.part.5.lto_priv.28
+                0x0000000000010afe       0x9e /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010afe                GetValueByName.part.5.lto_priv.28
+ .text.IsHiiHandleInBrowserContext
+                0x0000000000010b9c       0x67 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010b9c                IsHiiHandleInBrowserContext
+ .text.GetFormSetFromHiiHandle
+                0x0000000000010c03       0x7f /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000010c03                GetFormSetFromHiiHandle
+ .text.ProcessCallBackFunction.constprop.0
+                0x0000000000010c82      0x52a /tmp/cc8Inrdq.ltrans19.ltrans.o
+                0x0000000000010c82                ProcessCallBackFunction.constprop.0
+ .text.HiiGetSupportedLanguages
+                0x00000000000111ac       0x81 /tmp/cc8Inrdq.ltrans19.ltrans.o
+                0x00000000000111ac                HiiGetSupportedLanguages
+ .text.ProcessStorage
+                0x000000000001122d      0x163 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .text.BrowserCallback
+                0x0000000000011390      0x294 /tmp/cc8Inrdq.ltrans20.ltrans.o
+                0x0000000000011390                BrowserCallback
+ .text.PopupErrorMessage
+                0x0000000000011624       0xb1 /tmp/cc8Inrdq.ltrans21.ltrans.o
+                0x0000000000011624                PopupErrorMessage
+ .text.UiFreeMenuList
+                0x00000000000116d5       0x3c /tmp/cc8Inrdq.ltrans21.ltrans.o
+                0x00000000000116d5                UiFreeMenuList
+ .text.UiCopyMenuList
+                0x0000000000011711       0xab /tmp/cc8Inrdq.ltrans21.ltrans.o
+                0x0000000000011711                UiCopyMenuList
+ .text.UiFindParentMenu
+                0x00000000000117bc       0x5d /tmp/cc8Inrdq.ltrans21.ltrans.o
+                0x00000000000117bc                UiFindParentMenu
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *fill*         0x0000000000011819        0x3 
+ .rodata.InitializeFormSet
+                0x000000000001181c      0x1c0 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .rodata.CSWTCH.90
+                0x00000000000119dc        0x3 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ *fill*         0x00000000000119df        0x1 
+ .rodata.str2.2
+                0x00000000000119e0       0x50 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                                         0x56 (size before relaxing)
+ .rodata.EvaluateExpression
+                0x0000000000011a30      0x1c0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .rodata.str2.2
+                0x0000000000011bf0       0x50 /tmp/cc8Inrdq.ltrans2.ltrans.o
+                                          0x2 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000011bf0       0x22 /tmp/cc8Inrdq.ltrans3.ltrans.o
+                                         0x32 (size before relaxing)
+ *fill*         0x0000000000011c12        0x2 
+ .rodata._gUefiDriverRevision
+                0x0000000000011c14        0x4 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000011c14                _gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount
+                0x0000000000011c14                _gUefiDriverRevision
+                0x0000000000011c14                _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+ .rodata.str2.2
+                0x0000000000011c18       0x10 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .rodata.str2.2
+                0x0000000000011c18       0x20 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                                         0x24 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000011c38       0x4c /tmp/cc8Inrdq.ltrans8.ltrans.o
+                                         0x68 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000011c84       0x1c /tmp/cc8Inrdq.ltrans9.ltrans.o
+                                         0x28 (size before relaxing)
+ .rodata.IsTrue
+                0x0000000000011ca0       0x14 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ *fill*         0x0000000000011cb4        0xc 
+ .rodata.mHexStr
+                0x0000000000011cc0       0x10 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .rodata.str1.1
+                0x0000000000011cd0       0x7b /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .rodata.str2.2
+                0x0000000000011d4b        0x8 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ *fill*         0x0000000000011d4b       0x15 
+ .rodata.mWarningString
+                0x0000000000011d60       0x96 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ *fill*         0x0000000000011df6        0xa 
+ .rodata.mErrorString
+                0x0000000000011e00      0x2b5 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .rodata.str1.1
+                0x00000000000120b5        0x7 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                                          0x8 (size before relaxing)
+ .rodata.str2.2
+                0x00000000000120bc       0x1a /tmp/cc8Inrdq.ltrans13.ltrans.o
+ *fill*         0x00000000000120d6        0x2 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x00000000000120d8        0x4 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x00000000000120d8                _gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x00000000000120d8                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x00000000000120d8                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ .rodata.str2.2
+                0x00000000000120dc       0x76 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                                         0xa8 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000012152       0x38 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ *fill*         0x000000000001218a        0x2 
+ .rodata.HiiValueToUINT64
+                0x000000000001218c       0x1c /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .rodata.ExtendValueToU64
+                0x00000000000121a8       0x1c /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .rodata.str2.2
+                0x00000000000121c4       0x18 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .rodata.ProcessCallBackFunction.constprop.0
+                0x00000000000121c4       0x20 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .rodata.str2.2
+                0x00000000000121e4        0xe /tmp/cc8Inrdq.ltrans20.ltrans.o
+ *(.got .got.*)
+ .got           0x00000000000121e4        0x0 Setup.obj (symbol from plugin)
+ .got.plt       0x00000000000121e4        0x0 Setup.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x00000000000121f0        0x0
+ .plt           0x00000000000121f0        0x0 Setup.obj (symbol from plugin)
+
+.plt.got        0x00000000000121e8        0x0
+ .plt.got       0x00000000000121e8        0x0 Setup.obj (symbol from plugin)
+
+.data           0x0000000000012200      0x4bb
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiHiiPlatformSetupFormsetGuid
+                0x0000000000012200       0x10 /tmp/cc8Inrdq.ltrans0.ltrans.o
+                0x0000000000012200                gEfiHiiPlatformSetupFormsetGuid
+ .data.gEdkiiIfrBitVarstoreGuid
+                0x0000000000012210       0x10 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .data.gEfiHiiStandardFormGuid
+                0x0000000000012220       0x10 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x0000000000012230       0x10 /tmp/cc8Inrdq.ltrans0.ltrans.o
+                0x0000000000012230                gEfiHiiConfigAccessProtocolGuid
+ .data.gEfiUserManagerProtocolGuid
+                0x0000000000012240       0x10 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .data.gEfiRegularExpressionProtocolGuid
+                0x0000000000012250       0x10 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .data.rel.local.gBrowserSaveFailFormSetList
+                0x0000000000012260       0x10 /tmp/cc8Inrdq.ltrans3.ltrans.o
+                0x0000000000012260                gBrowserSaveFailFormSetList
+ .data.gEdkiiFormDisplayEngineProtocolGuid
+                0x0000000000012270       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000012270                gEdkiiFormDisplayEngineProtocolGuid
+ .data.gEdkiiFormBrowserExProtocolGuid
+                0x0000000000012280       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEdkiiFormBrowserEx2ProtocolGuid
+                0x0000000000012290       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x00000000000122a0       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ *fill*         0x00000000000122b0       0x10 
+ .data.rel.local.mPrivateData
+                0x00000000000122c0       0x98 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x00000000000122c0                mPrivateData
+ *fill*         0x0000000000012358        0x8 
+ .data.gEfiDevicePathFromTextProtocolGuid
+                0x0000000000012360       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x0000000000012370       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000012380       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000012390       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x00000000000123a0       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x00000000000123b0       0x10 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .data.rel.local.gBrowserStorageList
+                0x00000000000123c0       0x10 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                0x00000000000123c0                gBrowserStorageList
+ .data.rel.local.mRefreshEventList
+                0x00000000000123d0       0x10 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x00000000000123d0                mRefreshEventList
+ .data.rel.local.gBrowserFormSetList
+                0x00000000000123e0       0x10 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x00000000000123e0                gBrowserFormSetList
+ .data.gEfiDevicePathProtocolGuid
+                0x00000000000123f0       0x10 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x00000000000123f0                gEfiDevicePathProtocolGuid
+ .data.gBrowserSettingScope
+                0x0000000000012400        0x4 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x0000000000012400                gBrowserSettingScope
+ *fill*         0x0000000000012404        0xc 
+ .data.gEfiGlobalVariableGuid
+                0x0000000000012410       0x10 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .data.gEfiUnicodeCollation2ProtocolGuid
+                0x0000000000012420       0x10 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .data.rel.local.gBrowserContextList
+                0x0000000000012430       0x10 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000012430                gBrowserContextList
+ .data.mBrowserScopeFirstSet
+                0x0000000000012440        0x1 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ *fill*         0x0000000000012441        0xf 
+ .data.rel.local.gBrowserHotKeyList
+                0x0000000000012450       0x10 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000012450                gBrowserHotKeyList
+ .data.rel.ro   0x0000000000012460        0x0 Setup.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.gZeroGuid
+                0x0000000000012460       0x10 /tmp/cc8Inrdq.ltrans0.ltrans.o
+                0x0000000000012460                gZeroGuid
+ .bss.mMapExpressionListEnd
+                0x0000000000012470        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mCurrentExpressionEnd
+                0x0000000000012478        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mOptionExpressionEnd
+                0x0000000000012480        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mStatementExpressionEnd
+                0x0000000000012488        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mFormExpressionEnd
+                0x0000000000012490        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mMapExpressionListPointer
+                0x0000000000012498        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mMapExpressionListStack
+                0x00000000000124a0        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mCurrentExpressionPointer
+                0x00000000000124a8        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mCurrentExpressionStack
+                0x00000000000124b0        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mExpressionOpCodeIndex
+                0x00000000000124b8        0x8 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .bss.mUsedQuestionId
+                0x00000000000124c0        0x2 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ *fill*         0x00000000000124c2        0x6 
+ .bss.mUserManager
+                0x00000000000124c8        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .bss.mExpressionEvaluationStackEnd
+                0x00000000000124d0        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .bss.mExpressionEvaluationStackPointer
+                0x00000000000124d8        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                0x00000000000124d8                mExpressionEvaluationStackPointer
+ .bss.mExpressionEvaluationStack
+                0x00000000000124e0        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                0x00000000000124e0                mExpressionEvaluationStack
+ .bss.mExpressionEvaluationStackOffset
+                0x00000000000124e8        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                0x00000000000124e8                mExpressionEvaluationStackOffset
+ .bss.mUnicodeCollation
+                0x00000000000124f0        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                0x00000000000124f0                mUnicodeCollation
+ .bss.gEmptyString
+                0x00000000000124f8        0x8 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                0x00000000000124f8                gEmptyString
+ .bss.gBrowserContextCount
+                0x0000000000012500        0x8 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .bss.mFinishRetrieveCall
+                0x0000000000012508        0x1 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ *fill*         0x0000000000012509        0x1 
+ .bss.mCurrentFormId
+                0x000000000001250a        0x2 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ *fill*         0x000000000001250c        0x4 
+ .bss.mCurrentFormSetGuid
+                0x0000000000012510       0x10 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .bss.mCurFakeQestId
+                0x0000000000012520        0x2 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ *fill*         0x0000000000012522        0x6 
+ .bss.mSystemLevelFormSet
+                0x0000000000012528        0x8 /tmp/cc8Inrdq.ltrans3.ltrans.o
+                0x0000000000012528                mSystemLevelFormSet
+ .bss.mValueChangedEvent
+                0x0000000000012530        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000012530                mValueChangedEvent
+ *fill*         0x0000000000012538        0x8 
+ .bss.gDisplayFormData
+                0x0000000000012540       0x90 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x0000000000012540                gDisplayFormData
+ .bss.mFormDisplay
+                0x00000000000125d0        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x00000000000125d0                mFormDisplay
+ .bss.mPathFromText
+                0x00000000000125d8        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x00000000000125d8                mPathFromText
+ .bss.mHiiDatabase
+                0x00000000000125e0        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+                0x00000000000125e0                mHiiDatabase
+ .bss.gST       0x00000000000125e8        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .bss.gImageHandle
+                0x00000000000125f0        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .bss.gHiiImage
+                0x00000000000125f8        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .bss.gHiiFont  0x0000000000012600        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .bss.gHiiConfigRouting
+                0x0000000000012608        0x8 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .bss.mStatementIndex
+                0x0000000000012610        0x8 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                0x0000000000012610                mStatementIndex
+ .bss.mDynamicFormUpdated
+                0x0000000000012618        0x1 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x0000000000012618                mDynamicFormUpdated
+ .bss.mHiiPackageListUpdated
+                0x0000000000012619        0x1 /tmp/cc8Inrdq.ltrans10.ltrans.o
+                0x0000000000012619                mHiiPackageListUpdated
+ *fill*         0x000000000001261a        0x6 
+ .bss.mHiiConfigRouting
+                0x0000000000012620        0x8 /tmp/cc8Inrdq.ltrans12.ltrans.o
+                0x0000000000012620                mHiiConfigRouting
+ .bss.gHiiDatabase
+                0x0000000000012628        0x8 /tmp/cc8Inrdq.ltrans12.ltrans.o
+                0x0000000000012628                gHiiDatabase
+ .bss.gRT       0x0000000000012630        0x8 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x0000000000012630                gRT
+ .bss.gHiiString
+                0x0000000000012638        0x8 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x0000000000012638                gHiiString
+ .bss.gBS       0x0000000000012640        0x8 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                0x0000000000012640                gBS
+ .bss.gFlagReconnect
+                0x0000000000012648        0x1 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x0000000000012648                gFlagReconnect
+ .bss.mSystemSubmit
+                0x0000000000012649        0x1 /tmp/cc8Inrdq.ltrans14.ltrans.o
+                0x0000000000012649                mSystemSubmit
+ *fill*         0x000000000001264a        0x6 
+ .bss.mOptionExpressionPointer
+                0x0000000000012650        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012650                mOptionExpressionPointer
+ .bss.mOptionExpressionStack
+                0x0000000000012658        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012658                mOptionExpressionStack
+ .bss.mStatementExpressionPointer
+                0x0000000000012660        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012660                mStatementExpressionPointer
+ .bss.mStatementExpressionStack
+                0x0000000000012668        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012668                mStatementExpressionStack
+ .bss.mFormExpressionPointer
+                0x0000000000012670        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012670                mFormExpressionPointer
+ .bss.mFormExpressionStack
+                0x0000000000012678        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012678                mFormExpressionStack
+ .bss.mOpCodeScopeStackEnd
+                0x0000000000012680        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .bss.mOpCodeScopeStackPointer
+                0x0000000000012688        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012688                mOpCodeScopeStackPointer
+ .bss.mOpCodeScopeStack
+                0x0000000000012690        0x8 /tmp/cc8Inrdq.ltrans16.ltrans.o
+                0x0000000000012690                mOpCodeScopeStack
+ .bss.mCurrentHiiHandle
+                0x0000000000012698        0x8 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x0000000000012698                mCurrentHiiHandle
+ .bss.gExitRequired
+                0x00000000000126a0        0x1 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000126a0                gExitRequired
+ *fill*         0x00000000000126a1        0x7 
+ .bss.ExitHandlerFunction
+                0x00000000000126a8        0x8 /tmp/cc8Inrdq.ltrans18.ltrans.o
+                0x00000000000126a8                ExitHandlerFunction
+ .bss.gCurrentSelection
+                0x00000000000126b0        0x8 /tmp/cc8Inrdq.ltrans19.ltrans.o
+                0x00000000000126b0                gCurrentSelection
+ .bss.gCallbackReconnect
+                0x00000000000126b8        0x1 /tmp/cc8Inrdq.ltrans19.ltrans.o
+                0x00000000000126b8                gCallbackReconnect
+ .bss.gResetRequiredSystemLevel
+                0x00000000000126b9        0x1 /tmp/cc8Inrdq.ltrans19.ltrans.o
+                0x00000000000126b9                gResetRequiredSystemLevel
+ .bss.gResetRequiredFormLevel
+                0x00000000000126ba        0x1 /tmp/cc8Inrdq.ltrans19.ltrans.o
+                0x00000000000126ba                gResetRequiredFormLevel
+
+.eh_frame       0x00000000000126c0        0x0
+ *(.eh_frame)
+ .eh_frame      0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+ .eh_frame      0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+
+.dynbss         0x00000000000126c0        0x0
+ .dynbss        0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+
+.gnu.version_d  0x00000000000126c0        0x0
+ .gnu.version_d
+                0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+
+.gnu.version    0x00000000000126c0        0x0
+ .gnu.version   0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+
+.gnu.version_r  0x00000000000126c0        0x0
+ .gnu.version_r
+                0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+
+.rela           0x00000000000126c0      0x240
+ *(.rela .rela.*)
+ .rela.plt      0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+ .rela.got      0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+ .rela.bss      0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+ .rela.ifunc    0x00000000000126c0        0x0 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.gBrowserSaveFailFormSetList
+                0x00000000000126c0       0x30 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.mPrivateData
+                0x00000000000126f0      0x120 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.gBrowserStorageList
+                0x0000000000012810       0x30 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.mRefreshEventList
+                0x0000000000012840       0x30 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.gBrowserFormSetList
+                0x0000000000012870       0x30 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.gBrowserContextList
+                0x00000000000128a0       0x30 Setup.obj (symbol from plugin)
+ .rela.data.rel.local.gBrowserHotKeyList
+                0x00000000000128d0       0x30 Setup.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000012900       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000012900       0x24 Setup.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/DEBUG/SetupBrowser.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x2c418
+ .debug_info    0x0000000000000000     0x2f5e /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_info    0x0000000000002f5e     0x3c37 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_info    0x0000000000006b95     0x377e /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_info    0x000000000000a313     0x20a6 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_info    0x000000000000c3b9      0xf7f /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_info    0x000000000000d338     0x3a84 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_info    0x0000000000010dbc     0x2172 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_info    0x0000000000012f2e     0x234d /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_info    0x000000000001527b     0x2198 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_info    0x0000000000017413     0x202c /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_info    0x000000000001943f     0x2956 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_info    0x000000000001bd95      0xbc9 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_info    0x000000000001c95e     0x1558 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_info    0x000000000001deb6     0x24f3 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_info    0x00000000000203a9     0x2029 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_info    0x00000000000223d2     0x1bff /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_info    0x0000000000023fd1     0x1dd4 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_info    0x0000000000025da5     0x1cd0 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_info    0x0000000000027a75     0x22cf /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_info    0x0000000000029d44     0x1473 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_info    0x000000000002b1b7      0x85c /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_info    0x000000000002ba13      0xa05 /tmp/cc8Inrdq.ltrans21.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x45eb
+ .debug_abbrev  0x0000000000000000      0x368 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000368      0x373 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000006db      0x36b /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000a46      0x2ea /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000d30      0x2eb /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_abbrev  0x000000000000101b      0x402 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_abbrev  0x000000000000141d      0x34b /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000001768      0x3e0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_abbrev  0x0000000000001b48      0x371 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000001eb9      0x37d /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_abbrev  0x0000000000002236      0x472 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_abbrev  0x00000000000026a8      0x2b1 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_abbrev  0x0000000000002959      0x213 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_abbrev  0x0000000000002b6c      0x32d /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_abbrev  0x0000000000002e99      0x32e /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_abbrev  0x00000000000031c7      0x294 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_abbrev  0x000000000000345b      0x404 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_abbrev  0x000000000000385f      0x33a /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_abbrev  0x0000000000003b99      0x400 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_abbrev  0x0000000000003f99      0x29b /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_abbrev  0x0000000000004234      0x18c /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_abbrev  0x00000000000043c0      0x22b /tmp/cc8Inrdq.ltrans21.ltrans.o
+
+.debug_loc      0x0000000000000000    0x1e91c
+ .debug_loc     0x0000000000000000     0x2c61 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_loc     0x0000000000002c61     0x2ea5 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_loc     0x0000000000005b06     0x1884 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_loc     0x000000000000738a     0x1d90 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_loc     0x000000000000911a     0x1ad6 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_loc     0x000000000000abf0      0x4d6 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_loc     0x000000000000b0c6     0x1fc8 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_loc     0x000000000000d08e     0x1985 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_loc     0x000000000000ea13     0x16ee /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_loc     0x0000000000010101     0x15ea /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_loc     0x00000000000116eb     0x18f0 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_loc     0x0000000000012fdb      0xd9d /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_loc     0x0000000000013d78     0x1a1e /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_loc     0x0000000000015796     0x11f7 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_loc     0x000000000001698d     0x1303 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_loc     0x0000000000017c90      0xf3d /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_loc     0x0000000000018bcd     0x18e0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_loc     0x000000000001a4ad     0x1d1b /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_loc     0x000000000001c1c8     0x1330 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_loc     0x000000000001d4f8      0x82a /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_loc     0x000000000001dd22      0x7ba /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_loc     0x000000000001e4dc      0x440 /tmp/cc8Inrdq.ltrans21.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xcf0
+ .debug_aranges
+                0x0000000000000000       0x30 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000030       0x30 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000060       0x30 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000090       0x40 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_aranges
+                0x00000000000000d0      0x160 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_aranges
+                0x0000000000000230       0x80 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000000000002b0       0x50 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_aranges
+                0x0000000000000300       0xd0 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_aranges
+                0x00000000000003d0       0x80 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_aranges
+                0x0000000000000450       0x60 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_aranges
+                0x00000000000004b0      0x170 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_aranges
+                0x0000000000000620      0x120 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000000740       0x50 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_aranges
+                0x0000000000000790       0x90 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_aranges
+                0x0000000000000820       0x90 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_aranges
+                0x00000000000008b0       0x70 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_aranges
+                0x0000000000000920      0x160 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_aranges
+                0x0000000000000a80       0x80 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_aranges
+                0x0000000000000b00      0x110 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_aranges
+                0x0000000000000c10       0x40 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_aranges
+                0x0000000000000c50       0x40 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_aranges
+                0x0000000000000c90       0x60 /tmp/cc8Inrdq.ltrans21.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x3150
+ .debug_ranges  0x0000000000000000      0x700 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000700      0x4e0 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000be0      0x980 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000001560      0x150 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_ranges  0x00000000000016b0      0x220 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_ranges  0x00000000000018d0      0x110 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_ranges  0x00000000000019e0      0x250 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_ranges  0x0000000000001c30      0x230 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000001e60      0x1d0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_ranges  0x0000000000002030      0x2c0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_ranges  0x00000000000022f0      0x250 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000002540      0x230 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000002770       0x40 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_ranges  0x00000000000027b0      0x1b0 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_ranges  0x0000000000002960       0xe0 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_ranges  0x0000000000002a40      0x100 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_ranges  0x0000000000002b40      0x2c0 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_ranges  0x0000000000002e00      0x110 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_ranges  0x0000000000002f10      0x190 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_ranges  0x00000000000030a0       0x30 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_ranges  0x00000000000030d0       0x30 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_ranges  0x0000000000003100       0x50 /tmp/cc8Inrdq.ltrans21.ltrans.o
+
+.debug_line     0x0000000000000000     0x7f51
+ .debug_line    0x0000000000000000      0x8bd /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_line    0x00000000000008bd      0xa6a /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_line    0x0000000000001327      0x720 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_line    0x0000000000001a47      0x528 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_line    0x0000000000001f6f      0x544 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_line    0x00000000000024b3      0x77c /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_line    0x0000000000002c2f      0x53f /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_line    0x000000000000316e      0x609 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_line    0x0000000000003777      0x4c1 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_line    0x0000000000003c38      0x5e0 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_line    0x0000000000004218      0x748 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_line    0x0000000000004960      0x4bd /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_line    0x0000000000004e1d      0x64d /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_line    0x000000000000546a      0x795 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_line    0x0000000000005bff      0x488 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_line    0x0000000000006087      0x43b /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_line    0x00000000000064c2      0x657 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_line    0x0000000000006b19      0x4ca /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_line    0x0000000000006fe3      0x5db /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_line    0x00000000000075be      0x404 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_line    0x00000000000079c2      0x291 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_line    0x0000000000007c53      0x2fe /tmp/cc8Inrdq.ltrans21.ltrans.o
+
+.debug_str      0x0000000000000000     0x6497
+ .debug_str     0x0000000000000000      0xfa5 /tmp/cc8Inrdq.ltrans0.ltrans.o
+                                       0x12e7 (size before relaxing)
+ .debug_str     0x0000000000000fa5      0x9e3 /tmp/cc8Inrdq.ltrans1.ltrans.o
+                                       0x160b (size before relaxing)
+ .debug_str     0x0000000000001988      0x78c /tmp/cc8Inrdq.ltrans2.ltrans.o
+                                       0x1490 (size before relaxing)
+ .debug_str     0x0000000000002114      0x22b /tmp/cc8Inrdq.ltrans3.ltrans.o
+                                        0xeee (size before relaxing)
+ .debug_str     0x000000000000233f      0x36e /tmp/cc8Inrdq.ltrans4.ltrans.o
+                                        0x74e (size before relaxing)
+ .debug_str     0x00000000000026ad     0x200f /tmp/cc8Inrdq.ltrans5.ltrans.o
+                                       0x2b0d (size before relaxing)
+ .debug_str     0x00000000000046bc      0x150 /tmp/cc8Inrdq.ltrans6.ltrans.o
+                                        0xee1 (size before relaxing)
+ .debug_str     0x000000000000480c      0x215 /tmp/cc8Inrdq.ltrans7.ltrans.o
+                                        0xf63 (size before relaxing)
+ .debug_str     0x0000000000004a21      0x1d6 /tmp/cc8Inrdq.ltrans8.ltrans.o
+                                        0xff1 (size before relaxing)
+ .debug_str     0x0000000000004bf7      0x243 /tmp/cc8Inrdq.ltrans9.ltrans.o
+                                        0xf83 (size before relaxing)
+ .debug_str     0x0000000000004e3a      0x3ce /tmp/cc8Inrdq.ltrans10.ltrans.o
+                                       0x13a3 (size before relaxing)
+ .debug_str     0x0000000000005208      0x1f3 /tmp/cc8Inrdq.ltrans11.ltrans.o
+                                        0x715 (size before relaxing)
+ .debug_str     0x00000000000053fb      0x266 /tmp/cc8Inrdq.ltrans12.ltrans.o
+                                        0xc73 (size before relaxing)
+ .debug_str     0x0000000000005661      0x3c7 /tmp/cc8Inrdq.ltrans13.ltrans.o
+                                       0x1653 (size before relaxing)
+ .debug_str     0x0000000000005a28      0x14e /tmp/cc8Inrdq.ltrans14.ltrans.o
+                                        0xdfa (size before relaxing)
+ .debug_str     0x0000000000005b76       0x99 /tmp/cc8Inrdq.ltrans15.ltrans.o
+                                        0xd15 (size before relaxing)
+ .debug_str     0x0000000000005c0f      0x33b /tmp/cc8Inrdq.ltrans16.ltrans.o
+                                        0xeed (size before relaxing)
+ .debug_str     0x0000000000005f4a       0xdb /tmp/cc8Inrdq.ltrans17.ltrans.o
+                                        0xe21 (size before relaxing)
+ .debug_str     0x0000000000006025      0x28d /tmp/cc8Inrdq.ltrans18.ltrans.o
+                                       0x12d3 (size before relaxing)
+ .debug_str     0x00000000000062b2      0x125 /tmp/cc8Inrdq.ltrans19.ltrans.o
+                                        0xd31 (size before relaxing)
+ .debug_str     0x00000000000063d7       0x40 /tmp/cc8Inrdq.ltrans20.ltrans.o
+                                        0x5a7 (size before relaxing)
+ .debug_str     0x0000000000006417       0x80 /tmp/cc8Inrdq.ltrans21.ltrans.o
+                                        0x7c8 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x4108
+ .debug_frame   0x0000000000000000      0x320 /tmp/cc8Inrdq.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000320      0x440 /tmp/cc8Inrdq.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000760       0xa8 /tmp/cc8Inrdq.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000808      0x360 /tmp/cc8Inrdq.ltrans3.ltrans.o
+ .debug_frame   0x0000000000000b68      0x2b0 /tmp/cc8Inrdq.ltrans4.ltrans.o
+ .debug_frame   0x0000000000000e18       0xb0 /tmp/cc8Inrdq.ltrans5.ltrans.o
+ .debug_frame   0x0000000000000ec8      0x2c0 /tmp/cc8Inrdq.ltrans6.ltrans.o
+ .debug_frame   0x0000000000001188      0x3d8 /tmp/cc8Inrdq.ltrans7.ltrans.o
+ .debug_frame   0x0000000000001560      0x3c0 /tmp/cc8Inrdq.ltrans8.ltrans.o
+ .debug_frame   0x0000000000001920      0x298 /tmp/cc8Inrdq.ltrans9.ltrans.o
+ .debug_frame   0x0000000000001bb8      0x648 /tmp/cc8Inrdq.ltrans10.ltrans.o
+ .debug_frame   0x0000000000002200      0x3a0 /tmp/cc8Inrdq.ltrans11.ltrans.o
+ .debug_frame   0x00000000000025a0      0x190 /tmp/cc8Inrdq.ltrans12.ltrans.o
+ .debug_frame   0x0000000000002730      0x268 /tmp/cc8Inrdq.ltrans13.ltrans.o
+ .debug_frame   0x0000000000002998      0x358 /tmp/cc8Inrdq.ltrans14.ltrans.o
+ .debug_frame   0x0000000000002cf0      0x370 /tmp/cc8Inrdq.ltrans15.ltrans.o
+ .debug_frame   0x0000000000003060      0x448 /tmp/cc8Inrdq.ltrans16.ltrans.o
+ .debug_frame   0x00000000000034a8      0x3b8 /tmp/cc8Inrdq.ltrans17.ltrans.o
+ .debug_frame   0x0000000000003860      0x518 /tmp/cc8Inrdq.ltrans18.ltrans.o
+ .debug_frame   0x0000000000003d78      0x120 /tmp/cc8Inrdq.ltrans19.ltrans.o
+ .debug_frame   0x0000000000003e98      0x110 /tmp/cc8Inrdq.ltrans20.ltrans.o
+ .debug_frame   0x0000000000003fa8      0x160 /tmp/cc8Inrdq.ltrans21.ltrans.o
