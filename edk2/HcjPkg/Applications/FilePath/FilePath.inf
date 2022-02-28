@@ -1,0 +1,27 @@
+[Defines]
+    INF_VERSION = 0x00010006
+    BASE_NAME = FilePath
+    FILE_GUID = 58399220-1313-45ca-af02-095cb5a5bc90
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 0.1
+    ENTRY_POINT = UefiMain
+
+[Sources]
+    FilePath.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+    StdLib/StdLib.dec   
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+
+[Protocols]
+    gEfiLoadedImageProtocolGuid
+    gEfiDevicePathToTextProtocolGuid
+
+[Guids]
+
+
+

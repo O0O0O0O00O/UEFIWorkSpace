@@ -1,0 +1,31 @@
+[Defines]
+    INF_VERSION                   = 0x00010006
+    BASE_NAME                     = myTestProtocol
+    FILE_GUID                     = a912f1e8-6f2a-4833-c308-c75db806ec83
+    MODULE_TYPE                   = UEFI_APPLICATION
+    VERSION_STRING                = 0.1
+    ENTRY_POINT                   = UefiMain
+
+
+[Sources]
+    myTestProtocol.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+    MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+    PcdLib
+    HiiLib
+
+[Protocols]
+gEfiSimpleTextInputExProtocolGuid
+gEfiGraphicsOutputProtocolGuid
+gEfiSimpleFileSystemProtocolGuid
+gEfiDevicePathProtocolGuid
+gEfiPciIoProtocolGuid
+gEfiPciRootBridgeIoProtocolGuid
+gEfiRngProtocolGuid
+gEfiSerialIoProtocolGuid

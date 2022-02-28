@@ -1,0 +1,26 @@
+[Defines]
+    INF_VERSION = 0x00010006
+    BASE_NAME = Input
+    FILE_GUID = 945c0702-4bda-46bc-a6ba-fed2a198da3b
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 0.1
+    ENTRY_POINT = UefiMain
+
+[Sources]
+    Input.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+    StdLib/StdLib.dec   
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+
+[Protocols]
+    gEfiSimpleTextInProtocolGuid
+
+[Guids]
+
+
+

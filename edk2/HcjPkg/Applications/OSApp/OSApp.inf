@@ -1,0 +1,31 @@
+[Defines]
+    INF_VERSION = 0x00010006
+    BASE_NAME = OSApp
+    FILE_GUID = 9a24d6dd-2ba1-4c27-a961-f1cb47b83a8f
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 0.1
+    ENTRY_POINT = UefiMain
+
+[Sources]
+    OSApp.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+    StdLib/StdLib.dec   
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+    LibC
+    
+
+[Protocols]
+    gEfiDevicePathToTextProtocolGuid
+    gEfiDevicePathFromTextProtocolGuid
+    gEfiLoadedImageProtocolGuid
+    gEfiDevicePathUtilitiesProtocolGuid
+
+[Guids]
+
+
+

@@ -1,0 +1,29 @@
+[Defines]
+    INF_VERSION = 0x00010006
+    BASE_NAME = LoadImage
+    FILE_GUID = 79b6efd4-97fa-4e4d-81ee-e45902209936
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 0.1
+    ENTRY_POINT = UefiMain
+
+[Sources]
+    LoadImage.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+    StdLib/StdLib.dec   
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+
+[Protocols]
+    gEfiDevicePathToTextProtocolGuid
+    gEfiDevicePathFromTextProtocolGuid
+    gEfiLoadedImageProtocolGuid
+    gEfiDevicePathUtilitiesProtocolGuid
+
+[Guids]
+
+
+
