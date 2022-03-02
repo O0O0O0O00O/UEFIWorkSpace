@@ -1,0 +1,28 @@
+[Defines]  
+  INF_VERSION             = 0x00010005  
+  BASE_NAME               = SmBiosRead  
+  FILE_GUID               = cc43ce5f-3052-4b5b-ae17-0f4d2c32873a  
+  MODULE_TYPE             = UEFI_APPLICATION  
+  VERSION_STRING          = 1.0  
+  ENTRY_POINT             = UefiMain 
+ 
+[Sources]  
+  SmBiosList.c   
+[Packages]  
+  MdePkg/MdePkg.dec  
+  MdeModulePkg/MdeModulePkg.dec
+  ShellPkg/ShellPkg.dec
+  
+ [LibraryClasses]  
+  UefiLib
+  UefiApplicationEntryPoint
+  PrintLib
+  UefiShellDebug1CommandsLib
+  
+[Protocols]  
+ 
+[Ppis]  
+  
+[Guids]  
+  gEfiSmbiosTableGuid
+[BuildOptions]
