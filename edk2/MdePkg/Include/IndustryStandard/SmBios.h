@@ -2712,7 +2712,7 @@ typedef union {
   SMBIOS_TABLE_TYPE44     *Type44;
   SMBIOS_TABLE_TYPE126    *Type126;
   SMBIOS_TABLE_TYPE127    *Type127;
-  UINT8                   *Raw;
+  UINT8                   *Raw;   //成员UINT8 *Raw在EDKII代码中是要被赋值为EPS结构体中TableAddress成员的内容，也就是SMBIOS结构体初始地址。
 } SMBIOS_STRUCTURE_POINTER;
 
 #pragma pack()

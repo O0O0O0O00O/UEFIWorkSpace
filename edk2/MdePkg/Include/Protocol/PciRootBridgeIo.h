@@ -164,11 +164,11 @@ EFI_STATUS
 typedef
 EFI_STATUS
 (EFIAPI *EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_IO_MEM)(
-  IN EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL              *This,
-  IN     EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_WIDTH    Width,
-  IN     UINT64                                   Address,
-  IN     UINTN                                    Count,
-  IN OUT VOID                                     *Buffer
+  IN EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL              *This,        //协议实例
+  IN     EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_WIDTH    Width,        //读写宽度
+  IN     UINT64                                   Address,      //IO空间/Memory空间/配置空间的地址
+  IN     UINTN                                    Count,        //读写数据的个数，读写的单位是Width
+  IN OUT VOID                                     *Buffer       //对读操作来说，这是目的缓冲区；对写操作，这是要写数的数据缓冲区
   );
 
 typedef struct {
@@ -412,9 +412,9 @@ struct _EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL {
   EFI_HANDLE                                         ParentHandle;
   EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_POLL_IO_MEM        PollMem;
   EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_POLL_IO_MEM        PollIo;
-  EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_ACCESS             Mem;
-  EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_ACCESS             Io;
-  EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_ACCESS             Pci;
+  EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_ACCESS             Mem;               //读写Memory空间
+  EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_ACCESS             Io;                //读写IO空间
+  EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_ACCESS             Pci;               //读写配置空间
   EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_COPY_MEM           CopyMem;
   EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_MAP                Map;
   EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL_UNMAP              Unmap;

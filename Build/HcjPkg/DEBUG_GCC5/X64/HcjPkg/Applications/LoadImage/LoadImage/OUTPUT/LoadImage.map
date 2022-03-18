@@ -224,29 +224,199 @@ Archive member included to satisfy reference by file (symbol)
                               (--whole-archive)
 /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
                               (--whole-archive)
-/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/LoadImage.lib(LoadImage.obj)
+/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/LoadImage.lib(LoadImage2.obj)
                               (--whole-archive)
 /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/LoadImage.lib(AutoGen.obj)
                               (--whole-archive)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
- .text.unlikely.assert
-                0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
- .text.unlikely._ModuleEntryPoint
-                0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevicePathNodeLength
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.NextDevicePathNode
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevicePathSubType
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevicePathType
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.IsDevicePathEnd
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.UefiDevicePathLibGetDevicePathSize
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.UnicodeVSPrint
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.ZeroMem.part.0.lto_priv.17
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.UefiDevicePathLibCatPrint
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextSasEx
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextFibreEx
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextFibre
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextScsi
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextAtapi
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextAcpiAdr
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextAcpiEx
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextAcpi
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextBmc
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextController
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextVendor
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextMemMap
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextPccard
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.DevPathToTextPci
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
  .text.unlikely.InternalAssertJumpBuffer
-                0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
  .text.InternalAssertJumpBuffer
-                0x0000000000000000        0x1 /tmp/cc31X9n8.ltrans0.ltrans.o
- .rodata._gUefiDriverRevision
-                0x0000000000000000        0x4 /tmp/cc31X9n8.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x2e /tmp/cc31X9n8.ltrans0.ltrans.o
+                0x0000000000000000        0x1 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccySdYeV.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc31X9n8.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathRelativeOffsetRange
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextFvFile
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextFv
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextMediaProtocol
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextFilePath
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextCDROM
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextHardDrive
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextBluetoothLE
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextBluetooth
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextVlan
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextiSCSI
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextUart
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextInfiniBand
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.CatIPv6Address
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.CatIPv4Address
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.CatNetworkProtocol
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextMacAddr
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextI2O
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextSata
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextUsbClass
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextLogicalUnit
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextUsb
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToText1394
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextEmmc
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextSd
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextUfs
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextNVMe
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextRamDisk
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextWiFi
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextDns
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextIPv6
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextIPv4
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextUri
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.unlikely.DevPathToTextUsbWWID
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccySdYeV.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.unlikely.Print
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.unlikely.DevPathToTextEndInstance
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.unlikely.DevPathToTextBBS
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.unlikely.DevPathToTextNodeGeneric
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccySdYeV.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.11
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.unlikely.InternalAllocateCopyPool.constprop.8
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.6
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.5
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.unlikely.UnicodeSPrint.constprop.4
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.unlikely.IsDevicePathValid.part.0.constprop.3
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/ccySdYeV.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccySdYeV.ltrans3.ltrans.o
  .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
  .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
  .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
@@ -274,7 +444,10 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD /tmp/cc31X9n8.ltrans0.ltrans.o
+LOAD /tmp/ccySdYeV.ltrans0.ltrans.o
+LOAD /tmp/ccySdYeV.ltrans1.ltrans.o
+LOAD /tmp/ccySdYeV.ltrans2.ltrans.o
+LOAD /tmp/ccySdYeV.ltrans3.ltrans.o
 START GROUP
 LOAD /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
 LOAD /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -293,82 +466,349 @@ END GROUP
                 0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
                 0x0000000000000228                . = PECOFF_HEADER_SIZE
 
-.text           0x0000000000000240      0x446
+.text           0x0000000000000240     0x4d95
  *(.text .text.* .stub .gnu.linkonce.t.*)
- .text.assert   0x0000000000000240       0x54 /tmp/cc31X9n8.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x0000000000000240        0x4 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000000244        0xe /tmp/ccySdYeV.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x0000000000000252        0x5 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000252                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x0000000000000257       0x11 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000257                NextDevicePathNode
+ .text.DevicePathSubType
+                0x0000000000000268        0x4 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000268                DevicePathSubType
+ .text.DevicePathType
+                0x000000000000026c        0x3 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x000000000000026c                DevicePathType
+ .text.IsDevicePathEnd
+                0x000000000000026f       0x22 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x000000000000026f                IsDevicePathEnd
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000000291       0x4f /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000291                UefiDevicePathLibGetDevicePathSize
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x00000000000002e0       0xb6 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000002e0                UefiDevicePathLibDuplicateDevicePath
+ .text.UnicodeVSPrint
+                0x0000000000000396       0xaa /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000396                UnicodeVSPrint
+ .text.BasePrintLibFillBuffer
+                0x0000000000000440       0x2e /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000440                BasePrintLibFillBuffer
+ .text.FreePool
+                0x000000000000046e        0xa /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x000000000000046e                FreePool
+ .text.CompareGuid
+                0x0000000000000478       0x42 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000478                CompareGuid
+ .text.CopyMem  0x00000000000004ba      0x201 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000004ba                CopyMem
+ .text.ZeroMem.part.0.lto_priv.17
+                0x00000000000006bb       0x91 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000006bb                ZeroMem.part.0.lto_priv.17
+ .text.UefiDevicePathLibCatPrint
+                0x000000000000074c      0x194 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x000000000000074c                UefiDevicePathLibCatPrint
+ .text.DevPathToTextSasEx
+                0x00000000000008e0      0x1a0 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000008e0                DevPathToTextSasEx
+ .text.DevPathToTextFibreEx
+                0x0000000000000a80       0xa4 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000a80                DevPathToTextFibreEx
+ .text.DevPathToTextFibre
+                0x0000000000000b24       0x20 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000b24                DevPathToTextFibre
+ .text.DevPathToTextScsi
+                0x0000000000000b44       0x22 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000b44                DevPathToTextScsi
+ .text.DevPathToTextAtapi
+                0x0000000000000b66       0x6b /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000b66                DevPathToTextAtapi
+ .text.DevPathToTextAcpiAdr
+                0x0000000000000bd1       0x87 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000bd1                DevPathToTextAcpiAdr
+ .text.DevPathToTextAcpiEx
+                0x0000000000000c58      0x2b5 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000c58                DevPathToTextAcpiEx
+ .text.DevPathToTextAcpi
+                0x0000000000000f0d       0xc6 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000f0d                DevPathToTextAcpi
+ .text.DevPathToTextBmc
+                0x0000000000000fd3       0x29 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000fd3                DevPathToTextBmc
+ .text.DevPathToTextController
+                0x0000000000000ffc       0x1c /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000000ffc                DevPathToTextController
+ .text.DevPathToTextVendor
+                0x0000000000001018      0x367 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x0000000000001018                DevPathToTextVendor
+ .text.DevPathToTextMemMap
+                0x000000000000137f       0x27 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x000000000000137f                DevPathToTextMemMap
+ .text.DevPathToTextPccard
+                0x00000000000013a6       0x1d /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000013a6                DevPathToTextPccard
+ .text.DevPathToTextPci
+                0x00000000000013c3       0x22 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000013c3                DevPathToTextPci
+ .text.AsciiStrnLenS
+                0x00000000000013e5       0x26 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x00000000000013e5                AsciiStrnLenS
+ .text.StrnLenS
+                0x000000000000140b       0x27 /tmp/ccySdYeV.ltrans0.ltrans.o
+                0x000000000000140b                StrnLenS
+ .text.DevPathRelativeOffsetRange
+                0x0000000000001432       0x20 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001432                DevPathRelativeOffsetRange
+ .text.DevPathToTextFvFile
+                0x0000000000001452       0x1c /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001452                DevPathToTextFvFile
+ .text.DevPathToTextFv
+                0x000000000000146e       0x1c /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x000000000000146e                DevPathToTextFv
+ .text.DevPathToTextMediaProtocol
+                0x000000000000148a       0x1c /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x000000000000148a                DevPathToTextMediaProtocol
+ .text.DevPathToTextFilePath
+                0x00000000000014a6       0x1c /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x00000000000014a6                DevPathToTextFilePath
+ .text.DevPathToTextCDROM
+                0x00000000000014c2       0x40 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x00000000000014c2                DevPathToTextCDROM
+ .text.DevPathToTextHardDrive
+                0x0000000000001502       0x96 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001502                DevPathToTextHardDrive
+ .text.DevPathToTextBluetoothLE
+                0x0000000000001598       0x3f /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001598                DevPathToTextBluetoothLE
+ .text.DevPathToTextBluetooth
+                0x00000000000015d7       0x37 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x00000000000015d7                DevPathToTextBluetooth
+ .text.DevPathToTextVlan
+                0x000000000000160e       0x1d /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x000000000000160e                DevPathToTextVlan
+ .text.DevPathToTextiSCSI
+                0x000000000000162b      0x124 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x000000000000162b                DevPathToTextiSCSI
+ .text.DevPathToTextUart
+                0x000000000000174f      0x107 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x000000000000174f                DevPathToTextUart
+ .text.DevPathToTextInfiniBand
+                0x0000000000001856       0x2d /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001856                DevPathToTextInfiniBand
+ .text.CatIPv6Address
+                0x0000000000001883       0x6b /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.CatIPv4Address
+                0x00000000000018ee       0x2c /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.CatNetworkProtocol
+                0x000000000000191a       0x49 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x0000000000001963       0x80 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001963                DevPathToTextMacAddr
+ .text.DevPathToTextI2O
+                0x00000000000019e3       0x1c /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x00000000000019e3                DevPathToTextI2O
+ .text.DevPathToTextSata
+                0x00000000000019ff       0x2b /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x00000000000019ff                DevPathToTextSata
+ .text.DevPathToTextUsbClass
+                0x0000000000001a2a      0x1ad /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001a2a                DevPathToTextUsbClass
+ .text.DevPathToTextLogicalUnit
+                0x0000000000001bd7       0x1d /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001bd7                DevPathToTextLogicalUnit
+ .text.DevPathToTextUsb
+                0x0000000000001bf4       0x22 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001bf4                DevPathToTextUsb
+ .text.DevPathToText1394
+                0x0000000000001c16       0x1c /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001c16                DevPathToText1394
+ .text.DevPathToTextEmmc
+                0x0000000000001c32       0x1d /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001c32                DevPathToTextEmmc
+ .text.DevPathToTextSd
+                0x0000000000001c4f       0x1d /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001c4f                DevPathToTextSd
+ .text.DevPathToTextUfs
+                0x0000000000001c6c       0x22 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001c6c                DevPathToTextUfs
+ .text.DevPathToTextNVMe
+                0x0000000000001c8e       0x48 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001c8e                DevPathToTextNVMe
+ .text.DevPathToTextRamDisk
+                0x0000000000001cd6      0x122 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001cd6                DevPathToTextRamDisk
+ .text.DevPathToTextWiFi
+                0x0000000000001df8       0x42 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001df8                DevPathToTextWiFi
+ .text.DevPathToTextDns
+                0x0000000000001e3a       0xa5 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001e3a                DevPathToTextDns
+ .text.DevPathToTextIPv6
+                0x0000000000001edf      0x103 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001edf                DevPathToTextIPv6
+ .text.DevPathToTextIPv4
+                0x0000000000001fe2      0x112 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000001fe2                DevPathToTextIPv4
+ .text.DevPathToTextUri
+                0x00000000000020f4       0x74 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x00000000000020f4                DevPathToTextUri
+ .text.DevPathToTextUsbWWID
+                0x0000000000002168       0x85 /tmp/ccySdYeV.ltrans1.ltrans.o
+                0x0000000000002168                DevPathToTextUsbWWID
+ .text.Print    0x00000000000021ed      0x136 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.DevPathToTextEndInstance
+                0x0000000000002323       0x18 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.DevPathToTextBBS
+                0x000000000000233b       0xce /tmp/ccySdYeV.ltrans2.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x0000000000002409      0x117 /tmp/ccySdYeV.ltrans2.ltrans.o
  .text._ModuleEntryPoint
-                0x0000000000000294      0x284 /tmp/cc31X9n8.ltrans0.ltrans.o
-                0x0000000000000294                _ModuleEntryPoint
+                0x0000000000002520      0x507 /tmp/ccySdYeV.ltrans2.ltrans.o
+                0x0000000000002520                _ModuleEntryPoint
+ .text.InternalAllocatePool.constprop.11
+                0x0000000000002a27       0x37 /tmp/ccySdYeV.ltrans3.ltrans.o
+                0x0000000000002a27                InternalAllocatePool.constprop.11
+ .text.InternalAllocateCopyPool.constprop.8
+                0x0000000000002a5e       0x35 /tmp/ccySdYeV.ltrans3.ltrans.o
+                0x0000000000002a5e                InternalAllocateCopyPool.constprop.8
+ .text.BasePrintLibSPrintMarker.constprop.6
+                0x0000000000002a93      0xef6 /tmp/ccySdYeV.ltrans3.ltrans.o
+                0x0000000000002a93                BasePrintLibSPrintMarker.constprop.6
+ .text.BasePrintLibSPrint.constprop.5
+                0x0000000000003989       0xb8 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .text.UnicodeSPrint.constprop.4
+                0x0000000000003a41       0x29 /tmp/ccySdYeV.ltrans3.ltrans.o
+                0x0000000000003a41                UnicodeSPrint.constprop.4
+ .text.IsDevicePathValid.part.0.constprop.3
+                0x0000000000003a6a       0x87 /tmp/ccySdYeV.ltrans3.ltrans.o
+                0x0000000000003a6a                IsDevicePathValid.part.0.constprop.3
  *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *fill*         0x0000000000003af1        0x1 
  .rodata.str2.2
-                0x0000000000000518      0x16e /tmp/cc31X9n8.ltrans0.ltrans.o
-                                        0x174 (size before relaxing)
+                0x0000000000003af2      0x5a0 /tmp/ccySdYeV.ltrans0.ltrans.o
+                                        0x60c (size before relaxing)
+ .rodata.str2.2
+                0x0000000000004092      0x8f4 /tmp/ccySdYeV.ltrans1.ltrans.o
+                                        0x9ee (size before relaxing)
+ .rodata.CSWTCH.43
+                0x0000000000004986        0x6 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .rodata.str2.2
+                0x000000000000498c      0x246 /tmp/ccySdYeV.ltrans2.ltrans.o
+                                        0x26e (size before relaxing)
+ *fill*         0x0000000000004bd2        0x2 
+ .rodata.DevPathToTextBBS
+                0x0000000000004bd4       0x18 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x0000000000004bec        0x4 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .rodata.str1.1
+                0x0000000000004bf0       0x7b /tmp/ccySdYeV.ltrans3.ltrans.o
+ .rodata.str2.2
+                0x0000000000004c6b       0x16 /tmp/ccySdYeV.ltrans3.ltrans.o
+ *fill*         0x0000000000004c6b        0x5 
+ .rodata.mHexStr
+                0x0000000000004c70       0x10 /tmp/ccySdYeV.ltrans3.ltrans.o
+ .rodata.mWarningString
+                0x0000000000004c80       0x96 /tmp/ccySdYeV.ltrans3.ltrans.o
+ *fill*         0x0000000000004d16        0xa 
+ .rodata.mErrorString
+                0x0000000000004d20      0x2b5 /tmp/ccySdYeV.ltrans3.ltrans.o
  *(.got .got.*)
- .got           0x0000000000000686        0x0 RegisterFilterLibNull.obj (symbol from plugin)
- .got.plt       0x0000000000000686        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .got           0x0000000000004fd5        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .got.plt       0x0000000000004fd5        0x0 RegisterFilterLibNull.obj (symbol from plugin)
  *:AutoGen.obj(.data.g*Guid)
 
-.plt            0x0000000000000690        0x0
- .plt           0x0000000000000690        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+.plt            0x0000000000004fe0        0x0
+ .plt           0x0000000000004fe0        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.plt.got        0x0000000000000688        0x0
- .plt.got       0x0000000000000688        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+.plt.got        0x0000000000004fd8        0x0
+ .plt.got       0x0000000000004fd8        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.data           0x00000000000006c0       0x70
+.data           0x0000000000005000      0x480
  *(.data .data.* .gnu.linkonce.d.*)
- .data.gEfiDevicePathUtilitiesProtocolGuid
-                0x00000000000006c0       0x10 /tmp/cc31X9n8.ltrans0.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x0000000000005000       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x0000000000005010       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x0000000000005020       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x0000000000005030       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x0000000000005040       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiVT100Guid
+                0x0000000000005050       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x0000000000005060       0x10 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x0000000000005070       0x10 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x0000000000005080       0x10 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x0000000000005090       0x10 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x00000000000050a0       0x10 /tmp/ccySdYeV.ltrans1.ltrans.o
+ *fill*         0x00000000000050b0       0x10 
+ .data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x00000000000050c0       0x60 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x0000000000005120      0x320 /tmp/ccySdYeV.ltrans2.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x00000000000006d0       0x10 /tmp/cc31X9n8.ltrans0.ltrans.o
- .data.gEfiDevicePathToTextProtocolGuid
-                0x00000000000006e0       0x10 /tmp/cc31X9n8.ltrans0.ltrans.o
- .data.gEfiDevicePathFromTextProtocolGuid
-                0x00000000000006f0       0x10 /tmp/cc31X9n8.ltrans0.ltrans.o
- .data.gEfiLoadedImageProtocolGuid
-                0x0000000000000700       0x10 /tmp/cc31X9n8.ltrans0.ltrans.o
- .data.rel.ro   0x0000000000000710        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+                0x0000000000005440       0x10 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x0000000000005450       0x10 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .data.rel.ro   0x0000000000005460        0x0 RegisterFilterLibNull.obj (symbol from plugin)
  *(.bss .bss.*)
- .bss.gBS       0x0000000000000710        0x8 /tmp/cc31X9n8.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000000718        0x8 /tmp/cc31X9n8.ltrans0.ltrans.o
- .bss.gRT       0x0000000000000720        0x8 /tmp/cc31X9n8.ltrans0.ltrans.o
- .bss.gST       0x0000000000000728        0x8 /tmp/cc31X9n8.ltrans0.ltrans.o
+                0x0000000000005460        0x8 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .bss.gRT       0x0000000000005468        0x8 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .bss.gST       0x0000000000005470        0x8 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .bss.gBS       0x0000000000005478        0x8 /tmp/ccySdYeV.ltrans3.ltrans.o
+                0x0000000000005478                gBS
 
-.eh_frame       0x0000000000000740        0x0
+.eh_frame       0x0000000000005480        0x0
  *(.eh_frame)
- .eh_frame      0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
- .eh_frame      0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .eh_frame      0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .eh_frame      0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.dynbss         0x0000000000000740        0x0
- .dynbss        0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+.dynbss         0x0000000000005480        0x0
+ .dynbss        0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.gnu.version_d  0x0000000000000740        0x0
+.gnu.version_d  0x0000000000005480        0x0
  .gnu.version_d
-                0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+                0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.gnu.version    0x0000000000000740        0x0
- .gnu.version   0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+.gnu.version    0x0000000000005480        0x0
+ .gnu.version   0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.gnu.version_r  0x0000000000000740        0x0
+.gnu.version_r  0x0000000000005480        0x0
  .gnu.version_r
-                0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+                0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
 
-.rela           0x0000000000000740        0x0
+.rela           0x0000000000005480      0x510
  *(.rela .rela.*)
- .rela.plt      0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
- .rela.got      0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
- .rela.bss      0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.plt      0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.got      0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.bss      0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
  .rela.data.rel.ro
-                0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
- .rela.ifunc    0x0000000000000740        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+                0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.ifunc    0x0000000000005480        0x0 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x0000000000005480       0x78 RegisterFilterLibNull.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x00000000000054f8      0x498 RegisterFilterLibNull.obj (symbol from plugin)
 
 .hii
  *(.hii)
 
-.build-id       0x0000000000000740       0x24
+.build-id       0x0000000000005990       0x24
  *(.note.gnu.build-id)
  .note.gnu.build-id
-                0x0000000000000740       0x24 RegisterFilterLibNull.obj (symbol from plugin)
+                0x0000000000005990       0x24 RegisterFilterLibNull.obj (symbol from plugin)
 
 /DISCARD/
  *(.note.GNU-stack)
@@ -381,28 +821,58 @@ END GROUP
  *(.comment)
 OUTPUT(/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/DEBUG/LoadImage.dll elf64-x86-64)
 
-.debug_info     0x0000000000000000     0x2344
- .debug_info    0x0000000000000000     0x2344 /tmp/cc31X9n8.ltrans0.ltrans.o
+.debug_info     0x0000000000000000     0xa05c
+ .debug_info    0x0000000000000000     0x27aa /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_info    0x00000000000027aa     0x2989 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_info    0x0000000000005133     0x33fd /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_info    0x0000000000008530     0x1b2c /tmp/ccySdYeV.ltrans3.ltrans.o
 
-.debug_abbrev   0x0000000000000000      0x338
- .debug_abbrev  0x0000000000000000      0x338 /tmp/cc31X9n8.ltrans0.ltrans.o
+.debug_abbrev   0x0000000000000000      0xe23
+ .debug_abbrev  0x0000000000000000      0x46d /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000046d      0x2ff /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000076c      0x409 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000b75      0x2ae /tmp/ccySdYeV.ltrans3.ltrans.o
 
-.debug_loc      0x0000000000000000      0x57a
- .debug_loc     0x0000000000000000      0x57a /tmp/cc31X9n8.ltrans0.ltrans.o
+.debug_loc      0x0000000000000000     0x8cf3
+ .debug_loc     0x0000000000000000     0x3063 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_loc     0x0000000000003063     0x2feb /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_loc     0x000000000000604e     0x1203 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_loc     0x0000000000007251     0x1aa2 /tmp/ccySdYeV.ltrans3.ltrans.o
 
-.debug_aranges  0x0000000000000000       0x50
+.debug_aranges  0x0000000000000000      0x560
  .debug_aranges
-                0x0000000000000000       0x50 /tmp/cc31X9n8.ltrans0.ltrans.o
+                0x0000000000000000      0x230 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000230      0x240 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000470       0x70 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000000000004e0       0x80 /tmp/ccySdYeV.ltrans3.ltrans.o
 
-.debug_ranges   0x0000000000000000      0x1e0
- .debug_ranges  0x0000000000000000      0x1e0 /tmp/cc31X9n8.ltrans0.ltrans.o
+.debug_ranges   0x0000000000000000      0xbc0
+ .debug_ranges  0x0000000000000000      0x350 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000350      0x2e0 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000630      0x520 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000b50       0x70 /tmp/ccySdYeV.ltrans3.ltrans.o
 
-.debug_line     0x0000000000000000      0x570
- .debug_line    0x0000000000000000      0x570 /tmp/cc31X9n8.ltrans0.ltrans.o
+.debug_line     0x0000000000000000     0x2144
+ .debug_line    0x0000000000000000      0xa39 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_line    0x0000000000000a39      0x7f2 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_line    0x000000000000122b      0x7f3 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_line    0x0000000000001a1e      0x726 /tmp/ccySdYeV.ltrans3.ltrans.o
 
-.debug_str      0x0000000000000000     0x1951
- .debug_str     0x0000000000000000     0x1951 /tmp/cc31X9n8.ltrans0.ltrans.o
-                                       0x1a1e (size before relaxing)
+.debug_str      0x0000000000000000     0x2e92
+ .debug_str     0x0000000000000000      0xc99 /tmp/ccySdYeV.ltrans0.ltrans.o
+                                        0xe41 (size before relaxing)
+ .debug_str     0x0000000000000c99      0x99e /tmp/ccySdYeV.ltrans1.ltrans.o
+                                        0xdee (size before relaxing)
+ .debug_str     0x0000000000001637     0x14c0 /tmp/ccySdYeV.ltrans2.ltrans.o
+                                       0x1c2b (size before relaxing)
+ .debug_str     0x0000000000002af7      0x39b /tmp/ccySdYeV.ltrans3.ltrans.o
+                                       0x11bf (size before relaxing)
 
-.debug_frame    0x0000000000000000       0xb0
- .debug_frame   0x0000000000000000       0xb0 /tmp/cc31X9n8.ltrans0.ltrans.o
+.debug_frame    0x0000000000000000     0x13e8
+ .debug_frame   0x0000000000000000      0x798 /tmp/ccySdYeV.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000798      0x850 /tmp/ccySdYeV.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000fe8      0x1f8 /tmp/ccySdYeV.ltrans2.ltrans.o
+ .debug_frame   0x00000000000011e0      0x208 /tmp/ccySdYeV.ltrans3.ltrans.o

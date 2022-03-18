@@ -133,6 +133,9 @@
   HcjPkg/Applications/LoadImage/LoadImage.inf
   HcjPkg/Applications/Input/Input.inf
   HcjPkg/Applications/OSApp/OSApp.inf
+  HcjPkg/Applications/Event/Event.inf
+  HcjPkg/Applications/NetWork/NetWork.inf
+  
 
 
 ##############################################################################

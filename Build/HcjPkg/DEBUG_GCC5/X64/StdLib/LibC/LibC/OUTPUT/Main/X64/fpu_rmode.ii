@@ -7390,9 +7390,10 @@ EFI_STATUS
   EFI_GUID *Protocol ,
   void *SearchKey ,
   UINTN *BufferSize,
+
   EFI_HANDLE *Buffer
   );
-# 1523 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1524 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_DEVICE_PATH)(
@@ -7400,14 +7401,14 @@ EFI_STATUS
   EFI_DEVICE_PATH_PROTOCOL **DevicePath,
   EFI_HANDLE *Device
   );
-# 1544 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1545 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_INSTALL_CONFIGURATION_TABLE)(
   EFI_GUID *Guid,
   void *Table
   );
-# 1570 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1571 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_HANDLE_BUFFER)(
@@ -7417,7 +7418,7 @@ EFI_STATUS
   UINTN *NoHandles,
   EFI_HANDLE **Buffer
   );
-# 1597 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1598 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_PROTOCOL)(
@@ -7491,7 +7492,7 @@ typedef struct {
 
   void *CapsulePtr[1];
 } EFI_CAPSULE_TABLE;
-# 1705 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1706 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_UPDATE_CAPSULE)(
@@ -7499,7 +7500,7 @@ EFI_STATUS
   UINTN CapsuleCount,
   EFI_PHYSICAL_ADDRESS ScatterGatherList
   );
-# 1736 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1737 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_QUERY_CAPSULE_CAPABILITIES)(
@@ -7508,7 +7509,7 @@ EFI_STATUS
   UINT64 *MaximumCapsuleSize,
   EFI_RESET_TYPE *ResetType
   );
-# 1767 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1768 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_QUERY_VARIABLE_INFO)(
@@ -7517,7 +7518,7 @@ EFI_STATUS
   UINT64 *RemainingVariableStorageSize,
   UINT64 *MaximumVariableSize
   );
-# 1812 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1813 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef struct {
 
 
@@ -7744,14 +7745,14 @@ typedef struct {
 
   EFI_CONFIGURATION_TABLE *ConfigurationTable;
 } EFI_SYSTEM_TABLE;
-# 2050 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2051 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_IMAGE_ENTRY_POINT)(
   EFI_HANDLE ImageHandle,
   EFI_SYSTEM_TABLE *SystemTable
   );
-# 2066 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2067 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef struct _EFI_LOAD_OPTION {
 
 
@@ -7764,9 +7765,9 @@ typedef struct _EFI_LOAD_OPTION {
 
 
   UINT16 FilePathListLength;
-# 2103 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2104 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 } EFI_LOAD_OPTION;
-# 2125 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2126 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef union {
   struct {
 
@@ -7835,7 +7836,7 @@ typedef struct {
 
 
 } EFI_KEY_OPTION;
-# 2227 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2228 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 # 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiPxe.h" 1
 # 65 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef void PXE_VOID;
@@ -8522,7 +8523,7 @@ typedef struct s_pxe_db_receive {
 
   PXE_UINT8 reserved[7];
 } PXE_DB_RECEIVE;
-# 2228 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 2229 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
 # 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiGpt.h" 1
 # 31 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiGpt.h"
 typedef struct {
@@ -8607,7 +8608,7 @@ typedef struct {
 
   CHAR16 PartitionName[36];
 } EFI_PARTITION_ENTRY;
-# 2229 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 2230 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
 # 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h" 1
 # 18 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 # 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h" 1
@@ -10187,7 +10188,7 @@ typedef struct _EFI_HII_AIBT_SKIP2_BLOCK {
 
   UINT16 SkipCount;
 } EFI_HII_AIBT_SKIP2_BLOCK;
-# 2230 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 2231 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
 # 19 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Uefi.h" 2
 # 17 "/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/LibC/LibC/DEBUG/AutoGen.h" 2
 

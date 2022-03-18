@@ -1,0 +1,133 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_init.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/inet_neta.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/shutdown.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_comp.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/Ip6Addr_LinkLocal_AllRouters.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getnameinfo.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/base64.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getservbyport.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getnetbyht.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/setsockopt.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/write.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/listen.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getnetbynis.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_update.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getnetnamadr.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getsockopt.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/bind.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/close.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getprotoent.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/gethostbydns.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getproto.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/recvfrom.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getsockname.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_mkquery.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_debug.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/herror.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/inet_net_pton.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/gethostnamadr.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getpeername.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/send.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_ntoa.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getaddrinfo.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_data.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/gethostbynis.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/connect.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/Ip6Addr_NodeLocal_AllNodes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_netint.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getservbyname.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/nsap_addr.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/poll.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_ttl.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_send.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_mkupdate.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/Ip6Addr_Loopback.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/read.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/socket.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/sendto.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/inet_net_ntop.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/map_v4v6.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/recv.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/accept.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getnetbydns.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_name.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/inet_pton.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getservent.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/Ip6Addr_Any.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_addr.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/res_query.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/Ip6Addr_LinkLocal_AllNodes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/getprotoname.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_print.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/sethostname.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/gethostname.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/ns_parse.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/gethostbyht.obj.deps
+
+               

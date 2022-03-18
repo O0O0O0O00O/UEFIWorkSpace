@@ -199,7 +199,7 @@ STATIC_LIBRARY_FILES =  \
 
 OBJECT_FILES =  \
     $(OUTPUT_DIR)/AutoGen.obj \
-    $(OUTPUT_DIR)/LoadImage.obj
+    $(OUTPUT_DIR)/LoadImage2.obj
 
 INC =  \
     -I$(WORKSPACE)/edk2/HcjPkg/Applications/LoadImage \
@@ -326,15 +326,15 @@ $(OUTPUT_DIR)/LoadImage.efi : $(DEBUG_DIR)/LoadImage.dll
 	$(CP) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/LoadImage.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
 
-$(OUTPUT_DIR)/LoadImage.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/LoadImage.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/LoadImage.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/LoadImage/LoadImage.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/./LoadImage.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/LoadImage/LoadImage.c
-
 $(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
 	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/./AutoGen.obj $(INC) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/DEBUG/AutoGen.c
+
+$(OUTPUT_DIR)/LoadImage2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/LoadImage2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/LoadImage2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/LoadImage/LoadImage2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/LoadImage/LoadImage/OUTPUT/./LoadImage2.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/LoadImage/LoadImage2.c
 
 $(OUTPUT_DIR)/LoadImage.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/LoadImage.lib : $(OBJECT_FILES_LIST)

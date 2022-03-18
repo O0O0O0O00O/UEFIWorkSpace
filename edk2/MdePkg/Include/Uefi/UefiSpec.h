@@ -1497,11 +1497,12 @@ typedef enum {
 typedef
 EFI_STATUS
 (EFIAPI *EFI_LOCATE_HANDLE)(
-  IN     EFI_LOCATE_SEARCH_TYPE   SearchType,
-  IN     EFI_GUID                 *Protocol     OPTIONAL,
-  IN     VOID                     *SearchKey    OPTIONAL,
-  IN OUT UINTN                    *BufferSize,
-  OUT    EFI_HANDLE               *Buffer
+  IN     EFI_LOCATE_SEARCH_TYPE   SearchType,               //指定查找方式
+  IN     EFI_GUID                 *Protocol     OPTIONAL,   //代查询的Protocol（Guid）
+  IN     VOID                     *SearchKey    OPTIONAL,   //一般为NULL
+  IN OUT UINTN                    *BufferSize,              //输入时，表示Buffer字节长度
+                                                            //输出时，表示Buffer所含数组长度
+  OUT    EFI_HANDLE               *Buffer                   //包含句柄数组的缓冲区
   );
 
 /**
@@ -1570,11 +1571,11 @@ EFI_STATUS
 typedef
 EFI_STATUS
 (EFIAPI *EFI_LOCATE_HANDLE_BUFFER)(
-  IN     EFI_LOCATE_SEARCH_TYPE       SearchType,
-  IN     EFI_GUID                     *Protocol       OPTIONAL,
-  IN     VOID                         *SearchKey      OPTIONAL,
-  OUT    UINTN                        *NoHandles,
-  OUT    EFI_HANDLE                   **Buffer
+  IN     EFI_LOCATE_SEARCH_TYPE       SearchType,                 //指定查找方式
+  IN     EFI_GUID                     *Protocol       OPTIONAL,   //待查询的protocol（Guid）
+  IN     VOID                         *SearchKey      OPTIONAL,   //一般为NULL
+  OUT    UINTN                        *NoHandles,                 //返回句柄的数量
+  OUT    EFI_HANDLE                   **Buffer                    //包含句柄数组的缓冲区  
   );
 
 /**

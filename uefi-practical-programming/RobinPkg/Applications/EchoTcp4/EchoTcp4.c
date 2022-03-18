@@ -34,7 +34,7 @@
 #include <stdlib.h>
 #include <wchar.h>
 #include "Common.h"
-#include "KeyBoard.h"
+#include "Keyboard.h"
 #include "Network.h"
 
 EFI_STATUS TCP4Test(IN int Argc,
