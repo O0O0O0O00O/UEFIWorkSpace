@@ -1,0 +1,673 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char WifiConnectionManagerDxeStrings[];
+extern EFI_GUID { 0x9f94d327, 0x0b18, 0x4245, { 0x8f, 0xf2, 0x83, 0x2e, 0x30, 0xd, 0x2c, 0xef }};
+#pragma pack(1)
+typedef struct _WIFI_MANAGER_IFR_NVDATA {
+  UINT32 ProfileCount;
+  CHAR16 SSId[33];
+  CHAR16 Password[64];
+  CHAR16 PrivateKeyPassword[64];
+  CHAR16 EapIdentity[64];
+  CHAR16 EapPassword[64];
+  UINT8 SecurityType;
+  UINT8 EapAuthMethod;
+  UINT8 EapSecondAuthMethod;
+  UINT8 HiddenNetworkList[255];
+} WIFI_MANAGER_IFR_NVDATA;
+#pragma pack()
+formset
+>00000000: 0E A7 27 D3 94 9F 18 0B 45 42 8F F2 83 2E 30 0D 2C EF 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000051: 5C 06 00 00 00 00 
+>00000057: 5C 06 00 00 01 00 
+  guid = { 0x9f94d327, 0x0b18, 0x4245, { 0x8f, 0xf2, 0x83, 0x2e, 0x30, 0xd, 0x2c, 0xef } },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0003),
+  class = 0x04,
+>00000027: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 03 04 00 
+  subclass = 0x03,
+>0000003C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 04 03 00 
+  varstore WIFI_MANAGER_IFR_NVDATA,
+>0000005D: 24 2E 27 D3 94 9F 18 0B 45 42 8F F2 83 2E 30 0D 2C EF 02 08 48 03 57 49 46 49 5F 4D 41 4E 41 47 45 52 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+    varid = 0x0802,
+    name = WIFI_MANAGER_IFR_NVDATA,
+    guid = { 0x9f94d327, 0x0b18, 0x4245, { 0x8f, 0xf2, 0x83, 0x2e, 0x30, 0xd, 0x2c, 0xef } };
+  form formid = 1,
+>0000008B: 01 86 01 00 04 00 
+    title = STRING_TOKEN(0x0004);
+    suppressif TRUE;
+>00000091: 0A 82 
+>00000093: 46 02 
+      text
+        help = STRING_TOKEN(0x000A),
+        text = STRING_TOKEN(0x000A),
+        flags = INTERACTIVE,
+>00000095: 0C 8F 0A 00 0A 00 00 01 00 00 FF FF 04 00 00 
+        key = 0x100;
+>000000A4: 29 02 
+      endif;
+>000000A6: 29 02 
+    label 0x1000;
+>000000A8: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+    label 0xffff;
+>000000BD: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000000D2: 29 02 
+  form formid = 2,
+>000000D4: 01 86 02 00 0B 00 
+    title = STRING_TOKEN(0x000B);
+    text
+>000000DA: 03 08 05 00 07 00 06 00 
+      help = STRING_TOKEN(0x0007),
+      text = STRING_TOKEN(0x0005),
+        text = STRING_TOKEN(0x0006);
+    text
+>000000E2: 03 08 08 00 0A 00 09 00 
+      help = STRING_TOKEN(0x000A),
+      text = STRING_TOKEN(0x0008),
+        text = STRING_TOKEN(0x0009);
+    subtitle text = STRING_TOKEN(0x000A);
+>000000EA: 02 87 0A 00 00 00 00 
+>000000F1: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>000000F3: 02 87 0A 00 00 00 00 
+>000000FA: 29 02 
+    goto 3,
+>000000FC: 0F 0F 0C 00 0D 00 02 01 00 00 FF FF 04 03 00 
+         prompt = STRING_TOKEN(0x000C),
+         help = STRING_TOKEN(0x000D),
+         flags = INTERACTIVE,
+         key = 0x102;
+    goto 9,
+>0000010B: 0F 0F 3D 00 3E 00 04 01 00 00 FF FF 04 09 00 
+         prompt = STRING_TOKEN(0x003D),
+         help = STRING_TOKEN(0x003E),
+         flags = INTERACTIVE,
+         key = 0x104;
+    action
+>0000011A: 0C 8F 0A 00 0A 00 01 01 00 00 FF FF 04 0A 00 
+         questionid = 0x101,
+         prompt = STRING_TOKEN(0x000A),
+         help = STRING_TOKEN(0x000A),
+         flags = INTERACTIVE,
+         config = STRING_TOKEN(0x000A),
+         refreshguid = { 0xde609972, 0xcbcc, 0x4e82, { 0x8b, 0x3e, 0x6a, 0xc5, 0xcf, 0x56, 0x73, 0x8d } },
+>00000129: 62 12 72 99 60 DE CC CB 82 4E 8B 3E 6A C5 CF 56 73 8D 
+    endaction;
+>0000013B: 29 02 
+  endform;
+>0000013D: 29 02 
+  form formid = 3,
+>0000013F: 01 86 03 00 0C 00 
+    title = STRING_TOKEN(0x000C);
+    numeric varid = WIFI_MANAGER_IFR_NVDATA.ProfileCount,
+>00000145: 07 9A 24 00 25 00 03 01 02 08 00 00 05 12 00 00 00 00 FF FF FF FF 00 00 00 00 
+            prompt = STRING_TOKEN(0x0024),
+            help = STRING_TOKEN(0x0025),
+            flags = INTERACTIVE | READ_ONLY,
+            key = 0x103,
+            minimum = 0,
+            maximum = 0xffffffff,
+            step = 0,
+            default = 0,
+>0000015F: 5B 09 00 00 02 00 00 00 00 
+            refreshguid = { 0xc5f3c7f9, 0xfb9d, 0x49f1, { 0xbe, 0x67, 0x8b, 0xad, 0x20, 0xa7, 0xc6, 0xac } },
+>00000168: 62 12 F9 C7 F3 C5 9D FB F1 49 BE 67 8B AD 20 A7 C6 AC 
+    endnumeric;
+>0000017A: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>0000017C: 02 87 0A 00 00 00 00 
+>00000183: 29 02 
+    label 0x2000;
+>00000185: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 20 
+    label 0xffff;
+>0000019A: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000001AF: 29 02 
+  form formid = 4,
+>000001B1: 01 86 04 00 0E 00 
+    title = STRING_TOKEN(0x000E);
+    subtitle text = STRING_TOKEN(0x000A);
+>000001B7: 02 87 0A 00 00 00 00 
+>000001BE: 29 02 
+    text
+>000001C0: 03 08 1F 00 20 00 21 00 
+      help = STRING_TOKEN(0x0020),
+      text = STRING_TOKEN(0x001F),
+        text = STRING_TOKEN(0x0021);
+    subtitle text = STRING_TOKEN(0x000A);
+>000001C8: 02 87 0A 00 00 00 00 
+>000001CF: 29 02 
+    text
+>000001D1: 03 08 0F 00 11 00 10 00 
+      help = STRING_TOKEN(0x0011),
+      text = STRING_TOKEN(0x000F),
+        text = STRING_TOKEN(0x0010);
+    text
+>000001D9: 03 08 12 00 14 00 13 00 
+      help = STRING_TOKEN(0x0014),
+      text = STRING_TOKEN(0x0012),
+        text = STRING_TOKEN(0x0013);
+    suppressif NOT ideqval WIFI_MANAGER_IFR_NVDATA.SecurityType == 4;
+>000001E1: 0A 82 
+>000001E3: 12 86 02 00 04 00 
+>000001E9: 17 02 
+>000001EB: 29 02 
+      password varid = WIFI_MANAGER_IFR_NVDATA.Password,
+>000001ED: 08 91 1D 00 1E 00 01 02 02 08 46 00 04 08 00 3F 00 
+                prompt = STRING_TOKEN(0x001D),
+                help = STRING_TOKEN(0x001E),
+                flags = INTERACTIVE,
+                key = 0x201,
+                minsize = 8,
+                maxsize = 63,
+      endpassword;
+>000001FE: 29 02 
+    endif;
+>00000200: 29 02 
+    suppressif NOT ideqval WIFI_MANAGER_IFR_NVDATA.SecurityType == 2;
+>00000202: 0A 82 
+>00000204: 12 86 02 00 02 00 
+>0000020A: 17 02 
+>0000020C: 29 02 
+      oneof varid = WIFI_MANAGER_IFR_NVDATA.EapAuthMethod,
+>0000020E: 05 91 15 00 16 00 04 02 02 08 47 02 04 10 00 02 00 
+            questionid = 0x204,
+            prompt = STRING_TOKEN(0x0015),
+            help = STRING_TOKEN(0x0016),
+            flags = INTERACTIVE,
+            option text = STRING_TOKEN(0x001A), value = 0, flags = DEFAULT;
+>0000021F: 09 07 1A 00 10 00 00 
+            option text = STRING_TOKEN(0x001B), value = 1, flags = 0;
+>00000226: 09 07 1B 00 00 00 01 
+            option text = STRING_TOKEN(0x0019), value = 2, flags = 0;
+>0000022D: 09 07 19 00 00 00 02 
+      endoneof;
+>00000234: 29 02 
+      suppressif NOT ideqvallist WIFI_MANAGER_IFR_NVDATA.EapAuthMethod == 2
+>00000236: 0A 82 
+>00000238: 14 8C 04 02 03 00 02 00 00 00 01 00 
+>00000244: 17 02 
+>00000246: 29 02 
+                                                                          0
+                                                                          1;
+        goto 5,
+>00000248: 0F 0F 2F 00 30 00 06 02 00 00 FF FF 04 05 00 
+           prompt = STRING_TOKEN(0x002F),
+           help = STRING_TOKEN(0x0030),
+           flags = INTERACTIVE,
+           key = 0x206;
+        suppressif NOT ideqval WIFI_MANAGER_IFR_NVDATA.EapAuthMethod == 2;
+>00000257: 0A 82 
+>00000259: 12 86 04 02 02 00 
+>0000025F: 17 02 
+>00000261: 29 02 
+            goto 5,
+>00000263: 0F 0F 31 00 32 00 07 02 00 00 FF FF 04 05 00 
+               prompt = STRING_TOKEN(0x0031),
+               help = STRING_TOKEN(0x0032),
+               flags = INTERACTIVE,
+               key = 0x207;
+            goto 7,
+>00000272: 0F 0F 33 00 34 00 08 02 00 00 FF FF 04 07 00 
+               prompt = STRING_TOKEN(0x0033),
+               help = STRING_TOKEN(0x0034),
+               flags = INTERACTIVE,
+               key = 0x208;
+        endif;
+>00000281: 29 02 
+        suppressif NOT ideqvallist WIFI_MANAGER_IFR_NVDATA.EapAuthMethod == 0
+>00000283: 0A 82 
+>00000285: 14 8A 04 02 02 00 00 00 01 00 
+>0000028F: 17 02 
+>00000291: 29 02 
+                                                                            1;
+            oneof varid = WIFI_MANAGER_IFR_NVDATA.EapSecondAuthMethod,
+>00000293: 05 91 17 00 18 00 05 02 02 08 48 02 04 10 00 00 00 
+                  questionid = 0x205,
+                  prompt = STRING_TOKEN(0x0017),
+                  help = STRING_TOKEN(0x0018),
+                  flags = INTERACTIVE,
+                  option text = STRING_TOKEN(0x001C), value = 0, flags = DEFAULT;
+>000002A4: 09 07 1C 00 10 00 00 
+            endoneof;
+>000002AB: 29 02 
+        endif;
+>000002AD: 29 02 
+        string varid = WIFI_MANAGER_IFR_NVDATA.EapIdentity,
+>000002AF: 1C 90 26 00 27 00 09 02 02 08 46 01 04 06 3F 00 
+                prompt = STRING_TOKEN(0x0026),
+                help = STRING_TOKEN(0x0027),
+                flags = INTERACTIVE,
+                key = 0x209,
+                minsize = 6,
+                maxsize = 63,
+        endstring;
+>000002BF: 29 02 
+        suppressif NOT ideqvallist WIFI_MANAGER_IFR_NVDATA.EapAuthMethod == 0
+>000002C1: 0A 82 
+>000002C3: 14 8A 04 02 02 00 00 00 01 00 
+>000002CD: 17 02 
+>000002CF: 29 02 
+                                                                            1;
+            password varid = WIFI_MANAGER_IFR_NVDATA.EapPassword,
+>000002D1: 08 91 28 00 29 00 10 02 02 08 C6 01 04 00 00 3F 00 
+                      prompt = STRING_TOKEN(0x0028),
+                      help = STRING_TOKEN(0x0029),
+                      flags = INTERACTIVE,
+                      key = 0x210,
+                      minsize = 0,
+                      maxsize = 63,
+            endpassword;
+>000002E2: 29 02 
+        endif;
+>000002E4: 29 02 
+      endif;
+>000002E6: 29 02 
+    endif;
+>000002E8: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>000002EA: 02 87 0A 00 00 00 00 
+>000002F1: 29 02 
+    text
+      help = STRING_TOKEN(0x0023),
+      text = STRING_TOKEN(0x0022),
+      flags = INTERACTIVE,
+>000002F3: 0C 8F 22 00 23 00 02 02 00 00 FF FF 04 00 00 
+      key = 0x202;
+>00000302: 29 02 
+    action
+>00000304: 0C 8F 0A 00 0A 00 03 02 00 00 FF FF 04 0A 00 
+      questionid = 0x203,
+      prompt = STRING_TOKEN(0x000A),
+      help = STRING_TOKEN(0x000A),
+      flags = INTERACTIVE,
+      config = STRING_TOKEN(0x000A),
+      refreshguid = { 0xe5faf2b2, 0x5ecc, 0x44ac, { 0x91, 0x75, 0xfb, 0x78, 0xb2, 0x8a, 0x59, 0x6c } },
+>00000313: 62 12 B2 F2 FA E5 CC 5E AC 44 91 75 FB 78 B2 8A 59 6C 
+    endaction;
+>00000325: 29 02 
+  endform;
+>00000327: 29 02 
+  form formid = 5,
+>00000329: 01 86 05 00 2E 00 
+    title = STRING_TOKEN(0x002E);
+    goto 5,
+>0000032F: 0F 0F 35 00 36 00 01 03 00 00 FF FF 04 05 00 
+         prompt = STRING_TOKEN(0x0035),
+         help = STRING_TOKEN(0x0036),
+         flags = INTERACTIVE,
+         key = 0x301;
+    text
+      help = STRING_TOKEN(0x000A),
+      text = STRING_TOKEN(0x003A),
+      flags = INTERACTIVE,
+>0000033E: 0C 8F 3A 00 0A 00 08 03 00 00 FF FF 04 00 00 
+      key = 0x308;
+>0000034D: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>0000034F: 02 87 0A 00 00 00 00 
+>00000356: 29 02 
+    text
+      help = STRING_TOKEN(0x002B),
+      text = STRING_TOKEN(0x002A),
+      flags = INTERACTIVE,
+>00000358: 0C 8F 2A 00 2B 00 03 03 00 00 FF FF 04 00 00 
+      key = 0x303;
+>00000367: 29 02 
+    text
+      help = STRING_TOKEN(0x002D),
+      text = STRING_TOKEN(0x002C),
+      flags = INTERACTIVE,
+>00000369: 0C 8F 2C 00 2D 00 04 03 00 00 FF FF 04 00 00 
+      key = 0x304;
+>00000378: 29 02 
+  endform;
+>0000037A: 29 02 
+  form formid = 7,
+>0000037C: 01 86 07 00 33 00 
+    title = STRING_TOKEN(0x0033);
+    goto 7,
+>00000382: 0F 0F 37 00 38 00 02 03 00 00 FF FF 04 07 00 
+         prompt = STRING_TOKEN(0x0037),
+         help = STRING_TOKEN(0x0038),
+         flags = INTERACTIVE,
+         key = 0x302;
+    text
+      help = STRING_TOKEN(0x000A),
+      text = STRING_TOKEN(0x003B),
+      flags = INTERACTIVE,
+>00000391: 0C 8F 3B 00 0A 00 09 03 00 00 FF FF 04 00 00 
+      key = 0x309;
+>000003A0: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>000003A2: 02 87 0A 00 00 00 00 
+>000003A9: 29 02 
+    password varid = WIFI_MANAGER_IFR_NVDATA.PrivateKeyPassword,
+>000003AB: 08 91 39 00 0A 00 07 03 02 08 C6 00 04 00 00 3F 00 
+              prompt = STRING_TOKEN(0x0039),
+              help = STRING_TOKEN(0x000A),
+              flags = INTERACTIVE,
+              key = 0x307,
+              minsize = 0,
+              maxsize = 63,
+    endpassword;
+>000003BC: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>000003BE: 02 87 0A 00 00 00 00 
+>000003C5: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>000003C7: 02 87 0A 00 00 00 00 
+>000003CE: 29 02 
+    text
+      help = STRING_TOKEN(0x002B),
+      text = STRING_TOKEN(0x002A),
+      flags = INTERACTIVE,
+>000003D0: 0C 8F 2A 00 2B 00 05 03 00 00 FF FF 04 00 00 
+      key = 0x305;
+>000003DF: 29 02 
+    text
+      help = STRING_TOKEN(0x002D),
+      text = STRING_TOKEN(0x002C),
+      flags = INTERACTIVE,
+>000003E1: 0C 8F 2C 00 2D 00 06 03 00 00 FF FF 04 00 00 
+      key = 0x306;
+>000003F0: 29 02 
+  endform;
+>000003F2: 29 02 
+  form formid = 9,
+>000003F4: 01 86 09 00 3C 00 
+    title = STRING_TOKEN(0x003C);
+    subtitle text = STRING_TOKEN(0x000A);
+>000003FA: 02 87 0A 00 00 00 00 
+>00000401: 29 02 
+    goto 10,
+>00000403: 0F 0F 40 00 41 00 01 04 00 00 FF FF 04 0A 00 
+         prompt = STRING_TOKEN(0x0040),
+         help = STRING_TOKEN(0x0041),
+         flags = INTERACTIVE,
+         key = 0x401;
+  endform;
+>00000412: 29 02 
+  form formid = 10,
+>00000414: 01 86 0A 00 3F 00 
+    title = STRING_TOKEN(0x003F);
+    string
+>0000041A: 1C 90 0F 00 11 00 01 00 02 08 04 00 04 01 20 00 
+      varid = WIFI_MANAGER_IFR_NVDATA.SSId,
+      prompt = STRING_TOKEN(0x000F),
+      help = STRING_TOKEN(0x0011),
+      flags = INTERACTIVE,
+      minsize = 1,
+      maxsize = 32,
+    endstring;
+>0000042A: 29 02 
+    text
+      help = STRING_TOKEN(0x0042),
+      text = STRING_TOKEN(0x0043),
+      flags = INTERACTIVE,
+>0000042C: 0C 8F 43 00 42 00 02 04 00 00 FF FF 04 00 00 
+      key = 0x402;
+>0000043B: 29 02 
+    subtitle text = STRING_TOKEN(0x000A);
+>0000043D: 02 87 0A 00 00 00 00 
+>00000444: 29 02 
+    subtitle text = STRING_TOKEN(0x0044);
+>00000446: 02 87 44 00 00 00 00 
+>0000044D: 29 02 
+    label 0x4000;
+>0000044F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 40 
+    label 0xffff;
+>00000464: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    text
+      help = STRING_TOKEN(0x0045),
+      text = STRING_TOKEN(0x0046),
+      flags = INTERACTIVE,
+>00000479: 0C 8F 46 00 45 00 03 04 00 00 FF FF 04 00 00 
+      key = 0x403;
+>00000488: 29 02 
+  endform;
+>000004A3: 29 02 
+endformset;
+>0000048A: 1E 82 
+>0000048C: 46 02 
+>0000048E: 07 91 00 00 00 00 02 00 02 08 46 02 00 10 00 FF 00 
+>0000049F: 29 02 
+>000004A1: 29 02 
+>000004A5: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 27 D3 94 9F 18 0B 45 42 8F F2 83 2E 30 0D 2C EF 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 03 04 00 
+>0000003C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 04 03 00 
+>00000051: 5C 06 00 00 00 00 
+>00000057: 5C 06 00 00 01 00 
+>0000005D: 24 2E 27 D3 94 9F 18 0B 45 42 8F F2 83 2E 30 0D 2C EF 02 08 48 03 57 49 46 49 5F 4D 41 4E 41 47 45 52 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+>0000008B: 01 86 01 00 04 00 
+>00000091: 0A 82 
+>00000093: 46 02 
+>00000095: 0C 8F 0A 00 0A 00 00 01 00 00 FF FF 04 00 00 
+>000000A4: 29 02 
+>000000A6: 29 02 
+>000000A8: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+>000000BD: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000000D2: 29 02 
+>000000D4: 01 86 02 00 0B 00 
+>000000DA: 03 08 05 00 07 00 06 00 
+>000000E2: 03 08 08 00 0A 00 09 00 
+>000000EA: 02 87 0A 00 00 00 00 
+>000000F1: 29 02 
+>000000F3: 02 87 0A 00 00 00 00 
+>000000FA: 29 02 
+>000000FC: 0F 0F 0C 00 0D 00 02 01 00 00 FF FF 04 03 00 
+>0000010B: 0F 0F 3D 00 3E 00 04 01 00 00 FF FF 04 09 00 
+>0000011A: 0C 8F 0A 00 0A 00 01 01 00 00 FF FF 04 0A 00 
+>00000129: 62 12 72 99 60 DE CC CB 82 4E 8B 3E 6A C5 CF 56 73 8D 
+>0000013B: 29 02 
+>0000013D: 29 02 
+>0000013F: 01 86 03 00 0C 00 
+>00000145: 07 9A 24 00 25 00 03 01 02 08 00 00 05 12 00 00 00 00 FF FF FF FF 00 00 00 00 
+>0000015F: 5B 09 00 00 02 00 00 00 00 
+>00000168: 62 12 F9 C7 F3 C5 9D FB F1 49 BE 67 8B AD 20 A7 C6 AC 
+>0000017A: 29 02 
+>0000017C: 02 87 0A 00 00 00 00 
+>00000183: 29 02 
+>00000185: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 20 
+>0000019A: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000001AF: 29 02 
+>000001B1: 01 86 04 00 0E 00 
+>000001B7: 02 87 0A 00 00 00 00 
+>000001BE: 29 02 
+>000001C0: 03 08 1F 00 20 00 21 00 
+>000001C8: 02 87 0A 00 00 00 00 
+>000001CF: 29 02 
+>000001D1: 03 08 0F 00 11 00 10 00 
+>000001D9: 03 08 12 00 14 00 13 00 
+>000001E1: 0A 82 
+>000001E3: 12 86 02 00 04 00 
+>000001E9: 17 02 
+>000001EB: 29 02 
+>000001ED: 08 91 1D 00 1E 00 01 02 02 08 46 00 04 08 00 3F 00 
+>000001FE: 29 02 
+>00000200: 29 02 
+>00000202: 0A 82 
+>00000204: 12 86 02 00 02 00 
+>0000020A: 17 02 
+>0000020C: 29 02 
+>0000020E: 05 91 15 00 16 00 04 02 02 08 47 02 04 10 00 02 00 
+>0000021F: 09 07 1A 00 10 00 00 
+>00000226: 09 07 1B 00 00 00 01 
+>0000022D: 09 07 19 00 00 00 02 
+>00000234: 29 02 
+>00000236: 0A 82 
+>00000238: 14 8C 04 02 03 00 02 00 00 00 01 00 
+>00000244: 17 02 
+>00000246: 29 02 
+>00000248: 0F 0F 2F 00 30 00 06 02 00 00 FF FF 04 05 00 
+>00000257: 0A 82 
+>00000259: 12 86 04 02 02 00 
+>0000025F: 17 02 
+>00000261: 29 02 
+>00000263: 0F 0F 31 00 32 00 07 02 00 00 FF FF 04 05 00 
+>00000272: 0F 0F 33 00 34 00 08 02 00 00 FF FF 04 07 00 
+>00000281: 29 02 
+>00000283: 0A 82 
+>00000285: 14 8A 04 02 02 00 00 00 01 00 
+>0000028F: 17 02 
+>00000291: 29 02 
+>00000293: 05 91 17 00 18 00 05 02 02 08 48 02 04 10 00 00 00 
+>000002A4: 09 07 1C 00 10 00 00 
+>000002AB: 29 02 
+>000002AD: 29 02 
+>000002AF: 1C 90 26 00 27 00 09 02 02 08 46 01 04 06 3F 00 
+>000002BF: 29 02 
+>000002C1: 0A 82 
+>000002C3: 14 8A 04 02 02 00 00 00 01 00 
+>000002CD: 17 02 
+>000002CF: 29 02 
+>000002D1: 08 91 28 00 29 00 10 02 02 08 C6 01 04 00 00 3F 00 
+>000002E2: 29 02 
+>000002E4: 29 02 
+>000002E6: 29 02 
+>000002E8: 29 02 
+>000002EA: 02 87 0A 00 00 00 00 
+>000002F1: 29 02 
+>000002F3: 0C 8F 22 00 23 00 02 02 00 00 FF FF 04 00 00 
+>00000302: 29 02 
+>00000304: 0C 8F 0A 00 0A 00 03 02 00 00 FF FF 04 0A 00 
+>00000313: 62 12 B2 F2 FA E5 CC 5E AC 44 91 75 FB 78 B2 8A 59 6C 
+>00000325: 29 02 
+>00000327: 29 02 
+>00000329: 01 86 05 00 2E 00 
+>0000032F: 0F 0F 35 00 36 00 01 03 00 00 FF FF 04 05 00 
+>0000033E: 0C 8F 3A 00 0A 00 08 03 00 00 FF FF 04 00 00 
+>0000034D: 29 02 
+>0000034F: 02 87 0A 00 00 00 00 
+>00000356: 29 02 
+>00000358: 0C 8F 2A 00 2B 00 03 03 00 00 FF FF 04 00 00 
+>00000367: 29 02 
+>00000369: 0C 8F 2C 00 2D 00 04 03 00 00 FF FF 04 00 00 
+>00000378: 29 02 
+>0000037A: 29 02 
+>0000037C: 01 86 07 00 33 00 
+>00000382: 0F 0F 37 00 38 00 02 03 00 00 FF FF 04 07 00 
+>00000391: 0C 8F 3B 00 0A 00 09 03 00 00 FF FF 04 00 00 
+>000003A0: 29 02 
+>000003A2: 02 87 0A 00 00 00 00 
+>000003A9: 29 02 
+>000003AB: 08 91 39 00 0A 00 07 03 02 08 C6 00 04 00 00 3F 00 
+>000003BC: 29 02 
+>000003BE: 02 87 0A 00 00 00 00 
+>000003C5: 29 02 
+>000003C7: 02 87 0A 00 00 00 00 
+>000003CE: 29 02 
+>000003D0: 0C 8F 2A 00 2B 00 05 03 00 00 FF FF 04 00 00 
+>000003DF: 29 02 
+>000003E1: 0C 8F 2C 00 2D 00 06 03 00 00 FF FF 04 00 00 
+>000003F0: 29 02 
+>000003F2: 29 02 
+>000003F4: 01 86 09 00 3C 00 
+>000003FA: 02 87 0A 00 00 00 00 
+>00000401: 29 02 
+>00000403: 0F 0F 40 00 41 00 01 04 00 00 FF FF 04 0A 00 
+>00000412: 29 02 
+>00000414: 01 86 0A 00 3F 00 
+>0000041A: 1C 90 0F 00 11 00 01 00 02 08 04 00 04 01 20 00 
+>0000042A: 29 02 
+>0000042C: 0C 8F 43 00 42 00 02 04 00 00 FF FF 04 00 00 
+>0000043B: 29 02 
+>0000043D: 02 87 0A 00 00 00 00 
+>00000444: 29 02 
+>00000446: 02 87 44 00 00 00 00 
+>0000044D: 29 02 
+>0000044F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 40 
+>00000464: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000479: 0C 8F 46 00 45 00 03 04 00 00 FF FF 04 00 00 
+>00000488: 29 02 
+>0000048A: 1E 82 
+>0000048C: 46 02 
+>0000048E: 07 91 00 00 00 00 02 00 02 08 46 02 00 10 00 FF 00 
+>0000049F: 29 02 
+>000004A1: 29 02 
+>000004A3: 29 02 
+>000004A5: 29 02 
+
+Total Size of all record is 0x000004A7
+
+
+***************************************************************
+		mPackAlign = 1
+		struct WIFI_MANAGER_IFR_NVDATA : mAlign [1] mTotalSize [0x348]
+
+		struct WIFI_MANAGER_IFR_NVDATA {
+			+00000000[00000000] ProfileCount <UINT32>
+			+00000004[00000004] SSId[33] <UINT16>
+			+00000070[00000046] Password[64] <UINT16>
+			+00000198[000000c6] PrivateKeyPassword[64] <UINT16>
+			+00000326[00000146] EapIdentity[64] <UINT16>
+			+00000454[000001c6] EapPassword[64] <UINT16>
+			+00000582[00000246] SecurityType <UINT8>
+			+00000583[00000247] EapAuthMethod <UINT8>
+			+00000584[00000248] EapSecondAuthMethod <UINT8>
+			+00000585[00000249] HiddenNetworkList[255] <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

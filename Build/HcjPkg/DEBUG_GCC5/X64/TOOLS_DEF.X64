@@ -40,7 +40,7 @@ BROTLI_PATH = BrotliCompress
 
 CC_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 CC_FAMILY = GCC
-CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os -nostdinc -nostdlib -DUEFI_C_SOURCE -nostdinc -nostdlib -DUEFI_C_SOURCE
+CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os -nostdinc -nostdlib -DUEFI_C_SOURCE -nostdinc -nostdlib -DUEFI_C_SOURCE
 CC_PATH = gcc
 
 CRC32_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16

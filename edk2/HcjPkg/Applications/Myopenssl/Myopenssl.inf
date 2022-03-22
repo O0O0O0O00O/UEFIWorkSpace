@@ -1,0 +1,57 @@
+[Defines]
+    INF_VERSION = 0x00010006
+    BASE_NAME = Myopenssl
+    FILE_GUID = a3e81efe-7023-43b8-92fb-864da59a3b9b
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 0.1
+    ENTRY_POINT = ShellCEntryLib
+
+[Sources]
+    Myopenssl.c
+
+
+[Packages]
+    MdePkg/MdePkg.dec
+    StdLib/StdLib.dec   
+    ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+    LibC
+    LibStdio
+    DevShell
+
+    BsdSocketLib
+    DebugLib
+    EfiSocketLib
+
+    BaseMemoryLib
+    ShellLib
+    ShellCEntryLib
+    UefiBootServicesTableLib
+    UefiLib
+    UefiRuntimeServicesTableLib
+    
+    
+    # GmsslLib
+    
+
+
+[Protocols]
+    # gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+    # gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+    # gEfiGraphicsOutputProtocolGuid
+    # gEfiSimpleFileSystemProtocolGuid
+    # gEfiDevicePathProtocolGuid
+  
+    # gEfiPciIoProtocolGuid    ## BY_START
+	# gEfiPciRootBridgeIoProtocolGuid  ## BY_START
+
+    #gEfiRngProtocolGuid
+
+    # gEfiTcp4ServiceBindingProtocolGuid
+    # gEfiTcp4ProtocolGuid
+
+[Guids]
+
+
+

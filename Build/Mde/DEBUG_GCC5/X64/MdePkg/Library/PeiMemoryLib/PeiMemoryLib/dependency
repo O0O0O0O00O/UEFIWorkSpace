@@ -1,0 +1,33 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/SetMem16Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/MemLibGeneric.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/IsZeroBufferWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/CopyMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/CompareMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/MemLib.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/MemLibGuid.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/SetMem32Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/ScanMem8Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/SetMem64Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/SetMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/ScanMem32Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/ScanMem64Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/ZeroMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryLib/PeiMemoryLib/OUTPUT/ScanMem16Wrapper.obj.deps
+
+               

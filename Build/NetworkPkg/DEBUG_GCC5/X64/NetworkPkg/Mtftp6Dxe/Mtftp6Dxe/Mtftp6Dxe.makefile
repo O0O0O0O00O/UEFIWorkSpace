@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/Mtftp6Dxe/Mtftp6Dxe/GNUmakefile

@@ -1,0 +1,1778 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionMgrDriver.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionMgrComponentName.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionMgrMisc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionMgrHiiConfigAccess.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionMgrImpl.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionMgrFileUtil.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(WifiConnectionManagerDxe.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Acpi.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib(FileExplorerVfr.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib(FileExplorer.obj)
+                              (--whole-archive)
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib(AutoGen.obj)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.HiiConstructConfigHdr.constprop.19
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.HiiIsConfigHdrMatch.constprop.18
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.InternalHiiBrowserCallback.constprop.17
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.CreatePopUp.constprop.14
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.HiiCreateTextOpCode.constprop.11
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.LibGetDevicePath
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.LibUpdateFileExplorePage
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text.unlikely.ChooseFile.constprop.9
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibRouteConfig
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibExtractConfig
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibAppendFileName
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibCreateNewFile
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibStrDuplicate
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibDestroyMenuEntry
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibFreeMenu
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibGetMenuEntry
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibCreateMenuEntry
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.LibCallback
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.unlikely.NetLibGetMacAddress
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.InternalSafeStringNoStrOverlap
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.AsciiStrnLenS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.StrnLenS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.UnicodeStrToAsciiStrS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.StrCatS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.StrnCpyS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.StrCpyS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.RemoveEntryList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.InsertTailList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.unlikely.InitializeListHead
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .text.unlikely.WifiMgrDxeHiiConfigAccessCallback
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathRelativeOffsetRange
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextFvFile
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextFv
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextMediaProtocol
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextFilePath
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextCDROM
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextHardDrive
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextBluetoothLE
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextBluetooth
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextVlan
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextiSCSI
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUart
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextInfiniBand
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.CatIPv6Address
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.CatIPv4Address
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.CatNetworkProtocol
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextMacAddr
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextI2O
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextSata
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUsbClass
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextLogicalUnit
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUsb
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToText1394
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextEmmc
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextSd
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUfs
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextNVMe
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextRamDisk
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextWiFi
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUri
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextDns
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextIPv6
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextIPv4
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.unlikely.DevPathToTextUsbWWID
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.UefiDevicePathLibCatPrint
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextSasEx
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextFibreEx
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextFibre
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextScsi
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextAtapi
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextAcpiEx
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextAcpi
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextBmc
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextController
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextMemMap
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextPccard
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextPci
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevicePathFromHandle
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevicePathNodeLength
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextAcpiAdr
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.NextDevicePathNode
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevicePathSubType
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevicePathType
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.DevPathToTextVendor
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.IsDevicePathEnd
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.UefiDevicePathLibGetDevicePathSize
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text.unlikely.FileDevicePath
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .text.unlikely.BasePrintLibSPrintMarker.constprop.40
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .text.unlikely.AsciiStrToUnicodeStrS.constprop.35
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .text.unlikely.InternalReallocatePool.constprop.34
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .text.unlikely.HiiCreateGuidOpCode.constprop.33
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .text.unlikely.WifiMgrOnDisconnectFinished
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .text.unlikely.WifiMgrOnTimerTick
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrDxeHiiConfigAccessRouteConfig
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrDxeHiiConfigAccessExtractConfig
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrGetStrCipherList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrGetStrAKMList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrUpdateConnectMessage
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrRefreshHiddenList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrRefreshNetworkList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrFreeToken
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrCleanProfileSecrets
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.unlikely.WifiMgrGetSecurityType
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.AllocatePool
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.UnicodeVSPrint
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.UnicodeSPrint
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.BasePrintLibValueToString
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.BasePrintLibFillBuffer
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.AllocateCopyPool
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.SetMem16.part.0.lto_priv.52
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.CompareMem
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.ZeroMem
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.CopyGuid
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.AsciiStrLen
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.AsciiStrnCmp.part.4.lto_priv.51
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.StrLen
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.StrSize
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.StrStr
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text.unlikely.StrCmp
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.DevPathToTextEndInstance
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.DevPathToTextBBS
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.DevPathToTextNodeGeneric
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.HiiUpdateForm
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.InternalHiiCreateOpCodeExtended
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.HiiFreeOpCodeHandle
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.HiiAllocateOpCodeHandle
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.InternalHiiCompareSubString
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.HiiAddPackages
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.LookupUnicodeString2
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text.unlikely.UefiLibGetStringWidth
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000       0x17 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .text.unlikely.HiiGetSupportedLanguages
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000000        0x1 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrInternalEmptyFunction
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrDxeDriverBindingSupported
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrDxeComponentNameGetControllerName
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrDxeComponentNameGetDriverName
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrDxeDriverBindingStop
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrDxeDriverBindingStart
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrCheckRSN
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrGetProfileByAsciiSSId
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text.unlikely.WifiMgrReadFileToBuffer
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.unlikely.GetBestLanguage.constprop.29
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.unlikely.HiiSetString.constprop.31
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.unlikely.HiiCreateGotoOpCode.constprop.30
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.unlikely.HiiGetStringEx.constprop.26
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.unlikely.UnicodeValueToStringS.constprop.22
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.unlikely.IsDevicePathValid.part.0.constprop.21
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.unlikely.InternalBaseLibIsListValid
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.unlikely.IsNodeInList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0x37 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.unlikely.InternalAssertJumpBuffer
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.InternalAssertJumpBuffer
+                0x0000000000000000        0x1 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.unlikely.ProcessLibraryDestructorList
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.unlikely.UpdatePage
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text.unlikely.WifiMgrGetLinkState.part.1.lto_priv.53
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .text.unlikely.WifiMgrOnConnectFinished
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .text.unlikely.WifiMgrOnScanFinished
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .text.unlikely.WifiMgrCreateOpCode.part.0.lto_priv.55
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .text.unlikely.WifiMgrShowNicList.part.1.lto_priv.54
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .text.unlikely.InternalAllocatePool.constprop.44
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.41
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x2e /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+ .text          0x0000000000000000      0x204 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000       0x2f /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+ .text          0x0000000000000000       0x27 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+ .text          0x0000000000000000       0xac /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+ .text          0x0000000000000000       0xc2 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+ .text          0x0000000000000000        0xf /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+ .text          0x0000000000000000       0x13 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x1b /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+ .text          0x0000000000000000       0x36 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xe /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+ .text          0x0000000000000000        0xb /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .text          0x0000000000000000        0x5 /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc0hkbKJ.ltrans0.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans1.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans2.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans3.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans4.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans5.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans6.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans7.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans8.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans9.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans10.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans11.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans12.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans13.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans14.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans15.ltrans.o
+LOAD /tmp/cc0hkbKJ.ltrans16.ltrans.o
+START GROUP
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/OUTPUT/WifiConnectionManagerDxe.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib
+LOAD /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0xd530
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.HiiConstructConfigHdr.constprop.19
+                0x0000000000000240      0x220 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x0000000000000240                HiiConstructConfigHdr.constprop.19
+ .text.HiiIsConfigHdrMatch.constprop.18
+                0x0000000000000460       0x76 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x0000000000000460                HiiIsConfigHdrMatch.constprop.18
+ .text.InternalHiiBrowserCallback.constprop.17
+                0x00000000000004d6      0x114 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x00000000000004d6                InternalHiiBrowserCallback.constprop.17
+ .text.CreatePopUp.constprop.14
+                0x00000000000005ea      0x46f /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x00000000000005ea                CreatePopUp.constprop.14
+ .text.HiiCreateTextOpCode.constprop.11
+                0x0000000000000a59       0x6a /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x0000000000000a59                HiiCreateTextOpCode.constprop.11
+ .text.LibGetDevicePath
+                0x0000000000000ac3       0x55 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x0000000000000ac3                LibGetDevicePath
+ .text.LibUpdateFileExplorePage
+                0x0000000000000b18      0x278 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x0000000000000b18                LibUpdateFileExplorePage
+ .text.ChooseFile.constprop.9
+                0x0000000000000d90      0x3e9 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x0000000000000d90                ChooseFile.constprop.9
+ .text.LibRouteConfig
+                0x0000000000001179       0x23 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x0000000000001179                LibRouteConfig
+ .text.LibExtractConfig
+                0x000000000000119c       0x23 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x000000000000119c                LibExtractConfig
+ .text.LibAppendFileName
+                0x00000000000011bf      0x178 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.LibCreateNewFile
+                0x0000000000001337      0x335 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .text.LibStrDuplicate
+                0x000000000000166c       0x4c /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x000000000000166c                LibStrDuplicate
+ .text.LibDestroyMenuEntry
+                0x00000000000016b8       0xa0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x00000000000016b8                LibDestroyMenuEntry
+ .text.LibFreeMenu
+                0x0000000000001758       0x3c /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x0000000000001758                LibFreeMenu
+ .text.LibGetMenuEntry
+                0x0000000000001794       0x18 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x0000000000001794                LibGetMenuEntry
+ .text.LibCreateMenuEntry
+                0x00000000000017ac       0x58 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x00000000000017ac                LibCreateMenuEntry
+ .text.LibCallback
+                0x0000000000001804      0x5ef /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x0000000000001804                LibCallback
+ .text.NetLibGetMacAddress
+                0x0000000000001df3      0x1b1 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                0x0000000000001df3                NetLibGetMacAddress
+ .text.InternalSafeStringNoStrOverlap
+                0x0000000000001fa4       0x29 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001fcd       0x26 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x0000000000001fcd                AsciiStrnLenS
+ .text.StrnLenS
+                0x0000000000001ff3       0x27 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x0000000000001ff3                StrnLenS
+ .text.UnicodeStrToAsciiStrS
+                0x000000000000201a       0xdb /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x000000000000201a                UnicodeStrToAsciiStrS
+ .text.StrCatS  0x00000000000020f5      0x14c /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x00000000000020f5                StrCatS
+ .text.StrnCpyS
+                0x0000000000002241      0x150 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x0000000000002241                StrnCpyS
+ .text.StrCpyS  0x0000000000002391      0x12a /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x0000000000002391                StrCpyS
+ .text.RemoveEntryList
+                0x00000000000024bb       0x19 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x00000000000024bb                RemoveEntryList
+ .text.InsertTailList
+                0x00000000000024d4       0x16 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x00000000000024d4                InsertTailList
+ .text.InitializeListHead
+                0x00000000000024ea        0xb /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                0x00000000000024ea                InitializeListHead
+ .text.WifiMgrDxeHiiConfigAccessCallback
+                0x00000000000024f5      0xd77 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+                0x00000000000024f5                WifiMgrDxeHiiConfigAccessCallback
+ .text.DevPathRelativeOffsetRange
+                0x000000000000326c       0x20 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x000000000000326c                DevPathRelativeOffsetRange
+ .text.DevPathToTextFvFile
+                0x000000000000328c       0x1c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x000000000000328c                DevPathToTextFvFile
+ .text.DevPathToTextFv
+                0x00000000000032a8       0x1c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x00000000000032a8                DevPathToTextFv
+ .text.DevPathToTextMediaProtocol
+                0x00000000000032c4       0x1c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x00000000000032c4                DevPathToTextMediaProtocol
+ .text.DevPathToTextFilePath
+                0x00000000000032e0       0x1c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x00000000000032e0                DevPathToTextFilePath
+ .text.DevPathToTextCDROM
+                0x00000000000032fc       0x40 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x00000000000032fc                DevPathToTextCDROM
+ .text.DevPathToTextHardDrive
+                0x000000000000333c       0x96 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x000000000000333c                DevPathToTextHardDrive
+ .text.DevPathToTextBluetoothLE
+                0x00000000000033d2       0x3f /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x00000000000033d2                DevPathToTextBluetoothLE
+ .text.DevPathToTextBluetooth
+                0x0000000000003411       0x37 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003411                DevPathToTextBluetooth
+ .text.DevPathToTextVlan
+                0x0000000000003448       0x1d /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003448                DevPathToTextVlan
+ .text.DevPathToTextiSCSI
+                0x0000000000003465      0x124 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003465                DevPathToTextiSCSI
+ .text.DevPathToTextUart
+                0x0000000000003589      0x107 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003589                DevPathToTextUart
+ .text.DevPathToTextInfiniBand
+                0x0000000000003690       0x2d /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003690                DevPathToTextInfiniBand
+ .text.CatIPv6Address
+                0x00000000000036bd       0x6b /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.CatIPv4Address
+                0x0000000000003728       0x2c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.CatNetworkProtocol
+                0x0000000000003754       0x49 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x000000000000379d       0x80 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x000000000000379d                DevPathToTextMacAddr
+ .text.DevPathToTextI2O
+                0x000000000000381d       0x1c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x000000000000381d                DevPathToTextI2O
+ .text.DevPathToTextSata
+                0x0000000000003839       0x2b /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003839                DevPathToTextSata
+ .text.DevPathToTextUsbClass
+                0x0000000000003864      0x1ad /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003864                DevPathToTextUsbClass
+ .text.DevPathToTextLogicalUnit
+                0x0000000000003a11       0x1d /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003a11                DevPathToTextLogicalUnit
+ .text.DevPathToTextUsb
+                0x0000000000003a2e       0x22 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003a2e                DevPathToTextUsb
+ .text.DevPathToText1394
+                0x0000000000003a50       0x1c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003a50                DevPathToText1394
+ .text.DevPathToTextEmmc
+                0x0000000000003a6c       0x1d /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003a6c                DevPathToTextEmmc
+ .text.DevPathToTextSd
+                0x0000000000003a89       0x1d /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003a89                DevPathToTextSd
+ .text.DevPathToTextUfs
+                0x0000000000003aa6       0x22 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003aa6                DevPathToTextUfs
+ .text.DevPathToTextNVMe
+                0x0000000000003ac8       0x48 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003ac8                DevPathToTextNVMe
+ .text.DevPathToTextRamDisk
+                0x0000000000003b10      0x122 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003b10                DevPathToTextRamDisk
+ .text.DevPathToTextWiFi
+                0x0000000000003c32       0x42 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003c32                DevPathToTextWiFi
+ .text.DevPathToTextUri
+                0x0000000000003c74       0x6c /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003c74                DevPathToTextUri
+ .text.DevPathToTextDns
+                0x0000000000003ce0       0xa5 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003ce0                DevPathToTextDns
+ .text.DevPathToTextIPv6
+                0x0000000000003d85      0x103 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003d85                DevPathToTextIPv6
+ .text.DevPathToTextIPv4
+                0x0000000000003e88      0x112 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003e88                DevPathToTextIPv4
+ .text.DevPathToTextUsbWWID
+                0x0000000000003f9a       0x8d /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                0x0000000000003f9a                DevPathToTextUsbWWID
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000004027      0x13f /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004027                UefiDevicePathLibCatPrint
+ .text.DevPathToTextSasEx
+                0x0000000000004166      0x1a0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004166                DevPathToTextSasEx
+ .text.DevPathToTextFibreEx
+                0x0000000000004306       0xa4 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004306                DevPathToTextFibreEx
+ .text.DevPathToTextFibre
+                0x00000000000043aa       0x20 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x00000000000043aa                DevPathToTextFibre
+ .text.DevPathToTextScsi
+                0x00000000000043ca       0x22 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x00000000000043ca                DevPathToTextScsi
+ .text.DevPathToTextAtapi
+                0x00000000000043ec       0x6b /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x00000000000043ec                DevPathToTextAtapi
+ .text.DevPathToTextAcpiEx
+                0x0000000000004457      0x2ba /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004457                DevPathToTextAcpiEx
+ .text.DevPathToTextAcpi
+                0x0000000000004711       0xc6 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004711                DevPathToTextAcpi
+ .text.DevPathToTextBmc
+                0x00000000000047d7       0x33 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x00000000000047d7                DevPathToTextBmc
+ .text.DevPathToTextController
+                0x000000000000480a       0x1c /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x000000000000480a                DevPathToTextController
+ .text.DevPathToTextMemMap
+                0x0000000000004826       0x27 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004826                DevPathToTextMemMap
+ .text.DevPathToTextPccard
+                0x000000000000484d       0x1d /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x000000000000484d                DevPathToTextPccard
+ .text.DevPathToTextPci
+                0x000000000000486a       0x22 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x000000000000486a                DevPathToTextPci
+ .text.DevicePathFromHandle
+                0x000000000000488c       0x35 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x000000000000488c                DevicePathFromHandle
+ .text.DevicePathNodeLength
+                0x00000000000048c1        0x5 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x00000000000048c1                DevicePathNodeLength
+ .text.DevPathToTextAcpiAdr
+                0x00000000000048c6       0x87 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x00000000000048c6                DevPathToTextAcpiAdr
+ .text.NextDevicePathNode
+                0x000000000000494d       0x11 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x000000000000494d                NextDevicePathNode
+ .text.DevicePathSubType
+                0x000000000000495e        0x4 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x000000000000495e                DevicePathSubType
+ .text.DevicePathType
+                0x0000000000004962        0x3 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004962                DevicePathType
+ .text.DevPathToTextVendor
+                0x0000000000004965      0x36a /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004965                DevPathToTextVendor
+ .text.IsDevicePathEnd
+                0x0000000000004ccf       0x22 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004ccf                IsDevicePathEnd
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000004cf1       0x4f /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004cf1                UefiDevicePathLibGetDevicePathSize
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000004d40       0x2a /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004d40                UefiDevicePathLibDuplicateDevicePath
+ .text.FileDevicePath
+                0x0000000000004d6a      0x10b /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                0x0000000000004d6a                FileDevicePath
+ .text.BasePrintLibSPrintMarker.constprop.40
+                0x0000000000004e75      0xef9 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                0x0000000000004e75                BasePrintLibSPrintMarker.constprop.40
+ .text.AsciiStrToUnicodeStrS.constprop.35
+                0x0000000000005d6e       0xa4 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                0x0000000000005d6e                AsciiStrToUnicodeStrS.constprop.35
+ .text.InternalReallocatePool.constprop.34
+                0x0000000000005e12       0x70 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                0x0000000000005e12                InternalReallocatePool.constprop.34
+ .text.HiiCreateGuidOpCode.constprop.33
+                0x0000000000005e82       0x5a /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                0x0000000000005e82                HiiCreateGuidOpCode.constprop.33
+ .text.WifiMgrOnDisconnectFinished
+                0x0000000000005edc      0x109 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .text.WifiMgrOnTimerTick
+                0x0000000000005fe5      0xc65 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+                0x0000000000005fe5                WifiMgrOnTimerTick
+ .text.WifiMgrDxeHiiConfigAccessRouteConfig
+                0x0000000000006c4a       0xe4 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x0000000000006c4a                WifiMgrDxeHiiConfigAccessRouteConfig
+ .text.WifiMgrDxeHiiConfigAccessExtractConfig
+                0x0000000000006d2e      0x1e1 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x0000000000006d2e                WifiMgrDxeHiiConfigAccessExtractConfig
+ .text.WifiMgrGetStrCipherList
+                0x0000000000006f0f       0xea /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.WifiMgrGetStrAKMList
+                0x0000000000006ff9       0xea /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .text.WifiMgrUpdateConnectMessage
+                0x00000000000070e3      0x1ee /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x00000000000070e3                WifiMgrUpdateConnectMessage
+ .text.WifiMgrRefreshHiddenList
+                0x00000000000072d1      0x16a /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x00000000000072d1                WifiMgrRefreshHiddenList
+ .text.WifiMgrRefreshNetworkList
+                0x000000000000743b      0x654 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x000000000000743b                WifiMgrRefreshNetworkList
+ .text.WifiMgrFreeToken
+                0x0000000000007a8f       0xd3 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x0000000000007a8f                WifiMgrFreeToken
+ .text.WifiMgrCleanProfileSecrets
+                0x0000000000007b62      0x104 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x0000000000007b62                WifiMgrCleanProfileSecrets
+ .text.WifiMgrGetSecurityType
+                0x0000000000007c66       0x8c /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                0x0000000000007c66                WifiMgrGetSecurityType
+ .text.FreePool
+                0x0000000000007cf2        0xa /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007cf2                FreePool
+ .text.AllocatePool
+                0x0000000000007cfc       0x99 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007cfc                AllocatePool
+ .text.UnicodeVSPrint
+                0x0000000000007d95       0xaa /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007d95                UnicodeVSPrint
+ .text.UnicodeSPrint
+                0x0000000000007e3f       0x1d /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007e3f                UnicodeSPrint
+ .text.BasePrintLibValueToString
+                0x0000000000007e5c       0x25 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007e5c                BasePrintLibValueToString
+ .text.BasePrintLibFillBuffer
+                0x0000000000007e81       0x2e /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007e81                BasePrintLibFillBuffer
+ .text.CopyMem  0x0000000000007eaf      0x201 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000007eaf                CopyMem
+ .text.AllocateCopyPool
+                0x00000000000080b0      0x10e /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x00000000000080b0                AllocateCopyPool
+ .text.SetMem16.part.0.lto_priv.52
+                0x00000000000081be       0x17 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x00000000000081be                SetMem16.part.0.lto_priv.52
+ .text.CompareMem
+                0x00000000000081d5       0x31 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x00000000000081d5                CompareMem
+ .text.ZeroMem  0x0000000000008206       0x9a /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000008206                ZeroMem
+ .text.AllocateZeroPool
+                0x00000000000082a0       0xf9 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x00000000000082a0                AllocateZeroPool
+ .text.ReadUnaligned64
+                0x0000000000008399        0x4 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000008399                ReadUnaligned64
+ .text.CompareGuid
+                0x000000000000839d       0x42 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x000000000000839d                CompareGuid
+ .text.CopyGuid
+                0x00000000000083df       0x27 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x00000000000083df                CopyGuid
+ .text.AsciiStrLen
+                0x0000000000008406        0xe /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000008406                AsciiStrLen
+ .text.AsciiStrnCmp.part.4.lto_priv.51
+                0x0000000000008414       0x47 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x0000000000008414                AsciiStrnCmp.part.4.lto_priv.51
+ .text.StrLen   0x000000000000845b        0xf /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x000000000000845b                StrLen
+ .text.StrSize  0x000000000000846a       0x13 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x000000000000846a                StrSize
+ .text.StrStr   0x000000000000847d       0x44 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x000000000000847d                StrStr
+ .text.StrCmp   0x00000000000084c1       0x1f /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                0x00000000000084c1                StrCmp
+ .text.DevPathToTextEndInstance
+                0x00000000000084e0       0x18 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x00000000000084e0                DevPathToTextEndInstance
+ .text.DevPathToTextBBS
+                0x00000000000084f8       0xce /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x00000000000084f8                DevPathToTextBBS
+ .text.DevPathToTextNodeGeneric
+                0x00000000000085c6      0x117 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x00000000000085c6                DevPathToTextNodeGeneric
+ .text.HiiUpdateForm
+                0x00000000000086dd      0x4fb /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x00000000000086dd                HiiUpdateForm
+ .text.InternalHiiCreateOpCodeExtended
+                0x0000000000008bd8      0x122 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x0000000000008bd8                InternalHiiCreateOpCodeExtended
+ .text.HiiFreeOpCodeHandle
+                0x0000000000008cfa       0x22 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x0000000000008cfa                HiiFreeOpCodeHandle
+ .text.HiiAllocateOpCodeHandle
+                0x0000000000008d1c       0x58 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x0000000000008d1c                HiiAllocateOpCodeHandle
+ .text.InternalHiiCompareSubString
+                0x0000000000008d74       0xd2 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x0000000000008d74                InternalHiiCompareSubString
+ .text.HiiAddPackages
+                0x0000000000008e46       0xf8 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x0000000000008e46                HiiAddPackages
+ .text.LookupUnicodeString2
+                0x0000000000008f3e      0x11e /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x0000000000008f3e                LookupUnicodeString2
+ .text.UefiLibGetStringWidth
+                0x000000000000905c       0x71 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                0x000000000000905c                UefiLibGetStringWidth
+ .text._ModuleEntryPoint
+                0x00000000000090cd      0x4f6 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x00000000000090cd                _ModuleEntryPoint
+ .text.HiiGetSupportedLanguages
+                0x00000000000095c3       0x81 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x00000000000095c3                HiiGetSupportedLanguages
+ .text.WifiMgrInternalEmptyFunction
+                0x0000000000009644        0x1 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x0000000000009644                WifiMgrInternalEmptyFunction
+ .text.WifiMgrDxeDriverBindingSupported
+                0x0000000000009645       0x7b /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x0000000000009645                WifiMgrDxeDriverBindingSupported
+ .text.WifiMgrDxeComponentNameGetControllerName
+                0x00000000000096c0       0xa0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x00000000000096c0                WifiMgrDxeComponentNameGetControllerName
+ .text.WifiMgrDxeComponentNameGetDriverName
+                0x0000000000009760       0x36 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x0000000000009760                WifiMgrDxeComponentNameGetDriverName
+ .text.WifiMgrDxeDriverBindingStop
+                0x0000000000009796      0x2b6 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x0000000000009796                WifiMgrDxeDriverBindingStop
+ .text.WifiMgrDxeDriverBindingStart
+                0x0000000000009a4c      0x4bf /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x0000000000009a4c                WifiMgrDxeDriverBindingStart
+ .text.WifiMgrCheckRSN
+                0x0000000000009f0b      0x223 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x0000000000009f0b                WifiMgrCheckRSN
+ .text.WifiMgrGetProfileByAsciiSSId
+                0x000000000000a12e       0x90 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x000000000000a12e                WifiMgrGetProfileByAsciiSSId
+ .text.WifiMgrReadFileToBuffer
+                0x000000000000a1be      0x139 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                0x000000000000a1be                WifiMgrReadFileToBuffer
+ .text.GetBestLanguage.constprop.29
+                0x000000000000a2f7       0xeb /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .text.HiiSetString.constprop.31
+                0x000000000000a3e2      0x11f /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000a3e2                HiiSetString.constprop.31
+ .text.HiiCreateGotoOpCode.constprop.30
+                0x000000000000a501       0x86 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000a501                HiiCreateGotoOpCode.constprop.30
+ .text.HiiGetStringEx.constprop.26
+                0x000000000000a587      0x1ae /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000a587                HiiGetStringEx.constprop.26
+ .text.UnicodeValueToStringS.constprop.22
+                0x000000000000a735      0x1ed /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000a735                UnicodeValueToStringS.constprop.22
+ .text.IsDevicePathValid.part.0.constprop.21
+                0x000000000000a922       0x87 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000a922                IsDevicePathValid.part.0.constprop.21
+ .text.ProcessLibraryDestructorList
+                0x000000000000a9a9       0x7f /tmp/cc0hkbKJ.ltrans14.ltrans.o
+                0x000000000000a9a9                ProcessLibraryDestructorList
+ .text.UpdatePage
+                0x000000000000aa28      0x48f /tmp/cc0hkbKJ.ltrans14.ltrans.o
+                0x000000000000aa28                UpdatePage
+ .text.WifiMgrGetLinkState.part.1.lto_priv.53
+                0x000000000000aeb7       0xf3 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+                0x000000000000aeb7                WifiMgrGetLinkState.part.1.lto_priv.53
+ .text.WifiMgrOnConnectFinished
+                0x000000000000afaa      0x247 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+                0x000000000000afaa                WifiMgrOnConnectFinished
+ .text.WifiMgrOnScanFinished
+                0x000000000000b1f1      0x3c4 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+                0x000000000000b1f1                WifiMgrOnScanFinished
+ .text.WifiMgrCreateOpCode.part.0.lto_priv.55
+                0x000000000000b5b5       0xe5 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+                0x000000000000b5b5                WifiMgrCreateOpCode.part.0.lto_priv.55
+ .text.WifiMgrShowNicList.part.1.lto_priv.54
+                0x000000000000b69a      0x199 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+                0x000000000000b69a                WifiMgrShowNicList.part.1.lto_priv.54
+ .text.InternalAllocatePool.constprop.44
+                0x000000000000b833       0x37 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+                0x000000000000b833                InternalAllocatePool.constprop.44
+ .text.BasePrintLibSPrint.constprop.41
+                0x000000000000b86a       0xb8 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+                0x000000000000b86a                BasePrintLibSPrint.constprop.41
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str2.2
+                0x000000000000b922       0x86 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.str2.2
+                0x000000000000b9a8        0xa /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                                          0xe (size before relaxing)
+ .rodata.str2.2
+                0x000000000000b9b2      0x39a /tmp/cc0hkbKJ.ltrans3.ltrans.o
+                                        0x39c (size before relaxing)
+ *fill*         0x000000000000bd4c       0x14 
+ .rodata.mConfigHdrTemplate
+                0x000000000000bd60       0x70 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .rodata.str2.2
+                0x000000000000bdd0      0x8f8 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                                        0x9ee (size before relaxing)
+ .rodata.CSWTCH.43
+                0x000000000000c6c8        0x6 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .rodata.str2.2
+                0x000000000000c6ce      0x596 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                                        0x60c (size before relaxing)
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x000000000000cc64        0x4 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .rodata.str1.1
+                0x000000000000cc68       0x7b /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ *fill*         0x000000000000cce3       0x1d 
+ .rodata.mWarningString
+                0x000000000000cd00       0x96 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ *fill*         0x000000000000cd96        0xa 
+ .rodata.mErrorString
+                0x000000000000cda0      0x2b5 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ *fill*         0x000000000000d055        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x000000000000d058        0x4 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                0x000000000000d058                _gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x000000000000d058                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x000000000000d058                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ .rodata.str2.2
+                0x000000000000d05c      0x15e /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .rodata.mEapAuthMethod
+                0x000000000000d1ba        0x3 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ *fill*         0x000000000000d1bd        0x1 
+ .rodata.str2.2
+                0x000000000000d1be      0x302 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                                        0x340 (size before relaxing)
+ .rodata.mHexStr
+                0x000000000000d4c0       0x10 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .rodata.str2.2
+                0x000000000000d4d0       0xd4 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                                        0x10c (size before relaxing)
+ .rodata.DevPathToTextBBS
+                0x000000000000d5a4       0x18 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .rodata.mEndOfPakageList
+                0x000000000000d5bc        0x4 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .rodata.str1.1
+                0x000000000000d5c0        0x4 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                                          0x7 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000d5c4        0x7 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ *fill*         0x000000000000d5cb        0x1 
+ .rodata.str2.2
+                0x000000000000d5cc       0x8a /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .rodata.str1.1
+                0x000000000000d656        0x7 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                                          0x8 (size before relaxing)
+ *fill*         0x000000000000d65d        0x1 
+ .rodata.str2.2
+                0x000000000000d65e       0x1a /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .rodata.str2.2
+                0x000000000000d678        0x4 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+                                          0xa (size before relaxing)
+ .rodata.str2.2
+                0x000000000000d67c       0xf4 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+                                        0x130 (size before relaxing)
+ *(.got .got.*)
+ .got           0x000000000000d770        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .got.plt       0x000000000000d770        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000d770        0x0
+ .plt           0x000000000000d770        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.plt.got        0x000000000000d770        0x0
+ .plt.got       0x000000000000d770        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.data           0x000000000000d780     0x20d8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.mFsOptionMenu
+                0x000000000000d780       0x28 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .data.mNewFolderQuestionId
+                0x000000000000d7a8        0x8 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .data.mNewFileQuestionId
+                0x000000000000d7b0        0x8 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ *fill*         0x000000000000d7b8        0x8 
+ .data.gEfiDevicePathToTextProtocolGuid
+                0x000000000000d7c0       0x10 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .data.gEfiFileSystemVolumeLabelInfoIdGuid
+                0x000000000000d7d0       0x10 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x000000000000d7e0       0x10 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000d7e0                gEfiSimpleFileSystemProtocolGuid
+ .data.FileExplorerGuid
+                0x000000000000d7f0       0x10 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000d7f0                FileExplorerGuid
+ .data.rel.local.gFileExplorerPrivate
+                0x000000000000d800       0x58 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000d800                gFileExplorerPrivate
+ *fill*         0x000000000000d858        0x8 
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x000000000000d860       0x10 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000d860                gEfiFormBrowser2ProtocolGuid
+ *fill*         0x000000000000d870       0x10 
+ .data.mVendorStorageName
+                0x000000000000d880       0x30 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000d880                mVendorStorageName
+ .data.gWifiConfigFormSetGuid
+                0x000000000000d8b0       0x10 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000d8b0                gWifiConfigFormSetGuid
+ .data.gEfiSimpleNetworkProtocolGuid
+                0x000000000000d8c0       0x10 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .data.gEfiManagedNetworkProtocolGuid
+                0x000000000000d8d0       0x10 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .data.gEfiManagedNetworkServiceBindingProtocolGuid
+                0x000000000000d8e0       0x10 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ *fill*         0x000000000000d8f0       0x10 
+ .data.rel.ro.local.mSecurityType
+                0x000000000000d900       0x38 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+                0x000000000000d900                mSecurityType
+ *fill*         0x000000000000d938        0x8 
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000000d940       0x10 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000000d950       0x10 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000000d960       0x10 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000000d970       0x10 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000000d980       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000000d990       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000000d9a0       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000000d9b0       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000000d9c0       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000000d9d0       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000000d9e0       0x10 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x000000000000d9f0       0x10 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                0x000000000000d9f0                gEfiIfrTianoGuid
+ .data.rel.ro.local.mSignalStrengthBar
+                0x000000000000da00       0x30 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ *fill*         0x000000000000da30       0x10 
+ .data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000da40       0x60 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .data.WifiConnectionManagerDxeBin
+                0x000000000000daa0      0x4af /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000df4f       0x11 
+ .data.WifiConnectionManagerDxeStrings
+                0x000000000000df60      0x979 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000e8d9        0x7 
+ .data.mWifiMgrDxeHiiVendorDevicePath
+                0x000000000000e8e0       0x18 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000e8f8        0x8 
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000000e900       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000000e910       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x000000000000e920       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.mWifiConfigMainFormRefreshGuid
+                0x000000000000e930       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.mWifiConfigConnectFormRefreshGuid
+                0x000000000000e940       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.mWifiConfigNetworkListRefreshGuid
+                0x000000000000e950       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.rel.local.gWifiMgrDxeComponentName2
+                0x000000000000e960       0x18 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000e960                gWifiMgrDxeComponentName2
+ *fill*         0x000000000000e978        0x8 
+ .data.rel.local.gWifiMgrDxeComponentName
+                0x000000000000e980       0x18 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000e998        0x8 
+ .data.rel.local.gWifiMgrDxeDriverBinding
+                0x000000000000e9a0       0x30 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000000e9d0       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000000e9e0       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000000e9f0       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000000ea00       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000000ea10       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.FileExplorerLibStrings
+                0x000000000000ea20      0x81a /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000f23a        0x6 
+ .data.FileExplorerVfrBin
+                0x000000000000f240       0xf9 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000f339        0x7 
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000000f340       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f340                gEfiHiiConfigAccessProtocolGuid
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000000f350       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f350                gEfiDevicePathProtocolGuid
+ .data.gEfiCallerIdGuid
+                0x000000000000f360       0x10 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .data.FeHiiVendorDevicePath
+                0x000000000000f370       0x18 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ *fill*         0x000000000000f388        0x8 
+ .data.gEfiEapConfigurationProtocolGuid
+                0x000000000000f390       0x10 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data.gEfiSupplicantProtocolGuid
+                0x000000000000f3a0       0x10 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data.gEfiWiFi2ProtocolGuid
+                0x000000000000f3b0       0x10 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data.rel.local.mWifiMgrDxeDriverNameTable
+                0x000000000000f3c0       0x20 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data.rel.local.mWifiMgrDxeControllerNameTable
+                0x000000000000f3e0       0x20 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data.mEfiWifiMgrPrivateGuid
+                0x000000000000f400       0x10 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x000000000000f410       0x10 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .data.gEfiAdapterInfoMediaStateGuid
+                0x000000000000f420       0x10 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .data.gEfiAdapterInformationProtocolGuid
+                0x000000000000f430       0x10 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x000000000000f440      0x320 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .data.rel.ro   0x000000000000f760        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.mLibEndOpCodeHandle
+                0x000000000000f760        0x8 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .bss.mLibStartOpCodeHandle
+                0x000000000000f768        0x8 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .bss.mQuestionIdUpdate
+                0x000000000000f770        0x2 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000f770                mQuestionIdUpdate
+ *fill*         0x000000000000f772        0x6 
+ .bss.gST       0x000000000000f778        0x8 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                0x000000000000f778                gST
+ .bss.mUefiFormBrowser2
+                0x000000000000f780        0x8 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ *fill*         0x000000000000f788       0x18 
+ .bss.mNewFolderName
+                0x000000000000f7a0       0x28 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ *fill*         0x000000000000f7c8       0x18 
+ .bss.mNewFileName
+                0x000000000000f7e0       0x28 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .bss.mPrivate  0x000000000000f808        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f808                mPrivate
+ .bss.gImageHandle
+                0x000000000000f810        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f810                gImageHandle
+ .bss.gHiiImage
+                0x000000000000f818        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .bss.gHiiFont  0x000000000000f820        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .bss.gHiiConfigRouting
+                0x000000000000f828        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f828                gHiiConfigRouting
+ .bss.gHiiDatabase
+                0x000000000000f830        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f830                gHiiDatabase
+ .bss.gHiiVendorDevicePath
+                0x000000000000f838        0x8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                0x000000000000f838                gHiiVendorDevicePath
+ .bss.gRT       0x000000000000f840        0x8 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000f840                gRT
+ .bss.gHiiString
+                0x000000000000f848        0x8 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                0x000000000000f848                gHiiString
+ .bss.gBS       0x000000000000f850        0x8 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+                0x000000000000f850                gBS
+
+.eh_frame       0x000000000000f880        0x0
+ *(.eh_frame)
+ .eh_frame      0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .eh_frame      0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.dynbss         0x000000000000f880        0x0
+ .dynbss        0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.gnu.version_d  0x000000000000f880        0x0
+ .gnu.version_d
+                0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.gnu.version    0x000000000000f880        0x0
+ .gnu.version   0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.gnu.version_r  0x000000000000f880        0x0
+ .gnu.version_r
+                0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.rela           0x000000000000f880      0x7e0
+ *(.rela .rela.*)
+ .rela.plt      0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.got      0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.bss      0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.ifunc    0x000000000000f880        0x0 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.local.gFileExplorerPrivate
+                0x000000000000f880       0x60 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mSecurityType
+                0x000000000000f8e0       0xa8 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mSignalStrengthBar
+                0x000000000000f988       0x90 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000fa18       0x78 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.local.gWifiMgrDxeComponentName2
+                0x000000000000fa90       0x48 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.local.gWifiMgrDxeComponentName
+                0x000000000000fad8       0x48 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.local.gWifiMgrDxeDriverBinding
+                0x000000000000fb20       0x48 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.local.mWifiMgrDxeDriverNameTable
+                0x000000000000fb68       0x30 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.local.mWifiMgrDxeControllerNameTable
+                0x000000000000fb98       0x30 WifiConnectionMgrDriver.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mUefiDevicePathLibToTextTable
+                0x000000000000fbc8      0x498 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000010060       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010060       0x24 WifiConnectionMgrDriver.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/WifiConnectionManagerDxe/WifiConnectionManagerDxe/DEBUG/WifiConnectionManagerDxe.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x2664e
+ .debug_info    0x0000000000000000     0x3c85 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_info    0x0000000000003c85     0x2d07 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_info    0x000000000000698c      0x7fe /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_info    0x000000000000718a     0x2964 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_info    0x0000000000009aee     0x28f9 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_info    0x000000000000c3e7     0x21e0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_info    0x000000000000e5c7      0xea3 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_info    0x000000000000f46a     0x284c /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_info    0x0000000000011cb6     0x2d90 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_info    0x0000000000014a46     0x1207 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_info    0x0000000000015c4d     0x17b0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_info    0x00000000000173fd     0x49d5 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_info    0x000000000001bdd2     0x2bee /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_info    0x000000000001e9c0     0x1822 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_info    0x00000000000201e2     0x37a0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_info    0x0000000000023982     0x1d4e /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_info    0x00000000000256d0      0xf7e /tmp/cc0hkbKJ.ltrans16.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x3877
+ .debug_abbrev  0x0000000000000000      0x397 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000397      0x493 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000082a      0x296 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000ac0      0x340 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_abbrev  0x0000000000000e00      0x2c5 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_abbrev  0x00000000000010c5      0x3b9 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_abbrev  0x000000000000147e      0x207 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_abbrev  0x0000000000001685      0x347 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_abbrev  0x00000000000019cc      0x3b4 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_abbrev  0x0000000000001d80      0x30d /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_abbrev  0x000000000000208d      0x36d /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_abbrev  0x00000000000023fa      0x3e7 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_abbrev  0x00000000000027e1      0x44e /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_abbrev  0x0000000000002c2f      0x312 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_abbrev  0x0000000000002f41      0x451 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_abbrev  0x0000000000003392      0x340 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_abbrev  0x00000000000036d2      0x1a5 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+
+.debug_loc      0x0000000000000000    0x16de7
+ .debug_loc     0x0000000000000000     0x16a9 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_loc     0x00000000000016a9     0x1ce0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_loc     0x0000000000003389      0x981 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_loc     0x0000000000003d0a     0x16bc /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_loc     0x00000000000053c6     0x2fb6 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_loc     0x000000000000837c     0x1f59 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_loc     0x000000000000a2d5     0x1ae6 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_loc     0x000000000000bdbb     0x107d /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_loc     0x000000000000ce38     0x1db3 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_loc     0x000000000000ebeb     0x2073 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_loc     0x0000000000010c5e     0x1ae7 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_loc     0x0000000000012745      0x710 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_loc     0x0000000000012e55     0x1a14 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_loc     0x0000000000014869     0x1050 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_loc     0x00000000000158b9      0xa77 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_loc     0x0000000000016330      0x964 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_loc     0x0000000000016c94      0x153 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xc80
+ .debug_aranges
+                0x0000000000000000       0xa0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000000a0       0xd0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000170       0xc0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_aranges
+                0x0000000000000230       0x30 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_aranges
+                0x0000000000000260      0x240 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_aranges
+                0x00000000000004a0      0x1a0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_aranges
+                0x0000000000000640       0x60 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_aranges
+                0x00000000000006a0       0x40 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_aranges
+                0x00000000000006e0       0xc0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_aranges
+                0x00000000000007a0      0x170 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_aranges
+                0x0000000000000910       0xd0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_aranges
+                0x00000000000009e0       0x50 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_aranges
+                0x0000000000000a30       0xb0 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_aranges
+                0x0000000000000ae0       0x80 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_aranges
+                0x0000000000000b60       0x80 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_aranges
+                0x0000000000000be0       0x60 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_aranges
+                0x0000000000000c40       0x40 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2610
+ .debug_ranges  0x0000000000000000      0x3d0 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000003d0      0x3a0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000770      0x190 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000900      0x310 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_ranges  0x0000000000000c10      0x2a0 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_ranges  0x0000000000000eb0      0x340 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_ranges  0x00000000000011f0       0xc0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_ranges  0x00000000000012b0      0x450 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_ranges  0x0000000000001700      0x280 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_ranges  0x0000000000001980      0x260 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_ranges  0x0000000000001be0      0x1d0 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_ranges  0x0000000000001db0      0x210 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_ranges  0x0000000000001fc0      0x260 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_ranges  0x0000000000002220      0x1a0 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_ranges  0x00000000000023c0      0x1a0 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_ranges  0x0000000000002560       0x80 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_ranges  0x00000000000025e0       0x30 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+
+.debug_line     0x0000000000000000     0x6e51
+ .debug_line    0x0000000000000000      0x97b /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_line    0x000000000000097b      0x855 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_line    0x00000000000011d0      0x2df /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_line    0x00000000000014af      0x63d /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_line    0x0000000000001aec      0x788 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_line    0x0000000000002274      0x7d9 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_line    0x0000000000002a4d      0x65d /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_line    0x00000000000030aa      0x4c0 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_line    0x000000000000356a      0x6b2 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_line    0x0000000000003c1c      0x65f /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_line    0x000000000000427b      0x6ac /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_line    0x0000000000004927      0x91f /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_line    0x0000000000005246      0x739 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_line    0x000000000000597f      0x688 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_line    0x0000000000006007      0x730 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_line    0x0000000000006737      0x481 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_line    0x0000000000006bb8      0x299 /tmp/cc0hkbKJ.ltrans16.ltrans.o
+
+.debug_str      0x0000000000000000     0x793d
+ .debug_str     0x0000000000000000     0x1da9 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+                                       0x2198 (size before relaxing)
+ .debug_str     0x0000000000001da9      0xcff /tmp/cc0hkbKJ.ltrans1.ltrans.o
+                                       0x1762 (size before relaxing)
+ .debug_str     0x0000000000002aa8      0x125 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+                                        0x448 (size before relaxing)
+ .debug_str     0x0000000000002bcd     0x1079 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+                                       0x1ae9 (size before relaxing)
+ .debug_str     0x0000000000003c46      0x96a /tmp/cc0hkbKJ.ltrans4.ltrans.o
+                                        0xdba (size before relaxing)
+ .debug_str     0x00000000000045b0      0x5f0 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+                                        0xadf (size before relaxing)
+ .debug_str     0x0000000000004ba0      0x32f /tmp/cc0hkbKJ.ltrans6.ltrans.o
+                                        0x95f (size before relaxing)
+ .debug_str     0x0000000000004ecf      0x390 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+                                       0x1aec (size before relaxing)
+ .debug_str     0x000000000000525f      0x342 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+                                       0x1d63 (size before relaxing)
+ .debug_str     0x00000000000055a1      0x34e /tmp/cc0hkbKJ.ltrans9.ltrans.o
+                                        0x923 (size before relaxing)
+ .debug_str     0x00000000000058ef      0x48d /tmp/cc0hkbKJ.ltrans10.ltrans.o
+                                        0x9b9 (size before relaxing)
+ .debug_str     0x0000000000005d7c     0x10b6 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+                                       0x39d9 (size before relaxing)
+ .debug_str     0x0000000000006e32      0x416 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+                                       0x1d4a (size before relaxing)
+ .debug_str     0x0000000000007248      0x2f1 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+                                        0xcff (size before relaxing)
+ .debug_str     0x0000000000007539      0x2d6 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+                                       0x2bba (size before relaxing)
+ .debug_str     0x000000000000780f       0xc4 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+                                       0x19c4 (size before relaxing)
+ .debug_str     0x00000000000078d3       0x6a /tmp/cc0hkbKJ.ltrans16.ltrans.o
+                                        0xd50 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x31a0
+ .debug_frame   0x0000000000000000      0x340 /tmp/cc0hkbKJ.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000340      0x3c0 /tmp/cc0hkbKJ.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000700      0x1e0 /tmp/cc0hkbKJ.ltrans2.ltrans.o
+ .debug_frame   0x00000000000008e0       0xa8 /tmp/cc0hkbKJ.ltrans3.ltrans.o
+ .debug_frame   0x0000000000000988      0x858 /tmp/cc0hkbKJ.ltrans4.ltrans.o
+ .debug_frame   0x00000000000011e0      0x680 /tmp/cc0hkbKJ.ltrans5.ltrans.o
+ .debug_frame   0x0000000000001860      0x1b0 /tmp/cc0hkbKJ.ltrans6.ltrans.o
+ .debug_frame   0x0000000000001a10      0x108 /tmp/cc0hkbKJ.ltrans7.ltrans.o
+ .debug_frame   0x0000000000001b18      0x4f0 /tmp/cc0hkbKJ.ltrans8.ltrans.o
+ .debug_frame   0x0000000000002008      0x398 /tmp/cc0hkbKJ.ltrans9.ltrans.o
+ .debug_frame   0x00000000000023a0      0x340 /tmp/cc0hkbKJ.ltrans10.ltrans.o
+ .debug_frame   0x00000000000026e0       0xc8 /tmp/cc0hkbKJ.ltrans11.ltrans.o
+ .debug_frame   0x00000000000027a8      0x2d8 /tmp/cc0hkbKJ.ltrans12.ltrans.o
+ .debug_frame   0x0000000000002a80      0x248 /tmp/cc0hkbKJ.ltrans13.ltrans.o
+ .debug_frame   0x0000000000002cc8      0x228 /tmp/cc0hkbKJ.ltrans14.ltrans.o
+ .debug_frame   0x0000000000002ef0      0x218 /tmp/cc0hkbKJ.ltrans15.ltrans.o
+ .debug_frame   0x0000000000003108       0x98 /tmp/cc0hkbKJ.ltrans16.ltrans.o

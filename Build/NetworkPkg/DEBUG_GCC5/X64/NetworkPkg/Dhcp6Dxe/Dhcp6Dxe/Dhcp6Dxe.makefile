@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/Dhcp6Dxe/Dhcp6Dxe/GNUmakefile

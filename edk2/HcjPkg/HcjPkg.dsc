@@ -135,6 +135,7 @@
   HcjPkg/Applications/OSApp/OSApp.inf
   HcjPkg/Applications/Event/Event.inf
   HcjPkg/Applications/NetWork/NetWork.inf
+  HcjPkg/Applications/SM3/SM3.inf
   
 
 

@@ -1,0 +1,33 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/SetMem16Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/MemLibGeneric.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/IsZeroBufferWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/CopyMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/CompareMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/MemLib.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/MemLibGuid.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/SetMem32Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/ScanMem8Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/SetMem64Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/SetMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/ScanMem32Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/ScanMem64Wrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/ZeroMemWrapper.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/Mde/DEBUG_GCC5/X64/MdePkg/Library/UefiMemoryLib/UefiMemoryLib/OUTPUT/ScanMem16Wrapper.obj.deps
+
+               

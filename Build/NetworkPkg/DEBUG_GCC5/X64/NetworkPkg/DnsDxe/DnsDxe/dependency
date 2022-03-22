@@ -1,0 +1,15 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/DnsDxe/DnsDxe/OUTPUT/DnsDriver.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/DnsDxe/DnsDxe/OUTPUT/DnsDhcp.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/DnsDxe/DnsDxe/OUTPUT/DnsProtocol.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/DnsDxe/DnsDxe/OUTPUT/AutoGen.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/DnsDxe/DnsDxe/OUTPUT/DnsImpl.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/NetworkPkg/DEBUG_GCC5/X64/NetworkPkg/DnsDxe/DnsDxe/OUTPUT/ComponentName.obj.deps
+
+               

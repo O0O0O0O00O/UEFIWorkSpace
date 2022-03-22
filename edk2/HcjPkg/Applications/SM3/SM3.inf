@@ -1,0 +1,60 @@
+
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = SM3
+  FILE_GUID                      = f6b6c148-7cde-498a-9a9c-354b1f44c71a
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = ShellCEntryLib
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+
+[Sources]
+  sm3.c
+  sm3.h
+  sm3test.c
+
+
+
+[Packages]
+  StdLib/StdLib.dec
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  LibC
+  LibStdio
+  DevShell
+
+  BsdSocketLib
+  DebugLib
+  EfiSocketLib
+
+  BaseMemoryLib
+  ShellLib
+  ShellCEntryLib
+  UefiBootServicesTableLib
+  UefiLib
+  UefiRuntimeServicesTableLib
+  
+[Protocols]
+  gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+  gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+  gEfiGraphicsOutputProtocolGuid
+  gEfiSimpleFileSystemProtocolGuid
+  gEfiDevicePathProtocolGuid
+  
+  gEfiPciIoProtocolGuid    ## BY_START
+	gEfiPciRootBridgeIoProtocolGuid  ## BY_START
+
+  gEfiRngProtocolGuid
+
+  gEfiTcp4ServiceBindingProtocolGuid
+  gEfiTcp4ProtocolGuid
+[BuildOptions]
+  MSFT:*_*_IA32_CC_FLAGS  = /Oi-
+  MSFT:*_*_X64_CC_FLAGS  = /Oi-
+
