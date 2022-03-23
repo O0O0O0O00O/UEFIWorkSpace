@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/SM4/SM4/GNUmakefile

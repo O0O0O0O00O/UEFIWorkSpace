@@ -136,6 +136,7 @@
   HcjPkg/Applications/Event/Event.inf
   HcjPkg/Applications/NetWork/NetWork.inf
   HcjPkg/Applications/SM3/SM3.inf
+  HcjPkg/Applications/SM4/SM4.inf
   
 
 
