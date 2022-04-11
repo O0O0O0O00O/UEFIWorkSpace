@@ -1,0 +1,31 @@
+;------------------------------------------------------------------------------
+;
+; Copyright (C) 2020, Advanced Micro Devices, Inc. All rights reserved.<BR>
+; SPDX-License-Identifier: BSD-2-Clause-Patent
+;
+; Module Name:
+;
+; XGetBv.Asm
+;
+; Abstract:
+;
+; AsmXgetBv function
+;
+; Notes:
+;
+;------------------------------------------------------------------------------
+
+    SECTION .text
+
+;------------------------------------------------------------------------------
+; UINT64
+; __attribute__((cdecl))
+; AsmXGetBv (
+; UINT32 Index
+; );
+;------------------------------------------------------------------------------
+global AsmXGetBv
+AsmXGetBv:
+    mov ecx, [esp + 4]
+    xgetbv
+    ret

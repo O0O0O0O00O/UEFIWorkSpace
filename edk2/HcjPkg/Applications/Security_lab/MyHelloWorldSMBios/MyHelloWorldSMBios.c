@@ -1,0 +1,795 @@
+#include "get_info.h"
+
+// EFI_GUID gEfiUsbIoProtocolGuid =
+//     {0x2B2F68D6, 0x0CD2, 0x44CF, {0x8E, 0x8B, 0xBB, 0xA2, 0x0B, 0x1B, 0x5B, 0x75}};
+
+
+static EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL *gPciRootBridgeIo;
+
+EFI_STATUS LocatePciRootBridgeIo(void);
+
+EFI_STATUS PciDevicePresent(
+    IN EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL *PciRootBridgeIo,
+    OUT PCI_TYPE00 *Pci,
+    IN UINT8 Bus,
+    IN UINT8 Device,
+    IN UINT8 Func);
+
+EFI_STATUS ListPciInformation(cJSON *array);
+
+UINTN GetUSB(cJSON *json);
+
+extern EFI_BOOT_SERVICES *gBS;
+
+
+cJSON* get_info()
+{
+    EFI_STATUS Status = EFI_SUCCESS;
+
+    EFI_SMBIOS_PROTOCOL *Smbios;
+    EFI_SMBIOS_HANDLE SmbiosHandle;
+    EFI_SMBIOS_TABLE_HEADER *Record;
+
+    
+
+    DEBUG((EFI_D_ERROR, "[MyHelloWorldSmbios] MyHelloWorldSmbiosAppEntry Start..\n"));
+
+    //先创建json空对象/根对象
+    cJSON *json = cJSON_CreateObject();
+
+    //向对象中增加用户名
+	cJSON_AddItemToObject(json, "name", cJSON_CreateString("xxxxxxxxx"));
+    //
+    // Find the SMBIOS protocol
+    //
+    Status = gBS->LocateProtocol(
+        &gEfiSmbiosProtocolGuid,
+        NULL,
+        (VOID **)&Smbios //接口
+    );
+    if (EFI_ERROR(Status))
+    {
+        printf("ERROR! CANT'T FIND SMBIOSPROTOCOL!");
+    }
+
+    SmbiosHandle = SMBIOS_HANDLE_PI_RESERVED;
+    Status = Smbios->GetNext(Smbios, &SmbiosHandle, NULL, &Record, NULL);
+
+	//添加非热插拔数组
+	cJSON *array = NULL;
+	cJSON_AddItemToObject(json, "NHSwapHardware", array = cJSON_CreateArray());
+
+    //在数组上添加对象
+	cJSON *obj1 = NULL;
+    cJSON_AddItemToArray(array, obj1 = cJSON_CreateObject());  
+    int count1 = 1;
+    //向对象中添加smbios信息
+    cJSON_AddItemToObject(obj1, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj1, "SubType", cJSON_CreateString("SMBIOS_TYPE_BIOS_INFORMATION"));
+    //在对象中再添加一个数组，包含同一个type的多个设备信息
+	cJSON *subArray1 = cJSON_CreateArray();
+
+	cJSON *obj2 = NULL;
+    cJSON_AddItemToArray(array, obj2 = cJSON_CreateObject());  
+    int count2 = 1;
+    cJSON_AddItemToObject(obj2, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj2, "SubType", cJSON_CreateString("SMBIOS_TYPE_SYSTEM_INFORMATION"));
+	cJSON *subArray2 = cJSON_CreateArray();
+
+    cJSON *obj3 = NULL;
+    cJSON_AddItemToArray(array, obj3 = cJSON_CreateObject());  
+    int count3 = 1;
+    cJSON_AddItemToObject(obj3, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj3, "SubType", cJSON_CreateString("SMBIOS_TYPE_BASEBOARD_INFORMATION"));
+	cJSON *subArray3 = cJSON_CreateArray();
+
+    cJSON *obj4 = NULL;
+    cJSON_AddItemToArray(array, obj4 = cJSON_CreateObject());  
+    int count4 = 1;
+    cJSON_AddItemToObject(obj4, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj4, "SubType", cJSON_CreateString("SMBIOS_TYPE_SYSTEM_ENCLOSURE"));
+	cJSON *subArray4 = cJSON_CreateArray();
+
+    cJSON *obj5 = NULL;
+    cJSON_AddItemToArray(array, obj5 = cJSON_CreateObject());  
+    int count5 = 1;
+    cJSON_AddItemToObject(obj5, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj5, "SubType", cJSON_CreateString("SMBIOS_TYPE_PROCESSOR_INFORMATION"));
+	cJSON *subArray5 = cJSON_CreateArray();
+
+    cJSON *obj6 = NULL;
+    cJSON_AddItemToArray(array, obj6 = cJSON_CreateObject());  
+    int count6 = 1;
+    cJSON_AddItemToObject(obj6, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj6, "SubType", cJSON_CreateString("SMBIOS_TYPE_CACHE_INFORMATION"));
+	cJSON *subArray6 = cJSON_CreateArray();
+
+    cJSON *obj7 = NULL;
+    cJSON_AddItemToArray(array, obj7 = cJSON_CreateObject());  
+    int count7 = 1;
+    cJSON_AddItemToObject(obj7, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj7, "SubType", cJSON_CreateString("SMBIOS_TYPE_PORT_CONNECTOR_INFORMATION"));
+	cJSON *subArray7 = cJSON_CreateArray();
+
+    cJSON *obj8 = NULL;
+    cJSON_AddItemToArray(array, obj8 = cJSON_CreateObject());  
+    int count8 = 1;
+    cJSON_AddItemToObject(obj8, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj8, "SubType", cJSON_CreateString("SMBIOS_TYPE_SYSTEM_SLOTS"));
+	cJSON *subArray8 = cJSON_CreateArray();
+
+    cJSON *obj9 = NULL;
+    cJSON_AddItemToArray(array, obj9 = cJSON_CreateObject());  
+    int count9 = 1;
+    cJSON_AddItemToObject(obj9, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj9, "SubType", cJSON_CreateString("SMBIOS_TYPE_PHYSICAL_MEMORY_ARRAY"));
+	cJSON *subArray9 = cJSON_CreateArray();
+
+    cJSON *obj10 = NULL;
+    cJSON_AddItemToArray(array, obj10 = cJSON_CreateObject());  
+    int count10 = 1;
+    cJSON_AddItemToObject(obj10, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj10, "SubType", cJSON_CreateString("SMBIOS_TYPE_MEMORY_DEVICE"));
+	cJSON *subArray10 = cJSON_CreateArray();
+
+    cJSON *obj11 = NULL;
+    cJSON_AddItemToArray(array, obj11 = cJSON_CreateObject());  
+    int count11 = 1;
+    cJSON_AddItemToObject(obj11, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj11, "SubType", cJSON_CreateString("SMBIOS_TYPE_BUILT_IN_POINTING_DEVICE"));
+	cJSON *subArray11 = cJSON_CreateArray();
+
+    cJSON *obj12 = NULL;
+    cJSON_AddItemToArray(array, obj12 = cJSON_CreateObject());  
+    int count12 = 1;
+    cJSON_AddItemToObject(obj12, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj12, "SubType", cJSON_CreateString("SMBIOS_TYPE_PORTABLE_BATTERY"));
+	cJSON *subArray12 = cJSON_CreateArray();
+
+    cJSON *obj13 = NULL;
+    cJSON_AddItemToArray(array, obj13 = cJSON_CreateObject());  
+    int count13 = 1;
+    cJSON_AddItemToObject(obj13, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj13, "SubType", cJSON_CreateString("SMBIOS_TYPE_COOLING_DEVICE"));
+	cJSON *subArray13 = cJSON_CreateArray();
+
+    cJSON *obj14 = NULL;
+    cJSON_AddItemToArray(array, obj14 = cJSON_CreateObject());  
+    int count14 = 1;
+    cJSON_AddItemToObject(obj14, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj14, "SubType", cJSON_CreateString("SMBIOS_TYPE_OUT_OF_BAND_REMOTE_ACCESS"));
+	cJSON *subArray14 = cJSON_CreateArray();
+
+    cJSON *obj15 = NULL;
+    cJSON_AddItemToArray(array, obj15 = cJSON_CreateObject());  
+    int count15 = 1;
+    cJSON_AddItemToObject(obj15, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj15, "SubType", cJSON_CreateString("SMBIOS_TYPE_MANAGEMENT_DEVICE"));
+	cJSON *subArray15 = cJSON_CreateArray();
+
+    cJSON *obj16 = NULL;
+    cJSON_AddItemToArray(array, obj16 = cJSON_CreateObject());  
+    int count16 = 1;
+    cJSON_AddItemToObject(obj16, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj16, "SubType", cJSON_CreateString("SMBIOS_TYPE_IPMI_DEVICE_INFORMATION"));
+	cJSON *subArray16 = cJSON_CreateArray();
+
+    cJSON *obj17 = NULL;
+    cJSON_AddItemToArray(array, obj17 = cJSON_CreateObject());  
+    int count17 = 1;
+    cJSON_AddItemToObject(obj17, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj17, "SubType", cJSON_CreateString("SMBIOS_TYPE_SYSTEM_POWER_SUPPLY"));
+	cJSON *subArray17 = cJSON_CreateArray();
+
+    cJSON *obj18 = NULL;
+    cJSON_AddItemToArray(array, obj18 = cJSON_CreateObject());  
+    int count18 = 1;
+    cJSON_AddItemToObject(obj18, "Type", cJSON_CreateString("Smbios"));
+	cJSON_AddItemToObject(obj18, "SubType", cJSON_CreateString("SMBIOS_TYPE_ONBOARD_DEVICES_EXTENDED_INFORMATION"));
+	cJSON *subArray18 = cJSON_CreateArray();
+
+    //临时对象，用于存储每一条存在obj[i]的信息
+    cJSON* pointTempObj;
+
+    while (!EFI_ERROR(Status))
+    {
+        DEBUG((EFI_D_ERROR, "[MyHelloWorldSmbios] %d ..\n", Record->Type));
+        if (Record->Type == SMBIOS_TYPE_BIOS_INFORMATION)
+        {
+            SMBIOS_TABLE_TYPE0 *Type0Record = (SMBIOS_TABLE_TYPE0 *)Record;
+            //把对象添加到数组里
+			cJSON_AddItemToArray(subArray1, pointTempObj = cJSON_CreateObject());
+
+            //在对象上添加键值对
+            cJSON_AddNumberToObject(pointTempObj, "Vendor", Type0Record->Vendor);
+            cJSON_AddNumberToObject(pointTempObj, "BiosVersion", Type0Record->BiosVersion);
+            cJSON_AddNumberToObject(pointTempObj, "BiosSegment", Type0Record->BiosSegment);
+            cJSON_AddNumberToObject(pointTempObj, "BiosSize", Type0Record->BiosSize);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count1);
+            count1++;
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION 1
+        else if (Record->Type == SMBIOS_TYPE_SYSTEM_INFORMATION)
+        {
+            SMBIOS_TABLE_TYPE1 *Type1Record = (SMBIOS_TABLE_TYPE1 *)Record;
+            cJSON_AddItemToArray(subArray2, pointTempObj = cJSON_CreateObject());
+
+            cJSON_AddNumberToObject(pointTempObj, "Manufacturer", Type1Record->Manufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "ProductName", Type1Record->ProductName);
+            cJSON_AddNumberToObject(pointTempObj, "Version", Type1Record->Version);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type1Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "WakeUpType", Type1Record->WakeUpType);
+            cJSON_AddNumberToObject(pointTempObj, "SKUNumber", Type1Record->SKUNumber);
+            cJSON_AddNumberToObject(pointTempObj, "Family", Type1Record->Family);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count2);
+            count2++;      
+
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION 2
+        else if (Record->Type == SMBIOS_TYPE_BASEBOARD_INFORMATION)
+        {
+            SMBIOS_TABLE_TYPE2 *Type2Record = (SMBIOS_TABLE_TYPE2 *)Record;
+            cJSON_AddItemToArray(subArray3, pointTempObj = cJSON_CreateObject());
+            
+            cJSON_AddNumberToObject(pointTempObj, "Manufacturer", Type2Record->Manufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "ProductName", Type2Record->ProductName);
+            cJSON_AddNumberToObject(pointTempObj, "Version", Type2Record->Version);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type2Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "AssetTag", Type2Record->AssetTag);
+            cJSON_AddNumberToObject(pointTempObj, "BoardType", Type2Record->BoardType);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count3);
+            count3++;           
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION3
+        else if (Record->Type == 3)
+        {
+            SMBIOS_TABLE_TYPE3 *Type3Record = (SMBIOS_TABLE_TYPE3 *)Record;
+            cJSON_AddItemToArray(subArray4, pointTempObj = cJSON_CreateObject());
+            
+            cJSON_AddNumberToObject(pointTempObj, "Manufacturer", Type3Record->Manufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "Type", Type3Record->Type);
+            cJSON_AddNumberToObject(pointTempObj, "Version", Type3Record->Version);
+            cJSON_AddNumberToObject(pointTempObj, "AssetTag", Type3Record->AssetTag);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type3Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "BootupState", Type3Record->BootupState);
+            cJSON_AddNumberToObject(pointTempObj, "PowerSupplyState", Type3Record->PowerSupplyState);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count4);
+            count4++; 
+        
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION4
+        else if (Record->Type == 4)
+        {
+            SMBIOS_TABLE_TYPE4 *Type4Record = (SMBIOS_TABLE_TYPE4 *)Record;
+            cJSON_AddItemToArray(subArray5, pointTempObj = cJSON_CreateObject());
+            
+            cJSON_AddNumberToObject(pointTempObj, "Socket", Type4Record->Socket);
+            cJSON_AddNumberToObject(pointTempObj, "ProcessorType", Type4Record->ProcessorType);
+            cJSON_AddNumberToObject(pointTempObj, "ProcessorFamily", Type4Record->ProcessorFamily);
+            cJSON_AddNumberToObject(pointTempObj, "ProcessorManufacturer", Type4Record->ProcessorManufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "ProcessorVersion", Type4Record->ProcessorVersion);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type4Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "AssetTag", Type4Record->AssetTag);
+            cJSON_AddNumberToObject(pointTempObj, "PartNumber", Type4Record->PartNumber);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count5);
+            count5++; 
+
+        }
+        else if (Record->Type == 7)
+        {
+            SMBIOS_TABLE_TYPE7 *Type7Record = (SMBIOS_TABLE_TYPE7 *)Record;
+            cJSON_AddItemToArray(subArray6, pointTempObj = cJSON_CreateObject());
+            
+            cJSON_AddNumberToObject(pointTempObj, "InternalReferenceDesignator", Type7Record->SocketDesignation);
+            cJSON_AddNumberToObject(pointTempObj, "InternalConnectorType", Type7Record->CacheConfiguration);
+            cJSON_AddNumberToObject(pointTempObj, "ExternalReferenceDesignator", Type7Record->CacheSpeed);
+            cJSON_AddNumberToObject(pointTempObj, "ExternalConnectorType", Type7Record->MaximumCacheSize);
+            cJSON_AddNumberToObject(pointTempObj, "PortType", Type7Record->Associativity);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count6);
+            count6++; 
+          
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION8
+        else if (Record->Type == 8)
+        {
+            SMBIOS_TABLE_TYPE8 *Type8Record = (SMBIOS_TABLE_TYPE8 *)Record;
+            cJSON_AddItemToArray(subArray7, pointTempObj = cJSON_CreateObject());
+           
+            cJSON_AddNumberToObject(pointTempObj, "InternalReferenceDesignator", Type8Record->InternalReferenceDesignator);
+            cJSON_AddNumberToObject(pointTempObj, "InternalConnectorType", Type8Record->InternalConnectorType);
+            cJSON_AddNumberToObject(pointTempObj, "ExternalReferenceDesignator", Type8Record->ExternalReferenceDesignator);
+            cJSON_AddNumberToObject(pointTempObj, "ExternalConnectorType", Type8Record->ExternalConnectorType);
+            cJSON_AddNumberToObject(pointTempObj, "PortType", Type8Record->PortType);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count7);
+            count7++; 
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION9
+        else if (Record->Type == 9)
+        {
+            SMBIOS_TABLE_TYPE9 *Type9Record = (SMBIOS_TABLE_TYPE9 *)Record;
+            cJSON_AddItemToArray(subArray8, pointTempObj = cJSON_CreateObject());
+            
+            cJSON_AddNumberToObject(pointTempObj, "SlotDesignation", Type9Record->SlotDesignation);
+            cJSON_AddNumberToObject(pointTempObj, "SlotType", Type9Record->SlotType);
+            cJSON_AddNumberToObject(pointTempObj, "SlotLength", Type9Record->SlotLength);
+            cJSON_AddNumberToObject(pointTempObj, "SlotID", Type9Record->SlotID);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count8);
+            count8++; 
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION16
+        else if (Record->Type == 16)
+        {
+            SMBIOS_TABLE_TYPE16 *Type16Record = (SMBIOS_TABLE_TYPE16 *)Record;
+            cJSON_AddItemToArray(subArray9, pointTempObj = cJSON_CreateObject());
+        
+            cJSON_AddNumberToObject(pointTempObj, "Location", Type16Record->Location);
+            cJSON_AddNumberToObject(pointTempObj, "Use", Type16Record->Use);
+            cJSON_AddNumberToObject(pointTempObj, "MaximumCapacity", Type16Record->MaximumCapacity);
+            cJSON_AddNumberToObject(pointTempObj, "NumberOfMemoryDevices", Type16Record->NumberOfMemoryDevices);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count9);
+            count9++; 
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION17
+        else if (Record->Type == 17)
+        {
+            SMBIOS_TABLE_TYPE17 *Type17Record = (SMBIOS_TABLE_TYPE17 *)Record;
+            cJSON_AddItemToArray(subArray10, pointTempObj = cJSON_CreateObject());
+         
+            cJSON_AddNumberToObject(pointTempObj, "TotalWidth", Type17Record->TotalWidth);
+            cJSON_AddNumberToObject(pointTempObj, "DataWidth", Type17Record->DataWidth);
+            cJSON_AddNumberToObject(pointTempObj, "Size", Type17Record->Size);
+            cJSON_AddNumberToObject(pointTempObj, "DeviceSet", Type17Record->DeviceSet);
+            cJSON_AddNumberToObject(pointTempObj, "DeviceLocator", Type17Record->DeviceLocator);
+            cJSON_AddNumberToObject(pointTempObj, "MemoryType", Type17Record->MemoryType);
+            cJSON_AddNumberToObject(pointTempObj, "Manufacturer", Type17Record->Manufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type17Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "AssetTag", Type17Record->AssetTag);
+            cJSON_AddNumberToObject(pointTempObj, "PartNumber", Type17Record->PartNumber);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count10);
+            count10++;
+           
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION21
+        else if (Record->Type == 21)
+        {
+            SMBIOS_TABLE_TYPE21 *Type21Record = (SMBIOS_TABLE_TYPE21 *)Record;
+            cJSON_AddItemToArray(subArray11, pointTempObj = cJSON_CreateObject());
+          
+            cJSON_AddNumberToObject(pointTempObj, "Type", Type21Record->Type);
+            cJSON_AddNumberToObject(pointTempObj, "Interface", Type21Record->Interface);
+            cJSON_AddNumberToObject(pointTempObj, "NumberOfButtons", Type21Record->NumberOfButtons);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count11);
+            count11++;
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION22
+        else if (Record->Type == 22)
+        {
+            SMBIOS_TABLE_TYPE22 *Type22Record = (SMBIOS_TABLE_TYPE22 *)Record;
+            cJSON_AddItemToArray(subArray12, pointTempObj = cJSON_CreateObject());
+          
+            cJSON_AddNumberToObject(pointTempObj, "Location", Type22Record->Location);
+            cJSON_AddNumberToObject(pointTempObj, "Manufacturer", Type22Record->Manufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "ManufactureDate", Type22Record->ManufactureDate);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type22Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "DeviceName", Type22Record->DeviceName);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count12);
+            count12++;
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION27
+        else if (Record->Type == 27)
+        {
+            SMBIOS_TABLE_TYPE27 *Type27Record = (SMBIOS_TABLE_TYPE27 *)Record;
+            cJSON_AddItemToArray(subArray13, pointTempObj = cJSON_CreateObject());
+           
+            cJSON_AddNumberToObject(pointTempObj, "CoolingDevice", Type27Record->DeviceTypeAndStatus.CoolingDevice);
+            cJSON_AddNumberToObject(pointTempObj, "CoolingDeviceStatus", Type27Record->DeviceTypeAndStatus.CoolingDeviceStatus);
+            cJSON_AddNumberToObject(pointTempObj, "CoolingUnitGroup", Type27Record->CoolingUnitGroup);
+            cJSON_AddNumberToObject(pointTempObj, "OEMDefined", Type27Record->OEMDefined);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count13);
+            count13++;
+
+        }
+        // SMBIOS_TYPE_SYSTEM_INFORMATION30
+        else if (Record->Type == 30)
+        {
+            SMBIOS_TABLE_TYPE30 *Type30Record = (SMBIOS_TABLE_TYPE30 *)Record;
+            cJSON_AddItemToArray(subArray14, pointTempObj = cJSON_CreateObject()); 
+           
+            cJSON_AddNumberToObject(pointTempObj, "ManufacturerName", Type30Record->ManufacturerName);
+            cJSON_AddNumberToObject(pointTempObj, "Connections", Type30Record->Connections);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count14);
+            count14++;
+
+        }
+
+        // SMBIOS_TYPE_SYSTEM_INFORMATION34
+        else if (Record->Type == 34)
+        {
+            SMBIOS_TABLE_TYPE34 *Type34Record = (SMBIOS_TABLE_TYPE34 *)Record;
+            cJSON_AddItemToArray(subArray15, pointTempObj = cJSON_CreateObject()); 
+          
+            cJSON_AddNumberToObject(pointTempObj, "Type", Type34Record->Type);
+            cJSON_AddNumberToObject(pointTempObj, "Address", Type34Record->Address);
+            cJSON_AddNumberToObject(pointTempObj, "AddressType", Type34Record->AddressType);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count15);
+            count15++;
+
+        }
+
+        // SMBIOS_TYPE_SYSTEM_INFORMATION38
+        else if (Record->Type == 38)
+        {
+            SMBIOS_TABLE_TYPE38 *Type38Record = (SMBIOS_TABLE_TYPE38 *)Record;
+            cJSON_AddItemToArray(subArray16, pointTempObj = cJSON_CreateObject());
+        
+            cJSON_AddNumberToObject(pointTempObj, "InterfaceType", Type38Record->InterfaceType);
+            cJSON_AddNumberToObject(pointTempObj, "IPMISpecificationRevision", Type38Record->IPMISpecificationRevision);
+            cJSON_AddNumberToObject(pointTempObj, "I2CSlaveAddress", Type38Record->I2CSlaveAddress);
+            cJSON_AddNumberToObject(pointTempObj, "NVStorageDeviceAddress", Type38Record->NVStorageDeviceAddress);
+            cJSON_AddNumberToObject(pointTempObj, "BaseAddress", Type38Record->BaseAddress);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count16);
+            count16++;
+           
+        }
+
+        // SMBIOS_TYPE_SYSTEM_INFORMATION39
+        else if (Record->Type == 39)
+        {
+            SMBIOS_TABLE_TYPE39 *Type39Record = (SMBIOS_TABLE_TYPE39 *)Record;
+            cJSON_AddItemToArray(subArray17, pointTempObj = cJSON_CreateObject());
+           
+            cJSON_AddNumberToObject(pointTempObj, "DeviceName", Type39Record->DeviceName);
+            cJSON_AddNumberToObject(pointTempObj, "Manufacturer", Type39Record->Manufacturer);
+            cJSON_AddNumberToObject(pointTempObj, "SerialNumber", Type39Record->SerialNumber);
+            cJSON_AddNumberToObject(pointTempObj, "AssetTagNumber", Type39Record->AssetTagNumber);
+            cJSON_AddNumberToObject(pointTempObj, "ModelPartNumber", Type39Record->ModelPartNumber);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count17);
+            count17++;
+            
+
+        }
+
+        // SMBIOS_TYPE_SYSTEM_INFORMATION41
+        else if (Record->Type == 41)
+        {
+            SMBIOS_TABLE_TYPE41 *Type41Record = (SMBIOS_TABLE_TYPE41 *)Record;
+            cJSON_AddItemToArray(subArray18, pointTempObj = cJSON_CreateObject());
+         
+            cJSON_AddNumberToObject(pointTempObj, "ReferenceDesignation", Type41Record->ReferenceDesignation);
+            cJSON_AddNumberToObject(pointTempObj, "DeviceType", Type41Record->DeviceType);
+            cJSON_AddNumberToObject(pointTempObj, "DeviceTypeInstance", Type41Record->DeviceTypeInstance);
+            cJSON_AddNumberToObject(pointTempObj, "SegmentGroupNum", Type41Record->SegmentGroupNum);
+            cJSON_AddNumberToObject(pointTempObj, "BusNum", Type41Record->BusNum);
+            cJSON_AddNumberToObject(pointTempObj, "DevFuncNum", Type41Record->DevFuncNum);
+            cJSON_AddNumberToObject(pointTempObj, "Count", count18);
+            count18++;
+        }
+
+        Status = Smbios->GetNext(Smbios, &SmbiosHandle, NULL, &Record, NULL);
+    }
+    cJSON_AddItemToObject(obj1, "physicalInfo", subArray1);
+    //其他信息
+	cJSON_AddItemToObject(obj1, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj1, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj2, "physicalInfo", subArray2);
+	cJSON_AddItemToObject(obj2, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj2, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj3, "physicalInfo", subArray3);
+	cJSON_AddItemToObject(obj3, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj3, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj4, "physicalInfo", subArray4);
+	cJSON_AddItemToObject(obj4, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj4, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj5, "physicalInfo", subArray5);
+	cJSON_AddItemToObject(obj5, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj5, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj6, "physicalInfo", subArray6);
+	cJSON_AddItemToObject(obj6, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj6, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj7, "physicalInfo", subArray7);
+	cJSON_AddItemToObject(obj7, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj7, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj8, "physicalInfo", subArray8);
+	cJSON_AddItemToObject(obj8, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj8, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj9, "physicalInfo", subArray9);
+	cJSON_AddItemToObject(obj9, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj9, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj10, "physicalInfo", subArray10);
+	cJSON_AddItemToObject(obj10, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj10, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj11, "physicalInfo", subArray11);
+	cJSON_AddItemToObject(obj11, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj11, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj12, "physicalInfo", subArray12);
+	cJSON_AddItemToObject(obj12, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj12, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj13, "physicalInfo", subArray13);
+	cJSON_AddItemToObject(obj13, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj13, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj14, "physicalInfo", subArray14);
+	cJSON_AddItemToObject(obj14, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj14, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj15, "physicalInfo", subArray15);
+	cJSON_AddItemToObject(obj15, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj15, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj16, "physicalInfo", subArray16);
+	cJSON_AddItemToObject(obj16, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj16, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj17, "physicalInfo", subArray17);
+	cJSON_AddItemToObject(obj17, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj17, "status", cJSON_CreateString("ok"));
+
+    cJSON_AddItemToObject(obj18, "physicalInfo", subArray18);
+	cJSON_AddItemToObject(obj18, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(obj18, "status", cJSON_CreateString("ok"));
+
+    // //将json结构格式化到缓冲区
+    // buf = cJSON_Print(json);
+    // printf("%s\n",buf);
+	// //Print(L"%a\n", buf);
+	// free(buf);
+	// cJSON_Delete(json);
+
+    DEBUG((EFI_D_ERROR, "[MyHelloWorldSmbios] MyHelloWorldSmbiosAppEntry End..\n"));
+
+    //
+    // locate pcirootbridge
+    //
+
+    Status = LocatePciRootBridgeIo();
+    if (EFI_ERROR(Status))
+    {
+        Print(L"Call LocatePciRootBridgeIo failed,Can't find protocol!\n");
+    }
+    else
+    {
+        // printf("Call LocatePciRootBridgeIo successed,Find protocol!\n");
+    }
+
+   ListPciInformation(array);
+   GetUSB(json);
+
+    //创建缓冲区
+    //将json结构格式化到缓冲区
+    // char *buf = cJSON_Print(json);
+    // printf("%s\n",buf);
+	// //Print(L"%a\n", buf);
+    // //cJSON_free(buf);
+	// free(buf);
+    // buf = NULL;
+    // //cJSON_Delete();
+	// cJSON_Delete(json);
+    // return Status;
+
+
+    //创建缓冲区
+    //将json结构格式化到缓冲区
+    // buf = cJSON_Print(json);
+    //printf("%s\n",buf);
+	//Print(L"%a\n", buf);
+    //cJSON_free(buf);
+    //cJSON_Delete();s
+	// cJSON_Delete(json);
+    // return cJSON_Print(json);
+    return json;
+}
+
+EFI_STATUS LocatePciRootBridgeIo()
+{
+    EFI_STATUS Status;
+    EFI_HANDLE *PciHandleBuffer = NULL;
+    UINTN HandleIndex = 0;
+    UINTN HandleCount = 0;
+
+    Status = gBS->LocateHandleBuffer(
+        ByProtocol,
+        &gEfiPciRootBridgeIoProtocolGuid,
+        NULL,
+        &HandleCount,
+        &PciHandleBuffer //二级指针
+    );
+    if (EFI_ERROR(Status))
+        return Status;
+
+    for (HandleIndex = 0; HandleIndex < HandleCount; HandleIndex++)
+    {
+        Status = gBS->HandleProtocol(
+            PciHandleBuffer[HandleIndex],
+            &gEfiPciRootBridgeIoProtocolGuid,
+            (VOID **)&gPciRootBridgeIo);
+        if (EFI_ERROR(Status))
+            continue;
+        else
+            return EFI_SUCCESS;
+    }
+
+    return Status;
+}
+
+EFI_STATUS ListPciInformation(cJSON *array)
+{
+    EFI_STATUS Status = EFI_SUCCESS;
+    PCI_TYPE00 Pci;
+    UINT16 Dev, Func, Bus, PciDevicecount = 0;
+
+    //先创建空对象
+    cJSON *pciObj = NULL;
+    //将对象加到数组中
+    cJSON_AddItemToArray(array, pciObj = cJSON_CreateObject());
+    //在对象上添加键值对
+    cJSON_AddItemToObject(pciObj, "Type", cJSON_CreateString("PCI"));
+	cJSON_AddItemToObject(pciObj, "SubType", cJSON_CreateString("PCI"));
+	//在对象中再添加一个数组
+	cJSON *PciSubArray = NULL;
+	cJSON_AddItemToObject(pciObj, "physicalInfo", PciSubArray = cJSON_CreateArray());
+    //临时对象
+    cJSON* pointTempObj;
+
+    for (Bus = 0; Bus < 64; Bus++)
+        for (Dev = 0; Dev <= PCI_MAX_DEVICE; Dev++)
+            for (Func = 0; Func <= PCI_MAX_FUNC; Func++)
+            {
+                Status = PciDevicePresent(gPciRootBridgeIo, &Pci, (UINT8)Bus, (UINT8)Dev, (UINT8)Func);
+                if (Status == EFI_SUCCESS)
+                {
+                    PciDevicecount++;
+                    // //在对象上添加键值对
+                    // cJSON_AddItemToArray(array, obj = cJSON_CreateObject());
+                    // cJSON_AddNumberToObject(obj, "VendorID", Pci.Hdr.VendorId);
+                    // cJSON_AddNumberToObject(obj, "DeviceId", Pci.Hdr.DeviceId);
+                    //每次遇到Pci设备时添加键值对
+	                cJSON_AddItemToArray(PciSubArray, pointTempObj = cJSON_CreateObject());
+	                cJSON_AddNumberToObject(pointTempObj, "VendorID", Pci.Hdr.VendorId);
+	                cJSON_AddNumberToObject(pointTempObj, "DeviceId", Pci.Hdr.DeviceId);
+                  
+                }
+            }
+
+//    char *buf = cJSON_Print(json);
+//    Print(L"%a\n", buf);
+//    free(buf);
+//    cJSON_Delete(json);
+	cJSON_AddItemToObject(pciObj, "physicalInfoHash", cJSON_CreateString("1234567812345678923456789023456789"));
+	cJSON_AddItemToObject(pciObj, "status", cJSON_CreateString("ok"));
+    return EFI_SUCCESS;
+}
+
+EFI_STATUS
+PciDevicePresent(
+    IN EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL *PciRootBridgeIo,
+    OUT PCI_TYPE00 *Pci,
+    IN UINT8 Bus,
+    IN UINT8 Device,
+    IN UINT8 Func)
+{
+    UINT64 Address;
+    EFI_STATUS Status;
+
+    //
+    // Create PCI address map in terms of Bus, Device and Func
+    //
+    Address = EFI_PCI_ADDRESS(Bus, Device, Func, 0);
+
+    //
+    // Read the Vendor ID register
+    //
+    Status = PciRootBridgeIo->Pci.Read(
+        PciRootBridgeIo,
+        EfiPciWidthUint32,
+        Address,
+        1,
+        Pci);
+
+    if (!EFI_ERROR(Status) && (Pci->Hdr).VendorId != 0xffff)
+    {
+        //
+        // Read the entire config header for the device
+        //
+        Status = PciRootBridgeIo->Pci.Read(
+            PciRootBridgeIo,
+            EfiPciWidthUint32,
+            Address,
+            sizeof(PCI_TYPE00) / sizeof(UINT32),
+            Pci);
+
+        return EFI_SUCCESS;
+    }
+
+    return EFI_NOT_FOUND;
+}
+
+UINTN GetUSB(cJSON *json)
+{
+  EFI_STATUS Status;
+  UINTN HandleIndex, HandleCount;
+  EFI_HANDLE *DevicePathHandleBuffer = NULL;
+  EFI_USB_IO_PROTOCOL *USBIO;
+  EFI_USB_DEVICE_DESCRIPTOR DeviceDescriptor;
+
+  Status = gBS->LocateHandleBuffer(
+      ByProtocol,
+      &gEfiUsbIoProtocolGuid,
+      NULL,
+      &HandleCount,
+      &DevicePathHandleBuffer);
+
+  if (EFI_ERROR(Status))
+  {
+    Print(L"ERROR : Get USBIO count fail.\n");
+    return 0;
+  }
+    //添加一个usb对象
+	cJSON *usbObj = NULL;
+	cJSON_AddItemToObject(json, "HSwapHardware", usbObj = cJSON_CreateObject());
+
+	cJSON_AddItemToObject(usbObj, "Type", cJSON_CreateString("USB"));
+	cJSON_AddItemToObject(usbObj, "SubType", cJSON_CreateString("USB"));
+
+	//在对象中再添加一个数组
+	cJSON *USBsubArray = NULL;
+	cJSON_AddItemToObject(usbObj, "physicalInfo", USBsubArray = cJSON_CreateArray());
+
+    //临时对象
+    cJSON* pointTempObj;
+
+  for (HandleIndex = 0; HandleIndex < HandleCount; HandleIndex++)
+  {
+    Status = gBS->HandleProtocol(
+        DevicePathHandleBuffer[HandleIndex],
+        &gEfiUsbIoProtocolGuid,
+        (VOID **)&USBIO);
+
+    if (EFI_ERROR(Status))
+    {
+      Print(L"ERROR : Open USBIO fail.\n");
+      gBS->FreePool(DevicePathHandleBuffer);
+      return 0;
+    }
+
+    Status = USBIO->UsbGetDeviceDescriptor(USBIO, &DeviceDescriptor);
+    if (EFI_ERROR(Status))
+    {
+      Print(L"ERROR : Usb Get Device Descriptor fail.\n");
+      gBS->FreePool(DevicePathHandleBuffer);
+      return 0;
+    }
+    
+    //每次遇到usb设备时添加键值对
+	cJSON_AddItemToArray(USBsubArray, pointTempObj = cJSON_CreateObject());
+	cJSON_AddNumberToObject(pointTempObj, "VendorID", 12312311123);
+	cJSON_AddNumberToObject(pointTempObj, "DeviceId", 1242154315);
+
+  }
+      //清理工作
+
+    // char *buf = cJSON_Print(json);
+    // Print(L"%a\n", buf);
+    // free(buf);
+    // cJSON_Delete(json);
+  gBS->FreePool(DevicePathHandleBuffer);
+  return HandleCount;
+}

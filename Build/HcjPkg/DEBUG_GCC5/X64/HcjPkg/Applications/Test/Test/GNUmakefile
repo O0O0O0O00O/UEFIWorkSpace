@@ -28,7 +28,7 @@ PLATFORM_OUTPUT_DIR = Build/HcjPkg
 MODULE_NAME = Test
 MODULE_GUID = 2be6e3dd-0eee-4c5a-bbad-b948fced3331
 MODULE_NAME_GUID = Test
-MODULE_VERSION = 0.1
+MODULE_VERSION = 1.0
 MODULE_TYPE = UEFI_APPLICATION
 MODULE_FILE = Test.inf
 MODULE_FILE_BASE_NAME = Test
@@ -38,15 +38,15 @@ PACKAGE_RELATIVE_DIR = Applications/Test
 MODULE_DIR = /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test
 FFS_OUTPUT_DIR = 
 
-MODULE_ENTRY_POINT = ShellCEntryLib
-ARCH_ENTRY_POINT = ShellCEntryLib
+MODULE_ENTRY_POINT = CryptestMain
+ARCH_ENTRY_POINT = CryptestMain
 IMAGE_ENTRY_POINT = _ModuleEntryPoint
 
-INF_VERSION = 0x00010006
+INF_VERSION = 0x00010005
 BASE_NAME = Test
 FILE_GUID = 2be6e3dd-0eee-4c5a-bbad-b948fced3331
 MODULE_TYPE = UEFI_APPLICATION
-VERSION_STRING = 0.1
+VERSION_STRING = 1.0
 
 #
 # Build Configuration Macro Definition
@@ -106,7 +106,7 @@ ASMLINK = bin16\link16.exe
 BROTLI_GUID =  3D532050-5CDA-4FD0-879E-0F7F630D5AFB
 BROTLI = BrotliCompress
 
-CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os -nostdinc -nostdlib -DUEFI_C_SOURCE
+CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os
 CC = gcc
 
 CRC32_GUID =  FC1BCDB0-7D31-49AA-936A-A4600D9DD083
@@ -176,6 +176,7 @@ VFRPP = gcc
 VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 VPDTOOL = BPDG
 
+CC_RESP =  @/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/cc_resp.txt
 
 MAKE_FILE = $(MODULE_BUILD_DIR)/GNUmakefile
 
@@ -183,9 +184,6 @@ MAKE_FILE = $(MODULE_BUILD_DIR)/GNUmakefile
 # Build Macro
 #
 STATIC_LIBRARY_FILES =  \
-    $(BIN_DIR)/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib \
-    $(BIN_DIR)/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib \
-    $(BIN_DIR)/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib \
     $(BIN_DIR)/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib \
     $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib \
     $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib \
@@ -195,51 +193,563 @@ STATIC_LIBRARY_FILES =  \
     $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib \
     $(BIN_DIR)/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib \
     $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib \
-    $(BIN_DIR)/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/OUTPUT/UefiFileHandleLib.lib \
     $(BIN_DIR)/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib \
     $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib \
     $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib \
-    $(BIN_DIR)/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/OUTPUT/UefiShellCEntryLib.lib \
-    $(BIN_DIR)/ShellPkg/Library/UefiShellLib/UefiShellLib/OUTPUT/UefiShellLib.lib \
-    $(BIN_DIR)/StdLib/BsdSocketLib/BsdSocketLib/OUTPUT/BsdSocketLib.lib \
-    $(BIN_DIR)/StdLib/EfiSocketLib/EfiSocketLib/OUTPUT/EfiSocketLib.lib \
-    $(BIN_DIR)/StdLib/LibC/Containers/ContainerLib/OUTPUT/LibContainer.lib \
-    $(BIN_DIR)/StdLib/LibC/Ctype/Ctype/OUTPUT/LibCtype.lib \
-    $(BIN_DIR)/StdLib/LibC/LibC/OUTPUT/LibC.lib \
-    $(BIN_DIR)/StdLib/LibC/Locale/Locale/OUTPUT/LibLocale.lib \
-    $(BIN_DIR)/StdLib/LibC/NetUtil/NetUtil/OUTPUT/LibNetUtil.lib \
-    $(BIN_DIR)/StdLib/LibC/Signal/Signal/OUTPUT/LibSignal.lib \
-    $(BIN_DIR)/StdLib/LibC/StdLib/StdLib/OUTPUT/LibStdLib.lib \
-    $(BIN_DIR)/StdLib/LibC/Stdio/Stdio/OUTPUT/LibStdio.lib \
-    $(BIN_DIR)/StdLib/LibC/String/String/OUTPUT/LibString.lib \
-    $(BIN_DIR)/StdLib/LibC/Time/Time/OUTPUT/LibTime.lib \
-    $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daConsole/OUTPUT/DevConsole.lib \
-    $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daShell/OUTPUT/DevShell.lib \
-    $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daUtility/OUTPUT/DevUtility.lib \
-    $(BIN_DIR)/StdLib/LibC/Uefi/InteractiveIO/IIO/OUTPUT/LibIIO.lib \
-    $(BIN_DIR)/StdLib/LibC/Uefi/Uefi/OUTPUT/LibUefi.lib \
-    $(BIN_DIR)/StdLib/LibC/Wchar/Wchar/OUTPUT/LibWchar.lib \
-    $(BIN_DIR)/StdLib/LibC/gdtoa/gdtoa/OUTPUT/LibGdtoa.lib \
-    $(BIN_DIR)/StdLib/PosixLib/Gen/LibGen/OUTPUT/LibGen.lib \
     $(OUTPUT_DIR)/Test.lib
 
 OBJECT_FILES =  \
     $(OUTPUT_DIR)/AutoGen.obj \
-    $(OUTPUT_DIR)/sm3.obj \
-    $(OUTPUT_DIR)/sm3test.obj
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_cbc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_cfb.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_core.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_ige.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_misc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_ofb.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aes/aes_wrap.obj \
+    $(OUTPUT_DIR)/openssl/crypto/aria/aria.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_bitstr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_d2i_fp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_digest.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_dup.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_gentm.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_i2d_fp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_int.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_mbstr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_object.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_octet.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_print.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_sign.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_strex.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_strnid.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_time.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_type.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_utctm.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_utf8.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/a_verify.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/ameth_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn1_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn1_gen.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn1_item_list.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn1_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn1_par.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn_mime.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn_moid.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn_mstbl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/asn_pack.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/bio_asn1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/bio_ndef.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pu.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/evp_asn1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/f_int.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/f_string.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pu.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/n_pkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/nsseq.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbe.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbev2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/p5_scrypt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/p8_pkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/t_bitst.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/t_pkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/t_spki.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_dec.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_enc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_fre.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_new.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_prn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_scn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_typ.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/tasn_utl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_algor.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_bignum.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_info.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_int64.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_long.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_pkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_sig.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_spki.obj \
+    $(OUTPUT_DIR)/openssl/crypto/asn1/x_val.obj \
+    $(OUTPUT_DIR)/openssl/crypto/async/arch/async_null.obj \
+    $(OUTPUT_DIR)/openssl/crypto/async/arch/async_posix.obj \
+    $(OUTPUT_DIR)/openssl/crypto/async/arch/async_win.obj \
+    $(OUTPUT_DIR)/openssl/crypto/async/async.obj \
+    $(OUTPUT_DIR)/openssl/crypto/async/async_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/async/async_wait.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/b_addr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/b_dump.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/b_sock.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/b_sock2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bf_buff.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bf_lbuf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bf_nbio.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bf_null.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bio_cb.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bio_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bio_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bio_meth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_acpt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_bio.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_conn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_dgram.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_fd.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_file.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_log.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_mem.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_null.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bio/bss_sock.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_add.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_asm.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_blind.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_const.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_ctx.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_depr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_dh.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_div.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_exp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_exp2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_gcd.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_gf2m.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_intern.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_kron.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_mod.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_mont.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_mpi.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_mul.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_nist.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_prime.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_print.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_rand.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_recp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_shift.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_sqr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_sqrt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_srp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_word.obj \
+    $(OUTPUT_DIR)/openssl/crypto/bn/bn_x931p.obj \
+    $(OUTPUT_DIR)/openssl/crypto/buffer/buf_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/buffer/buffer.obj \
+    $(OUTPUT_DIR)/openssl/crypto/cmac/cm_ameth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/cmac/cm_pmeth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/cmac/cmac.obj \
+    $(OUTPUT_DIR)/openssl/crypto/comp/c_zlib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/comp/comp_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/comp/comp_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_api.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_def.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_mall.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_mod.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_sap.obj \
+    $(OUTPUT_DIR)/openssl/crypto/conf/conf_ssl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/cpt_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/cryptlib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ctype.obj \
+    $(OUTPUT_DIR)/openssl/crypto/cversion.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_ameth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_asn1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_check.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_depr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_gen.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_kdf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_key.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_meth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_pmeth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_prn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc5114.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc7919.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_dl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_dlfcn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_openssl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_vms.obj \
+    $(OUTPUT_DIR)/openssl/crypto/dso/dso_win32.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ebcdic.obj \
+    $(OUTPUT_DIR)/openssl/crypto/err/err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/err/err_prn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/bio_b64.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/bio_enc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/bio_md.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/bio_ok.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/c_allc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/c_alld.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/cmeth_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/digest.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_aes.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha256.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_aria.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_bf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_camellia.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_cast.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_chacha20_poly1305.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_des.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_des3.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_idea.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_null.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_old.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_rc2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_rc4.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_rc4_hmac_md5.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_rc5.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_seed.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_sm4.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/e_xcbc_d.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/encode.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_cnf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_enc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_key.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_pbe.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/evp_pkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_md2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_md4.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_md5.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_md5_sha1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_mdc2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_null.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_ripemd.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_sha1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_sha3.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_sigver.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/m_wp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/names.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_dec.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_enc.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_open.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_seal.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_sign.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/p_verify.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/pbe_scrypt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/pmeth_fn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/pmeth_gn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/evp/pmeth_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ex_data.obj \
+    $(OUTPUT_DIR)/openssl/crypto/getenv.obj \
+    $(OUTPUT_DIR)/openssl/crypto/hmac/hm_ameth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/hmac/hm_pmeth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/hmac/hmac.obj \
+    $(OUTPUT_DIR)/openssl/crypto/init.obj \
+    $(OUTPUT_DIR)/openssl/crypto/kdf/hkdf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/kdf/kdf_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/kdf/scrypt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/kdf/tls1_prf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/lhash/lh_stats.obj \
+    $(OUTPUT_DIR)/openssl/crypto/lhash/lhash.obj \
+    $(OUTPUT_DIR)/openssl/crypto/md5/md5_dgst.obj \
+    $(OUTPUT_DIR)/openssl/crypto/md5/md5_one.obj \
+    $(OUTPUT_DIR)/openssl/crypto/mem.obj \
+    $(OUTPUT_DIR)/openssl/crypto/mem_clr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/mem_dbg.obj \
+    $(OUTPUT_DIR)/openssl/crypto/mem_sec.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/cbc128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/ccm128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/cfb128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/ctr128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/cts128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/gcm128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/ocb128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/ofb128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/wrap128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/modes/xts128.obj \
+    $(OUTPUT_DIR)/openssl/crypto/o_dir.obj \
+    $(OUTPUT_DIR)/openssl/crypto/o_fips.obj \
+    $(OUTPUT_DIR)/openssl/crypto/o_fopen.obj \
+    $(OUTPUT_DIR)/openssl/crypto/o_init.obj \
+    $(OUTPUT_DIR)/openssl/crypto/o_str.obj \
+    $(OUTPUT_DIR)/openssl/crypto/o_time.obj \
+    $(OUTPUT_DIR)/openssl/crypto/objects/o_names.obj \
+    $(OUTPUT_DIR)/openssl/crypto/objects/obj_dat.obj \
+    $(OUTPUT_DIR)/openssl/crypto/objects/obj_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/objects/obj_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/objects/obj_xref.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_asn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_cl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ext.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ht.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_prn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_srv.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_vfy.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ocsp/v3_ocsp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_all.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_info.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_oth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_pk8.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_pkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_sign.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_x509.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pem_xaux.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pem/pvkfmt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_add.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_asn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_attr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crpt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_decr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_init.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_key.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_kiss.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_mutl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_npas.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8d.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8e.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_sbag.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_utl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs12/pk12err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/bio_pk7.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_asn1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_attr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_doit.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_mime.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_smime.obj \
+    $(OUTPUT_DIR)/openssl/crypto/pkcs7/pkcs7err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/drbg_ctr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/drbg_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/rand_egd.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/rand_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/rand_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/rand_unix.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/rand_vms.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rand/rand_win.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ameth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_asn1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_chk.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_crpt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_depr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_gen.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_meth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_mp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_none.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_oaep.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ossl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pk1.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pmeth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_prn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pss.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_saos.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_sign.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ssl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931.obj \
+    $(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931g.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sha/keccak1600.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sha/sha1_one.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sha/sha1dgst.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sha/sha256.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sha/sha512.obj \
+    $(OUTPUT_DIR)/openssl/crypto/siphash/siphash.obj \
+    $(OUTPUT_DIR)/openssl/crypto/siphash/siphash_ameth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/siphash/siphash_pmeth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sm3/m_sm3.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sm3/sm3.obj \
+    $(OUTPUT_DIR)/openssl/crypto/sm4/sm4.obj \
+    $(OUTPUT_DIR)/openssl/crypto/stack/stack.obj \
+    $(OUTPUT_DIR)/openssl/crypto/threads_none.obj \
+    $(OUTPUT_DIR)/openssl/crypto/threads_pthread.obj \
+    $(OUTPUT_DIR)/openssl/crypto/threads_win.obj \
+    $(OUTPUT_DIR)/openssl/crypto/txt_db/txt_db.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ui/ui_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ui/ui_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ui/ui_null.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ui/ui_openssl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/ui/ui_util.obj \
+    $(OUTPUT_DIR)/openssl/crypto/uid.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/by_dir.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/by_file.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/t_crl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/t_req.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/t_x509.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_att.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_cmp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_d2.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_def.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_err.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_ext.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_lu.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_meth.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_obj.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_r2x.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_req.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_set.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_trs.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_txt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_v3.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_vfy.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509_vpm.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509cset.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509name.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509rset.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509spki.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x509type.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_all.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_attrib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_crl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_exten.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_name.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_pubkey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_req.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_x509.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509/x_x509a.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_cache.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_data.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_map.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_node.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_tree.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_addr.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_admis.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akeya.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_alt.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_asid.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bcons.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bitst.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_conf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_cpols.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_crld.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_enum.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_extku.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_genn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ia5.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_info.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_int.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_lib.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ncons.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pci.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcia.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcons.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pku.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pmaps.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_prn.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_purp.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_skey.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_sxnet.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_tlsf.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3_utl.obj \
+    $(OUTPUT_DIR)/openssl/crypto/x509v3/v3err.obj \
+    $(OUTPUT_DIR)/openssl/ssl/bio_ssl.obj \
+    $(OUTPUT_DIR)/openssl/ssl/d1_lib.obj \
+    $(OUTPUT_DIR)/openssl/ssl/d1_msg.obj \
+    $(OUTPUT_DIR)/openssl/ssl/d1_srtp.obj \
+    $(OUTPUT_DIR)/openssl/ssl/methods.obj \
+    $(OUTPUT_DIR)/openssl/ssl/packet.obj \
+    $(OUTPUT_DIR)/openssl/ssl/pqueue.obj \
+    $(OUTPUT_DIR)/openssl/ssl/record/dtls1_bitmap.obj \
+    $(OUTPUT_DIR)/openssl/ssl/record/rec_layer_d1.obj \
+    $(OUTPUT_DIR)/openssl/ssl/record/rec_layer_s3.obj \
+    $(OUTPUT_DIR)/openssl/ssl/record/ssl3_buffer.obj \
+    $(OUTPUT_DIR)/openssl/ssl/record/ssl3_record.obj \
+    $(OUTPUT_DIR)/openssl/ssl/record/ssl3_record_tls13.obj \
+    $(OUTPUT_DIR)/openssl/ssl/s3_cbc.obj \
+    $(OUTPUT_DIR)/openssl/ssl/s3_enc.obj \
+    $(OUTPUT_DIR)/openssl/ssl/s3_lib.obj \
+    $(OUTPUT_DIR)/openssl/ssl/s3_msg.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_asn1.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_cert.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_ciph.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_conf.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_err.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_init.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_lib.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_mcnf.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_rsa.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_sess.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_stat.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_txt.obj \
+    $(OUTPUT_DIR)/openssl/ssl/ssl_utst.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/extensions.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/extensions_clnt.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/extensions_cust.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/extensions_srvr.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/statem.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/statem_clnt.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/statem_dtls.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/statem_lib.obj \
+    $(OUTPUT_DIR)/openssl/ssl/statem/statem_srvr.obj \
+    $(OUTPUT_DIR)/openssl/ssl/t1_enc.obj \
+    $(OUTPUT_DIR)/openssl/ssl/t1_lib.obj \
+    $(OUTPUT_DIR)/openssl/ssl/t1_trce.obj \
+    $(OUTPUT_DIR)/openssl/ssl/tls13_enc.obj \
+    $(OUTPUT_DIR)/openssl/ssl/tls_srp.obj \
+    $(OUTPUT_DIR)/ossl_store.obj \
+    $(OUTPUT_DIR)/rand_pool.obj \
+    $(OUTPUT_DIR)/sm2_create_key_pair.obj \
+    $(OUTPUT_DIR)/sm2_encrypt_and_decrypt.obj \
+    $(OUTPUT_DIR)/test_demo.obj \
+    $(OUTPUT_DIR)/test_sm2_encrypt_and_decrypt.obj
 
 INC =  \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/store \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ui \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/txt_db \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/stack \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sm4 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sm3 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sha \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/objects \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/md5 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/lhash \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/err \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/comp \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/buffer \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1 \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aria \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ms \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl \
     -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test \
     -I$(DEBUG_DIR) \
-    -I$(WORKSPACE)/edk2-libc/StdLib \
-    -I$(WORKSPACE)/edk2-libc/StdLib/Include \
-    -I$(WORKSPACE)/edk2-libc/StdLib/Include/X64 \
     -I$(WORKSPACE)/edk2/MdePkg \
     -I$(WORKSPACE)/edk2/MdePkg/Include \
     -I$(WORKSPACE)/edk2/MdePkg/Test/UnitTest/Include \
     -I$(WORKSPACE)/edk2/MdePkg/Include/X64 \
-    -I$(WORKSPACE)/edk2/ShellPkg \
-    -I$(WORKSPACE)/edk2/ShellPkg/Include
+    -I$(WORKSPACE)/edk2/HcjPkg \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Gmssl/include \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/include \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/Include
 
 STATIC_LIBRARY_FILES_LIST = /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/static_library_files.lst
 OBJECT_FILES_LIST = /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/object_files.lst
@@ -312,44 +822,18 @@ strdefs:
 # GenLibsTarget
 #
 gen_libs:
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/gdtoa/gdtoa/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/PosixLib/Gen/LibGen/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Time/Time/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Locale/Locale/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Uefi/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Signal/Signal/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Ctype/Ctype/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/String/String/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/StdLib/StdLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daUtility/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BasePrintLib/BasePrintLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Stdio/Stdio/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/LibC/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Wchar/Wchar/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BasePrintLib/BasePrintLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiLib/UefiLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Containers/ContainerLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/InteractiveIO/IIO/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daConsole/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/UefiSortLib/UefiSortLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ShellPkg/Library/UefiShellLib/UefiShellLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/NetUtil/NetUtil/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daShell/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/BsdSocketLib/BsdSocketLib/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/EfiSocketLib/EfiSocketLib/GNUmakefile
 	@cd $(MODULE_BUILD_DIR)
 
 #
@@ -381,20 +865,2485 @@ $(OUTPUT_DIR)/Test.efi : $(DEBUG_DIR)/Test.dll
 	$(CP) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/Test.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
 
-$(OUTPUT_DIR)/sm3test.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/sm3test.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/sm3test.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/sm3test.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./sm3test.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/sm3test.c
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_asn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_asn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_asn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_asn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_asn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_asn.c
 
-$(OUTPUT_DIR)/sm3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/sm3.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/sm3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/sm3.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./sm3.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/sm3.c
+$(OUTPUT_DIR)/openssl/crypto/stack/stack.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/stack/stack.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/stack/stack.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/stack/stack.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/stack/stack.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/stack/stack.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_sm4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_sm4.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_sm4.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_sm4.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_sm4.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_sm4.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_vms.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_vms.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_vms.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_vms.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/rand_vms.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_vms.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_asn1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_asn1.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_asm.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_asm.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_asm.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_asm.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_asm.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_asm.c
+
+$(OUTPUT_DIR)/openssl/crypto/sha/sha1dgst.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sha/sha1dgst.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sha/sha1dgst.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha1dgst.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sha/sha1dgst.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha1dgst.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_def.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_def.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_def.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_def.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_def.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_def.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pku.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pku.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pku.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pku.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_pku.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pku.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/v3_ocsp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/v3_ocsp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/v3_ocsp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/v3_ocsp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/v3_ocsp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/v3_ocsp.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_cnf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_cnf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_cnf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_cnf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_cnf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_cnf.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_strnid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_strnid.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_strnid.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_strnid.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_strnid.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_strnid.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_cl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_cl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_cl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_cl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_cl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_cl.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_admis.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_admis.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_admis.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_admis.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_admis.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_admis.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_log.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_log.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_log.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_log.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_log.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_log.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/cfb128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/cfb128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/cfb128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/cfb128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/cfb128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/cfb128.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_doit.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_doit.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_doit.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_doit.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pk7_doit.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_doit.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/threads_none.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/threads_none.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/threads_none.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/threads_none.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/threads_none.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/threads_none.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_mime.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_mime.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_mime.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_mime.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn_mime.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_mime.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ossl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ossl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ossl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_ossl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_ossl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_ossl.c
+
+$(OUTPUT_DIR)/openssl/crypto/cmac/cm_pmeth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/cmac/cm_pmeth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/cmac/cm_pmeth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac/cm_pmeth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/cmac/cm_pmeth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac/cm_pmeth.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_pbe.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_pbe.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_pbe.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_pbe.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_pbe.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_pbe.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/wrap128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/wrap128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/wrap128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/wrap128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/wrap128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/wrap128.c
+
+$(OUTPUT_DIR)/openssl/ssl/t1_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/t1_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/t1_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/t1_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/t1_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/t1_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/sm3/m_sm3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sm3/m_sm3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sm3/m_sm3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sm3/m_sm3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sm3/m_sm3.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sm3/m_sm3.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/extensions.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions.c
+
+$(OUTPUT_DIR)/openssl/crypto/async/async.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/async/async.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/async/async.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/async.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/async/async.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/async/async.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_kron.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_kron.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_kron.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_kron.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_kron.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_kron.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pu.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pu.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pu.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/d2i_pu.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/d2i_pu.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/d2i_pu.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_meth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_meth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_meth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_meth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_meth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_meth.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_data.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_data.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_data.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_data.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/pcy_data.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_data.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_vfy.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_vfy.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_vfy.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_vfy.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_vfy.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_vfy.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_gen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_gen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_gen.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_gen.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn1_gen.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_gen.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/i2d_pr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/i2d_pr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/i2d_pr.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_d2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_d2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_d2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_d2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_d2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_d2.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_txt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_txt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_txt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_txt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_txt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_txt.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_all.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_all.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_all.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_all.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_all.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_all.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_par.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_par.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_par.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_par.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn1_par.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_par.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_pkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_pkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_pkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/t_pkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/t_pkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/t_pkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/digest.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/digest.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/digest.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/digest.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/digest.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/digest.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_ofb.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_ofb.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_ofb.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_ofb.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_ofb.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_ofb.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_mime.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_mime.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_mime.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_mime.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pk7_mime.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_mime.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_gentm.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_gentm.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_gentm.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_gentm.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_gentm.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_gentm.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_all.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_all.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_all.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_all.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_all.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_all.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bcons.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bcons.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bcons.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_bcons.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_bcons.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_bcons.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_conf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_conf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_conf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_conf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_conf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_conf.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc5.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc5.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc5.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_rc5.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc5.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_exten.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_exten.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_exten.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_exten.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_exten.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_exten.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_old.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_old.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_old.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_old.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_old.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_old.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_name.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_name.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_name.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_name.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_name.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_name.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_crt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_crt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_crt.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_spki.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_spki.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_spki.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_spki.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_spki.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_spki.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_decr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_decr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_decr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_decr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_decr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_decr.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/bio_pk7.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/bio_pk7.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/bio_pk7.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/bio_pk7.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/bio_pk7.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/bio_pk7.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pci.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pci.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pci.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pci.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_pci.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pci.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_gen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_gen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_gen.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_gen.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_gen.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_gen.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_info.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_info.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_info.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_info.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_info.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_info.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p5_crpt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p5_crpt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p5_crpt.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_obj.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_obj.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_obj.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_obj.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_obj.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_obj.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_trs.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_trs.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_trs.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_trs.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_trs.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_trs.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_utst.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_utst.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_utst.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_utst.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_utst.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_utst.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_prn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_prn.c
+
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_openssl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_openssl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_openssl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_openssl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ui/ui_openssl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_openssl.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_v3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_v3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_v3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_v3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_v3.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_v3.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_dgram.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_dgram.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_dgram.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_dgram.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_dgram.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_dgram.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_blind.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_blind.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_blind.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_blind.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_blind.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_blind.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_sap.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_sap.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_sap.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_sap.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_sap.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_sap.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/ameth_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/ameth_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/ameth_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/ameth_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/ameth_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/ameth_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_vfy.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_vfy.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_vfy.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_vfy.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_vfy.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_vfy.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_cbc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_cbc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_cbc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_cbc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_cbc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_cbc.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/rand_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/names.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/names.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/names.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/names.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/names.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/names.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_seal.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_seal.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_seal.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_seal.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_seal.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_seal.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_verify.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_verify.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_verify.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_verify.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_verify.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_verify.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_sqr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_sqr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_sqr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_sqr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_sqr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_sqr.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_sbag.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_sbag.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_sbag.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_sbag.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_sbag.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_sbag.c
+
+$(OUTPUT_DIR)/openssl/ssl/bio_ssl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/bio_ssl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/bio_ssl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/bio_ssl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/bio_ssl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/bio_ssl.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_err.c
+
+$(OUTPUT_DIR)/openssl/ssl/t1_trce.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/t1_trce.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/t1_trce.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/t1_trce.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/t1_trce.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/t1_trce.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mpi.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mpi.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mpi.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mpi.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_mpi.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mpi.c
+
+$(OUTPUT_DIR)/openssl/crypto/err/err_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/err/err_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/err/err_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/err/err_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/err/err_prn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/err/err_prn.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_dec.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_dec.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_dec.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_dec.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_dec.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_dec.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/statem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/statem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/statem.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/statem.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_node.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_node.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_node.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_node.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/pcy_node.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_node.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_moid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_moid.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_moid.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_moid.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn_moid.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_moid.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_gcd.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_gcd.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_gcd.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_gcd.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_gcd.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_gcd.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_win32.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_win32.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_win32.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_win32.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_win32.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_win32.c
+
+$(OUTPUT_DIR)/openssl/crypto/objects/o_names.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/objects/o_names.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/objects/o_names.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/o_names.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/objects/o_names.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/o_names.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcons.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcons.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcons.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pcons.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_pcons.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pcons.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pmaps.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pmaps.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pmaps.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pmaps.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_pmaps.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pmaps.c
+
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_dat.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_dat.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_dat.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_dat.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/objects/obj_dat.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_dat.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_new.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_new.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_new.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_new.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_new.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_new.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pu.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pu.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/i2d_pu.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/i2d_pu.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/i2d_pu.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/i2d_pu.c
+
+$(OUTPUT_DIR)/openssl/crypto/buffer/buffer.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/buffer/buffer.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/buffer/buffer.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/buffer/buffer.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/buffer/buffer.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/buffer/buffer.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_shift.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_shift.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_shift.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_shift.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_shift.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_shift.c
+
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_util.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_util.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_util.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_util.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ui/ui_util.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_util.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_cast.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_cast.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_cast.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_cast.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_cast.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_cast.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_wp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_wp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_wp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_wp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_wp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_wp.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_fn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_fn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_fn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pmeth_fn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/pmeth_fn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pmeth_fn.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_api.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_api.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_api.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_api.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_api.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_api.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_sign.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_sign.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_sign.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_sign.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_sign.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_sign.c
+
+$(OUTPUT_DIR)/openssl/crypto/cmac/cmac.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/cmac/cmac.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/cmac/cmac.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac/cmac.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/cmac/cmac.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac/cmac.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_addr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_addr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_addr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_addr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_addr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_addr.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_attrib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_attrib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_attrib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_attrib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_attrib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_attrib.c
+
+$(OUTPUT_DIR)/openssl/crypto/async/async_wait.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/async/async_wait.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/async/async_wait.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/async_wait.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/async/async_wait.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/async/async_wait.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ext.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ext.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ext.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_ext.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_ext.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_ext.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_utl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_utl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_utl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_utl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_utl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_utl.c
+
+$(OUTPUT_DIR)/openssl/crypto/lhash/lh_stats.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/lhash/lh_stats.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/lhash/lh_stats.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/lhash/lh_stats.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/lhash/lh_stats.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/lhash/lh_stats.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_prn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_prn.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pkcs7err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pkcs7err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pkcs7err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pkcs7err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pkcs7err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pkcs7err.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/ofb128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/ofb128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/ofb128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ofb128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/ofb128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ofb128.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_depr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_depr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_depr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_depr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_depr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_depr.c
+
+$(OUTPUT_DIR)/openssl/crypto/getenv.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/getenv.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/getenv.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/getenv.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/getenv.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/getenv.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbe.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbe.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbe.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p5_pbe.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/p5_pbe.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p5_pbe.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_spki.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_spki.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_spki.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/t_spki.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/t_spki.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/t_spki.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_add.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_add.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_add.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_add.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_add.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_add.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/kdf/tls1_prf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/kdf/tls1_prf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/kdf/tls1_prf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/tls1_prf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/kdf/tls1_prf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/tls1_prf.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_vms.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_vms.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_vms.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_vms.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_vms.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_vms.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/t_req.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/t_req.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/t_req.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/t_req.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/t_req.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/t_req.c
+
+$(OUTPUT_DIR)/openssl/crypto/lhash/lhash.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/lhash/lhash.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/lhash/lhash.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/lhash/lhash.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/lhash/lhash.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/lhash/lhash.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_clnt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_clnt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_clnt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_clnt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/statem_clnt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_clnt.c
+
+$(OUTPUT_DIR)/rand_pool.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/rand_pool.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/rand_pool.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/rand_pool.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./rand_pool.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/rand_pool.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p5_crpt2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p5_crpt2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p5_crpt2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p5_crpt2.c
+
+$(OUTPUT_DIR)/test_sm2_encrypt_and_decrypt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/test_sm2_encrypt_and_decrypt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/test_sm2_encrypt_and_decrypt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/test_sm2_encrypt_and_decrypt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./test_sm2_encrypt_and_decrypt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/test_sm2_encrypt_and_decrypt.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_crl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_crl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_crl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_crl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_crl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_crl.c
+
+$(OUTPUT_DIR)/openssl/crypto/err/err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/err/err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/err/err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/err/err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/err/err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/err/err.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_ctx.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_ctx.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_ctx.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_ctx.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_ctx.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_ctx.c
+
+$(OUTPUT_DIR)/openssl/crypto/threads_pthread.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/threads_pthread.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/threads_pthread.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/threads_pthread.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/threads_pthread.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/threads_pthread.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_xcbc_d.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_xcbc_d.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_xcbc_d.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_xcbc_d.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_xcbc_d.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_xcbc_d.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_x509.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_x509.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_x509.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_x509.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_x509.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_x509.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_attr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_attr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_attr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_attr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_attr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_attr.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_cb.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_cb.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_cb.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_cb.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bio_cb.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_cb.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_pack.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_pack.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_pack.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_pack.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn_pack.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_pack.c
+
+$(OUTPUT_DIR)/openssl/crypto/comp/comp_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/comp/comp_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/comp/comp_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/comp/comp_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/comp/comp_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/comp/comp_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_asn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_asn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_asn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_asn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_asn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_asn.c
+
+$(OUTPUT_DIR)/openssl/ssl/d1_srtp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/d1_srtp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/d1_srtp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/d1_srtp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/d1_srtp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/d1_srtp.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_ameth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_ameth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_ameth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_ameth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_ameth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_ameth.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_meth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_meth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_meth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_meth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_meth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_meth.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_prn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_prn.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_err.c
+
+$(OUTPUT_DIR)/openssl/ssl/d1_msg.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/d1_msg.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/d1_msg.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/d1_msg.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/d1_msg.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/d1_msg.c
+
+$(OUTPUT_DIR)/openssl/ssl/s3_cbc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/s3_cbc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/s3_cbc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_cbc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/s3_cbc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_cbc.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/hmac/hm_ameth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/hmac/hm_ameth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/hmac/hm_ameth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac/hm_ameth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/hmac/hm_ameth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac/hm_ameth.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/bio_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_enc.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_init.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_init.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_init.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_init.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_init.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_init.c
+
+$(OUTPUT_DIR)/openssl/crypto/sha/sha1_one.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sha/sha1_one.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sha/sha1_one.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha1_one.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sha/sha1_one.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha1_one.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_pmeth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_pmeth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_pmeth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_pmeth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_pmeth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_pmeth.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_sign.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_sign.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_sign.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_sign.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_sign.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_sign.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_chk.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_chk.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_chk.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_chk.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_chk.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_chk.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_word.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_word.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_word.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_word.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_word.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_word.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_sign.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_sign.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_sign.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_sign.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_sign.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_sign.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_md2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md2.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_dlfcn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_dlfcn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_dlfcn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_dlfcn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_dlfcn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_dlfcn.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pmeth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pmeth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pmeth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_pmeth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_pmeth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_pmeth.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_map.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_map.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_map.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_map.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/pcy_map.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_map.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_enc.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aes.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_aes.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aes.c
+
+$(OUTPUT_DIR)/test_demo.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/test_demo.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/test_demo.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/test_demo.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./test_demo.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/test_demo.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pvkfmt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pvkfmt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pvkfmt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pvkfmt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pvkfmt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pvkfmt.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc4.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc4.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc4.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_rc4.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc4.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md4.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md4.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md4.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_md4.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md4.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn1_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_lib.c
 
 $(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./AutoGen.obj $(INC) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/DEBUG/AutoGen.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./AutoGen.obj  /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/DEBUG/AutoGen.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_info.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_info.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_info.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_info.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_info.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_info.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bio_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ui/ui_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_req.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_req.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_req.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_req.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_req.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_req.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/ctr128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/ctr128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/ctr128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ctr128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/ctr128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ctr128.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_null.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_null.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_null.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_null.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_null.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_null.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcia.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcia.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_pcia.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pcia.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_pcia.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_pcia.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_pk8.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_pk8.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_pk8.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_pk8.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_pk8.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_pk8.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/pbe_scrypt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/pbe_scrypt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/pbe_scrypt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pbe_scrypt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/pbe_scrypt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pbe_scrypt.c
+
+$(OUTPUT_DIR)/openssl/crypto/mem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/mem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/mem.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/mem.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/mem.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/mem.c
+
+$(OUTPUT_DIR)/openssl/crypto/ctype.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ctype.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ctype.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ctype.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ctype.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ctype.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/nsseq.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/nsseq.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/nsseq.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/nsseq.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/nsseq.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/nsseq.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_val.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_val.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_val.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_val.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_val.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_val.c
+
+$(OUTPUT_DIR)/openssl/crypto/kdf/scrypt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/kdf/scrypt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/kdf/scrypt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/scrypt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/kdf/scrypt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/scrypt.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_file.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_file.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_file.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_file.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_file.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_file.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_key.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_key.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_key.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_key.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_key.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_key.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_ext.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_ext.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_ext.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_ext.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_ext.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_ext.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_gn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_gn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_gn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pmeth_gn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/pmeth_gn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pmeth_gn.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_rsa.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_rsa.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_rsa.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_rsa.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_rsa.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_rsa.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_enc.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_core.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_core.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_core.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_core.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_core.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_core.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_recp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_recp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_recp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_recp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_recp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_recp.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_oth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_oth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_oth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_oth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_oth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_oth.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_lu.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_lu.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_lu.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_lu.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_lu.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_lu.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_des.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_des.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_des.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_des.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_des.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_des.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_const.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_const.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_const.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_const.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_const.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_const.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sha1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sha1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sha1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_sha1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_sha1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_sha1.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pk7_asn1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_asn1.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_req.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_req.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_req.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_req.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_req.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_req.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_null.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_null.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_null.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_null.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_null.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_null.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_mcnf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_mcnf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_mcnf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_mcnf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_mcnf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_mcnf.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_sign.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_sign.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_sign.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_sign.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_sign.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_sign.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_srp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_srp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_srp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_srp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_srp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_srp.c
+
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/objects/obj_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_int64.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_int64.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_int64.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_int64.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_int64.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_int64.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_xaux.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_xaux.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_xaux.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_xaux.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_xaux.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_xaux.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_null.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_null.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_null.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_null.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_null.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_null.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_ciph.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_ciph.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_ciph.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_ciph.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_ciph.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_ciph.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_alt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_alt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_alt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_alt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_alt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_alt.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_gen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_gen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_gen.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_gen.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_gen.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_gen.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_add.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_add.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_add.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_add.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_add.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_add.c
+
+$(OUTPUT_DIR)/openssl/crypto/init.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/init.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/init.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/init.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/init.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/init.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_sig.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_sig.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_sig.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_sig.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_sig.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_sig.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_des3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_des3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_des3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_des3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_des3.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_des3.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_npas.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_npas.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_npas.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_npas.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_npas.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_npas.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_crpt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_crpt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_crpt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_crpt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_crpt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_crpt.c
+
+$(OUTPUT_DIR)/openssl/crypto/o_str.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/o_str.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/o_str.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/o_str.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/o_str.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/o_str.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_nist.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_nist.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_nist.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_nist.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_nist.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_nist.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bitst.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bitst.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_bitst.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_bitst.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_bitst.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_bitst.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sigver.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sigver.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sigver.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_sigver.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_sigver.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_sigver.c
+
+$(OUTPUT_DIR)/openssl/ssl/tls_srp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/tls_srp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/tls_srp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/tls_srp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/tls_srp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/tls_srp.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/sha/sha256.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sha/sha256.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sha/sha256.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha256.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sha/sha256.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha256.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_mod.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_mod.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_mod.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_mod.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_mod.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_mod.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_int.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_int.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_int.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_int.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_int.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_int.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_time.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_time.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_time.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_time.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_time.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_time.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_algor.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_algor.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_algor.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_algor.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_algor.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_algor.c
+
+$(OUTPUT_DIR)/openssl/ssl/methods.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/methods.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/methods.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/methods.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/methods.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/methods.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_saos.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_saos.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_saos.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_saos.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_saos.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_saos.c
+
+$(OUTPUT_DIR)/openssl/crypto/txt_db/txt_db.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/txt_db/txt_db.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/txt_db/txt_db.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/txt_db/txt_db.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/txt_db/txt_db.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/txt_db/txt_db.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_mbstr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_mbstr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_mbstr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_mbstr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_mbstr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_mbstr.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_enc.c
+
+$(OUTPUT_DIR)/openssl/crypto/o_time.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/o_time.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/o_time.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/o_time.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/o_time.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/o_time.c
+
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_null.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_null.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_null.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch/async_null.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/async/arch/async_null.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch/async_null.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/f_string.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/f_string.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/f_string.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/f_string.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/f_string.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/f_string.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_att.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_att.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_att.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_att.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_att.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_att.c
+
+$(OUTPUT_DIR)/openssl/ssl/record/dtls1_bitmap.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/record/dtls1_bitmap.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/record/dtls1_bitmap.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record/dtls1_bitmap.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/record/dtls1_bitmap.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/record/dtls1_bitmap.c
+
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash/siphash.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/siphash/siphash.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash/siphash.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/n_pkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/n_pkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/n_pkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/n_pkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/n_pkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/n_pkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/by_file.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/by_file.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/by_file.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/by_file.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/by_file.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/by_file.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3err.c
+
+$(OUTPUT_DIR)/openssl/crypto/async/async_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/async/async_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/async/async_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/async_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/async/async_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/async/async_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_win.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_win.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_win.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch/async_win.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/async/arch/async_win.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch/async_win.c
+
+$(OUTPUT_DIR)/openssl/ssl/tls13_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/tls13_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/tls13_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/tls13_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/tls13_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/tls13_enc.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_purp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_purp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_purp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_purp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_purp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_purp.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_b64.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_b64.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_b64.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_b64.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/bio_b64.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_b64.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aes_cbc_hmac_sha1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_aes_cbc_hmac_sha1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aes_cbc_hmac_sha1.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crpt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crpt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_crpt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_crpt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_crpt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_crpt.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/pcy_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aria.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aria.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aria.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aria.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_aria.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aria.c
+
+$(OUTPUT_DIR)/openssl/crypto/hmac/hmac.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/hmac/hmac.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/hmac/hmac.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac/hmac.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/hmac/hmac.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac/hmac.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_bf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_bf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_bf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_bf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_bf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_bf.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_conf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_conf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_conf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_conf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_conf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_conf.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_crld.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_crld.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_crld.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_crld.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_crld.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_crld.c
+
+$(OUTPUT_DIR)/openssl/crypto/threads_win.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/threads_win.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/threads_win.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/threads_win.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/threads_win.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/threads_win.c
+
+$(OUTPUT_DIR)/openssl/crypto/sha/sha512.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sha/sha512.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sha/sha512.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha512.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sha/sha512.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/sha512.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/rand_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_open.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_open.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_open.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_open.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_open.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_open.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_mall.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_mall.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_mall.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_mall.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_mall.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_mall.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/cbc128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/cbc128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/cbc128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/cbc128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/cbc128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/cbc128.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md5.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md5.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md5.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_md5.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md5.c
+
+$(OUTPUT_DIR)/openssl/crypto/buffer/buf_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/buffer/buf_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/buffer/buf_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/buffer/buf_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/buffer/buf_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/buffer/buf_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/comp/c_zlib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/comp/c_zlib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/comp/c_zlib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/comp/c_zlib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/comp/c_zlib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/comp/c_zlib.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_cust.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_cust.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_cust.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions_cust.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/extensions_cust.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions_cust.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509rset.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509rset.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509rset.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509rset.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509rset.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509rset.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/cmeth_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/cmeth_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/cmeth_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/cmeth_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/cmeth_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/cmeth_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_mstbl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_mstbl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn_mstbl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_mstbl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn_mstbl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn_mstbl.c
+
+$(OUTPUT_DIR)/openssl/crypto/o_init.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/o_init.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/o_init.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/o_init.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/o_init.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/o_init.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_bitst.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_bitst.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/t_bitst.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/t_bitst.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/t_bitst.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/t_bitst.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_srvr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_srvr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_srvr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_srvr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/statem_srvr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_srvr.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_none.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_none.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_none.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_none.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_none.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_none.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_camellia.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_camellia.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_camellia.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_camellia.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_camellia.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_camellia.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_mem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_mem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_mem.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_mem.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_mem.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_mem.c
+
+$(OUTPUT_DIR)/openssl/crypto/aria/aria.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aria/aria.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aria/aria.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aria/aria.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aria/aria.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aria/aria.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_cfb.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_cfb.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_cfb.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_cfb.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_cfb.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_cfb.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_key.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_key.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_key.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_key.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_key.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_key.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_object.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_object.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_object.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_object.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_object.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_object.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_key.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_key.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_key.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_key.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_key.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_key.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_utf8.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_utf8.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_utf8.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_utf8.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_utf8.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_utf8.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_unix.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_unix.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_unix.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_unix.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/rand_unix.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_unix.c
+
+$(OUTPUT_DIR)/openssl/crypto/sm4/sm4.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sm4/sm4.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sm4/sm4.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sm4/sm4.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sm4/sm4.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sm4/sm4.c
+
+$(OUTPUT_DIR)/openssl/crypto/cryptlib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/cryptlib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/cryptlib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cryptlib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/cryptlib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/cryptlib.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_asid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_asid.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_asid.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_asid.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_asid.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_asid.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_cmp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_cmp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_cmp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_cmp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_cmp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_cmp.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_i2d_fp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_i2d_fp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_i2d_fp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_i2d_fp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_i2d_fp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_i2d_fp.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_div.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_div.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_div.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_div.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_div.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_div.c
+
+$(OUTPUT_DIR)/openssl/ssl/s3_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/s3_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/s3_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/s3_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_digest.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_digest.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_digest.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_digest.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_digest.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_digest.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/evp_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/evp_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/evp_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/evp_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/evp_asn1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/evp_asn1.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/t_crl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/t_crl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/t_crl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/t_crl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/t_crl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/t_crl.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_bignum.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_bignum.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_bignum.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_bignum.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_bignum.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_bignum.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_md.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_md.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_md.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_md.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/bio_md.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_md.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_x931.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_x931.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_x931.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_prn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_prn.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_utctm.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_utctm.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_utctm.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_utctm.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_utctm.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_utctm.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_srvr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_srvr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_srvr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions_srvr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/extensions_srvr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions_srvr.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/c_allc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/c_allc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/c_allc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/c_allc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/c_allc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/c_allc.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_clnt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_clnt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/extensions_clnt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions_clnt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/extensions_clnt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/extensions_clnt.c
+
+$(OUTPUT_DIR)/ossl_store.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ossl_store.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/ossl_store.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/ossl_store.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./ossl_store.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/ossl_store.c
+
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_pkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_pkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pem/pem_pkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_pkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pem/pem_pkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pem/pem_pkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_wrap.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_wrap.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_wrap.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_wrap.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_wrap.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_wrap.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_mdc2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_mdc2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_mdc2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_mdc2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_mdc2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_mdc2.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_ok.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_ok.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/bio_ok.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_ok.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/bio_ok.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/bio_ok.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mont.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mont.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mont.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mont.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_mont.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mont.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/p8_pkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/p8_pkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/p8_pkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p8_pkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/p8_pkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p8_pkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_misc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_misc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_misc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_misc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_misc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_misc.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_extku.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_extku.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_extku.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_extku.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_extku.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_extku.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_pkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_pkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_pkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_pkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_pkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_pkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/cversion.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/cversion.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/cversion.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cversion.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/cversion.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/cversion.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_meth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_meth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_meth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_meth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bio_meth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_meth.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_rc2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc2.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_ssl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_ssl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_ssl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_ssl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_ssl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_ssl.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_err.c
+
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_buffer.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_buffer.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_buffer.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record/ssl3_buffer.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/record/ssl3_buffer.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/record/ssl3_buffer.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/drbg_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/drbg_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/drbg_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/drbg_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/drbg_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/drbg_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pss.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pss.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pss.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_pss.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_pss.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_pss.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/drbg_ctr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/drbg_ctr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/drbg_ctr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/drbg_ctr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/drbg_ctr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/drbg_ctr.c
+
+$(OUTPUT_DIR)/openssl/ssl/t1_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/t1_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/t1_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/t1_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/t1_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/t1_enc.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_print.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_print.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_print.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_print.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_print.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_print.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/b_sock.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/b_sock.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/b_sock.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_sock.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/b_sock.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_sock.c
+
+$(OUTPUT_DIR)/openssl/ssl/pqueue.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/pqueue.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/pqueue.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/pqueue.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/pqueue.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/pqueue.c
+
+$(OUTPUT_DIR)/openssl/crypto/o_fopen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/o_fopen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/o_fopen.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/o_fopen.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/o_fopen.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/o_fopen.c
+
+$(OUTPUT_DIR)/openssl/ssl/s3_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/s3_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/s3_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/s3_enc.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_enc.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/p_dec.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/p_dec.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/p_dec.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_dec.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/p_dec.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/p_dec.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_vpm.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_vpm.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_vpm.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_vpm.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_vpm.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_vpm.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ncons.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ncons.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ncons.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_ncons.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_ncons.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_ncons.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_akey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_akey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_akey.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_oaep.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_oaep.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_oaep.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_oaep.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_oaep.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_oaep.c
+
+$(OUTPUT_DIR)/openssl/crypto/comp/comp_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/comp/comp_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/comp/comp_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/comp/comp_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/comp/comp_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/comp/comp_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_null.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_null.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_null.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_null.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bf_null.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_null.c
+
+$(OUTPUT_DIR)/openssl/crypto/cmac/cm_ameth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/cmac/cm_ameth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/cmac/cm_ameth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac/cm_ameth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/cmac/cm_ameth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/cmac/cm_ameth.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ameth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ameth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ameth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_ameth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_ameth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_ameth.c
+
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_ige.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_ige.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/aes/aes_ige.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_ige.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/aes/aes_ige.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/aes/aes_ige.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/by_dir.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/by_dir.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/by_dir.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/by_dir.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/by_dir.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/by_dir.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_cpols.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_cpols.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_cpols.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_cpols.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_cpols.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_cpols.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/encode.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/encode.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/encode.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/encode.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/encode.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/encode.c
+
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ui/ui_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_win.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_win.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_win.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_win.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/rand_win.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_win.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_set.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_set.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_set.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_set.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_set.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_set.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_type.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_type.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_type.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_type.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_type.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_type.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/f_int.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/f_int.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/f_int.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/f_int.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/f_int.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/f_int.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_lib.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_cert.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_cert.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_cert.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_cert.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_cert.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_cert.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_prime.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_prime.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_prime.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_prime.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_prime.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_prime.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_srv.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_srv.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_srv.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_srv.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_srv.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_srv.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_sqrt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_sqrt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_sqrt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_sqrt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_sqrt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_sqrt.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_chacha20_poly1305.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_chacha20_poly1305.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_chacha20_poly1305.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_chacha20_poly1305.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_chacha20_poly1305.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_chacha20_poly1305.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8d.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8d.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8d.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_p8d.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_p8d.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_p8d.c
+
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash_pmeth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash_pmeth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash_pmeth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash/siphash_pmeth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/siphash/siphash_pmeth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash/siphash_pmeth.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_d2i_fp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_d2i_fp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_d2i_fp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_d2i_fp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_d2i_fp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_d2i_fp.c
+
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_posix.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_posix.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/async/arch/async_posix.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch/async_posix.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/async/arch/async_posix.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/async/arch/async_posix.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_pkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_pkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_pkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_pkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_pkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_pkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_smime.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_smime.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_smime.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_smime.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pk7_smime.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_smime.c
+
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_xref.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_xref.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_xref.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_xref.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/objects/obj_xref.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_xref.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_idea.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_idea.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_idea.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_idea.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_idea.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_idea.c
+
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash_ameth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash_ameth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/siphash/siphash_ameth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash/siphash_ameth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/siphash/siphash_ameth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/siphash/siphash_ameth.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/pmeth_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pmeth_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/pmeth_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/pmeth_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/bio_ndef.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/bio_ndef.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/bio_ndef.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/bio_ndef.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/bio_ndef.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/bio_ndef.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/b_dump.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/b_dump.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/b_dump.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_dump.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/b_dump.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_dump.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931g.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931g.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_x931g.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_x931g.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_x931g.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_x931g.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_stat.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_stat.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_stat.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_stat.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_stat.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_stat.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_sock.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_sock.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_sock.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_sock.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_sock.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_sock.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbev2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbev2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_pbev2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p5_pbev2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/p5_pbev2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p5_pbev2.c
+
+$(OUTPUT_DIR)/openssl/ssl/packet.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/packet.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/packet.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/packet.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/packet.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/packet.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akeya.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akeya.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_akeya.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_akeya.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_akeya.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_akeya.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md5_sha1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md5_sha1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_md5_sha1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md5_sha1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_md5_sha1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_md5_sha1.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_utl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_utl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_utl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_utl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_utl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_utl.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_item_list.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_item_list.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_item_list.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_item_list.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn1_item_list.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_item_list.c
+
+$(OUTPUT_DIR)/sm2_encrypt_and_decrypt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/sm2_encrypt_and_decrypt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/sm2_encrypt_and_decrypt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/sm2_encrypt_and_decrypt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./sm2_encrypt_and_decrypt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/sm2_encrypt_and_decrypt.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_strex.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_strex.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_strex.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_strex.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_strex.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_strex.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_init.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_init.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_init.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_init.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_init.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_init.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/evp_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/evp_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/evp_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/t_x509.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/t_x509.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/t_x509.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/t_x509.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/t_x509.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/t_x509.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bio_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bio_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bio_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_octet.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_octet.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_octet.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_octet.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_octet.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_octet.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/b_addr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/b_addr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/b_addr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_addr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/b_addr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_addr.c
+
+$(OUTPUT_DIR)/openssl/crypto/o_dir.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/o_dir.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/o_dir.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/o_dir.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/o_dir.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/o_dir.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/bio_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/bio_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/bio_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/bio_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/bio_asn1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/bio_asn1.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/xts128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/xts128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/xts128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/xts128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/xts128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/xts128.c
+
+$(OUTPUT_DIR)/openssl/ssl/record/rec_layer_s3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/record/rec_layer_s3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/record/rec_layer_s3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record/rec_layer_s3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/record/rec_layer_s3.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/record/rec_layer_s3.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc5114.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc5114.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc5114.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_rfc5114.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_rfc5114.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_rfc5114.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_cache.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_cache.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_cache.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_cache.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/pcy_cache.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_cache.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8e.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8e.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_p8e.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_p8e.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_p8e.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_p8e.c
+
+$(OUTPUT_DIR)/openssl/ssl/s3_msg.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/s3_msg.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/s3_msg.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_msg.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/s3_msg.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/s3_msg.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ssl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ssl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_ssl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_ssl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_ssl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_ssl.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/asn1_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/asn1_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/asn1_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_prn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_prn.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/gcm128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/gcm128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/gcm128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/gcm128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/gcm128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/gcm128.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_info.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_info.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_info.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_info.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_info.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_info.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_dh.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_dh.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_dh.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_dh.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_dh.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_dh.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509name.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509name.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509name.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509name.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509name.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509name.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_exp2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_exp2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_exp2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_exp2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_exp2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_exp2.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/d2i_pr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/d2i_pr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/d2i_pr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/d2i_pr.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_ripemd.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_ripemd.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_ripemd.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_ripemd.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_ripemd.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_ripemd.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_acpt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_acpt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_acpt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_acpt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_acpt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_acpt.c
+
+$(OUTPUT_DIR)/openssl/crypto/mem_dbg.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/mem_dbg.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/mem_dbg.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/mem_dbg.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/mem_dbg.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/mem_dbg.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mod.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mod.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mod.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mod.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_mod.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mod.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_x509a.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_x509a.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_x509a.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_x509a.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_x509a.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_x509a.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_enum.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_enum.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_enum.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_enum.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_enum.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_enum.c
+
+$(OUTPUT_DIR)/openssl/ssl/d1_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/d1_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/d1_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/d1_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/d1_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/d1_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509cset.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509cset.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509cset.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509cset.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509cset.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509cset.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_buff.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_buff.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_buff.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_buff.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bf_buff.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_buff.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/ocb128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/ocb128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/ocb128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ocb128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/ocb128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ocb128.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_openssl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_openssl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_openssl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_openssl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_openssl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_openssl.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/ccm128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/ccm128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/ccm128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ccm128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/ccm128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/ccm128.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sha3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sha3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/m_sha3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_sha3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/m_sha3.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/m_sha3.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_x931p.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_x931p.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_x931p.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_x931p.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_x931p.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_x931p.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_dtls.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_dtls.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_dtls.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_dtls.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/statem_dtls.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_dtls.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509spki.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509spki.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509spki.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509spki.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509spki.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509spki.c
+
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_record.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_record.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_record.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record/ssl3_record.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/record/ssl3_record.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/record/ssl3_record.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_attr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_attr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_attr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_attr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pk7_attr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_attr.c
+
+$(OUTPUT_DIR)/openssl/crypto/mem_sec.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/mem_sec.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/mem_sec.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/mem_sec.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/mem_sec.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/mem_sec.c
+
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/objects/obj_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/objects/obj_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/objects/obj_err.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_asn1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_asn1.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_mutl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_mutl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_mutl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_mutl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_mutl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_mutl.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_sxnet.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_sxnet.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_sxnet.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_sxnet.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_sxnet.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_sxnet.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_scn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_scn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_scn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_scn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_scn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_scn.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc4_hmac_md5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc4_hmac_md5.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_rc4_hmac_md5.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc4_hmac_md5.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_rc4_hmac_md5.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_rc4_hmac_md5.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_sess.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_sess.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_sess.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_sess.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_sess.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_sess.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_int.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_int.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_int.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_int.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_int.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_int.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_rand.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_rand.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_rand.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_rand.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_rand.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_rand.c
+
+$(OUTPUT_DIR)/openssl/crypto/modes/cts128.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/modes/cts128.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/modes/cts128.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/cts128.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/modes/cts128.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/modes/cts128.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509type.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509type.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509type.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509type.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509type.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509type.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_depr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_depr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_depr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_depr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_depr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_depr.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_txt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_txt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_txt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_txt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_txt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_txt.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_skey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_skey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_skey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_skey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_skey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_skey.c
+
+$(OUTPUT_DIR)/openssl/crypto/md5/md5_dgst.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/md5/md5_dgst.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/md5/md5_dgst.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/md5/md5_dgst.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/md5/md5_dgst.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/md5/md5_dgst.c
+
+$(OUTPUT_DIR)/openssl/crypto/ex_data.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ex_data.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ex_data.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ex_data.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ex_data.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ex_data.c
+
+$(OUTPUT_DIR)/openssl/crypto/ebcdic.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ebcdic.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ebcdic.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ebcdic.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ebcdic.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ebcdic.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_exp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_exp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_exp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_exp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_exp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_exp.c
+
+$(OUTPUT_DIR)/openssl/crypto/kdf/hkdf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/kdf/hkdf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/kdf/hkdf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/hkdf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/kdf/hkdf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/hkdf.c
+
+$(OUTPUT_DIR)/openssl/crypto/md5/md5_one.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/md5/md5_one.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/md5/md5_one.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/md5/md5_one.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/md5/md5_one.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/md5/md5_one.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_kiss.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_kiss.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_kiss.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_kiss.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_kiss.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_kiss.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_seed.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_seed.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_seed.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_seed.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_seed.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_seed.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/c_alld.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/c_alld.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/c_alld.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/c_alld.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/c_alld.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/c_alld.c
+
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_record_tls13.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_record_tls13.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/record/ssl3_record_tls13.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record/ssl3_record_tls13.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/record/ssl3_record_tls13.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/record/ssl3_record_tls13.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_long.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_long.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/x_long.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_long.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/x_long.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/x_long.c
+
+$(OUTPUT_DIR)/openssl/crypto/uid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/uid.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/uid.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/uid.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/uid.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/uid.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_r2x.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_r2x.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_r2x.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_r2x.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_r2x.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_r2x.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_scrypt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_scrypt.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/p5_scrypt.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p5_scrypt.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/p5_scrypt.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/p5_scrypt.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_genn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_genn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_genn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_genn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_genn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_genn.c
+
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_dl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_dl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dso/dso_dl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_dl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dso/dso_dl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dso/dso_dl.c
+
+$(OUTPUT_DIR)/openssl/crypto/o_fips.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/o_fips.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/o_fips.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/o_fips.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/o_fips.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/o_fips.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_nbio.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_nbio.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_nbio.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_nbio.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bf_nbio.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_nbio.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc7919.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc7919.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_rfc7919.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_rfc7919.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_rfc7919.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_rfc7919.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_bio.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_bio.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_bio.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_bio.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_bio.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_bio.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_conn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_conn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_conn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_conn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_conn.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_conn.c
+
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ht.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ht.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ocsp/ocsp_ht.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_ht.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ocsp/ocsp_ht.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ocsp/ocsp_ht.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_intern.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_intern.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_intern.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_intern.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_intern.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_intern.c
+
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/statem/statem_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/statem/statem_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/statem/statem_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ia5.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ia5.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_ia5.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_ia5.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_ia5.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_ia5.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_bitstr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_bitstr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_bitstr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_bitstr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_bitstr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_bitstr.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_gf2m.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_gf2m.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_gf2m.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_gf2m.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_gf2m.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_gf2m.c
+
+$(OUTPUT_DIR)/openssl/crypto/sm3/sm3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sm3/sm3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sm3/sm3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sm3/sm3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sm3/sm3.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sm3/sm3.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_depr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_depr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_depr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_depr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_depr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_depr.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_typ.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_typ.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_typ.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_typ.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_typ.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_typ.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mul.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mul.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_mul.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mul.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_mul.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_mul.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_lbuf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_lbuf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bf_lbuf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_lbuf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bf_lbuf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bf_lbuf.c
+
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha256.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha256.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/evp/e_aes_cbc_hmac_sha256.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aes_cbc_hmac_sha256.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/evp/e_aes_cbc_hmac_sha256.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/evp/e_aes_cbc_hmac_sha256.c
+
+$(OUTPUT_DIR)/openssl/ssl/ssl_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/ssl_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/ssl_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/ssl_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/ssl_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_print.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_print.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bn/bn_print.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_print.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bn/bn_print.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bn/bn_print.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs7/pk7_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs7/pk7_lib.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs7/pk7_lib.c
+
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_def.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_def.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/conf/conf_def.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_def.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/conf/conf_def.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/conf/conf_def.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_fd.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_fd.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/bss_fd.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_fd.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/bss_fd.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/bss_fd.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_tree.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_tree.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/pcy_tree.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_tree.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/pcy_tree.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/pcy_tree.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_fre.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_fre.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/tasn_fre.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_fre.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/tasn_fre.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/tasn_fre.c
+
+$(OUTPUT_DIR)/sm2_create_key_pair.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/sm2_create_key_pair.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/sm2_create_key_pair.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/sm2_create_key_pair.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/./sm2_create_key_pair.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/sm2_create_key_pair.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_tlsf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_tlsf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509v3/v3_tlsf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_tlsf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509v3/v3_tlsf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509v3/v3_tlsf.c
+
+$(OUTPUT_DIR)/openssl/crypto/cpt_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/cpt_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/cpt_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/cpt_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/cpt_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/cpt_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_meth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_meth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x509_meth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_meth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x509_meth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x509_meth.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_verify.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_verify.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_verify.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_verify.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_verify.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_verify.c
+
+$(OUTPUT_DIR)/openssl/crypto/bio/b_sock2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/bio/b_sock2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/bio/b_sock2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_sock2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/bio/b_sock2.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/bio/b_sock2.c
+
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_null.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_null.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/ui/ui_null.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_null.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/ui/ui_null.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/ui/ui_null.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/pk12err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/pk12err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/pk12err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/pk12err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/pk12err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/pk12err.c
+
+$(OUTPUT_DIR)/openssl/ssl/record/rec_layer_d1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/ssl/record/rec_layer_d1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/ssl/record/rec_layer_d1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/ssl/record/rec_layer_d1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/ssl/record/rec_layer_d1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/ssl/record/rec_layer_d1.c
+
+$(OUTPUT_DIR)/openssl/crypto/mem_clr.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/mem_clr.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/mem_clr.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/mem_clr.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/mem_clr.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/mem_clr.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_kdf.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_kdf.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_kdf.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_kdf.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_kdf.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_kdf.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_pubkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_pubkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_pubkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_pubkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_pubkey.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_pubkey.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_mp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_mp.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_mp.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_mp.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_mp.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_mp.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_asn1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_asn1.c
+
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_check.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_check.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/dh/dh_check.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_check.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/dh/dh_check.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/dh/dh_check.c
+
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pk1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pk1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rsa/rsa_pk1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_pk1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rsa/rsa_pk1.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rsa/rsa_pk1.c
+
+$(OUTPUT_DIR)/openssl/crypto/sha/keccak1600.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/sha/keccak1600.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/sha/keccak1600.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/keccak1600.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/sha/keccak1600.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/sha/keccak1600.c
+
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_dup.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_dup.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/asn1/a_dup.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_dup.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/asn1/a_dup.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/asn1/a_dup.c
+
+$(OUTPUT_DIR)/openssl/crypto/x509/x_x509.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/x509/x_x509.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/x509/x_x509.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_x509.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/x509/x_x509.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/x509/x_x509.c
+
+$(OUTPUT_DIR)/openssl/crypto/kdf/kdf_err.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/kdf/kdf_err.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/kdf/kdf_err.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/kdf_err.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/kdf/kdf_err.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/kdf/kdf_err.c
+
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_utl.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_utl.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/pkcs12/p12_utl.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_utl.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/pkcs12/p12_utl.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/pkcs12/p12_utl.c
+
+$(OUTPUT_DIR)/openssl/crypto/hmac/hm_pmeth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/hmac/hm_pmeth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/hmac/hm_pmeth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac/hm_pmeth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/hmac/hm_pmeth.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/hmac/hm_pmeth.c
+
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_egd.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_egd.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/openssl/crypto/rand/rand_egd.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_egd.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_RESP) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Test/Test/OUTPUT/openssl/crypto/rand/rand_egd.obj  /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Test/openssl/crypto/rand/rand_egd.c
 
 $(OUTPUT_DIR)/Test.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/Test.lib : $(OBJECT_FILES_LIST)
@@ -424,43 +3373,17 @@ cleanall:
 # clean all dependent libraries built
 #
 cleanlib:
-	-@test -e $(BIN_DIR)/StdLib/LibC/gdtoa/gdtoa/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/gdtoa/gdtoa/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/PosixLib/Gen/LibGen/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/PosixLib/Gen/LibGen/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Time/Time/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Time/Time/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Locale/Locale/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Locale/Locale/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Uefi/Uefi/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Uefi/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Signal/Signal/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Signal/Signal/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Ctype/Ctype/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Ctype/Ctype/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/String/String/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/String/String/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/StdLib/StdLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/StdLib/StdLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daUtility/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daUtility/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/BasePrintLib/BasePrintLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BasePrintLib/BasePrintLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Stdio/Stdio/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Stdio/Stdio/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/LibC/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/LibC/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Wchar/Wchar/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Wchar/Wchar/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseLib/BaseLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/BasePrintLib/BasePrintLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BasePrintLib/BasePrintLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/UefiLib/UefiLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiLib/UefiLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Containers/ContainerLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Containers/ContainerLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Uefi/InteractiveIO/IIO/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/InteractiveIO/IIO/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daConsole/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daConsole/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdeModulePkg/Library/UefiSortLib/UefiSortLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/UefiSortLib/UefiSortLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/ShellPkg/Library/UefiShellLib/UefiShellLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ShellPkg/Library/UefiShellLib/UefiShellLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/NetUtil/NetUtil/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/NetUtil/NetUtil/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daShell/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/LibC/Uefi/Devices/daShell/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/BsdSocketLib/BsdSocketLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/BsdSocketLib/BsdSocketLib/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/StdLib/EfiSocketLib/EfiSocketLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/StdLib/EfiSocketLib/EfiSocketLib/GNUmakefile cleanall
 	@cd $(MODULE_BUILD_DIR)
 

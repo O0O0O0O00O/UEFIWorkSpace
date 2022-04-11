@@ -1,0 +1,3388 @@
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/Ia32/Thunk16.nasm"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 1 "<command-line>" 2
+# 1 "/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC48/IA32/MdePkg/Library/BaseLib/BaseLib/DEBUG/AutoGen.h" 1
+# 16 "/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC48/IA32/MdePkg/Library/BaseLib/BaseLib/DEBUG/AutoGen.h"
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h" 1
+# 21 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Ia32/ProcessorBind.h" 1
+# 167 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Ia32/ProcessorBind.h"
+typedef unsigned long long UINT64;
+
+
+
+typedef long long INT64;
+
+
+
+typedef unsigned int UINT32;
+
+
+
+typedef int INT32;
+
+
+
+typedef unsigned short UINT16;
+
+
+
+
+typedef unsigned short CHAR16;
+
+
+
+typedef short INT16;
+
+
+
+
+typedef unsigned char BOOLEAN;
+
+
+
+typedef unsigned char UINT8;
+
+
+
+typedef char CHAR8;
+
+
+
+typedef signed char INT8;
+
+
+
+
+
+
+typedef UINT32 UINTN;
+
+
+
+
+typedef INT32 INTN;
+# 22 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h" 2
+# 221 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+typedef struct {
+  UINT32 Data1;
+  UINT16 Data2;
+  UINT16 Data3;
+  UINT8 Data4[8];
+} GUID;
+
+
+
+
+typedef struct {
+  UINT8 Addr[4];
+} IPv4_ADDRESS;
+
+
+
+
+typedef struct {
+  UINT8 Addr[16];
+} IPv6_ADDRESS;
+
+
+
+
+typedef UINT64 PHYSICAL_ADDRESS;
+
+
+
+
+typedef struct _LIST_ENTRY LIST_ENTRY;
+
+
+
+
+struct _LIST_ENTRY {
+  LIST_ENTRY *ForwardLink;
+  LIST_ENTRY *BackLink;
+};
+# 658 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+typedef __builtin_va_list VA_LIST;
+# 743 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+typedef UINTN *BASE_LIST;
+# 814 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+_Static_assert (sizeof (BOOLEAN) == 1, "sizeof (BOOLEAN) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (INT8) == 1, "sizeof (INT8) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (UINT8) == 1, "sizeof (UINT8) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (INT16) == 2, "sizeof (INT16) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (UINT16) == 2, "sizeof (UINT16) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (INT32) == 4, "sizeof (INT32) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (UINT32) == 4, "sizeof (UINT32) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (INT64) == 8, "sizeof (INT64) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (UINT64) == 8, "sizeof (UINT64) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (CHAR8) == 1, "sizeof (CHAR8) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (CHAR16) == 2, "sizeof (CHAR16) does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (L'A') == 2, "sizeof (L'A') does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (L"A") == 4, "sizeof (L\"A\") does not meet UEFI Specification Data Type requirements");
+# 835 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+typedef enum {
+  __VerifyUint8EnumValue = 0xff
+} __VERIFY_UINT8_ENUM_SIZE;
+
+typedef enum {
+  __VerifyUint16EnumValue = 0xffff
+} __VERIFY_UINT16_ENUM_SIZE;
+
+typedef enum {
+  __VerifyUint32EnumValue = 0xffffffff
+} __VERIFY_UINT32_ENUM_SIZE;
+
+_Static_assert (sizeof (__VERIFY_UINT8_ENUM_SIZE) == 4, "Size of enum does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (__VERIFY_UINT16_ENUM_SIZE) == 4, "Size of enum does not meet UEFI Specification Data Type requirements");
+_Static_assert (sizeof (__VERIFY_UINT32_ENUM_SIZE) == 4, "Size of enum does not meet UEFI Specification Data Type requirements");
+# 962 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Base.h"
+typedef UINTN RETURN_STATUS;
+# 17 "/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC48/IA32/MdePkg/Library/BaseLib/BaseLib/DEBUG/AutoGen.h" 2
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h" 1
+# 809 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINTN
+__attribute__((cdecl))
+LibPcdSetSku (
+  UINTN SkuId
+  );
+# 825 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT8
+__attribute__((cdecl))
+LibPcdGet8 (
+  UINTN TokenNumber
+  );
+# 841 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT16
+__attribute__((cdecl))
+LibPcdGet16 (
+  UINTN TokenNumber
+  );
+# 857 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT32
+__attribute__((cdecl))
+LibPcdGet32 (
+  UINTN TokenNumber
+  );
+# 873 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT64
+__attribute__((cdecl))
+LibPcdGet64 (
+  UINTN TokenNumber
+  );
+# 889 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void *
+__attribute__((cdecl))
+LibPcdGetPtr (
+  UINTN TokenNumber
+  );
+# 905 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+BOOLEAN
+__attribute__((cdecl))
+LibPcdGetBool (
+  UINTN TokenNumber
+  );
+# 919 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINTN
+__attribute__((cdecl))
+LibPcdGetSize (
+  UINTN TokenNumber
+  );
+# 939 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT8
+__attribute__((cdecl))
+LibPcdGetEx8 (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 960 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT16
+__attribute__((cdecl))
+LibPcdGetEx16 (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 978 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT32
+__attribute__((cdecl))
+LibPcdGetEx32 (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 999 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINT64
+__attribute__((cdecl))
+LibPcdGetEx64 (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 1020 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void *
+__attribute__((cdecl))
+LibPcdGetExPtr (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 1041 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+BOOLEAN
+__attribute__((cdecl))
+LibPcdGetExBool (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 1062 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINTN
+__attribute__((cdecl))
+LibPcdGetExSize (
+  const GUID *Guid,
+  UINTN TokenNumber
+  );
+# 1081 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSet8S (
+  UINTN TokenNumber,
+  UINT8 Value
+  );
+# 1100 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSet16S (
+  UINTN TokenNumber,
+  UINT16 Value
+  );
+# 1119 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSet32S (
+  UINTN TokenNumber,
+  UINT32 Value
+  );
+# 1138 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSet64S (
+  UINTN TokenNumber,
+  UINT64 Value
+  );
+# 1167 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetPtrS (
+  UINTN TokenNumber,
+  UINTN *SizeOfBuffer,
+  const void *Buffer
+  );
+# 1187 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetBoolS (
+  UINTN TokenNumber,
+  BOOLEAN Value
+  );
+# 1210 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetEx8S (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  UINT8 Value
+  );
+# 1234 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetEx16S (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  UINT16 Value
+  );
+# 1258 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetEx32S (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  UINT32 Value
+  );
+# 1282 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetEx64S (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  UINT64 Value
+  );
+# 1312 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetExPtrS (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  UINTN *SizeOfBuffer,
+  void *Buffer
+  );
+# 1337 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPcdSetExBoolS (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  BOOLEAN Value
+  );
+# 1361 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+typedef
+void
+(__attribute__((cdecl)) *PCD_CALLBACK)(
+  const GUID *CallBackGuid ,
+  UINTN CallBackToken,
+  void *TokenData,
+  UINTN TokenDataSize
+  );
+# 1386 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void
+__attribute__((cdecl))
+LibPcdCallbackOnSet (
+  const GUID *Guid ,
+  UINTN TokenNumber,
+  PCD_CALLBACK NotificationFunction
+  );
+# 1407 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void
+__attribute__((cdecl))
+LibPcdCancelCallback (
+  const GUID *Guid ,
+  UINTN TokenNumber,
+  PCD_CALLBACK NotificationFunction
+  );
+# 1434 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINTN
+__attribute__((cdecl))
+LibPcdGetNextToken (
+  const GUID *Guid ,
+  UINTN TokenNumber
+  );
+# 1454 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+GUID *
+__attribute__((cdecl))
+LibPcdGetNextTokenSpace (
+  const GUID *TokenSpaceGuid
+  );
+# 1483 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void *
+__attribute__((cdecl))
+LibPatchPcdSetPtr (
+  void *PatchVariable,
+  UINTN MaximumDatumSize,
+  UINTN *SizeOfBuffer,
+  const void *Buffer
+  );
+# 1515 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPatchPcdSetPtrS (
+  void *PatchVariable,
+  UINTN MaximumDatumSize,
+  UINTN *SizeOfBuffer,
+  const void *Buffer
+  );
+# 1549 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void *
+__attribute__((cdecl))
+LibPatchPcdSetPtrAndSize (
+  void *PatchVariable,
+  UINTN *SizeOfPatchVariable,
+  UINTN MaximumDatumSize,
+  UINTN *SizeOfBuffer,
+  const void *Buffer
+  );
+# 1584 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+LibPatchPcdSetPtrAndSizeS (
+  void *PatchVariable,
+  UINTN *SizeOfPatchVariable,
+  UINTN MaximumDatumSize,
+  UINTN *SizeOfBuffer,
+  const void *Buffer
+  );
+
+typedef enum {
+  PCD_TYPE_8,
+  PCD_TYPE_16,
+  PCD_TYPE_32,
+  PCD_TYPE_64,
+  PCD_TYPE_BOOL,
+  PCD_TYPE_PTR
+} PCD_TYPE;
+
+typedef struct {
+
+
+
+
+  PCD_TYPE PcdType;
+
+
+
+
+  UINTN PcdSize;
+
+
+
+
+
+
+  CHAR8 *PcdName;
+} PCD_INFO;
+# 1635 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void
+__attribute__((cdecl))
+LibPcdGetInfo (
+  UINTN TokenNumber,
+  PCD_INFO *PcdInfo
+  );
+# 1655 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+void
+__attribute__((cdecl))
+LibPcdGetInfoEx (
+  const GUID *Guid,
+  UINTN TokenNumber,
+  PCD_INFO *PcdInfo
+  );
+# 1670 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/PcdLib.h"
+UINTN
+__attribute__((cdecl))
+LibPcdGetSku (
+  void
+  );
+# 18 "/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC48/IA32/MdePkg/Library/BaseLib/BaseLib/DEBUG/AutoGen.h" 2
+
+extern GUID gEfiCallerIdGuid;
+extern GUID gEdkiiDscPlatformGuid;
+extern CHAR8 *gEfiCallerBaseName;
+
+
+
+extern GUID gEfiMdePkgTokenSpaceGuid;
+
+
+extern UINT64 _gPcd_SkuId_Array[];
+
+
+
+extern const BOOLEAN _gPcd_FixedAtBuild_PcdVerifyNodeInList;
+
+
+
+extern const UINT32 _gPcd_FixedAtBuild_PcdMaximumLinkedListLength;
+
+
+
+
+
+
+extern const UINT32 _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength;
+
+
+
+
+
+
+extern const UINT32 _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength;
+
+
+
+
+
+
+extern const UINT32 _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask;
+
+
+
+
+
+
+extern const UINT8 _gPcd_FixedAtBuild_PcdSpeculationBarrierType;
+# 1 "<command-line>" 2
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/Ia32/Thunk16.nasm"
+
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h" 1
+# 13 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h" 1
+# 24 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef struct {
+  UINT32 Ebx;
+  UINT32 Esi;
+  UINT32 Edi;
+  UINT32 Ebp;
+  UINT32 Esp;
+  UINT32 Eip;
+  UINT32 Ssp;
+} BASE_LIBRARY_JUMP_BUFFER;
+# 175 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+StrnLenS (
+  const CHAR16 *String,
+  UINTN MaxSize
+  );
+# 203 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+StrnSizeS (
+  const CHAR16 *String,
+  UINTN MaxSize
+  );
+# 236 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrCpyS (
+  CHAR16 *Destination,
+  UINTN DestMax,
+  const CHAR16 *Source
+  );
+# 273 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrnCpyS (
+  CHAR16 *Destination,
+  UINTN DestMax,
+  const CHAR16 *Source,
+  UINTN Length
+  );
+# 311 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrCatS (
+  CHAR16 *Destination,
+  UINTN DestMax,
+  const CHAR16 *Source
+  );
+# 351 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrnCatS (
+  CHAR16 *Destination,
+  UINTN DestMax,
+  const CHAR16 *Source,
+  UINTN Length
+  );
+# 403 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrDecimalToUintnS (
+  const CHAR16 *String,
+  CHAR16 **EndPointer ,
+  UINTN *Data
+  );
+# 454 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrDecimalToUint64S (
+  const CHAR16 *String,
+  CHAR16 **EndPointer ,
+  UINT64 *Data
+  );
+# 510 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrHexToUintnS (
+  const CHAR16 *String,
+  CHAR16 **EndPointer ,
+  UINTN *Data
+  );
+# 566 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrHexToUint64S (
+  const CHAR16 *String,
+  CHAR16 **EndPointer ,
+  UINT64 *Data
+  );
+# 588 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsciiStrnLenS (
+  const CHAR8 *String,
+  UINTN MaxSize
+  );
+# 614 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsciiStrnSizeS (
+  const CHAR8 *String,
+  UINTN MaxSize
+  );
+# 644 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrCpyS (
+  CHAR8 *Destination,
+  UINTN DestMax,
+  const CHAR8 *Source
+  );
+# 678 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrnCpyS (
+  CHAR8 *Destination,
+  UINTN DestMax,
+  const CHAR8 *Source,
+  UINTN Length
+  );
+# 713 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrCatS (
+  CHAR8 *Destination,
+  UINTN DestMax,
+  const CHAR8 *Source
+  );
+# 750 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrnCatS (
+  CHAR8 *Destination,
+  UINTN DestMax,
+  const CHAR8 *Source,
+  UINTN Length
+  );
+# 800 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrDecimalToUintnS (
+  const CHAR8 *String,
+  CHAR8 **EndPointer ,
+  UINTN *Data
+  );
+# 849 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrDecimalToUint64S (
+  const CHAR8 *String,
+  CHAR8 **EndPointer ,
+  UINT64 *Data
+  );
+# 902 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrHexToUintnS (
+  const CHAR8 *String,
+  CHAR8 **EndPointer ,
+  UINTN *Data
+  );
+# 955 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrHexToUint64S (
+  const CHAR8 *String,
+  CHAR8 **EndPointer ,
+  UINT64 *Data
+  );
+# 980 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+StrLen (
+  const CHAR16 *String
+  );
+# 1004 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+StrSize (
+  const CHAR16 *String
+  );
+# 1038 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+StrCmp (
+  const CHAR16 *FirstString,
+  const CHAR16 *SecondString
+  );
+# 1077 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+StrnCmp (
+  const CHAR16 *FirstString,
+  const CHAR16 *SecondString,
+  UINTN Length
+  );
+# 1110 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+CHAR16 *
+__attribute__((cdecl))
+StrStr (
+  const CHAR16 *String,
+  const CHAR16 *SearchString
+  );
+# 1151 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+StrDecimalToUintn (
+  const CHAR16 *String
+  );
+# 1191 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+StrDecimalToUint64 (
+  const CHAR16 *String
+  );
+# 1232 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+StrHexToUintn (
+  const CHAR16 *String
+  );
+# 1273 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+StrHexToUint64 (
+  const CHAR16 *String
+  );
+# 1329 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrToIpv6Address (
+  const CHAR16 *String,
+  CHAR16 **EndPointer ,
+  IPv6_ADDRESS *Address,
+  UINT8 *PrefixLength
+  );
+# 1379 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrToIpv4Address (
+  const CHAR16 *String,
+  CHAR16 **EndPointer ,
+  IPv4_ADDRESS *Address,
+  UINT8 *PrefixLength
+  );
+# 1432 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrToGuid (
+  const CHAR16 *String,
+  GUID *Guid
+  );
+# 1472 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+StrHexToBytes (
+  const CHAR16 *String,
+  UINTN Length,
+  UINT8 *Buffer,
+  UINTN MaxBufferSize
+  );
+# 1521 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+UnicodeStrToAsciiStrS (
+  const CHAR16 *Source,
+  CHAR8 *Destination,
+  UINTN DestMax
+  );
+# 1572 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+UnicodeStrnToAsciiStrS (
+  const CHAR16 *Source,
+  UINTN Length,
+  CHAR8 *Destination,
+  UINTN DestMax,
+  UINTN *DestinationLength
+  );
+# 1599 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsciiStrLen (
+  const CHAR8 *String
+  );
+# 1622 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsciiStrSize (
+  const CHAR8 *String
+  );
+# 1654 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+AsciiStrCmp (
+  const CHAR8 *FirstString,
+  const CHAR8 *SecondString
+  );
+# 1690 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+AsciiStriCmp (
+  const CHAR8 *FirstString,
+  const CHAR8 *SecondString
+  );
+# 1727 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+AsciiStrnCmp (
+  const CHAR8 *FirstString,
+  const CHAR8 *SecondString,
+  UINTN Length
+  );
+# 1759 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+CHAR8 *
+__attribute__((cdecl))
+AsciiStrStr (
+  const CHAR8 *String,
+  const CHAR8 *SearchString
+  );
+# 1796 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsciiStrDecimalToUintn (
+  const CHAR8 *String
+  );
+# 1832 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsciiStrDecimalToUint64 (
+  const CHAR8 *String
+  );
+# 1872 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsciiStrHexToUintn (
+  const CHAR8 *String
+  );
+# 1912 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsciiStrHexToUint64 (
+  const CHAR8 *String
+  );
+# 1966 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrToIpv6Address (
+  const CHAR8 *String,
+  CHAR8 **EndPointer ,
+  IPv6_ADDRESS *Address,
+  UINT8 *PrefixLength
+  );
+# 2014 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrToIpv4Address (
+  const CHAR8 *String,
+  CHAR8 **EndPointer ,
+  IPv4_ADDRESS *Address,
+  UINT8 *PrefixLength
+  );
+# 2063 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrToGuid (
+  const CHAR8 *String,
+  GUID *Guid
+  );
+# 2101 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrHexToBytes (
+  const CHAR8 *String,
+  UINTN Length,
+  UINT8 *Buffer,
+  UINTN MaxBufferSize
+  );
+# 2146 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrToUnicodeStrS (
+  const CHAR8 *Source,
+  CHAR16 *Destination,
+  UINTN DestMax
+  );
+# 2196 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+AsciiStrnToUnicodeStrS (
+  const CHAR8 *Source,
+  UINTN Length,
+  CHAR16 *Destination,
+  UINTN DestMax,
+  UINTN *DestinationLength
+  );
+# 2221 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+CHAR16
+__attribute__((cdecl))
+CharToUpper (
+  CHAR16 Char
+  );
+# 2240 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+CHAR8
+__attribute__((cdecl))
+AsciiCharToUpper (
+  CHAR8 Chr
+  );
+# 2265 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+Base64Encode (
+  const UINT8 *Source,
+  UINTN SourceLength,
+  CHAR8 *Destination ,
+  UINTN *DestinationSize
+  );
+# 2356 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+RETURN_STATUS
+__attribute__((cdecl))
+Base64Decode (
+  const CHAR8 *Source ,
+  UINTN SourceSize,
+  UINT8 *Destination ,
+  UINTN *DestinationSize
+  );
+# 2378 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+DecimalToBcd8 (
+  UINT8 Value
+  );
+# 2398 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BcdToDecimal8 (
+  UINT8 Value
+  );
+# 2416 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+PathRemoveLastItem (
+  CHAR16 *Path
+  );
+# 2435 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+CHAR16 *
+__attribute__((cdecl))
+PathCleanUpDirectories (
+  CHAR16 *Path
+  );
+# 2507 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+IsNodeInList (
+  const LIST_ENTRY *FirstEntry,
+  const LIST_ENTRY *SecondEntry
+  );
+# 2530 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+InitializeListHead (
+  LIST_ENTRY *ListHead
+  );
+# 2558 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+InsertHeadList (
+  LIST_ENTRY *ListHead,
+  LIST_ENTRY *Entry
+  );
+# 2587 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+InsertTailList (
+  LIST_ENTRY *ListHead,
+  LIST_ENTRY *Entry
+  );
+# 2614 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+GetFirstNode (
+  const LIST_ENTRY *List
+  );
+# 2641 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+GetNextNode (
+  const LIST_ENTRY *List,
+  const LIST_ENTRY *Node
+  );
+# 2669 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+GetPreviousNode (
+  const LIST_ENTRY *List,
+  const LIST_ENTRY *Node
+  );
+# 2695 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+IsListEmpty (
+  const LIST_ENTRY *ListHead
+  );
+# 2727 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+IsNull (
+  const LIST_ENTRY *List,
+  const LIST_ENTRY *Node
+  );
+# 2757 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+IsNodeAtEnd (
+  const LIST_ENTRY *List,
+  const LIST_ENTRY *Node
+  );
+# 2790 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+SwapListEntries (
+  LIST_ENTRY *FirstEntry,
+  LIST_ENTRY *SecondEntry
+  );
+# 2818 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+LIST_ENTRY *
+__attribute__((cdecl))
+RemoveEntryList (
+  const LIST_ENTRY *Entry
+  );
+# 2838 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef
+INTN
+(__attribute__((cdecl)) *BASE_SORT_COMPARE)(
+  const void *Buffer1,
+  const void *Buffer2
+  );
+# 2868 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+QuickSort (
+  void *BufferToSort,
+  const UINTN Count,
+  const UINTN ElementSize,
+  BASE_SORT_COMPARE CompareFunction,
+  void *BufferOneElement
+  );
+# 2893 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+LShiftU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 2915 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+RShiftU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 2937 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+ARShiftU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 2960 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+LRotU32 (
+  UINT32 Operand,
+  UINTN Count
+  );
+# 2983 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+RRotU32 (
+  UINT32 Operand,
+  UINTN Count
+  );
+# 3006 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+LRotU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 3029 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+RRotU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 3049 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+LowBitSet32 (
+  UINT32 Operand
+  );
+# 3069 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+LowBitSet64 (
+  UINT64 Operand
+  );
+# 3089 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+HighBitSet32 (
+  UINT32 Operand
+  );
+# 3109 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INTN
+__attribute__((cdecl))
+HighBitSet64 (
+  UINT64 Operand
+  );
+# 3128 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+GetPowerOfTwo32 (
+  UINT32 Operand
+  );
+# 3147 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+GetPowerOfTwo64 (
+  UINT64 Operand
+  );
+# 3165 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+SwapBytes16 (
+  UINT16 Value
+  );
+# 3183 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+SwapBytes32 (
+  UINT32 Value
+  );
+# 3201 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+SwapBytes64 (
+  UINT64 Value
+  );
+# 3221 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+MultU64x32 (
+  UINT64 Multiplicand,
+  UINT32 Multiplier
+  );
+# 3242 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+MultU64x64 (
+  UINT64 Multiplicand,
+  UINT64 Multiplier
+  );
+# 3263 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INT64
+__attribute__((cdecl))
+MultS64x64 (
+  INT64 Multiplicand,
+  INT64 Multiplier
+  );
+# 3286 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+DivU64x32 (
+  UINT64 Dividend,
+  UINT32 Divisor
+  );
+# 3309 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+ModU64x32 (
+  UINT64 Dividend,
+  UINT32 Divisor
+  );
+# 3335 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+DivU64x32Remainder (
+  UINT64 Dividend,
+  UINT32 Divisor,
+  UINT32 *Remainder
+  );
+# 3362 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+DivU64x64Remainder (
+  UINT64 Dividend,
+  UINT64 Divisor,
+  UINT64 *Remainder
+  );
+# 3393 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+INT64
+__attribute__((cdecl))
+DivS64x64Remainder (
+  INT64 Dividend,
+  INT64 Divisor,
+  INT64 *Remainder
+  );
+# 3414 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+ReadUnaligned16 (
+  const UINT16 *Buffer
+  );
+# 3435 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+WriteUnaligned16 (
+  UINT16 *Buffer,
+  UINT16 Value
+  );
+# 3455 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+ReadUnaligned24 (
+  const UINT32 *Buffer
+  );
+# 3476 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+WriteUnaligned24 (
+  UINT32 *Buffer,
+  UINT32 Value
+  );
+# 3496 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+ReadUnaligned32 (
+  const UINT32 *Buffer
+  );
+# 3517 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+WriteUnaligned32 (
+  UINT32 *Buffer,
+  UINT32 Value
+  );
+# 3537 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+ReadUnaligned64 (
+  const UINT64 *Buffer
+  );
+# 3558 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+WriteUnaligned64 (
+  UINT64 *Buffer,
+  UINT64 Value
+  );
+# 3588 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldRead8 (
+  UINT8 Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 3619 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldWrite8 (
+  UINT8 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT8 Value
+  );
+# 3652 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldOr8 (
+  UINT8 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT8 OrData
+  );
+# 3685 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldAnd8 (
+  UINT8 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT8 AndData
+  );
+# 3721 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldAndThenOr8 (
+  UINT8 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT8 AndData,
+  UINT8 OrData
+  );
+# 3750 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+BitFieldRead16 (
+  UINT16 Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 3781 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+BitFieldWrite16 (
+  UINT16 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT16 Value
+  );
+# 3814 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+BitFieldOr16 (
+  UINT16 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT16 OrData
+  );
+# 3847 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+BitFieldAnd16 (
+  UINT16 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT16 AndData
+  );
+# 3883 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+BitFieldAndThenOr16 (
+  UINT16 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT16 AndData,
+  UINT16 OrData
+  );
+# 3912 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+BitFieldRead32 (
+  UINT32 Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 3943 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+BitFieldWrite32 (
+  UINT32 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 Value
+  );
+# 3976 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+BitFieldOr32 (
+  UINT32 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 OrData
+  );
+# 4009 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+BitFieldAnd32 (
+  UINT32 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 AndData
+  );
+# 4045 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+BitFieldAndThenOr32 (
+  UINT32 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 AndData,
+  UINT32 OrData
+  );
+# 4074 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+BitFieldRead64 (
+  UINT64 Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 4105 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+BitFieldWrite64 (
+  UINT64 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 Value
+  );
+# 4138 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+BitFieldOr64 (
+  UINT64 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 OrData
+  );
+# 4171 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+BitFieldAnd64 (
+  UINT64 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 AndData
+  );
+# 4207 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+BitFieldAndThenOr64 (
+  UINT64 Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 AndData,
+  UINT64 OrData
+  );
+# 4237 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldCountOnes32 (
+  UINT32 Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 4265 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+BitFieldCountOnes64 (
+  UINT64 Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 4295 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+CalculateSum8 (
+  const UINT8 *Buffer,
+  UINTN Length
+  );
+# 4320 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT8
+__attribute__((cdecl))
+CalculateCheckSum8 (
+  const UINT8 *Buffer,
+  UINTN Length
+  );
+# 4346 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+CalculateSum16 (
+  const UINT16 *Buffer,
+  UINTN Length
+  );
+# 4373 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+CalculateCheckSum16 (
+  const UINT16 *Buffer,
+  UINTN Length
+  );
+# 4399 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+CalculateSum32 (
+  const UINT32 *Buffer,
+  UINTN Length
+  );
+# 4426 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+CalculateCheckSum32 (
+  const UINT32 *Buffer,
+  UINTN Length
+  );
+# 4452 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+CalculateSum64 (
+  const UINT64 *Buffer,
+  UINTN Length
+  );
+# 4479 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+CalculateCheckSum64 (
+  const UINT64 *Buffer,
+  UINTN Length
+  );
+# 4499 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+CalculateCrc32 (
+  void *Buffer,
+  UINTN Length
+  );
+# 4517 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef
+void
+(__attribute__((cdecl)) *SWITCH_STACK_ENTRY_POINT)(
+  void *Context1 ,
+  void *Context2
+  );
+# 4531 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+MemoryFence (
+  void
+  );
+# 4558 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+__attribute__((returns_twice))
+UINTN
+__attribute__((cdecl))
+SetJump (
+  BASE_LIBRARY_JUMP_BUFFER *JumpBuffer
+  );
+# 4581 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+LongJump (
+  BASE_LIBRARY_JUMP_BUFFER *JumpBuffer,
+  UINTN Value
+  );
+
+
+
+
+
+void
+__attribute__((cdecl))
+EnableInterrupts (
+  void
+  );
+
+
+
+
+
+void
+__attribute__((cdecl))
+DisableInterrupts (
+  void
+  );
+# 4616 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+SaveAndDisableInterrupts (
+  void
+  );
+
+
+
+
+
+
+void
+__attribute__((cdecl))
+EnableDisableInterrupts (
+  void
+  );
+# 4643 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+GetInterruptState (
+  void
+  );
+# 4663 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+SetInterruptState (
+  BOOLEAN InterruptState
+  );
+# 4676 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+CpuPause (
+  void
+  );
+# 4711 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+SwitchStack (
+  SWITCH_STACK_ENTRY_POINT EntryPoint,
+  void *Context1 ,
+  void *Context2 ,
+  void *NewStack,
+  ...
+  );
+# 4728 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+CpuBreakpoint (
+  void
+  );
+# 4743 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+CpuDeadLoop (
+  void
+  );
+# 4756 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+SpeculationBarrier (
+  void
+  );
+# 4853 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef union {
+  struct {
+    UINT32 CF : 1;
+    UINT32 Reserved_0 : 1;
+    UINT32 PF : 1;
+    UINT32 Reserved_1 : 1;
+    UINT32 AF : 1;
+    UINT32 Reserved_2 : 1;
+    UINT32 ZF : 1;
+    UINT32 SF : 1;
+    UINT32 TF : 1;
+    UINT32 IF : 1;
+    UINT32 DF : 1;
+    UINT32 OF : 1;
+    UINT32 IOPL : 2;
+    UINT32 NT : 1;
+    UINT32 Reserved_3 : 1;
+  } Bits;
+  UINT16 Uint16;
+} IA32_FLAGS16;
+
+
+
+
+
+
+typedef union {
+  struct {
+    UINT32 CF : 1;
+    UINT32 Reserved_0 : 1;
+    UINT32 PF : 1;
+    UINT32 Reserved_1 : 1;
+    UINT32 AF : 1;
+    UINT32 Reserved_2 : 1;
+    UINT32 ZF : 1;
+    UINT32 SF : 1;
+    UINT32 TF : 1;
+    UINT32 IF : 1;
+    UINT32 DF : 1;
+    UINT32 OF : 1;
+    UINT32 IOPL : 2;
+    UINT32 NT : 1;
+    UINT32 Reserved_3 : 1;
+    UINT32 RF : 1;
+    UINT32 VM : 1;
+    UINT32 AC : 1;
+    UINT32 VIF : 1;
+    UINT32 VIP : 1;
+    UINT32 ID : 1;
+    UINT32 Reserved_4 : 10;
+  } Bits;
+  UINTN UintN;
+} IA32_EFLAGS32;
+
+
+
+
+
+
+typedef union {
+  struct {
+    UINT32 PE : 1;
+    UINT32 MP : 1;
+    UINT32 EM : 1;
+    UINT32 TS : 1;
+    UINT32 ET : 1;
+    UINT32 NE : 1;
+    UINT32 Reserved_0 : 10;
+    UINT32 WP : 1;
+    UINT32 Reserved_1 : 1;
+    UINT32 AM : 1;
+    UINT32 Reserved_2 : 10;
+    UINT32 NW : 1;
+    UINT32 CD : 1;
+    UINT32 PG : 1;
+  } Bits;
+  UINTN UintN;
+} IA32_CR0;
+
+
+
+
+
+
+typedef union {
+  struct {
+    UINT32 VME : 1;
+    UINT32 PVI : 1;
+    UINT32 TSD : 1;
+    UINT32 DE : 1;
+    UINT32 PSE : 1;
+    UINT32 PAE : 1;
+    UINT32 MCE : 1;
+    UINT32 PGE : 1;
+    UINT32 PCE : 1;
+
+    UINT32 OSFXSR : 1;
+
+    UINT32 OSXMMEXCPT : 1;
+
+
+    UINT32 UMIP : 1;
+    UINT32 LA57 : 1;
+    UINT32 VMXE : 1;
+    UINT32 SMXE : 1;
+    UINT32 Reserved_3 : 1;
+    UINT32 FSGSBASE : 1;
+    UINT32 PCIDE : 1;
+    UINT32 OSXSAVE : 1;
+    UINT32 Reserved_4 : 1;
+    UINT32 SMEP : 1;
+    UINT32 SMAP : 1;
+    UINT32 PKE : 1;
+    UINT32 Reserved_5 : 9;
+  } Bits;
+  UINTN UintN;
+} IA32_CR4;
+
+
+
+
+typedef union {
+  struct {
+    UINT32 LimitLow : 16;
+    UINT32 BaseLow : 16;
+    UINT32 BaseMid : 8;
+    UINT32 Type : 4;
+    UINT32 S : 1;
+    UINT32 DPL : 2;
+    UINT32 P : 1;
+    UINT32 LimitHigh : 4;
+    UINT32 AVL : 1;
+    UINT32 L : 1;
+    UINT32 DB : 1;
+    UINT32 G : 1;
+    UINT32 BaseHigh : 8;
+  } Bits;
+  UINT64 Uint64;
+} IA32_SEGMENT_DESCRIPTOR;
+
+
+
+
+
+typedef struct {
+  UINT16 Limit;
+  UINTN Base;
+} IA32_DESCRIPTOR;
+# 5016 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef union {
+  struct {
+    UINT32 OffsetLow : 16;
+    UINT32 Selector : 16;
+    UINT32 Reserved_0 : 8;
+    UINT32 GateType : 8;
+    UINT32 OffsetHigh : 16;
+  } Bits;
+  UINT64 Uint64;
+} IA32_IDT_GATE_DESCRIPTOR;
+
+
+
+
+
+typedef struct {
+  UINT16 PreviousTaskLink;
+  UINT16 Reserved_2;
+  UINT32 ESP0;
+  UINT16 SS0;
+  UINT16 Reserved_10;
+  UINT32 ESP1;
+  UINT16 SS1;
+  UINT16 Reserved_18;
+  UINT32 ESP2;
+  UINT16 SS2;
+  UINT16 Reserved_26;
+  UINT32 CR3;
+  UINT32 EIP;
+  UINT32 EFLAGS;
+  UINT32 EAX;
+  UINT32 ECX;
+  UINT32 EDX;
+  UINT32 EBX;
+  UINT32 ESP;
+  UINT32 EBP;
+  UINT32 ESI;
+  UINT32 EDI;
+  UINT16 ES;
+  UINT16 Reserved_74;
+  UINT16 CS;
+  UINT16 Reserved_78;
+  UINT16 SS;
+  UINT16 Reserved_82;
+  UINT16 DS;
+  UINT16 Reserved_86;
+  UINT16 FS;
+  UINT16 Reserved_90;
+  UINT16 GS;
+  UINT16 Reserved_94;
+  UINT16 LDTSegmentSelector;
+  UINT16 Reserved_98;
+  UINT16 T;
+  UINT16 IOMapBaseAddress;
+} IA32_TASK_STATE_SEGMENT;
+
+typedef union {
+  struct {
+    UINT32 LimitLow : 16;
+    UINT32 BaseLow : 16;
+    UINT32 BaseMid : 8;
+    UINT32 Type : 4;
+    UINT32 Reserved_43 : 1;
+    UINT32 DPL : 2;
+    UINT32 P : 1;
+    UINT32 LimitHigh : 4;
+    UINT32 AVL : 1;
+    UINT32 Reserved_52 : 2;
+    UINT32 G : 1;
+    UINT32 BaseHigh : 8;
+  } Bits;
+  UINT64 Uint64;
+} IA32_TSS_DESCRIPTOR;
+# 5158 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef struct {
+  UINT8 Buffer[512];
+} IA32_FX_BUFFER;
+
+
+
+
+typedef struct {
+  UINT32 Reserved1;
+  UINT32 Reserved2;
+  UINT32 Reserved3;
+  UINT32 Reserved4;
+  UINT8 BL;
+  UINT8 BH;
+  UINT16 Reserved5;
+  UINT8 DL;
+  UINT8 DH;
+  UINT16 Reserved6;
+  UINT8 CL;
+  UINT8 CH;
+  UINT16 Reserved7;
+  UINT8 AL;
+  UINT8 AH;
+  UINT16 Reserved8;
+} IA32_BYTE_REGS;
+
+typedef struct {
+  UINT16 DI;
+  UINT16 Reserved1;
+  UINT16 SI;
+  UINT16 Reserved2;
+  UINT16 BP;
+  UINT16 Reserved3;
+  UINT16 SP;
+  UINT16 Reserved4;
+  UINT16 BX;
+  UINT16 Reserved5;
+  UINT16 DX;
+  UINT16 Reserved6;
+  UINT16 CX;
+  UINT16 Reserved7;
+  UINT16 AX;
+  UINT16 Reserved8;
+} IA32_WORD_REGS;
+
+typedef struct {
+  UINT32 EDI;
+  UINT32 ESI;
+  UINT32 EBP;
+  UINT32 ESP;
+  UINT32 EBX;
+  UINT32 EDX;
+  UINT32 ECX;
+  UINT32 EAX;
+  UINT16 DS;
+  UINT16 ES;
+  UINT16 FS;
+  UINT16 GS;
+  IA32_EFLAGS32 EFLAGS;
+  UINT32 Eip;
+  UINT16 CS;
+  UINT16 SS;
+} IA32_DWORD_REGS;
+
+typedef union {
+  IA32_DWORD_REGS E;
+  IA32_WORD_REGS X;
+  IA32_BYTE_REGS H;
+} IA32_REGISTER_SET;
+
+
+
+
+typedef struct {
+  IA32_REGISTER_SET *RealModeState;
+  void *RealModeBuffer;
+  UINT32 RealModeBufferSize;
+  UINT32 ThunkAttributes;
+} THUNK_CONTEXT;
+# 5254 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+typedef void (X86_ASSEMBLY_PATCH_LABEL) (
+  void
+  );
+# 5283 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmCpuid (
+  UINT32 Index,
+  UINT32 *Eax ,
+  UINT32 *Ebx ,
+  UINT32 *Ecx ,
+  UINT32 *Edx
+  );
+# 5325 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmCpuidEx (
+  UINT32 Index,
+  UINT32 SubIndex,
+  UINT32 *Eax ,
+  UINT32 *Ebx ,
+  UINT32 *Ecx ,
+  UINT32 *Edx
+  );
+# 5343 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmDisableCache (
+  void
+  );
+# 5356 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmEnableCache (
+  void
+  );
+# 5376 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmReadMsr32 (
+  UINT32 Index
+  );
+# 5399 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmWriteMsr32 (
+  UINT32 Index,
+  UINT32 Value
+  );
+# 5425 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrOr32 (
+  UINT32 Index,
+  UINT32 OrData
+  );
+# 5451 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrAnd32 (
+  UINT32 Index,
+  UINT32 AndData
+  );
+# 5480 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrAndThenOr32 (
+  UINT32 Index,
+  UINT32 AndData,
+  UINT32 OrData
+  );
+# 5510 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrBitFieldRead32 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 5543 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrBitFieldWrite32 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 Value
+  );
+# 5579 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrBitFieldOr32 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 OrData
+  );
+# 5615 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrBitFieldAnd32 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 AndData
+  );
+# 5655 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT32
+__attribute__((cdecl))
+AsmMsrBitFieldAndThenOr32 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT32 AndData,
+  UINT32 OrData
+  );
+# 5679 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMsr64 (
+  UINT32 Index
+  );
+# 5702 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmWriteMsr64 (
+  UINT32 Index,
+  UINT64 Value
+  );
+# 5727 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrOr64 (
+  UINT32 Index,
+  UINT64 OrData
+  );
+# 5752 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrAnd64 (
+  UINT32 Index,
+  UINT64 AndData
+  );
+# 5780 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrAndThenOr64 (
+  UINT32 Index,
+  UINT64 AndData,
+  UINT64 OrData
+  );
+# 5810 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrBitFieldRead64 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 5842 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrBitFieldWrite64 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 Value
+  );
+# 5878 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrBitFieldOr64 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 OrData
+  );
+# 5914 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrBitFieldAnd64 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 AndData
+  );
+# 5953 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmMsrBitFieldAndThenOr64 (
+  UINT32 Index,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINT64 AndData,
+  UINT64 OrData
+  );
+# 5973 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadEflags (
+  void
+  );
+# 5989 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadCr0 (
+  void
+  );
+# 6005 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadCr2 (
+  void
+  );
+# 6021 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadCr3 (
+  void
+  );
+# 6037 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadCr4 (
+  void
+  );
+# 6054 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteCr0 (
+  UINTN Cr0
+  );
+# 6071 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteCr2 (
+  UINTN Cr2
+  );
+# 6088 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteCr3 (
+  UINTN Cr3
+  );
+# 6105 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteCr4 (
+  UINTN Cr4
+  );
+# 6121 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr0 (
+  void
+  );
+# 6137 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr1 (
+  void
+  );
+# 6153 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr2 (
+  void
+  );
+# 6169 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr3 (
+  void
+  );
+# 6185 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr4 (
+  void
+  );
+# 6201 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr5 (
+  void
+  );
+# 6217 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr6 (
+  void
+  );
+# 6233 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmReadDr7 (
+  void
+  );
+# 6250 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr0 (
+  UINTN Dr0
+  );
+# 6267 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr1 (
+  UINTN Dr1
+  );
+# 6284 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr2 (
+  UINTN Dr2
+  );
+# 6301 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr3 (
+  UINTN Dr3
+  );
+# 6318 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr4 (
+  UINTN Dr4
+  );
+# 6335 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr5 (
+  UINTN Dr5
+  );
+# 6352 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr6 (
+  UINTN Dr6
+  );
+# 6369 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmWriteDr7 (
+  UINTN Dr7
+  );
+# 6384 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadCs (
+  void
+  );
+# 6399 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadDs (
+  void
+  );
+# 6414 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadEs (
+  void
+  );
+# 6429 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadFs (
+  void
+  );
+# 6444 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadGs (
+  void
+  );
+# 6459 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadSs (
+  void
+  );
+# 6474 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadTr (
+  void
+  );
+# 6491 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmReadGdtr (
+  IA32_DESCRIPTOR *Gdtr
+  );
+# 6508 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteGdtr (
+  const IA32_DESCRIPTOR *Gdtr
+  );
+# 6525 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmReadIdtr (
+  IA32_DESCRIPTOR *Idtr
+  );
+# 6542 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteIdtr (
+  const IA32_DESCRIPTOR *Idtr
+  );
+# 6557 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT16
+__attribute__((cdecl))
+AsmReadLdtr (
+  void
+  );
+# 6572 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteLdtr (
+  UINT16 Ldtr
+  );
+# 6591 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmFxSave (
+  IA32_FX_BUFFER *Buffer
+  );
+# 6611 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmFxRestore (
+  const IA32_FX_BUFFER *Buffer
+  );
+# 6626 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm0 (
+  void
+  );
+# 6641 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm1 (
+  void
+  );
+# 6656 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm2 (
+  void
+  );
+# 6671 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm3 (
+  void
+  );
+# 6686 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm4 (
+  void
+  );
+# 6701 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm5 (
+  void
+  );
+# 6716 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm6 (
+  void
+  );
+# 6731 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadMm7 (
+  void
+  );
+# 6746 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm0 (
+  UINT64 Value
+  );
+# 6761 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm1 (
+  UINT64 Value
+  );
+# 6776 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm2 (
+  UINT64 Value
+  );
+# 6791 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm3 (
+  UINT64 Value
+  );
+# 6806 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm4 (
+  UINT64 Value
+  );
+# 6821 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm5 (
+  UINT64 Value
+  );
+# 6836 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm6 (
+  UINT64 Value
+  );
+# 6851 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWriteMm7 (
+  UINT64 Value
+  );
+# 6866 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadTsc (
+  void
+  );
+# 6883 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmReadPmc (
+  UINT32 Index
+  );
+# 6905 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmMonitor (
+  UINTN Eax,
+  UINTN Ecx,
+  UINTN Edx
+  );
+# 6927 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINTN
+__attribute__((cdecl))
+AsmMwait (
+  UINTN Eax,
+  UINTN Ecx
+  );
+# 6941 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmWbinvd (
+  void
+  );
+# 6954 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmInvd (
+  void
+  );
+# 6975 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void *
+__attribute__((cdecl))
+AsmFlushCacheLine (
+  void *LinearAddress
+  );
+# 7018 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmEnablePaging32 (
+  SWITCH_STACK_ENTRY_POINT EntryPoint,
+  void *Context1 ,
+  void *Context2 ,
+  void *NewStack
+  );
+# 7061 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmDisablePaging32 (
+  SWITCH_STACK_ENTRY_POINT EntryPoint,
+  void *Context1 ,
+  void *Context2 ,
+  void *NewStack
+  );
+# 7102 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmEnablePaging64 (
+  UINT16 Cs,
+  UINT64 EntryPoint,
+  UINT64 Context1 ,
+  UINT64 Context2 ,
+  UINT64 NewStack
+  );
+# 7142 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmDisablePaging64 (
+  UINT16 Cs,
+  UINT32 EntryPoint,
+  UINT32 Context1 ,
+  UINT32 Context2 ,
+  UINT32 NewStack
+  );
+# 7177 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmGetThunk16Properties (
+  UINT32 *RealModeBufferSize,
+  UINT32 *ExtraStackSize
+  );
+# 7198 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmPrepareThunk16 (
+  THUNK_CONTEXT *ThunkContext
+  );
+# 7257 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmThunk16 (
+  THUNK_CONTEXT *ThunkContext
+  );
+# 7283 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmPrepareAndThunk16 (
+  THUNK_CONTEXT *ThunkContext
+  );
+# 7300 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+AsmRdRand16 (
+  UINT16 *Rand
+  );
+# 7317 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+AsmRdRand32 (
+  UINT32 *Rand
+  );
+# 7334 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+BOOLEAN
+__attribute__((cdecl))
+AsmRdRand64 (
+  UINT64 *Rand
+  );
+
+
+
+
+
+
+void
+__attribute__((cdecl))
+AsmWriteTr (
+  UINT16 Selector
+  );
+# 7358 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmLfence (
+  void
+  );
+# 7374 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmXGetBv (
+  UINT32 Index
+  );
+# 7397 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+UINT64
+__attribute__((cdecl))
+AsmXSetBv (
+  UINT32 Index,
+  UINT64 Value
+  );
+# 7411 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+AsmVmgExit (
+  void
+  );
+# 7451 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseLib.h"
+void
+__attribute__((cdecl))
+PatchInstructionX86 (
+  X86_ASSEMBLY_PATCH_LABEL *InstructionEnd,
+  UINT64 PatchValue,
+  UINTN ValueSize
+  );
+# 14 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h" 2
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h" 1
+# 33 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+CopyMem (
+  void *DestinationBuffer,
+  const void *SourceBuffer,
+  UINTN Length
+  );
+# 55 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+SetMem (
+  void *Buffer,
+  UINTN Length,
+  UINT8 Value
+  );
+# 82 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+SetMem16 (
+  void *Buffer,
+  UINTN Length,
+  UINT16 Value
+  );
+# 109 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+SetMem32 (
+  void *Buffer,
+  UINTN Length,
+  UINT32 Value
+  );
+# 136 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+SetMem64 (
+  void *Buffer,
+  UINTN Length,
+  UINT64 Value
+  );
+# 163 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+SetMemN (
+  void *Buffer,
+  UINTN Length,
+  UINTN Value
+  );
+# 185 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ZeroMem (
+  void *Buffer,
+  UINTN Length
+  );
+# 214 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+INTN
+__attribute__((cdecl))
+CompareMem (
+  const void *DestinationBuffer,
+  const void *SourceBuffer,
+  UINTN Length
+  );
+# 241 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ScanMem8 (
+  const void *Buffer,
+  UINTN Length,
+  UINT8 Value
+  );
+# 270 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ScanMem16 (
+  const void *Buffer,
+  UINTN Length,
+  UINT16 Value
+  );
+# 299 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ScanMem32 (
+  const void *Buffer,
+  UINTN Length,
+  UINT32 Value
+  );
+# 328 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ScanMem64 (
+  const void *Buffer,
+  UINTN Length,
+  UINT64 Value
+  );
+# 357 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ScanMemN (
+  const void *Buffer,
+  UINTN Length,
+  UINTN Value
+  );
+# 380 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+GUID *
+__attribute__((cdecl))
+CopyGuid (
+  GUID *DestinationGuid,
+  const GUID *SourceGuid
+  );
+# 403 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+BOOLEAN
+__attribute__((cdecl))
+CompareGuid (
+  const GUID *Guid1,
+  const GUID *Guid2
+  );
+# 432 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+void *
+__attribute__((cdecl))
+ScanGuid (
+  const void *Buffer,
+  UINTN Length,
+  const GUID *Guid
+  );
+# 454 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+BOOLEAN
+__attribute__((cdecl))
+IsZeroGuid (
+  const GUID *Guid
+  );
+# 476 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/BaseMemoryLib.h"
+BOOLEAN
+__attribute__((cdecl))
+IsZeroBuffer (
+  const void *Buffer,
+  UINTN Length
+  );
+# 15 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h" 2
+# 1 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h" 1
+# 124 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+void
+__attribute__((cdecl))
+DebugPrint (
+  UINTN ErrorLevel,
+  const CHAR8 *Format,
+  ...
+  );
+# 147 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+void
+__attribute__((cdecl))
+DebugVPrint (
+  UINTN ErrorLevel,
+  const CHAR8 *Format,
+  VA_LIST VaListMarker
+  );
+# 172 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+void
+__attribute__((cdecl))
+DebugBPrint (
+  UINTN ErrorLevel,
+  const CHAR8 *Format,
+  BASE_LIST BaseListMarker
+  );
+# 201 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+void
+__attribute__((cdecl))
+DebugAssert (
+  const CHAR8 *FileName,
+  UINTN LineNumber,
+  const CHAR8 *Description
+  );
+# 224 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+void *
+__attribute__((cdecl))
+DebugClearMemory (
+  void *Buffer,
+  UINTN Length
+  );
+# 241 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+BOOLEAN
+__attribute__((cdecl))
+DebugAssertEnabled (
+  void
+  );
+# 257 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+BOOLEAN
+__attribute__((cdecl))
+DebugPrintEnabled (
+  void
+  );
+# 273 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+BOOLEAN
+__attribute__((cdecl))
+DebugCodeEnabled (
+  void
+  );
+# 289 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+BOOLEAN
+__attribute__((cdecl))
+DebugClearMemoryEnabled (
+  void
+  );
+# 304 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/DebugLib.h"
+BOOLEAN
+__attribute__((cdecl))
+DebugPrintLevelEnabled (
+  const UINTN ErrorLevel
+  );
+# 16 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h" 2
+# 35 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathLShiftU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 55 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathRShiftU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 75 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathARShiftU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 96 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathLRotU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 117 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathRRotU64 (
+  UINT64 Operand,
+  UINTN Count
+  );
+# 136 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathSwapBytes64 (
+  UINT64 Operand
+  );
+# 156 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathMultU64x32 (
+  UINT64 Multiplicand,
+  UINT32 Multiplier
+  );
+# 177 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathMultU64x64 (
+  UINT64 Multiplicand,
+  UINT64 Multiplier
+  );
+# 198 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathDivU64x32 (
+  UINT64 Dividend,
+  UINT32 Divisor
+  );
+# 219 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT32
+__attribute__((cdecl))
+InternalMathModU64x32 (
+  UINT64 Dividend,
+  UINT32 Divisor
+  );
+# 243 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathDivRemU64x32 (
+  UINT64 Dividend,
+  UINT32 Divisor,
+  UINT32 *Remainder
+  );
+# 268 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINT64
+__attribute__((cdecl))
+InternalMathDivRemU64x64 (
+  UINT64 Dividend,
+  UINT64 Divisor,
+  UINT64 *Remainder
+  );
+# 293 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+INT64
+__attribute__((cdecl))
+InternalMathDivRemS64x64 (
+  INT64 Dividend,
+  INT64 Divisor,
+  INT64 *Remainder
+  );
+# 325 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalSwitchStack (
+  SWITCH_STACK_ENTRY_POINT EntryPoint,
+  void *Context1 ,
+  void *Context2 ,
+  void *NewStack,
+  VA_LIST Marker
+  );
+# 347 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINTN
+__attribute__((cdecl))
+BitFieldReadUint (
+  UINTN Operand,
+  UINTN StartBit,
+  UINTN EndBit
+  );
+# 371 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINTN
+__attribute__((cdecl))
+BitFieldOrUint (
+  UINTN Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINTN OrData
+  );
+# 396 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINTN
+__attribute__((cdecl))
+BitFieldAndUint (
+  UINTN Operand,
+  UINTN StartBit,
+  UINTN EndBit,
+  UINTN AndData
+  );
+# 416 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalAssertJumpBuffer (
+  BASE_LIBRARY_JUMP_BUFFER *JumpBuffer
+  );
+# 433 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalLongJump (
+  BASE_LIBRARY_JUMP_BUFFER *JumpBuffer,
+  UINTN Value
+  );
+# 453 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalIsDecimalDigitCharacter (
+  CHAR16 Char
+  );
+# 472 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINTN
+__attribute__((cdecl))
+InternalHexCharToUintn (
+  CHAR16 Char
+  );
+# 492 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalIsHexaDecimalDigitCharacter (
+  CHAR16 Char
+  );
+# 511 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalAsciiIsDecimalDigitCharacter (
+  CHAR8 Char
+  );
+# 531 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalAsciiIsHexaDecimalDigitCharacter (
+  CHAR8 Char
+  );
+# 550 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+UINTN
+__attribute__((cdecl))
+InternalAsciiHexCharToUintn (
+  CHAR8 Char
+  );
+# 570 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86ReadGdtr (
+  IA32_DESCRIPTOR *Gdtr
+  );
+# 585 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86WriteGdtr (
+  const IA32_DESCRIPTOR *Gdtr
+  );
+# 600 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86ReadIdtr (
+  IA32_DESCRIPTOR *Idtr
+  );
+# 615 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86WriteIdtr (
+  const IA32_DESCRIPTOR *Idtr
+  );
+# 631 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86FxSave (
+  IA32_FX_BUFFER *Buffer
+  );
+# 647 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86FxRestore (
+  const IA32_FX_BUFFER *Buffer
+  );
+# 686 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86EnablePaging32 (
+  SWITCH_STACK_ENTRY_POINT EntryPoint,
+  void *Context1 ,
+  void *Context2 ,
+  void *NewStack
+  );
+# 725 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86DisablePaging32 (
+  SWITCH_STACK_ENTRY_POINT EntryPoint,
+  void *Context1 ,
+  void *Context2 ,
+  void *NewStack
+  );
+# 761 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86EnablePaging64 (
+  UINT16 Cs,
+  UINT64 EntryPoint,
+  UINT64 Context1 ,
+  UINT64 Context2 ,
+  UINT64 NewStack
+  );
+# 797 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+void
+__attribute__((cdecl))
+InternalX86DisablePaging64 (
+  UINT16 Cs,
+  UINT32 EntryPoint,
+  UINT32 Context1 ,
+  UINT32 Context2 ,
+  UINT32 NewStack
+  );
+# 816 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalX86RdRand16 (
+  UINT16 *Rand
+  );
+# 831 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalX86RdRand32 (
+  UINT32 *Rand
+  );
+# 847 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/BaseLibInternals.h"
+BOOLEAN
+__attribute__((cdecl))
+InternalX86RdRand64 (
+  UINT64 *Rand
+  );
+# 3 "/home/hcj/UEFIWorkspace/edk2/MdePkg/Library/BaseLib/Ia32/Thunk16.nasm" 2
+
+;------------------------------------------------------------------------------
+;
+; Copyright (c) 2006 - 2013, Intel Corporation. All rights reserved.<BR>
+; SPDX-License-Identifier: BSD-2-Clause-Patent
+;
+; Module Name:
+;
+; Thunk.asm
+;
+; Abstract:
+;
+; Real mode thunk
+;
+;------------------------------------------------------------------------------
+
+global m16Size
+global mThunk16Attr
+global m16Gdt
+global m16GdtrBase
+global mTransition
+global m16Start
+
+struc IA32_REGS
+
+  ._EDI: resd 1
+  ._ESI: resd 1
+  ._EBP: resd 1
+  ._ESP: resd 1
+  ._EBX: resd 1
+  ._EDX: resd 1
+  ._ECX: resd 1
+  ._EAX: resd 1
+  ._DS: resw 1
+  ._ES: resw 1
+  ._FS: resw 1
+  ._GS: resw 1
+  ._EFLAGS: resd 1
+  ._EIP: resd 1
+  ._CS: resw 1
+  ._SS: resw 1
+  .size:
+
+endstruc
+
+;; .const
+
+SECTION .data
+
+;
+; These are global constant to convey information to C code.
+;
+m16Size DW InternalAsmThunk16 - m16Start
+mThunk16Attr DW _BackFromUserCode.ThunkAttrEnd - 4 - m16Start
+m16Gdt DW _NullSegDesc - m16Start
+m16GdtrBase DW _16GdtrBase - m16Start
+mTransition DW _EntryPoint - m16Start
+
+SECTION .text
+
+m16Start:
+
+SavedGdt:
+            dw 0
+            dd 0
+
+;------------------------------------------------------------------------------
+; _BackFromUserCode() takes control in real mode after 'retf' has been executed
+; by user code. It will be shadowed to somewhere in memory below 1MB.
+;------------------------------------------------------------------------------
+_BackFromUserCode:
+    ;
+    ; The order of saved registers on the stack matches the order they appears
+    ; in IA32_REGS structure. This facilitates wrapper function to extract them
+    ; into that structure.
+    ;
+BITS 16
+    push ss
+    push cs
+    ;
+    ; Note: We can't use o32 on the next instruction because of a bug
+    ; in NASM 2.09.04 through 2.10rc1.
+    ;
+    call dword .Base ; push eip
+.Base:
+    pushfd
+    cli ; disable interrupts
+    push gs
+    push fs
+    push es
+    push ds
+    pushad
+    mov edx, strict dword 0
+.ThunkAttrEnd:
+    test dl, 0x00000002
+    jz .1
+    mov ax, 2401h
+    int 15h
+    cli ; disable interrupts
+    jnc .2
+.1:
+    test dl, 0x00000004
+    jz .2
+    in al, 92h
+    or al, 2
+    out 92h, al ; deactivate A20M#
+.2:
+    xor eax, eax
+    mov ax, ss
+    lea ebp, [esp + IA32_REGS.size]
+    mov [bp - IA32_REGS.size + IA32_REGS._ESP], ebp
+    mov bx, [bp - IA32_REGS.size + IA32_REGS._EIP]
+    shl eax, 4 ; shl eax, 4
+    add ebp, eax ; add ebp, eax
+    mov eax, strict dword 0
+.SavedCr4End:
+    mov cr4, eax
+o32 lgdt [cs:bx + (SavedGdt - .Base)]
+    mov eax, strict dword 0
+.SavedCr0End:
+    mov cr0, eax
+    mov ax, strict word 0
+.SavedSsEnd:
+    mov ss, eax
+    mov esp, strict dword 0
+.SavedEspEnd:
+o32 retf ; return to protected mode
+
+_EntryPoint:
+        DD _ToUserCode - m16Start
+        DW 8h
+_16Idtr:
+        DW (1 << 10) - 1
+        DD 0
+_16Gdtr:
+        DW GdtEnd - _NullSegDesc - 1
+_16GdtrBase:
+        DD 0
+
+;------------------------------------------------------------------------------
+; _ToUserCode() takes control in real mode before passing control to user code.
+; It will be shadowed to somewhere in memory below 1MB.
+;------------------------------------------------------------------------------
+_ToUserCode:
+BITS 16
+    mov dx, ss
+    mov ss, cx ; set new segment selectors
+    mov ds, cx
+    mov es, cx
+    mov fs, cx
+    mov gs, cx
+    mov cr0, eax ; real mode starts at next instruction
+                                        ; which (per SDM) *must* be a far JMP.
+    jmp 0:strict word 0
+.RealAddrEnd:
+    mov cr4, ebp
+    mov ss, si ; set up 16-bit stack segment
+    xchg esp, ebx ; set up 16-bit stack pointer
+    mov bp, [esp + IA32_REGS.size]
+    mov [cs:bp + (_BackFromUserCode.SavedSsEnd - 2 - _BackFromUserCode)], dx
+    mov [cs:bp + (_BackFromUserCode.SavedEspEnd - 4 - _BackFromUserCode)], ebx
+    lidt [cs:bp + (_16Idtr - _BackFromUserCode)]
+
+    popad
+    pop ds
+    pop es
+    pop fs
+    pop gs
+    popfd
+
+o32 retf ; transfer control to user code
+
+ALIGN 16
+_NullSegDesc DQ 0
+_16CsDesc:
+                DW -1
+                DW 0
+                DB 0
+                DB 9bh
+                DB 8fh ; 16-bit segment, 4GB limit
+                DB 0
+_16DsDesc:
+                DW -1
+                DW 0
+                DB 0
+                DB 93h
+                DB 8fh ; 16-bit segment, 4GB limit
+                DB 0
+GdtEnd:
+
+;------------------------------------------------------------------------------
+; IA32_REGISTER_SET *
+; __attribute__((cdecl))
+; InternalAsmThunk16 (
+; IA32_REGISTER_SET *RegisterSet,
+; void *Transition
+; );
+;------------------------------------------------------------------------------
+global InternalAsmThunk16
+InternalAsmThunk16:
+BITS 32
+    push ebp
+    push ebx
+    push esi
+    push edi
+    push ds
+    push es
+    push fs
+    push gs
+    mov esi, [esp + 36] ; esi <- RegSet, the 1st parameter
+    movzx edx, word [esi + IA32_REGS._SS]
+    mov edi, [esi + IA32_REGS._ESP]
+    add edi, - (IA32_REGS.size + 4) ; reserve stack space
+    mov ebx, edi ; ebx <- stack offset
+    imul eax, edx, 16 ; eax <- edx * 16
+    push IA32_REGS.size / 4
+    add edi, eax ; edi <- linear address of 16-bit stack
+    pop ecx
+    rep movsd ; copy RegSet
+    mov eax, [esp + 40] ; eax <- address of transition code
+    mov esi, edx ; esi <- 16-bit stack segment
+    lea edx, [eax + (_BackFromUserCode.SavedCr0End - m16Start)]
+    mov ecx, eax
+    and ecx, 0fh
+    shl eax, 12
+    lea ecx, [ecx + (_BackFromUserCode - m16Start)]
+    mov ax, cx
+    stosd ; [edi] <- return address of user code
+    add eax, _ToUserCode.RealAddrEnd - _BackFromUserCode
+    mov [edx + (_ToUserCode.RealAddrEnd - 4 - _BackFromUserCode.SavedCr0End)], eax
+    sgdt [edx + (SavedGdt - _BackFromUserCode.SavedCr0End)]
+    sidt [esp + 36] ; save IDT stack in argument space
+    mov eax, cr0
+    mov [edx - 4], eax ; save CR0 in _BackFromUserCode.SavedCr0End - 4
+    and eax, 7ffffffeh ; clear PE, PG bits
+    mov ebp, cr4
+    mov [edx + (_BackFromUserCode.SavedCr4End - 4 - _BackFromUserCode.SavedCr0End)], ebp
+    and ebp, ~30h ; clear PAE, PSE bits
+    push 10h
+    pop ecx ; ecx <- selector for data segments
+    lgdt [edx + (_16Gdtr - _BackFromUserCode.SavedCr0End)]
+    pushfd ; Save df/if indeed
+    call dword far [edx + (_EntryPoint - _BackFromUserCode.SavedCr0End)]
+    popfd
+    lidt [esp + 36] ; restore protected mode IDTR
+    lea eax, [ebp - IA32_REGS.size] ; eax <- the address of IA32_REGS
+    pop gs
+    pop fs
+    pop es
+    pop ds
+    pop edi
+    pop esi
+    pop ebx
+    pop ebp
+    ret

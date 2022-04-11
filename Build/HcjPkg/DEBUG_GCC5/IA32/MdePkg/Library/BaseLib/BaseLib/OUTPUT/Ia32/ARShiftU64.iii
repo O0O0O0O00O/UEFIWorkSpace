@@ -1,0 +1,38 @@
+;------------------------------------------------------------------------------
+;
+; Copyright (c) 2006 - 2015, Intel Corporation. All rights reserved.<BR>
+; SPDX-License-Identifier: BSD-2-Clause-Patent
+;
+; Module Name:
+;
+; ARShiftU64.nasm
+;
+; Abstract:
+;
+; 64-bit arithmetic right shift function for IA-32
+;
+;------------------------------------------------------------------------------
+
+    SECTION .text
+
+;------------------------------------------------------------------------------
+; UINT64
+; __attribute__((cdecl))
+; InternalMathARShiftU64 (
+; UINT64 Operand,
+; UINTN Count
+; );
+;------------------------------------------------------------------------------
+global InternalMathARShiftU64
+InternalMathARShiftU64:
+    mov cl, [esp + 12]
+    mov eax, [esp + 8]
+    cdq
+    test cl, 32
+    jnz .0
+    mov edx, eax
+    mov eax, [esp + 4]
+.0:
+    shrd eax, edx, cl
+    sar edx, cl
+    ret

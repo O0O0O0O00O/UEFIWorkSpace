@@ -8,14 +8,11 @@
   BASE_NAME                  = Test
   FILE_GUID                  = 2be6e3dd-0eee-4c5a-bbad-b948fced3331
   MODULE_TYPE                = UEFI_APPLICATION
-  VERSION_STRING             = 0.1
-  ENTRY_POINT                = ShellCEntryLib
+  VERSION_STRING             = 1.0
+  ENTRY_POINT                = CryptestMain
 
 [Packages.X64]
-  StdLib/StdLib.dec
   MdePkg/MdePkg.dec
-  ShellPkg/ShellPkg.dec
-  MdeModulePkg/MdeModulePkg.dec
 
 [Binaries.X64]
   PE32|Test.efi
@@ -23,40 +20,8 @@
 [PatchPcd.X64]
 
 [Protocols.X64]
-  ## CONSUMES
-  gEfiSimpleTextInputExProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  gEfiGraphicsOutputProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  ## SOMETIMES_CONSUMES
-  gEfiSimpleFileSystemProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  ## CONSUMES
   ## SOMETIMES_CONSUMES
   gEfiDevicePathProtocolGuid
-
-  ## BY_START
-  gEfiPciIoProtocolGuid
-
-  ## BY_START
-  gEfiPciRootBridgeIoProtocolGuid
-
-  gEfiRngProtocolGuid
-
-  gEfiTcp4ServiceBindingProtocolGuid
-
-  gEfiTcp4ProtocolGuid
-
-  ## CONSUMES
-  ## SOMETIMES_CONSUMES
-  gEfiShellParametersProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  ## SOMETIMES_CONSUMES
-  gEfiShellInterfaceGuid
 
   ## UNDEFINED
   gEfiDebugPortProtocolGuid
@@ -65,13 +30,16 @@
   gEfiDriverBindingProtocolGuid
 
   ## SOMETIMES_CONSUMES
-  ## CONSUMES
-  ## CONSUMED
   gEfiSimpleTextOutProtocolGuid
 
   ## SOMETIMES_CONSUMES
+  gEfiGraphicsOutputProtocolGuid
+
   ## SOMETIMES_CONSUMES
   gEfiHiiFontProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiSimpleFileSystemProtocolGuid
 
   ## SOMETIMES_CONSUMES # Consumes if gEfiGraphicsOutputProtocolGuid uninstalled
   gEfiUgaDrawProtocolGuid
@@ -93,65 +61,6 @@
 
   ## SOMETIMES_PRODUCES # User chooses to produce it
   gEfiDriverDiagnostics2ProtocolGuid
-
-  ## CONSUMES
-  ## CONSUMED
-  gEfiSimpleTextInProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  ## CONSUMES
-  gEfiUnicodeCollation2ProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  gEfiFormBrowser2ProtocolGuid
-
-  # shell 2.0
-  ## SOMETIMES_CONSUMES
-  gEfiShellProtocolGuid
-
-  # 'old' shell
-  ## SOMETIMES_CONSUMES
-  gEfiShellEnvironment2Guid
-
-  ## CONSUMES
-  gEfiHiiStringProtocolGuid
-
-  ## SOMETIMES_CONSUMES
-  gEfiHiiImageProtocolGuid
-
-  ## CONSUMES
-  gEfiHiiDatabaseProtocolGuid
-
-  ## CONSUMES
-  gEfiHiiConfigRoutingProtocolGuid
-
-  gEfiSocketServiceBindingProtocolGuid
-
-  gEfiSocketProtocolGuid
-
-  gEfiIp4Config2ProtocolGuid
-
-  gEfiIp6ConfigProtocolGuid
-
-  gEfiIp4ProtocolGuid
-
-  gEfiIp4ServiceBindingProtocolGuid
-
-  gEfiIp6ProtocolGuid
-
-  gEfiIp6ServiceBindingProtocolGuid
-
-  gEfiTcp6ProtocolGuid
-
-  gEfiTcp6ServiceBindingProtocolGuid
-
-  gEfiUdp4ProtocolGuid
-
-  gEfiUdp4ServiceBindingProtocolGuid
-
-  gEfiUdp6ProtocolGuid
-
-  gEfiUdp6ServiceBindingProtocolGuid
 
 
 [Ppis.X64]
@@ -202,68 +111,33 @@
   ## SOMETIMES_CONSUMES  ## SystemTable
   gEfiAcpi10TableGuid
 
-  ## SOMETIMES_CONSUMES ## GUID
-  gEdkiiIfrBitVarstoreGuid
-
-  ## SOMETIMES_CONSUMES ## GUID
-  ## SOMETIMES_CONSUMES ## GUID
-  gEfiFileInfoGuid
-
-  ## SOMETIMES_CONSUMES ## GUID
-  gEfiShellEnvironment2ExtGuid
-
 
 [PcdEx.X64]
 
 [LibraryClasses.X64]
 ## @LIB_INSTANCES
-#  StdLib/LibC/gdtoa/gdtoa.inf
-#  StdLib/PosixLib/Gen/LibGen.inf
-#  StdLib/LibC/Time/Time.inf
-#  StdLib/LibC/Locale/Locale.inf
-#  StdLib/LibC/Uefi/Uefi.inf
-#  StdLib/LibC/Signal/Signal.inf
-#  StdLib/LibC/Ctype/Ctype.inf
-#  StdLib/LibC/String/String.inf
-#  StdLib/LibC/StdLib/StdLib.inf
-#  StdLib/LibC/Uefi/Devices/daUtility.inf
-#  MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint.inf
 #  MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull.inf
-#  MdePkg/Library/BaseLib/BaseLib.inf
-#  MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
 #  MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
-#  MdePkg/Library/BasePrintLib/BasePrintLib.inf
-#  ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib.inf
-#  MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
 #  MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
-#  StdLib/LibC/Stdio/Stdio.inf
-#  StdLib/LibC/LibC.inf
-#  StdLib/LibC/Wchar/Wchar.inf
-#  MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
-#  MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
+#  MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
+#  MdePkg/Library/BaseLib/BaseLib.inf
 #  MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf
+#  MdePkg/Library/BasePrintLib/BasePrintLib.inf
+#  MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
+#  MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
+#  MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
+#  MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint.inf
 #  MdePkg/Library/UefiLib/UefiLib.inf
-#  StdLib/LibC/Containers/ContainerLib.inf
-#  StdLib/LibC/Uefi/InteractiveIO/IIO.inf
-#  StdLib/LibC/Uefi/Devices/daConsole.inf
-#  MdeModulePkg/Library/UefiSortLib/UefiSortLib.inf
-#  MdeModulePkg/Library/UefiHiiLib/UefiHiiLib.inf
-#  MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf
-#  ShellPkg/Library/UefiShellLib/UefiShellLib.inf
-#  MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib.inf
-#  StdLib/LibC/NetUtil/NetUtil.inf
-#  StdLib/LibC/Uefi/Devices/daShell.inf
-#  StdLib/BsdSocketLib/BsdSocketLib.inf
-#  StdLib/EfiSocketLib/EfiSocketLib.inf
 
 [Depex.X64]
-#  (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid)
+
 
 
 
 #
 #  VALID_ARCHITECTURES           = IA32 X64 IPF
 #
+# BaseCryptLib
 
 [BuildOptions.X64]
 ## @AsBuilt
@@ -274,7 +148,7 @@
 ##   GCC:DEBUG_GCC5_X64_DEPS_FLAGS = -MMD -MF $@.deps
 ##   GCC:DEBUG_GCC5_X64_ASM_FLAGS = -c -x assembler -imacros AutoGen.h -m64
 ##   GCC:DEBUG_GCC5_X64_ASMLINK_FLAGS = /nologo /tiny
-##   GCC:DEBUG_GCC5_X64_CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os -nostdinc -nostdlib -DUEFI_C_SOURCE
+##   GCC:DEBUG_GCC5_X64_CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os
 ##   GCC:DEBUG_GCC5_X64_VFR_FLAGS = -l -n
 ##   GCC:DEBUG_GCC5_X64_ASLCC_FLAGS = -x c -fno-lto -m64
 ##   GCC:DEBUG_GCC5_X64_APP_FLAGS = 

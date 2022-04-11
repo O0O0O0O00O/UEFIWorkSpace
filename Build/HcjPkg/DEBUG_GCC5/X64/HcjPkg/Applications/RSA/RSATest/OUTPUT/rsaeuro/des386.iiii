@@ -1,0 +1,232 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.code32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .align 2
+.globl _desfunc
+
+_desfunc:
+ pushl %ebp
+ movl %esp,%ebp
+ pushl %esi
+ pushl %ebx
+
+
+ movl 8(%ebp),%esi
+ movl (%esi),%ecx
+ movl 4(%esi),%edx
+
+
+
+
+ movl %ecx,%eax
+ shrl $4,%eax
+ xorl %edx,%eax
+ andl $0x0f0f0f0f,%eax
+
+ xorl %eax,%edx
+
+
+ shll $4,%eax
+ xorl %eax,%ecx
+
+
+ movl %ecx,%eax
+ shrl $16,%eax
+ xorl %edx,%eax
+ andl $0xffff,%eax
+
+ xorl %eax,%edx
+
+
+ shll $16,%eax
+ xorl %eax,%ecx
+
+
+ movl %edx,%eax
+ shrl $2,%eax
+ xorl %ecx,%eax
+ andl $0x33333333,%eax
+
+
+ xorl %eax,%ecx
+ shll $2,%eax
+
+ xorl %eax,%edx
+
+
+ movl %edx,%eax
+ shrl $8,%eax
+ xorl %ecx,%eax
+ andl $0x00ff00ff,%eax
+
+ xorl %eax,%ecx
+
+
+ shll $8,%eax
+ xorl %eax,%edx
+
+ roll $1,%edx
+
+
+ movl %ecx,%eax
+ xorl %edx,%eax
+ andl $0xaaaaaaaa,%eax
+
+ xorl %eax,%ecx
+ xorl %eax,%edx
+
+ roll $3,%ecx
+ roll $2,%edx
+
+
+ movl 12(%ebp),%esi
+ xorl %ebx,%ebx
+
+
+ movl %edx,%eax ; rorl $4,%eax ; xorl 0(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+0(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 8(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+8(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 16(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+16(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 24(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+24(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 32(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+32(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 40(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+40(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 48(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+48(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 56(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+56(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 64(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+64(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 72(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+72(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 80(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+80(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 88(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+88(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 96(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+96(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 104(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+104(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+ movl %edx,%eax ; rorl $4,%eax ; xorl 112(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox(%ebx),%ecx ; movl 4+112(%esi),%eax ; xorl %edx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%ecx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%ecx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%ecx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%ecx
+ movl %ecx,%eax ; rorl $4,%eax ; xorl 120(%esi),%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+6*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+4*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+2*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox(%ebx),%edx ; movl 4+120(%esi),%eax ; xorl %ecx,%eax ; andl $0xfcfcfcfc,%eax ; movb %al,%bl ; xorl _Spbox+7*256(%ebx),%edx ; movb %ah,%bl ; rorl $16,%eax ; xorl _Spbox+5*256(%ebx),%edx ; movb %al,%bl ; xorl _Spbox+3*256(%ebx),%edx ; movb %ah,%bl ; xorl _Spbox+256(%ebx),%edx
+
+
+ rorl $2,%ecx
+ rorl $3,%edx
+
+
+ movl %ecx,%eax
+ xorl %edx,%eax
+ andl $0xaaaaaaaa,%eax
+
+ xorl %eax,%ecx
+ xorl %eax,%edx
+ rorl $1,%ecx
+
+
+ movl %ecx,%eax
+ shrl $8,%eax
+ xorl %edx,%eax
+ andl $0x00ff00ff,%eax
+
+ xorl %eax,%edx
+
+
+ shll $8,%eax
+ xorl %eax,%ecx
+
+
+ movl %ecx,%eax
+ shrl $2,%eax
+ xorl %edx,%eax
+ andl $0x33333333,%eax
+
+ xorl %eax,%edx
+
+
+ shll $2,%eax
+ xorl %eax,%ecx
+
+
+ movl %edx,%eax
+ shrl $16,%eax
+ xorl %ecx,%eax
+ andl $0xffff,%eax
+
+ xorl %eax,%ecx
+
+
+ shll $16,%eax
+ xorl %eax,%edx
+
+
+ movl %edx,%eax
+ shrl $4,%eax
+ xorl %ecx,%eax
+ andl $0x0f0f0f0f,%eax
+
+ xorl %eax,%ecx
+
+
+ shll $4,%eax
+ xorl %eax,%edx
+
+
+ movl 8(%ebp),%esi
+ movl %edx,(%esi)
+ mov %ecx,4(%esi)
+
+ popl %ebx
+ popl %esi
+ leave
+ ret

@@ -1,0 +1,59 @@
+[Defines]
+    INF_VERSION = 0x00010006
+    BASE_NAME = NetWork
+    FILE_GUID = 79b6efd4-97fa-4e4d-81ee-e45902209936
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 0.1
+    ENTRY_POINT = ShellCEntryLib
+
+[Sources]
+    Common.c
+    Common.h
+    Keyboard.h
+    Keyboard.c
+    EchoTcp4.c
+    NetWork.h
+    NetWork.c
+
+
+[Packages]
+    MdePkg/MdePkg.dec
+    StdLib/StdLib.dec   
+    ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+    LibC
+    LibStdio
+    DevShell
+
+    BsdSocketLib
+    DebugLib
+    EfiSocketLib
+
+    BaseMemoryLib
+    ShellLib
+    ShellCEntryLib
+    UefiBootServicesTableLib
+    UefiLib
+    UefiRuntimeServicesTableLib
+
+
+[Protocols]
+    gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+    gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+    gEfiGraphicsOutputProtocolGuid
+    gEfiSimpleFileSystemProtocolGuid
+    gEfiDevicePathProtocolGuid
+  
+    gEfiPciIoProtocolGuid    ## BY_START
+	gEfiPciRootBridgeIoProtocolGuid  ## BY_START
+
+    gEfiRngProtocolGuid
+
+    gEfiTcp4ServiceBindingProtocolGuid
+    gEfiTcp4ProtocolGuid
+
+[Guids]
+
+
+

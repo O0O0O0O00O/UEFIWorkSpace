@@ -100,8 +100,48 @@
 
   CacheMaintenanceLib|MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib.inf
 
+  #hb项目部分
+  UefiShellDebug1CommandsLib|ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib.inf
+  ShellCommandLib|ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib.inf
+  BcfgCommandLib|ShellPkg/Library/UefiShellBcfgCommandLib/UefiShellBcfgCommandLib.inf
+  UefiBootManagerLib|MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
+  DxeServicesTableLib|MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib.inf
+  HandleParsingLib|ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib.inf
+  OrderedCollectionLib|MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrderedCollectionRedBlackTreeLib.inf
+
+
+
   #lbdebug
 	DxeServicesLib|MdePkg/Library/DxeServicesLib/DxeServicesLib.inf
+
+
+  #加密部分
+  BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
+  OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLibCrypto.inf
+  IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
+  RngLib|MdePkg/Library/BaseRngLibTimerLib/BaseRngLibTimerLib.inf
+
+  #C部分
+  LibC|StdLib/LibC/LibC.inf
+  LibStdio|StdLib/LibC/Stdio/Stdio.inf
+  LibCType|StdLib/LibC/Ctype/Ctype.inf
+  LibGdtoa|StdLib/LibC/gdtoa/gdtoa.inf
+  LibLocale|StdLib/LibC/Locale/Locale.inf
+  LibStdLib|StdLib/LibC/StdLib/StdLib.inf
+  LibString|StdLib/LibC/String/String.inf
+  LibTime|StdLib/LibC/Time/Time.inf
+  LibUefi|StdLib/LibC/Uefi/Uefi.inf
+  LibWchar|StdLib/LibC/Wchar/Wchar.inf
+  LibGen|StdLib/PosixLib/Gen/LibGen.inf
+  DevUtility|StdLib/LibC/Uefi/Devices/daUtility.inf
+  LibSignal|StdLib/LibC/Signal/Signal.inf
+  DevConsole|StdLib/LibC/Uefi/Devices/daConsole.inf
+  LibIIO|StdLib/LibC/Uefi/InteractiveIO/IIO.inf
+  LibContainer|StdLib/LibC/Containers/ContainerLib.inf
+  DevShell|StdLib/LibC/Uefi/Devices/daShell.inf   
+  BsdSocketLib|StdLib/BsdSocketLib/BsdSocketLib.inf
+  EfiSocketLib|StdLib/EfiSocketLib/EfiSocketLib.inf
+  LibNetUtil|StdLib/LibC/NetUtil/NetUtil.inf
 
 ###################################################################################################
 #
@@ -137,6 +177,13 @@
   HcjPkg/Applications/NetWork/NetWork.inf
   HcjPkg/Applications/SM3/SM3.inf
   HcjPkg/Applications/SM4/SM4.inf
+  HcjPkg/Applications/Test/Test.inf
+  HcjPkg/Applications/RSA/RSATest.inf
+  HcjPkg/Applications/Gmssl/Gmssl.inf
+  HcjPkg/Applications/Experiment_Test/Experiment_Test.inf
+  HcjPkg/Applications/Security_lab/Security_lab.inf
+  HcjPkg/Applications/stdEchoTcp4/stdEchoTcp4.inf
+
   
 
 
@@ -145,5 +192,5 @@
 #  Include Boilerplate text required for building with the Standard Libraries.
 #
 ##############################################################################
-!include StdLib/StdLib.inc
-!include AppPkg/Applications/Sockets/Sockets.inc
+# !include StdLib/StdLib.inc
+# !include AppPkg/Applications/Sockets/Sockets.inc

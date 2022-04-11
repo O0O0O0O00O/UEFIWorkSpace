@@ -1,0 +1,90 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = Security_lab
+  FILE_GUID                      = 3ae0b7ce-e68d-410b-8a27-0661c3c75aa6
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib 
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+
+[Sources]
+    MyHelloWorldSMBios/cJSON.c
+    MyHelloWorldSMBios/cJSON.h
+    MyHelloWorldSMBios/get_info.h
+    MyHelloWorldSMBios/MyHelloWorldSMBios.c
+
+
+    SM3/sm3.c
+    SM3/sm3.h
+
+
+    SM4/sm4.c
+    SM4/sm4.h
+
+    
+    EchoTcp4/EchoTcp4.c
+    EchoTcp4/Common.c
+    EchoTcp4/Common.h
+    EchoTcp4/Keyboard.c
+    EchoTcp4/Keyboard.h
+    EchoTcp4/Network.c
+    EchoTcp4/Network.h
+    
+
+    main.c
+
+
+
+
+
+[Packages]  
+  MdePkg/MdePkg.dec  
+  ShellPkg/ShellPkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  StdLib/StdLib.dec
+[LibraryClasses]  
+
+  LibC 
+  LibStdio
+  UefiLib
+  ShellCEntryLib
+  UefiShellDebug1CommandsLib
+
+  DevShell
+  BaseMemoryLib
+  ShellLib
+  UefiBootServicesTableLib
+  UefiRuntimeServicesTableLib
+
+
+
+  BsdSocketLib
+  DebugLib
+  EfiSocketLib
+
+
+[Depex]
+  gEfiSmbiosProtocolGuid
+
+[Protocols]
+  #get_info
+  gEfiSmbiosProtocolGuid                      # PROTOCOL ALWAYS_CONSUMED
+
+
+  #send_message
+  gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+  gEfiSimpleTextInputExProtocolGuid             ## CONSUMES
+  gEfiGraphicsOutputProtocolGuid
+  gEfiSimpleFileSystemProtocolGuid
+  gEfiDevicePathProtocolGuid
+  
+  gEfiPciIoProtocolGuid    ## BY_START
+	gEfiPciRootBridgeIoProtocolGuid  ## BY_START
+
+  gEfiRngProtocolGuid
+
+  gEfiTcp4ServiceBindingProtocolGuid
+  gEfiTcp4ProtocolGuid
+

@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/GNUmakefile

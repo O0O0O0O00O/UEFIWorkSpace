@@ -1,0 +1,41 @@
+;------------------------------------------------------------------------------
+;
+; Copyright (c) 2006, Intel Corporation. All rights reserved.<BR>
+; SPDX-License-Identifier: BSD-2-Clause-Patent
+;
+; Module Name:
+;
+; DivError.asm
+;
+; Abstract:
+;
+; Set error flag for all division functions
+;
+;------------------------------------------------------------------------------
+
+    SECTION .text
+
+;------------------------------------------------------------------------------
+; UINT64
+; __attribute__((cdecl))
+; InternalMathDivRemU64x32 (
+; UINT64 Dividend,
+; UINT32 Divisor,
+; UINT32 *Remainder
+; );
+;------------------------------------------------------------------------------
+global InternalMathDivRemU64x32
+InternalMathDivRemU64x32:
+    mov ecx, [esp + 12] ; ecx <- divisor
+    mov eax, [esp + 8] ; eax <- dividend[32..63]
+    xor edx, edx
+    div ecx ; eax <- quotient[32..63], edx <- remainder
+    push eax
+    mov eax, [esp + 8] ; eax <- dividend[0..31]
+    div ecx ; eax <- quotient[0..31]
+    mov ecx, [esp + 20] ; ecx <- Remainder
+    jecxz .0 ; abandon remainder if Remainder == ((void *) 0)
+    mov [ecx], edx
+.0:
+    pop edx ; edx <- quotient[32..63]
+    ret

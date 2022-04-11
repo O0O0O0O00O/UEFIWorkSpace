@@ -1,0 +1,1 @@
+/home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/stdEchoTcp4/stdEchoTcp4/GNUmakefile

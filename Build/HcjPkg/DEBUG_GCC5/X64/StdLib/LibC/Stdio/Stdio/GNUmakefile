@@ -106,7 +106,7 @@ ASMLINK = bin16\link16.exe
 BROTLI_GUID =  3D532050-5CDA-4FD0-879E-0F7F630D5AFB
 BROTLI = BrotliCompress
 
-CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os -fno-builtin -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-format -nostdinc -nostdlib -DUEFI_C_SOURCE
+CC_FLAGS = -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Wno-array-bounds -include AutoGen.h -fno-common -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m64 -fno-stack-protector "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -flto -DUSING_LTO -Os -fno-builtin -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-format
 CC = gcc
 
 CRC32_GUID =  FC1BCDB0-7D31-49AA-936A-A4600D9DD083

@@ -113,7 +113,7 @@ struct _EFI_SIMPLE_FILE_SYSTEM_PROTOCOL {
 typedef
 EFI_STATUS
 (EFIAPI *EFI_FILE_OPEN)(
-  IN EFI_FILE_PROTOCOL        *This,
+  IN EFI_FILE_PROTOCOL        *This,          //EFI_FILE_PROTOCOL实例，通常是一个目录的句柄
   OUT EFI_FILE_PROTOCOL       **NewHandle,
   IN CHAR16                   *FileName,
   IN UINT64                   OpenMode,

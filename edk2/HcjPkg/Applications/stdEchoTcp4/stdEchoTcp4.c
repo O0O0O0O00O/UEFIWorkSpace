@@ -120,8 +120,8 @@ EFI_STATUS tcp4Client(IN int Argc,
     printf("Connect() error, quit the app!\n");
     return Status;
   }
-
-  while (1)
+  int time = 3;
+  while (time--)
   {
     //4 send message to server and get message from server
     memset(msgStr, 0, 1024);

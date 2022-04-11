@@ -1,0 +1,33 @@
+
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = Experiment_Test
+  FILE_GUID                      = 2be6e3dd-0eee-4c5a-bbad-b948fced3331
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+
+[Sources]
+
+  test.c
+
+
+[Packages]
+  StdLib/StdLib.dec   
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec 
+  HcjPkg/HcjPkg.dec
+
+
+[LibraryClasses]
+  LibC
+  LibStdio
+  ShellCEntryLib   
+  ShellLib
+  LibString
+
+  DevShell

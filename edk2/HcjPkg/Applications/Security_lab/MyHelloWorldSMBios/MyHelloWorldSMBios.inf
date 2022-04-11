@@ -1,0 +1,38 @@
+[Defines] 
+  INF_VERSION = 0x00010006 
+  BASE_NAME = MyHelloWorldSmbios
+  FILE_GUID = 5cd17876-78fb-4df1-b1cf-a3eafdbc9a1b
+  MODULE_TYPE = UEFI_APPLICATION
+  VERSION_STRING = 1.0
+  ENTRY_POINT = ShellCEntryLib 
+
+[Sources] 
+  MyHelloWorldSMBios.c 
+  cJSON.c
+
+[Packages]  
+  MdePkg/MdePkg.dec  
+  ShellPkg/ShellPkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  StdLib/StdLib.dec
+[LibraryClasses]  
+
+  LibC 
+  LibStdio
+  UefiLib
+  ShellCEntryLib
+  UefiShellDebug1CommandsLib
+
+  DevShell
+  BaseMemoryLib
+  ShellLib
+  UefiBootServicesTableLib
+  UefiRuntimeServicesTableLib
+
+[Depex]
+  gEfiSmbiosProtocolGuid
+
+[Protocols]
+  gEfiSmbiosProtocolGuid                      # PROTOCOL ALWAYS_CONSUMED
+
+

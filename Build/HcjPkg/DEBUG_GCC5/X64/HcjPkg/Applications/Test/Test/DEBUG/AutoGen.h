@@ -41,27 +41,15 @@ extern EFI_GUID gEfiEventLegacyBootGuid;
 extern EFI_GUID gEfiGlobalVariableGuid;
 extern EFI_GUID gEfiAcpi20TableGuid;
 extern EFI_GUID gEfiAcpi10TableGuid;
-extern EFI_GUID gEdkiiIfrBitVarstoreGuid;
-extern EFI_GUID gEfiFileInfoGuid;
-extern EFI_GUID gEfiShellEnvironment2ExtGuid;
-extern EFI_GUID gEfiShellPkgTokenSpaceGuid;
 
 // Protocols
-extern EFI_GUID gEfiSimpleTextInputExProtocolGuid;
-extern EFI_GUID gEfiGraphicsOutputProtocolGuid;
-extern EFI_GUID gEfiSimpleFileSystemProtocolGuid;
 extern EFI_GUID gEfiDevicePathProtocolGuid;
-extern EFI_GUID gEfiPciIoProtocolGuid;
-extern EFI_GUID gEfiPciRootBridgeIoProtocolGuid;
-extern EFI_GUID gEfiRngProtocolGuid;
-extern EFI_GUID gEfiTcp4ServiceBindingProtocolGuid;
-extern EFI_GUID gEfiTcp4ProtocolGuid;
-extern EFI_GUID gEfiShellParametersProtocolGuid;
-extern EFI_GUID gEfiShellInterfaceGuid;
 extern EFI_GUID gEfiDebugPortProtocolGuid;
 extern EFI_GUID gEfiDriverBindingProtocolGuid;
 extern EFI_GUID gEfiSimpleTextOutProtocolGuid;
+extern EFI_GUID gEfiGraphicsOutputProtocolGuid;
 extern EFI_GUID gEfiHiiFontProtocolGuid;
+extern EFI_GUID gEfiSimpleFileSystemProtocolGuid;
 extern EFI_GUID gEfiUgaDrawProtocolGuid;
 extern EFI_GUID gEfiComponentNameProtocolGuid;
 extern EFI_GUID gEfiComponentName2ProtocolGuid;
@@ -69,29 +57,6 @@ extern EFI_GUID gEfiDriverConfigurationProtocolGuid;
 extern EFI_GUID gEfiDriverConfiguration2ProtocolGuid;
 extern EFI_GUID gEfiDriverDiagnosticsProtocolGuid;
 extern EFI_GUID gEfiDriverDiagnostics2ProtocolGuid;
-extern EFI_GUID gEfiSimpleTextInProtocolGuid;
-extern EFI_GUID gEfiUnicodeCollation2ProtocolGuid;
-extern EFI_GUID gEfiFormBrowser2ProtocolGuid;
-extern EFI_GUID gEfiShellProtocolGuid;
-extern EFI_GUID gEfiShellEnvironment2Guid;
-extern EFI_GUID gEfiHiiStringProtocolGuid;
-extern EFI_GUID gEfiHiiImageProtocolGuid;
-extern EFI_GUID gEfiHiiDatabaseProtocolGuid;
-extern EFI_GUID gEfiHiiConfigRoutingProtocolGuid;
-extern EFI_GUID gEfiSocketServiceBindingProtocolGuid;
-extern EFI_GUID gEfiSocketProtocolGuid;
-extern EFI_GUID gEfiIp4Config2ProtocolGuid;
-extern EFI_GUID gEfiIp6ConfigProtocolGuid;
-extern EFI_GUID gEfiIp4ProtocolGuid;
-extern EFI_GUID gEfiIp4ServiceBindingProtocolGuid;
-extern EFI_GUID gEfiIp6ProtocolGuid;
-extern EFI_GUID gEfiIp6ServiceBindingProtocolGuid;
-extern EFI_GUID gEfiTcp6ProtocolGuid;
-extern EFI_GUID gEfiTcp6ServiceBindingProtocolGuid;
-extern EFI_GUID gEfiUdp4ProtocolGuid;
-extern EFI_GUID gEfiUdp4ServiceBindingProtocolGuid;
-extern EFI_GUID gEfiUdp6ProtocolGuid;
-extern EFI_GUID gEfiUdp6ServiceBindingProtocolGuid;
 
 // Definition of SkuId Array
 extern UINT64 _gPcd_SkuId_Array[];
@@ -101,7 +66,7 @@ extern UINT64 _gPcd_SkuId_Array[];
 
 EFI_STATUS
 EFIAPI
-ShellCEntryLib (
+CryptestMain (
   IN EFI_HANDLE        ImageHandle,
   IN EFI_SYSTEM_TABLE  *SystemTable
   );

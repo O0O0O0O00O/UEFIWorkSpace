@@ -1,0 +1,91 @@
+
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/hex.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sha1.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/base64.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/ec.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/rc4.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm3.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/rand.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm4_common.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm9_math.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/hmac.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm2_asn1.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm2_prn.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/asn1.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/pem.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/aes_modes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm4_enc.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/x509_cer.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sha512.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/chacha20.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/pkcs8.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/gf128.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sha256.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm4_modes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/rsa.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/x509_alg.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm4_setkey.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/des.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/gcm.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/hkdf.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/digest.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/debug.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/aes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/pbkdf2.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm2_lib.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm2_algo.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/cms.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/sm3_hmac.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/hash_drbg.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/block_cipher.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/src/md5.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/sm2test.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/sm2encrypt.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/test.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Gmssl/Gmssl/OUTPUT/AutoGen.obj.deps
+
+               
