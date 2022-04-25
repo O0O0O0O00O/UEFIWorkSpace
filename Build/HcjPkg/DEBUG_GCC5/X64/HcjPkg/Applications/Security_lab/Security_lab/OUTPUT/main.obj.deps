@@ -76,22 +76,10 @@
  /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/IndustryStandard/PciCodeId.h \
  /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Protocol/UsbIo.h \
  /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/IndustryStandard/Usb.h \
- /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM3/sm3.h \
+ /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
+ /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Guid/FileInfo.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/sm2.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/string.h \
- /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM4/sm4.h \
- /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/EchoTcp4.h \
- /home/hcj/UEFIWorkspace/edk2/ShellPkg/Include/Library/ShellCEntryLib.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/errno.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/errno.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/netdb.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/endian_machdep.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/cdefs.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/inttypes.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/stdint.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/int_mwgwtypes.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/int_limits.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/int_const.h \
- /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/paths.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/unistd.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/unistd.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/EfiSysCall.h \
@@ -99,10 +87,39 @@
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/types.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/endian.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/endian.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/endian_machdep.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/bswap.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/byte_swap.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/bswap.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/fd_set.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/pem.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/base64.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/stdint.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/stdint.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/int_mwgwtypes.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/int_limits.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/X64/machine/int_const.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/error.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/hex.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/sm2.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/sm3.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/pkcs8.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/x509.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/time.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/oid.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Gmssl/include/gmssl/asn1.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM3/sm3.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM4/hcj_sm4.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM4/sm4.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/UserAuth/UserAuth.h \
+ /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/EchoTcp4.h \
+ /home/hcj/UEFIWorkspace/edk2/ShellPkg/Include/Library/ShellCEntryLib.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/errno.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/errno.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/netdb.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/cdefs.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/inttypes.h \
+ /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/paths.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/netinet/in.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/netinet6/in6.h \
  /home/hcj/UEFIWorkspace/edk2-libc/StdLib/Include/sys/socket.h \
@@ -117,7 +134,6 @@
  /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Protocol/Ip4.h \
  /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Protocol/ManagedNetwork.h \
  /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Protocol/SimpleNetwork.h \
- /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Protocol/ServiceBinding.h \
- /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Library/MemoryAllocationLib.h
+ /home/hcj/UEFIWorkspace/edk2/MdePkg/Include/Protocol/ServiceBinding.h
 
 # Updated 

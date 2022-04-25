@@ -22,6 +22,8 @@
 
     SM4/sm4.c
     SM4/sm4.h
+    SM4/sm4test.c
+    SM4/hcj_sm4.h
 
     
     EchoTcp4/EchoTcp4.c
@@ -31,7 +33,74 @@
     EchoTcp4/Keyboard.h
     EchoTcp4/Network.c
     EchoTcp4/Network.h
-    
+
+    UserAuth/UserAuth.c
+    UserAuth/UserAuth.h
+
+
+
+
+
+    Gmssl/src/pbkdf2.c
+    Gmssl/src/pkcs8.c
+    Gmssl/src/sm2_asn1.c
+    Gmssl/src/sm4_common.c
+    Gmssl/src/sm4_setkey.c
+    # Gmssl/src/mem.h
+    Gmssl/src/sm2_lib.c
+    # Gmssl/src/tls13.c
+    # Gmssl/src/tls12.c
+    # Gmssl/src/zuc_eea.c
+    # Gmssl/src/chacha20.c
+    # Gmssl/src/tlcp.c
+    Gmssl/src/sm3_hmac.c
+    # Gmssl/src/x509_req.c
+    # Gmssl/src/sha256.c
+    # Gmssl/src/des.c
+    # Gmssl/src/x509_oid.c
+    # Gmssl/src/tls_trace.c
+    Gmssl/src/asn1.c
+    # Gmssl/src/hkdf.c
+    # Gmssl/src/zuc_eia.c
+    # Gmssl/src/oid.c
+    # Gmssl/src/zuc_core.c
+    # Gmssl/src/sm4_lcl.h
+    # Gmssl/src/aes.cs
+    Gmssl/src/sm3.c
+    Gmssl/src/hex.c
+    # Gmssl/src/sm9_sign.c
+    # Gmssl/src/md5.c
+    Gmssl/src/sm2_algo.c
+    # Gmssl/src/version.c
+    Gmssl/src/ec.c
+    # Gmssl/src/x509_str.c
+    # Gmssl/src/hash_drbg.c
+    Gmssl/src/sm4_modes.c
+    # Gmssl/src/sm9_keygen.c
+    # Gmssl/src/gcm.c
+    Gmssl/src/debug.c
+    Gmssl/src/hmac.c
+    Gmssl/src/x509_alg.c
+    # Gmssl/src/tls.c
+    # Gmssl/src/rc4.c
+    # Gmssl/src/endian.h
+    Gmssl/src/pem.c
+    Gmssl/src/sm2_prn.c
+    Gmssl/src/digest.c
+    Gmssl/src/x509_cer.c
+    # Gmssl/src/gf128.c
+    Gmssl/src/base64.c
+    Gmssl/src/sm4_enc.c
+    # Gmssl/src/sha1.c
+    Gmssl/src/rand.c
+    Gmssl/src/aes_modes.c
+    # Gmssl/src/sm9_math.c
+    # Gmssl/src/sha512.c
+    # Gmssl/src/cms.c
+    # sm2test.c
+    # sm2encrypt.c
+    Gmssl/test.c
+
 
     main.c
 
@@ -44,6 +113,8 @@
   ShellPkg/ShellPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   StdLib/StdLib.dec
+  HcjPkg/HcjPkg.dec
+
 [LibraryClasses]  
 
   LibC 

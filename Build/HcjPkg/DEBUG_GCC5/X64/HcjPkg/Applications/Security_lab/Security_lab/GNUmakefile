@@ -242,13 +242,43 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/EchoTcp4/EchoTcp4.obj \
     $(OUTPUT_DIR)/EchoTcp4/Keyboard.obj \
     $(OUTPUT_DIR)/EchoTcp4/Network.obj \
+    $(OUTPUT_DIR)/Gmssl/src/aes_modes.obj \
+    $(OUTPUT_DIR)/Gmssl/src/asn1.obj \
+    $(OUTPUT_DIR)/Gmssl/src/base64.obj \
+    $(OUTPUT_DIR)/Gmssl/src/debug.obj \
+    $(OUTPUT_DIR)/Gmssl/src/digest.obj \
+    $(OUTPUT_DIR)/Gmssl/src/ec.obj \
+    $(OUTPUT_DIR)/Gmssl/src/hex.obj \
+    $(OUTPUT_DIR)/Gmssl/src/hmac.obj \
+    $(OUTPUT_DIR)/Gmssl/src/pbkdf2.obj \
+    $(OUTPUT_DIR)/Gmssl/src/pem.obj \
+    $(OUTPUT_DIR)/Gmssl/src/pkcs8.obj \
+    $(OUTPUT_DIR)/Gmssl/src/rand.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm2_algo.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm2_asn1.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm2_lib.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm2_prn.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm3.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm3_hmac.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm4_common.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm4_enc.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm4_modes.obj \
+    $(OUTPUT_DIR)/Gmssl/src/sm4_setkey.obj \
+    $(OUTPUT_DIR)/Gmssl/src/x509_alg.obj \
+    $(OUTPUT_DIR)/Gmssl/src/x509_cer.obj \
+    $(OUTPUT_DIR)/Gmssl/test.obj \
     $(OUTPUT_DIR)/MyHelloWorldSMBios/MyHelloWorldSMBios.obj \
     $(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj \
     $(OUTPUT_DIR)/SM3/sm3.obj \
     $(OUTPUT_DIR)/SM4/sm4.obj \
+    $(OUTPUT_DIR)/SM4/sm4test.obj \
+    $(OUTPUT_DIR)/UserAuth/UserAuth.obj \
     $(OUTPUT_DIR)/main.obj
 
 INC =  \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/UserAuth \
     -I$(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/EchoTcp4 \
     -I$(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/SM4 \
     -I$(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/SM3 \
@@ -265,7 +295,11 @@ INC =  \
     -I$(WORKSPACE)/edk2/MdeModulePkg/Include \
     -I$(WORKSPACE)/edk2-libc/StdLib \
     -I$(WORKSPACE)/edk2-libc/StdLib/Include \
-    -I$(WORKSPACE)/edk2-libc/StdLib/Include/X64
+    -I$(WORKSPACE)/edk2-libc/StdLib/Include/X64 \
+    -I$(WORKSPACE)/edk2/HcjPkg \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Gmssl/include \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/openssl/include \
+    -I$(WORKSPACE)/edk2/HcjPkg/Applications/Test/Include
 
 STATIC_LIBRARY_FILES_LIST = /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/static_library_files.lst
 OBJECT_FILES_LIST = /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/object_files.lst
@@ -420,25 +454,125 @@ $(OUTPUT_DIR)/Security_lab.efi : $(DEBUG_DIR)/Security_lab.dll
 	$(CP) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Security_lab.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
 
+$(OUTPUT_DIR)/Gmssl/src/pbkdf2.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/pbkdf2.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/pbkdf2.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/pbkdf2.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/pbkdf2.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/pbkdf2.c
+
+$(OUTPUT_DIR)/Gmssl/src/sm2_algo.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm2_algo.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm2_algo.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_algo.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_algo.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_algo.c
+
+$(OUTPUT_DIR)/Gmssl/src/sm4_setkey.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm4_setkey.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm4_setkey.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_setkey.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_setkey.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_setkey.c
+
+$(OUTPUT_DIR)/Gmssl/src/pem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/pem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/pem.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/pem.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/pem.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/pem.c
+
+$(OUTPUT_DIR)/Gmssl/src/sm4_enc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm4_enc.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm4_enc.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_enc.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_enc.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_enc.c
+
+$(OUTPUT_DIR)/Gmssl/src/sm2_lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm2_lib.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm2_lib.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_lib.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_lib.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_lib.c
+
+$(OUTPUT_DIR)/Gmssl/src/debug.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/debug.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/debug.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/debug.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/debug.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/debug.c
+
+$(OUTPUT_DIR)/Gmssl/src/aes_modes.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/aes_modes.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/aes_modes.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/aes_modes.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/aes_modes.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/aes_modes.c
+
+$(OUTPUT_DIR)/EchoTcp4/Network.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/EchoTcp4/Network.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/EchoTcp4/Network.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Network.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Network.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Network.c
+
+$(OUTPUT_DIR)/Gmssl/src/base64.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/base64.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/base64.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/base64.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/base64.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/base64.c
+
+$(OUTPUT_DIR)/Gmssl/src/hmac.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/hmac.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/hmac.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/hmac.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/hmac.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/hmac.c
+
+$(OUTPUT_DIR)/Gmssl/src/digest.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/digest.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/digest.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/digest.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/digest.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/digest.c
+
+$(OUTPUT_DIR)/Gmssl/test.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/test.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/test.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/test.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/test.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/test.c
+
+$(OUTPUT_DIR)/Gmssl/src/x509_cer.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/x509_cer.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/x509_cer.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/x509_cer.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/x509_cer.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/x509_cer.c
+
 $(OUTPUT_DIR)/MyHelloWorldSMBios/MyHelloWorldSMBios.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/MyHelloWorldSMBios/MyHelloWorldSMBios.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/MyHelloWorldSMBios/MyHelloWorldSMBios.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/MyHelloWorldSMBios/MyHelloWorldSMBios.c
 	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/MyHelloWorldSMBios/MyHelloWorldSMBios.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/MyHelloWorldSMBios/MyHelloWorldSMBios.c
-
-$(OUTPUT_DIR)/EchoTcp4/Common.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/EchoTcp4/Common.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/EchoTcp4/Common.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Common.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Common.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Common.c
 
 $(OUTPUT_DIR)/EchoTcp4/Keyboard.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/EchoTcp4/Keyboard.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/EchoTcp4/Keyboard.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Keyboard.c
 	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Keyboard.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Keyboard.c
 
+$(OUTPUT_DIR)/Gmssl/src/sm3.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm3.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm3.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm3.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm3.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm3.c
+
+$(OUTPUT_DIR)/Gmssl/src/sm4_modes.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm4_modes.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm4_modes.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_modes.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_modes.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_modes.c
+
+$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/./AutoGen.obj $(INC) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/DEBUG/AutoGen.c
+
+$(OUTPUT_DIR)/Gmssl/src/hex.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/hex.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/hex.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/hex.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/hex.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/hex.c
+
+$(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/MyHelloWorldSMBios/cJSON.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/MyHelloWorldSMBios/cJSON.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/MyHelloWorldSMBios/cJSON.c
+
+$(OUTPUT_DIR)/Gmssl/src/pkcs8.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/pkcs8.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/pkcs8.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/pkcs8.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/pkcs8.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/pkcs8.c
+
 $(OUTPUT_DIR)/main.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/main.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/main.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/main.c
 	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/./main.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/main.c
+
+$(OUTPUT_DIR)/Gmssl/src/sm2_asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm2_asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm2_asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_asn1.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_asn1.c
 
 $(OUTPUT_DIR)/EchoTcp4/EchoTcp4.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/EchoTcp4/EchoTcp4.obj : $(DEBUG_DIR)/AutoGen.h
@@ -455,20 +589,55 @@ $(OUTPUT_DIR)/SM4/sm4.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/SM4/sm4.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/SM4/sm4.c
 	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/SM4/sm4.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM4/sm4.c
 
-$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/./AutoGen.obj $(INC) /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/DEBUG/AutoGen.c
+$(OUTPUT_DIR)/Gmssl/src/sm4_common.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm4_common.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm4_common.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_common.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_common.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm4_common.c
 
-$(OUTPUT_DIR)/EchoTcp4/Network.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/EchoTcp4/Network.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/EchoTcp4/Network.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Network.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Network.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Network.c
+$(OUTPUT_DIR)/Gmssl/src/sm2_prn.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm2_prn.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm2_prn.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_prn.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_prn.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm2_prn.c
 
-$(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/MyHelloWorldSMBios/cJSON.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/MyHelloWorldSMBios/cJSON.c
-	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/MyHelloWorldSMBios/cJSON.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/MyHelloWorldSMBios/cJSON.c
+$(OUTPUT_DIR)/Gmssl/src/sm3_hmac.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/sm3_hmac.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/sm3_hmac.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm3_hmac.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm3_hmac.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/sm3_hmac.c
+
+$(OUTPUT_DIR)/Gmssl/src/ec.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/ec.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/ec.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/ec.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/ec.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/ec.c
+
+$(OUTPUT_DIR)/EchoTcp4/Common.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/EchoTcp4/Common.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/EchoTcp4/Common.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Common.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Common.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/EchoTcp4/Common.c
+
+$(OUTPUT_DIR)/Gmssl/src/rand.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/rand.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/rand.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/rand.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/rand.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/rand.c
+
+$(OUTPUT_DIR)/SM4/sm4test.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SM4/sm4test.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/SM4/sm4test.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/SM4/sm4test.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/SM4/sm4test.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/SM4/sm4test.c
+
+$(OUTPUT_DIR)/UserAuth/UserAuth.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/UserAuth/UserAuth.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/UserAuth/UserAuth.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/UserAuth/UserAuth.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/UserAuth/UserAuth.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/UserAuth/UserAuth.c
+
+$(OUTPUT_DIR)/Gmssl/src/x509_alg.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/x509_alg.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/x509_alg.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/x509_alg.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/x509_alg.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/x509_alg.c
+
+$(OUTPUT_DIR)/Gmssl/src/asn1.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Gmssl/src/asn1.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Gmssl/src/asn1.obj : $(WORKSPACE)/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/asn1.c
+	"$(CC)" $(DEPS_FLAGS) $(CC_FLAGS) -c -o /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/asn1.obj $(INC) /home/hcj/UEFIWorkspace/edk2/HcjPkg/Applications/Security_lab/Gmssl/src/asn1.c
 
 $(OUTPUT_DIR)/Security_lab.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/Security_lab.lib : $(OBJECT_FILES_LIST)

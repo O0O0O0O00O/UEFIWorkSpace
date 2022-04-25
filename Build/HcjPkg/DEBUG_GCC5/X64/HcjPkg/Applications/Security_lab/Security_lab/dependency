@@ -1,5 +1,57 @@
 
 
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/hex.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/base64.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/ec.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm3.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/rand.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_common.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/hmac.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_asn1.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_prn.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/asn1.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/pem.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/aes_modes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_enc.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/x509_cer.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/pkcs8.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_modes.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/x509_alg.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm4_setkey.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/digest.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/debug.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/pbkdf2.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_lib.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm2_algo.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/src/sm3_hmac.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/Gmssl/test.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/UserAuth/UserAuth.obj.deps
+
 -include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/NetWork/EchoTcp4.obj.deps
 
 -include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Common.obj.deps
@@ -9,6 +61,8 @@
 -include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/Network.obj.deps
 
 -include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/EchoTcp4/EchoTcp4.obj.deps
+
+-include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/SM4/sm4test.obj.deps
 
 -include /home/hcj/UEFIWorkspace/Build/HcjPkg/DEBUG_GCC5/X64/HcjPkg/Applications/Security_lab/Security_lab/OUTPUT/SM4/sm4.obj.deps
 

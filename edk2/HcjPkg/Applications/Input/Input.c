@@ -28,7 +28,7 @@ UefiMain(
     IN EFI_HANDLE ImageHandle,
     IN EFI_SYSTEM_TABLE *SystemTable
 ){
-    EFI_STATUS status;
+    EFI_STATUS status = EFI_SUCCESS;
     EFI_SIMPLE_TEXT_INPUT_PROTOCOL *STIP;
     status = gBS->LocateProtocol(
         &gEfiSimpleTextInProtocolGuid,

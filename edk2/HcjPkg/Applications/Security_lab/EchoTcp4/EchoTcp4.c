@@ -2,14 +2,8 @@
     A simple, basic, application showing how the Hello application could be
     built using the "Standard C Libraries" from StdLib.
 
-    Robin's uefi framework application, 2020-3-20
 **/
-/**
- * 《UEFI编程实践》随书代码
- * 更多的UEFI探索，可以参考笔者的博客和专栏：
- * CSDN: https://blog.csdn.net/luobing4365
- * 知乎: https://www.zhihu.com/column/c_1233025362843209728
- * **/
+
 //#include  <Uefi.h>
 //#include  <Library/UefiLib.h>
 //#include  <Library/ShellCEntryLib.h>
@@ -47,6 +41,10 @@
 
   @param[in]  Argc    Number of argument tokens pointed to by Argv.
   @param[in]  Argv    Array of Argc pointers to command line tokens.
+  @param[in]  msgStr  the message need to be send
+  @param[in]  msg_length    the length of msgStr
+  @param[out] RecvBuffer    the message received
+  @param[out] recvLen   the length if RecvBuffer
 
   @retval  0         The application exited normally.
   @retval  Other     An error occurred.

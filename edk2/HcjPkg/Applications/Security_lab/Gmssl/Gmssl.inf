@@ -1,0 +1,113 @@
+## @file
+#   A simple, basic, application showing how the Hello application could be
+#   built using the "Standard C Libraries" from StdLib.
+#
+#  Copyright (c) 2010 - 2011, Intel Corporation. All rights reserved.<BR>
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution. The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.
+#
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = Gmssl
+  FILE_GUID                      = e7b636fb-6077-4f74-a32b-916dc2dd29c5
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = ShellCEntryLib
+
+#   
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+
+[Sources]
+# src/nginx.c
+# src/block_cipher.c
+# src/x509_ext.c
+# src/rsa.c
+src/pbkdf2.c
+# src/x509_crl.c
+src/pkcs8.c
+src/sm2_asn1.c
+src/sm4_common.c
+src/sm4_setkey.c
+# src/mem.h
+src/sm2_lib.c
+# src/tls13.c
+# src/tls12.c
+# src/zuc_eea.c
+# src/chacha20.c
+# src/tlcp.c
+src/sm3_hmac.c
+# src/x509_req.c
+# src/sha256.c
+# src/des.c
+# src/x509_oid.c
+# src/tls_trace.c
+src/asn1.c
+# src/hkdf.c
+# src/zuc_eia.c
+# src/oid.c
+# src/zuc_core.c
+# src/sm4_lcl.h
+# src/aes.cs
+src/sm3.c
+src/hex.c
+# src/sm9_sign.c
+# src/md5.c
+src/sm2_algo.c
+# src/version.c
+src/ec.c
+# src/x509_str.c
+# src/hash_drbg.c
+src/sm4_modes.c
+# src/sm9_keygen.c
+# src/gcm.c
+src/debug.c
+src/hmac.c
+src/x509_alg.c
+# src/tls.c
+# src/rc4.c
+# src/endian.h
+src/pem.c
+src/sm2_prn.c
+src/digest.c
+src/x509_cer.c
+# src/gf128.c
+src/base64.c
+src/sm4_enc.c
+# src/sha1.c
+src/rand.c
+src/aes_modes.c
+# src/sm9_math.c
+# src/sha512.c
+# src/cms.c
+# sm2test.c
+# sm2encrypt.c
+test.c
+
+
+[Packages]
+  StdLib/StdLib.dec   
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec 
+  HcjPkg/HcjPkg.dec
+
+
+[LibraryClasses]
+  LibC
+  LibStdio
+  ShellCEntryLib   
+  ShellLib
+  LibString
+
+  DevShell
+
+[Protocols]
+	
+[BuildOptions]
+  #  GCC:*_*_X64_CC_FLAGS        = /wd4131 /wd4244 /wd4133 /wd4005 /wd4706

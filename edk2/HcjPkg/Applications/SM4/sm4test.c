@@ -5,11 +5,39 @@
 
 #include <string.h>
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 #include "sm4.h"
+
+
+
+const unsigned char allChar[63] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+
+void generateString(unsigned char *dest, const unsigned int len){
+	unsigned int cnt, randNo;
+	srand((unsigned int)time(0));
+
+	for(cnt = 0; cnt < len; ++cnt){
+		randNo = rand()%62;
+		*dest = allChar[randNo];
+		dest++;
+	}
+}
+
 
 int main(int argc, char *argv[])
 {
-	unsigned char key[16] = {0x01,0x23,0x45,0x67,0x89,0xab,0xcd,0xef,0xfe,0xdc,0xba,0x98,0x76,0x54,0x32,0x10};
+
+	unsigned char key[16];
+	memset(key, 0, sizeof(key));
+	generateString(key, 16);
+	printf("key:\n");
+	for(int i = 0; i < 16; ++i){
+		printf("0x%02x, ", key[i]);
+	}
+	printf("\n");
+	// unsigned char key[16] = {0x01,0x23,0x45,0x67,0x89,0xab,0xcd,0xef,0xfe,0xdc,0xba,0x98,0x76,0x54,0x32,0x10};
 	//unsigned char input[16] = {0x01,0x23,0x45,0x67,0x89,0xab,0xcd,0xef,0xfe,0xdc,0xba,0x98,0x76,0x54,0x32,0x10};
 	unsigned char input[1024];
 	unsigned char output[1024];

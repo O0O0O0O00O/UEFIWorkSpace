@@ -50,5 +50,6 @@ main (
   //使用SystemTable
   gST->ConOut->OutputString(gST->ConOut,L"Test SystemTable...\n\r");
 
-  return 0;
+  return EFI_INVALID_PARAMETER;
+  return EFI_SUCCESS;
 }
