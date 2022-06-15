@@ -27,6 +27,8 @@ EFI_STATUS PciDevicePresent(
 EFI_STATUS ListPciInformation(cJSON *array, EFI_FILE_PROTOCOL *FileHandle);
 
 UINTN GetUSB(cJSON *json, EFI_FILE_PROTOCOL *FileHandle);
+EFI_STATUS 
+GetDevicePath(    cJSON *json    );
 
 extern EFI_BOOT_SERVICES *gBS;
 extern EFI_SYSTEM_TABLE *gST;
@@ -903,7 +905,7 @@ IntiateFileRoot(EFI_FILE_PROTOCOL **Root){
 
 }
 
-cJSON* get_info()
+int get_info(cJSON *json, cJSON *Cold_Hardware)
 {
     EFI_STATUS Status = EFI_SUCCESS;
     //文件读写的protocol 
@@ -944,24 +946,29 @@ cJSON* get_info()
 
     //写json
     //先创建json空对象/根对象
-    cJSON *json = cJSON_CreateObject();
+    //cJSON *json = cJSON_CreateObject();
+    
     //向对象中增加用户名
     // cJSON_AddItemToObject(json, "name", cJSON_CreateString("xxxxxxxxx"));
     //添加非热插拔数组
-    cJSON *array = NULL;
-    cJSON_AddItemToObject(json, "NHSwapHardware", array = cJSON_CreateArray());
+    cJSON_AddItemToObject(json, "NHSwapHardware", Cold_Hardware);
 
 
-    SmbiosInfo(array, FileHandle);
+    SmbiosInfo(Cold_Hardware, FileHandle);
 
     // locate pcirootbridge
     LocatePciRootBridgeIo(FileHandle);
 
     //ListPciInformation
-    ListPciInformation(array, FileHandle);
+    cJSON *pci_array = NULL;
+    cJSON_AddItemToObject(json, "PCIHardware", pci_array = cJSON_CreateArray());
+    ListPciInformation(pci_array, FileHandle);
 
     //ListUSBInformation
     GetUSB(json, FileHandle);
+
+    //ListDevicePath
+    GetDevicePath(json);
 
 
     // //print json
@@ -973,7 +980,11 @@ cJSON* get_info()
     // cJSON_Delete(json);
     // FileHandle -> Close(FileHandle);
     // return Status;
-    return json;
+    //return json;
+
+
+    return Status;
+
 }
 
 EFI_STATUS LocatePciRootBridgeIo(EFI_FILE_PROTOCOL *FileHandle)
@@ -1199,4 +1210,83 @@ UINTN GetUSB(cJSON *json, EFI_FILE_PROTOCOL *FileHandle)
     FileHandle->Write(FileHandle, &BufSize, Textbuf);
     gBS->FreePool(DevicePathHandleBuffer);
     return HandleCount;
+}
+
+
+EFI_STATUS 
+GetDevicePath(    cJSON *json    )
+{ 
+      EFI_HANDLE *HandleBuffer;
+  UINTN HandleCount;
+  EFI_STATUS Status;
+  UINTN HandleIndex;
+
+  EFI_DEVICE_PATH *DevicePath;
+  EFI_DEVICE_PATH_TO_TEXT_PROTOCOL *pDevicePath2TextProtocol;
+  CHAR16 *pStrDevicePath;
+
+
+
+
+
+  HandleIndex = 0;
+
+  Status = gBS->LocateHandleBuffer(
+      ByProtocol,
+      &gEfiDevicePathProtocolGuid,
+      NULL,
+      &HandleCount,
+      &HandleBuffer);
+
+
+    //添加一个DevPath对象
+    cJSON *DevPathObj = NULL;
+    cJSON_AddItemToObject(json, "NHSwapHardware", DevPathObj = cJSON_CreateObject());
+
+    cJSON_AddItemToObject(DevPathObj, "Type", cJSON_CreateString("DevPath"));
+    cJSON_AddItemToObject(DevPathObj, "SubType", cJSON_CreateString("DevPath"));
+
+    //在对象中再添加一个数组
+    cJSON *DevPathsubArray = NULL;
+    cJSON_AddItemToObject(DevPathObj, "physicalInfo", DevPathsubArray = cJSON_CreateArray());
+
+    //临时对象
+    cJSON *pointTempObj;
+
+  if (!EFI_ERROR(Status))
+  {
+    for (HandleIndex = 0; HandleIndex < HandleCount; HandleIndex++)
+    {
+
+
+      cJSON_AddItemToArray(DevPathsubArray, pointTempObj = cJSON_CreateObject());
+
+      Status = gBS->HandleProtocol(HandleBuffer[HandleIndex], &gEfiDevicePathProtocolGuid, (VOID **)&DevicePath);
+
+
+      Status = gBS->LocateProtocol(&gEfiDevicePathToTextProtocolGuid, NULL, (VOID **)&pDevicePath2TextProtocol);
+      pStrDevicePath = pDevicePath2TextProtocol->ConvertDevicePathToText(DevicePath, TRUE, TRUE);
+
+      UINTN i = StrLen(pStrDevicePath);
+
+     CHAR16 array[100] = {0};
+
+    for(UINTN j = 0; j < i; j++){
+
+      strcat(array,pStrDevicePath++);
+      
+    }
+      
+      cJSON_AddStringToObject(pointTempObj,  "path" , array);
+      //传过来是%s
+      //传过来的pStrDevicePath只能用Print%s输出
+      Print(L"%s\n", pStrDevicePath);
+      //自己定义的CHAR16* 只能用Print%a输出  自己定义就是ascii？
+      //Print(L"%a\n", TEMPSTR);
+      //FreePool(TEMPstr);
+    }
+  }
+  return EFI_SUCCESS;
+
+
 }

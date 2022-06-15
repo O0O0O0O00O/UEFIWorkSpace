@@ -76,7 +76,11 @@ EFI_STATUS SendMessage(IN int Argc,
   //2 connect server
   myfd = CreateTCP4Socket();
   Status = ConnectTCP4Socket(myfd, MYIPV4(ServerIPAddr[0],ServerIPAddr[1],ServerIPAddr[2],ServerIPAddr[3]), ServerPort);
-  
+  if(EFI_ERROR(Status)){
+    printf("connect failed\n");
+    return Status;
+  }
+
   //3 echo test
 
   //4 send message to server and get message from server
@@ -94,7 +98,15 @@ EFI_STATUS SendMessage(IN int Argc,
   // }
   // printf("\n");
   Status = SendTCP4Socket(myfd, msgStr, msg_length);
+  if(EFI_ERROR(Status)){
+    printf("send failed\n");
+    return Status;
+  }
   Status = RecvTCP4Socket(myfd, RecvBuffer, 1024, recvLen);
+  if(EFI_ERROR(Status)){
+    printf("recv failed\n");
+    return Status;
+  }
   // RecvBuffer[recvLen] = '\0';
   // printf("Message from server: %s\n", RecvBuffer);
   

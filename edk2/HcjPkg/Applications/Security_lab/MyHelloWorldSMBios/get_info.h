@@ -24,6 +24,9 @@
 
 
 #include <Guid/FileInfo.h>
+#include <Protocol/DevicePathToText.h>
+#include <Protocol/DevicePathUtilities.h>
+#include <Protocol/DevicePath.h>
 
 
-cJSON* get_info();
+int get_info(cJSON *json, cJSON *Cold_Hardware);

@@ -152,13 +152,13 @@ int User_Auth(OUT char *username, OUT char *password, OUT char *timestamp, OUT u
     printf("len: %d\n", outlen);
     
 
-    // CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
-    // UINTN recvLen = 0;
-    // SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, recvLen);
-    // RecvBuffer[recvLen] = '\0';
-    // cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
+    CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
+    UINTN recvLen = 0;
+    SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, recvLen);
+    RecvBuffer[recvLen] = '\0';
+    cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
 
-    cJSON *recv = cJSON_Parse("{\"message\":\"tDzHh3Fu7w/rLSC5WbjBL8jffj+qb770teSsxsB0oKOAOE+aL8ldi6K6O0VP7JVU\",\"messageType\":\"Login\",\"username\":\"123\"}");
+    //cJSON *recv = cJSON_Parse("{\"message\":\"tDzHh3Fu7w/rLSC5WbjBL8jffj+qb770teSsxsB0oKOAOE+aL8ldi6K6O0VP7JVU\",\"messageType\":\"Login\",\"username\":\"123\"}");
     char status[1024];
     get_json_message(session_key, recv, "message", "status", status);
     token = get_json_message(session_key, recv, "message", "token", token);
@@ -173,17 +173,21 @@ int User_Auth(OUT char *username, OUT char *password, OUT char *timestamp, OUT u
 }
 
 
-int hardwarecheck(unsigned char *session_key, char *token){
+int hardwarecheck(unsigned char *session_key, char *token, IN int Argc, IN char **Argv){
     cJSON* check_msg = cJSON_CreateObject();
     cJSON_AddItemReferenceToObject(check_msg, "token", cJSON_CreateString(token));
 
     //get infomation
-    cJSON* json = get_info();
+    cJSON* json = cJSON_CreateObject();
+    cJSON *Cold_Hardware = cJSON_CreateArray();
+    get_info(json, Cold_Hardware);
+    
 
 
-    char *buf = cJSON_Print(json);
+    
+    char *buf = cJSON_Print(cJSON_GetObjectItem(json, "NHSwapHardware"));
     int buf_length = strlen(buf);
-    printf("get infomation complete.\n");
+    printf("%s\n", buf);
 
 
     //sm3 paration
@@ -205,8 +209,8 @@ int hardwarecheck(unsigned char *session_key, char *token){
         strcat(buf, " ");
     }
     buf_length = strlen(buf);
-    printf("buf_length:%d\n", buf_length);
-    printf("%s\n", buf);
+    // printf("buf_length:%d\n", buf_length);
+    // printf("%s\n", buf);
 
     // printf("2jinzhi\n");
     // for(int i = 0; i < buf_length; ++i){
@@ -244,18 +248,22 @@ int hardwarecheck(unsigned char *session_key, char *token){
     // }
     // printf("\n");
 
-
+    char *outbuf = cJSON_Print(check_msg);
+    int outlen = strlen(outbuf);
     //发送消息
-    // CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
-    // UINTN recvLen = 0;
-    // SendMessage(Argc, Argv, output, buf_length, RecvBuffer, &recvLen);
-    // RecvBuffer[recvLen] = '\0';
-    // printf("Message from server: %s\n", RecvBuffer);
+    CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
+    UINTN recvLen = 0;
+    SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, &recvLen);
+    RecvBuffer[recvLen] = '\0';
+    printf("Message from server: %s\n", RecvBuffer);
+    cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
+
+
 
     // cJSON *recv = cJSON_Parse("123");
-    // char result[1024];
-    // get_json_message(session_key, recv, "message", "result", result);
-    // printf("%s\n", result);
+    char result[1024];
+    get_json_message(session_key, recv, "message", "result", result);
+    printf("%s\n", result);
 
 
 
@@ -282,7 +290,7 @@ int main(int Argc, char **Argv){
     char token[1024];
     unsigned char session_key[16] = "Q5ud106nhKQwYtKQ";
 
-    // generateString(session_key, 16);
+    generateString(session_key, 16);
     printf("session_key:\n");
     for(int i = 0; i < 16; ++i){
         printf("%c ", session_key[i]);
@@ -290,17 +298,21 @@ int main(int Argc, char **Argv){
     printf("\n");
 
     int status = 0;
-    while((status = User_Auth(username, password, timestamp, session_key, token, Argc, Argv)) != 0){
-        if(status == USER_AUTH_FAIL)
-            printf("your username or password is wrong!\n");
-        else{
-            printf("something wrong happen in User_Auth!\n");
-        }
-    }
+    
+    status = User_Auth(username, password, timestamp, session_key, token, Argc, Argv);
+
+
+    // while((status = User_Auth(username, password, timestamp, session_key, token, Argc, Argv)) != 0){
+    //     if(status == USER_AUTH_FAIL)
+    //         printf("your username or password is wrong!\n");
+    //     else{
+    //         printf("something wrong happen in User_Auth!\n");
+    //     }
+    // }
     printf("%s\n", token);
     printf("User Auth finished\n\n\n\n");
 
-    hardwarecheck(session_key, token);
+    hardwarecheck(session_key, token, Argc, Argv);
     
     
     return 0;
