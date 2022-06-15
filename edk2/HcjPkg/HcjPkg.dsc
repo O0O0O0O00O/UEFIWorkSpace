@@ -183,6 +183,7 @@
   HcjPkg/Applications/Experiment_Test/Experiment_Test.inf
   HcjPkg/Applications/Security_lab/Security_lab.inf
   HcjPkg/Applications/stdEchoTcp4/stdEchoTcp4.inf
+  HcjPkg/Applications/EchoTcp4/EchoTcp4.inf
 
   
 
