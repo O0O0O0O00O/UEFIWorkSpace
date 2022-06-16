@@ -57,7 +57,13 @@ int base64_encode(unsigned char *input, int len, unsigned char *output){
 
 //对json中的message字段进行解密并且将他放到output中
 int get_json_message(unsigned char *session_key, cJSON *json, char *message, char *sub_message, char *output){
+    if(json == NULL){
+        return 0;
+    }
     cJSON *json_message = cJSON_GetObjectItem(json, message);
+    if(json_message == NULL){
+        return 0;
+    }
     char *str_message = cJSON_Print(json_message);
     //接下来要对双引号进行处理，将双引号删除
     char full_str_message[1024];
@@ -161,8 +167,8 @@ int User_Auth(OUT char *username, OUT char *password, OUT char *timestamp, OUT u
     //cJSON *recv = cJSON_Parse("{\"message\":\"tDzHh3Fu7w/rLSC5WbjBL8jffj+qb770teSsxsB0oKOAOE+aL8ldi6K6O0VP7JVU\",\"messageType\":\"Login\",\"username\":\"123\"}");
     char status[1024];
     get_json_message(session_key, recv, "message", "status", status);
-    token = get_json_message(session_key, recv, "message", "token", token);
-    printf("%s\n", status);
+    get_json_message(session_key, recv, "message", "token", token);
+    printf("status: %s\n", status);
     if(strcmp(status, "true") == 0){
         return 0;
     }else{
@@ -263,7 +269,7 @@ int hardwarecheck(unsigned char *session_key, char *token, IN int Argc, IN char 
     // cJSON *recv = cJSON_Parse("123");
     char result[1024];
     get_json_message(session_key, recv, "message", "result", result);
-    printf("%s\n", result);
+    printf("reseult: %s\n", result);
 
 
 

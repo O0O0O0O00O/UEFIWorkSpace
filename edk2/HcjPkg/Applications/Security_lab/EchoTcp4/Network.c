@@ -233,12 +233,13 @@ EFI_STATUS ConnectTCP4Socket(UINTN index, UINT32 Ip32, UINT16 Port)
         return Status;
     }
 
-    Status = gBS->WaitForEvent(1, &(CurSocket->ConnectToken.CompletionToken.Event), &waitIndex);
 
-    if(EFI_ERROR(Status)){
-        Print(L"Connect:WaitForEvent fail. \n\r");
-        return Status;
-    }
+    // Status = gBS->WaitForEvent(1, &(CurSocket->ConnectToken.CompletionToken.Event), &waitIndex);
+
+    // if(EFI_ERROR(Status)){
+    //     Print(L"Connect:WaitForEvent fail. \n\r");
+    //     return Status;
+    // }
     return Status;
 }
 

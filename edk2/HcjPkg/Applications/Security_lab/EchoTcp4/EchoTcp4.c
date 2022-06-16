@@ -76,7 +76,10 @@ EFI_STATUS SendMessage(IN int Argc,
   //2 connect server
   myfd = CreateTCP4Socket();
   Status = ConnectTCP4Socket(myfd, MYIPV4(ServerIPAddr[0],ServerIPAddr[1],ServerIPAddr[2],ServerIPAddr[3]), ServerPort);
-  
+  if(EFI_ERROR (Status)){
+    printf("connect failed\n");
+    goto fail;
+  }
 
   //3 echo test
 
@@ -94,14 +97,37 @@ EFI_STATUS SendMessage(IN int Argc,
   //   Status = SendTCP4Socket(myfd, p_temp, 1);
   // }
   // printf("\n");
-  Status = SendTCP4Socket(myfd, msgStr, msg_length);
+
+
+  int now = 0;
+  char dest[1003] = "";
+  while(now < msg_length){
+    strncpy(dest, msgStr+now, 1000);
+    Status = SendTCP4Socket(myfd, dest, strlen(dest));
+    if(EFI_ERROR(Status)){
+      printf("send error\n");
+      goto fail;
+    }
+    now += 1000;
+  }
+
+  Status = SendTCP4Socket(myfd, "bye", 3);
+  if(EFI_ERROR(Status)){
+      printf("send error\n");
+      goto fail;
+    }
   Status = RecvTCP4Socket(myfd, RecvBuffer, 1024, recvLen);
+  if(EFI_ERROR(Status)){
+      printf("receive error\n");
+      goto fail;
+    }
   // RecvBuffer[recvLen] = '\0';
   // printf("Message from server: %s\n", RecvBuffer);
+  
+fail:
   Status = CloseTCP4Socket(myfd);
   if(EFI_ERROR(Status))
     Print(L"close socket, %r\n", Status);
-  printf("its over\n");
 
   // free(RecvBuffer);
 
