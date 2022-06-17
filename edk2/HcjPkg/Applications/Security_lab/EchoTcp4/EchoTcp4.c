@@ -115,14 +115,14 @@ EFI_STATUS SendMessage(IN int Argc,
   if(EFI_ERROR(Status)){
       printf("send error\n");
       goto fail;
-    }
+  }
   Status = RecvTCP4Socket(myfd, RecvBuffer, 1024, recvLen);
   if(EFI_ERROR(Status)){
       printf("receive error\n");
       goto fail;
-    }
-  // RecvBuffer[recvLen] = '\0';
-  // printf("Message from server: %s\n", RecvBuffer);
+  }
+  RecvBuffer[*recvLen] = '\0';
+  printf("Message from server: %s\n", RecvBuffer);
   
 fail:
   Status = CloseTCP4Socket(myfd);
