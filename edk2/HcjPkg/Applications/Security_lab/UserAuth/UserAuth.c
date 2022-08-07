@@ -88,7 +88,7 @@ int UserInfo(IN OUT char *username,
     tmp_ptr = gmtime(&tmpcal_ptr);
     // sprintf(timestamp, "%d", tmpcal_ptr); //获取时间戳秒数
     sprintf(timestamp, "%d.%d.%d  %d:%d:%d", (1900+tmp_ptr->tm_year), (1+tmp_ptr->tm_mon), tmp_ptr->tm_mday,
-    (8+tmp_ptr->tm_hour), tmp_ptr->tm_min, tmp_ptr->tm_sec);
+    (tmp_ptr->tm_hour), tmp_ptr->tm_min, tmp_ptr->tm_sec);
     // printf("timestamp: %s\n", timestamp);
 
     printf("please input username:\n");

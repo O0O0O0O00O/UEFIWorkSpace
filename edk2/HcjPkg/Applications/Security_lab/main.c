@@ -57,7 +57,14 @@ int base64_encode(unsigned char *input, int len, unsigned char *output){
 
 //对json中的message字段进行解密并且将他放到output中
 int get_json_message(unsigned char *session_key, cJSON *json, char *message, char *sub_message, char *output){
+    memset(output, 0, sizeof(output));
+    if(json == NULL){
+        return 0;
+    }
     cJSON *json_message = cJSON_GetObjectItem(json, message);
+    if(json_message == NULL){
+        return 0;
+    }
     char *str_message = cJSON_Print(json_message);
     //接下来要对双引号进行处理，将双引号删除
     char full_str_message[1024];
@@ -91,6 +98,25 @@ int get_json_message(unsigned char *session_key, cJSON *json, char *message, cha
 }
 
 
+void sm4(char *input, int buf_length, char *output, unsigned char *session_key){
+    //分组加密进行长度补全
+    int temp = buf_length%16;
+    for(int i = temp; i < 16; ++i){
+        strcat(input, " ");
+    }
+    buf_length = strlen(input);
+    printf("\n Length Completion finished\n\n");
+   
+    //SM4加密
+    unsigned char *enc_send_msg = (unsigned char*)malloc(buf_length+3);
+    memset(enc_send_msg, 0, sizeof(enc_send_msg));
+    hcj_sm4_encrypt(session_key, (unsigned char*)input, enc_send_msg, buf_length);
+    //BASE64编码
+    base64_encode(enc_send_msg, buf_length, (unsigned char*)output);
+    free(enc_send_msg);
+}
+
+
 
 
 
@@ -117,16 +143,15 @@ int User_Auth(OUT char *username, OUT char *password, OUT char *timestamp, OUT u
         }
     }
     int len = strlen(User_info_str);
-    printf("user_info_str len:%d\n", len);
     printf("User_info_json:\n%s\n", User_info_str);
     unsigned char sm4_User_info_str[1024];
     //必须要强转，不然会出问题
     hcj_sm4_encrypt(session_key, (unsigned char*)User_info_str, sm4_User_info_str, len);
-    printf("sm4 encrypted User_info:\n");
-    for(int i = 0; i < len; ++i){
-        printf("(byte)0x%02x,", sm4_User_info_str[i]);
-    }
-    printf("\n");
+    // printf("sm4 encrypted User_info:\n");
+    // for(int i = 0; i < len; ++i){
+    //     printf("(byte)0x%02x,", sm4_User_info_str[i]);
+    // }
+    // printf("\n");
     uint8_t base64_sm4_User_info_str[512];
     base64_encode(sm4_User_info_str, len, base64_sm4_User_info_str);
     
@@ -137,32 +162,27 @@ int User_Auth(OUT char *username, OUT char *password, OUT char *timestamp, OUT u
     unsigned char sm2_session_key[SM2_MAX_CIPHERTEXT_SIZE];
     uint8_t base64_sm2_session_key[512];
     len = SM2_encrypt(session_key, 16, sm2_session_key, len);
-    printf("sm2 encrypted len: %d\n", len);
-    for(int i = 0; i < len; ++i){
-        printf("(byte)0x%02x, ", sm2_session_key[i]);
-    }
-    printf("\n");
     base64_encode(sm2_session_key, len, (unsigned char*)base64_sm2_session_key);
     cJSON_AddItemReferenceToObject(Connect_msg_json, "sessionKey", cJSON_CreateString(base64_sm2_session_key));
     cJSON_AddItemReferenceToObject(Connect_msg_json, "messageType", cJSON_CreateString("Login"));
     char *outbuf = cJSON_Print(Connect_msg_json);
     
-    printf("%s\n", outbuf);
+    printf("User_Auth_Message:\n%s\n", outbuf);
     int outlen = strlen(outbuf);
-    printf("len: %d\n", outlen);
     
 
-    // CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
-    // UINTN recvLen = 0;
-    // SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, recvLen);
-    // RecvBuffer[recvLen] = '\0';
-    // cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
+    CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
+    UINTN recvLen = 0;
+    SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, &recvLen);
+    RecvBuffer[recvLen] = '\0';
+    printf("receive message:\n%s\n", RecvBuffer);
+    cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
 
-    cJSON *recv = cJSON_Parse("{\"message\":\"tDzHh3Fu7w/rLSC5WbjBL8jffj+qb770teSsxsB0oKOAOE+aL8ldi6K6O0VP7JVU\",\"messageType\":\"Login\",\"username\":\"123\"}");
+    //cJSON *recv = cJSON_Parse("{\"message\":\"tDzHh3Fu7w/rLSC5WbjBL8jffj+qb770teSsxsB0oKOAOE+aL8ldi6K6O0VP7JVU\",\"messageType\":\"Login\",\"username\":\"123\"}");
     char status[1024];
     get_json_message(session_key, recv, "message", "status", status);
-    token = get_json_message(session_key, recv, "message", "token", token);
-    printf("%s\n", status);
+    get_json_message(session_key, recv, "message", "token", token);
+    printf("status: %s\n", status);
     if(strcmp(status, "true") == 0){
         return 0;
     }else{
@@ -173,17 +193,30 @@ int User_Auth(OUT char *username, OUT char *password, OUT char *timestamp, OUT u
 }
 
 
-int hardwarecheck(unsigned char *session_key, char *token){
+
+
+
+int hardwarecheck(unsigned char *session_key, char *token, IN int Argc, IN char **Argv){
+
+    //有关时间的变量
+    time_t tmpcal_ptr;
+    struct tm *tmp_ptr = NULL;
+    char timestamp[1024];
+
+    
+
     cJSON* check_msg = cJSON_CreateObject();
     cJSON_AddItemReferenceToObject(check_msg, "token", cJSON_CreateString(token));
 
     //get infomation
-    cJSON* json = get_info();
+    cJSON* json = cJSON_CreateObject();
+    cJSON *Cold_Hardware = cJSON_CreateArray();
+    get_info(json, Cold_Hardware);
+    
 
-
-    char *buf = cJSON_Print(json);
+    char *buf = cJSON_Print(cJSON_GetObjectItem(json, "NHSwapHardware"));
     int buf_length = strlen(buf);
-    printf("get infomation complete.\n");
+    printf("NHSwapHardware:\n%s\n", buf);
 
 
     //sm3 paration
@@ -195,27 +228,25 @@ int hardwarecheck(unsigned char *session_key, char *token){
     cJSON_AddItemToObject(check_msg, "hash", cJSON_CreateString(base64_hash));
 
 
-    //是否可以用一个结构体传递 TODO
-    //补全位数
     buf = cJSON_Print(json);
     buf_length = strlen(buf);
 
+    char *base64_enc_send_msg = (char *)malloc(buf_length+buf_length);
+    memset(base64_enc_send_msg, 0, sizeof(base64_enc_send_msg));
+    sm4(buf, buf_length, base64_enc_send_msg, session_key);
+    /**
     int temp = buf_length%16;
     for(int i = temp; i < 16; ++i){
         strcat(buf, " ");
     }
     buf_length = strlen(buf);
-    printf("buf_length:%d\n", buf_length);
-    printf("%s\n", buf);
 
-    // printf("2jinzhi\n");
-    // for(int i = 0; i < buf_length; ++i){
-    //     printf("%02x ", buf[i]);
-    // }
     printf("\n buquan finished\n\n\n\n\n");
-    // strncat(buf, Hash, 32);
     
+
     //sm4
+    
+
     unsigned char *enc_send_msg = (unsigned char*) malloc(buf_length+3);
     memset(enc_send_msg, 0, sizeof(enc_send_msg));
     printf("encrypted:\n");
@@ -226,42 +257,99 @@ int hardwarecheck(unsigned char *session_key, char *token){
     // printf("\n");
     printf("encrypt finished\n\n\n\n\n");
 
-    char *base64_enc_send_msg = (char *)malloc(buf_length+buf_length);
-    memset(base64_enc_send_msg, 0, sizeof(base64_enc_send_msg));
+   
     //要强转
     base64_encode(enc_send_msg, buf_length, (unsigned char*)base64_enc_send_msg);
-    cJSON_AddItemReferenceToObject(check_msg, "ciper", cJSON_CreateString(base64_enc_send_msg));
+    **/
+
+    cJSON_AddItemReferenceToObject(check_msg, "cipher", cJSON_CreateString(base64_enc_send_msg));
+    
+    time(&tmpcal_ptr);
+    tmp_ptr = gmtime(&tmpcal_ptr);
+    sprintf(timestamp, "%d.%d.%d  %d:%d:%d", (1900+tmp_ptr->tm_year), (1+tmp_ptr->tm_mon), tmp_ptr->tm_mday,
+    (tmp_ptr->tm_hour), tmp_ptr->tm_min, tmp_ptr->tm_sec);
+    cJSON_AddItemReferenceToObject(check_msg, "timeStamp", cJSON_CreateString(timestamp));
 
     cJSON_AddItemReferenceToObject(check_msg, "messageType", cJSON_CreateString("hardwarecheck"));
     printf("\ncheck_msg:\n%s\n", cJSON_Print(check_msg));
 
-    // printf("decrypted:\n");
-    // // sm4_setkey_dec(&ctx, session_key);
-    // // sm4_crypt_ecb(&ctx, 0, buf_length, output, output);
-    // hcj_sm4_decrypt(session_key, enc_send_msg, enc_send_msg, buf_length);
-    // for(int i = 0; i < buf_length; ++i){
-    //     printf("%c", enc_send_msg[i]);
-    // }
-    // printf("\n");
 
 
+    char *outbuf = cJSON_Print(check_msg);
+    int outlen = strlen(outbuf);
     //发送消息
-    // CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
-    // UINTN recvLen = 0;
-    // SendMessage(Argc, Argv, output, buf_length, RecvBuffer, &recvLen);
-    // RecvBuffer[recvLen] = '\0';
-    // printf("Message from server: %s\n", RecvBuffer);
+    CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
+    UINTN recvLen = 0;
+    SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, &recvLen);
+    RecvBuffer[recvLen] = '\0';
+    printf("Message from serve:\n %s\n", RecvBuffer);
+    cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
+
+
 
     // cJSON *recv = cJSON_Parse("123");
-    // char result[1024];
-    // get_json_message(session_key, recv, "message", "result", result);
-    // printf("%s\n", result);
+    char result[1024];
+    get_json_message(session_key, recv, "message", "code", result);
+    printf("reseult: %s\n", result);
 
+    int return_val = 0;
+    while(1){
+        if(strcmp(result, "200") == 0){
+            return_val = 0;
+            break;
+        }else if(strcmp(result, "300") == 0){  
+            printf("code wrong or first register, please input verify_code or \"q\" to quit\n");
+            char code[1024];
+            gets(code);
+            if(strcmp(code, "q") == 0){
+                return_val = 1;
+                break;
+            }
+            cJSON *Register_Msg = cJSON_CreateObject();
+            cJSON_AddItemReferenceToObject(Register_Msg, "token", cJSON_CreateString(token));
+            //todo发哪些信息
+            cJSON_AddItemReferenceToObject(Register_Msg, "hardwareList", cJSON_CreateString(base64_enc_send_msg));
+            char enc_Code[1024];
+            sm4(code, strlen(code), enc_Code, session_key);
+            cJSON_AddItemReferenceToObject(Register_Msg, "registerCode", cJSON_CreateString(enc_Code));
+            {
+                time(&tmpcal_ptr);
+                tmp_ptr = gmtime(&tmpcal_ptr);
+                sprintf(timestamp, "%d.%d.%d  %d:%d:%d", (1900+tmp_ptr->tm_year), (1+tmp_ptr->tm_mon), tmp_ptr->tm_mday,
+                (tmp_ptr->tm_hour), tmp_ptr->tm_min, tmp_ptr->tm_sec);
+                cJSON_AddItemReferenceToObject(check_msg, "timeStamp", cJSON_CreateString(timestamp));
+            }
+            cJSON_AddItemReferenceToObject(Register_Msg, "hash", cJSON_CreateString(base64_hash));
+            cJSON_AddItemReferenceToObject(Register_Msg, "messageType", cJSON_CreateString("hardwareregister"));
+            
+            char *outbuf = cJSON_Print(Register_Msg);
+            int outlen = strlen(outbuf);
+            printf("register message:\n%s\n", outbuf);
+            
+            //发送消息
 
+            CHAR8 *RecvBuffer = (CHAR8*) malloc(1024);
+            UINTN recvLen = 0;
+            SendMessage(Argc, Argv, outbuf, outlen, RecvBuffer, &recvLen);
+            RecvBuffer[recvLen] = '\0';
+            printf("Message from server: %s\n", RecvBuffer);
+            cJSON *recv = cJSON_ParseWithLength(RecvBuffer, recvLen);
+            
+            get_json_message(session_key, recv, "message", "code", result);
+            printf("reseult: %s\n", result);
+            free(RecvBuffer);
+            RecvBuffer = NULL;
 
+        }else {
+            return_val =  1;
+            break;
+        }
+    }
 
-    free(enc_send_msg);
+    free(RecvBuffer);
+    RecvBuffer = NULL;
     free(base64_enc_send_msg);
+    base64_enc_send_msg = NULL;
 
     cJSON_Delete(json);
     cJSON_Delete(check_msg);
@@ -270,7 +358,7 @@ int hardwarecheck(unsigned char *session_key, char *token){
     // }else{
     //     return WRONG_INFO;
     // }
-    return 0;
+    return return_val;
 }
 
 
@@ -282,7 +370,7 @@ int main(int Argc, char **Argv){
     char token[1024];
     unsigned char session_key[16] = "Q5ud106nhKQwYtKQ";
 
-    // generateString(session_key, 16);
+    generateString(session_key, 16);
     printf("session_key:\n");
     for(int i = 0; i < 16; ++i){
         printf("%c ", session_key[i]);
@@ -290,18 +378,40 @@ int main(int Argc, char **Argv){
     printf("\n");
 
     int status = 0;
-    while((status = User_Auth(username, password, timestamp, session_key, token, Argc, Argv)) != 0){
-        if(status == USER_AUTH_FAIL)
-            printf("your username or password is wrong!\n");
-        else{
-            printf("something wrong happen in User_Auth!\n");
+    
+    while(1){
+        status = User_Auth(username, password, timestamp, session_key, token, Argc, Argv);
+        if(status == 0){
+            printf("token: %s\n", token);
+            printf("User Auth finished\n");
+            break;
+        }else{
+            printf("User Auth failed ,continue type c, quit type q\n");
+            char ops[10];
+            gets(ops);
+            if(strcmp("q", ops) == 0){
+                break;
+            }
         }
     }
-    printf("%s\n", token);
-    printf("User Auth finished\n\n\n\n");
+    if(status != 0){
+        return status;
+    }
 
-    hardwarecheck(session_key, token);
+    // while((status = User_Auth(username, password, timestamp, session_key, token, Argc, Argv)) != 0){
+    //     if(status == USER_AUTH_FAIL)
+    //         printf("your username or password is wrong!\n");
+    //     else{
+    //         printf("something wrong happen in User_Auth!\n");
+    //     }
+    // }
     
-    
-    return 0;
+    status = hardwarecheck(session_key, token, Argc, Argv);
+    if(status == 1){
+        printf("hardwarecheck fail, type anything to quit\n");
+        char ops[10];
+        gets(ops);
+        
+    }    
+    return status;
 }

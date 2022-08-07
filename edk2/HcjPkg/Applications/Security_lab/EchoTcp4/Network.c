@@ -222,20 +222,23 @@ EFI_STATUS ConnectTCP4Socket(UINTN index, UINT32 Ip32, UINT16 Port)
 {
     EFI_STATUS Status = EFI_NOT_FOUND;
     MYTCP4SOCKET *CurSocket = TCP4SocketFd[index];
-    UINTN waitIndex=0;
-
+    UINTN waitIndex = 0;
     ConfigTCP4Socket(index, Ip32, Port);
 
-    if(CurSocket->m_pTcp4Protocol == NULL) return Status; 
-    Status = CurSocket->m_pTcp4Protocol -> Connect(CurSocket->m_pTcp4Protocol, &CurSocket->ConnectToken);
-    if(EFI_ERROR(Status))
+    if(CurSocket->m_pTcp4Protocol == NULL)
         return Status;
+    Status = CurSocket->m_pTcp4Protocol->Connect(CurSocket->m_pTcp4Protocol, &CurSocket->ConnectToken);
+    if(EFI_ERROR(Status)){
+        Print(L"Connect: connect fail \n\r");
+        return Status;
+    }
 
-    Status = gBS->WaitForEvent(1, &(CurSocket->ConnectToken.CompletionToken.Event), &waitIndex);
-    // Print(L"Connect: WaitForEvent, %r\n", Status);
-    // if( !EFI_ERROR(Status)){
-    //     gST->ConOut->OutputString(gST->ConOut,L"Connect: WaitForEvent fail!\n\r");
-    //     Status = CurSocket->ConnectToken.CompletionToken.Status;
+
+    // Status = gBS->WaitForEvent(1, &(CurSocket->ConnectToken.CompletionToken.Event), &waitIndex);
+
+    // if(EFI_ERROR(Status)){
+    //     Print(L"Connect:WaitForEvent fail. \n\r");
+    //     return Status;
     // }
     return Status;
 }
